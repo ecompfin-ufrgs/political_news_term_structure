@@ -32,6 +32,7 @@ class MySpider(scrapy.Spider):
         self.conn.execute(self.CREATE_TABLE)
 
     def __del__(self):
+        self.conn.commit()
         self.conn.close()
         print("SQLite connection closed.")
         
@@ -58,4 +59,3 @@ class MySpider(scrapy.Spider):
             link  = response.url
             values = (new_date, title, link)
             self.conn.execute(self.INSERT_DATA, values)
-            self.conn.commit()
