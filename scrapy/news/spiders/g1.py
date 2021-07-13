@@ -22,8 +22,8 @@ class MySpider(scrapy.Spider):
         VALUES (?, ?, ?);
         """
 
-    def __init__(self, *args, **kwargs):
-        super(MySpider, self).__init__(*args, **kwargs)
+    def __init__(self):
+        super(MySpider, self).__init__()
         self.start_urls = ["https://g1.globo.com/politica/"]
         self.n          = 1
         self.conn       = sqlite3.connect("news.db")
