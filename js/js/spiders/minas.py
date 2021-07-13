@@ -1,15 +1,20 @@
 import scrapy
+from   selenium                          import webdriver
+from   selenium.webdriver.chrome.options import Options
+from   selenium.webdriver.common.by      import By
+from   selenium.webdriver.support.ui     import WebDriverWait
+from   selenium.webdriver.support        import expected_conditions as EC
 import sqlite3
 
 class MySpider(scrapy.Spider):
-    name       = "g1"
+    name       = "minas"
 
     DROP_TABLE = """
-        DROP TABLE IF EXISTS g1;
+        DROP TABLE IF EXISTS minas;
         """
 
     CREATE_TABLE = """
-        CREATE TABLE IF NOT EXISTS g1 (
+        CREATE TABLE IF NOT EXISTS minas (
         id    INT AUTO INCREMENT PRIMARY KEY,
         date  DATETIME,
         title VARCHAR(255),
@@ -18,44 +23,45 @@ class MySpider(scrapy.Spider):
         """
     
     INSERT_DATA = """
-        INSERT INTO g1 (date, title, link)
+        INSERT INTO minas (date, title, link)
         VALUES (?, ?, ?);
         """
 
     def __init__(self):
         super(MySpider, self).__init__()
-        self.start_urls = ["https://g1.globo.com/politica/"]
+        self.start_urls = ["https://www.em.com.br/politica/"]
         self.n          = 1
         self.conn       = sqlite3.connect("news.db")
-        print("SQLite connection open.")
+        print("-"*50 + "SQLite connection open.")
         self.conn.execute(self.DROP_TABLE)
         self.conn.execute(self.CREATE_TABLE)
+        self.driver_options = Options()
+        self.driver_options.add_argument("--headless")
+        self.driver     = webdriver.Chrome('/Users/bernardopaulsen/chromedriver',options=self.driver_options)
+        print("-"*50 + "Webdriver open.")
 
     def __del__(self):
         self.conn.commit()
         self.conn.close()
-        print("SQLite connection closed.")
+        print("-"*50 + "SQLite connection closed.")
+        self.driver.close()
+        print("-"*50 + "Webdriver closed.")
         
     def parse(self, response):
-        print(self.n)
-        for page in response.xpath("//*[@class='feed-post-body']//a/@href").getall():
-            yield response.follow(page, self.parse_article)
-        self.n += 1
-        if self.n <= 2000:
-            next_page = (f"https://g1.globo.com/politica/index/feed/pagina-{self.n}.ghtml")
-            yield response.follow(next_page, self.parse)
+        next_xpath = '//a[@id="em-read-more"]'
+        self.driver.get(response.url)
+        while True:
+            print("-"*50 + f"SOURCE LENGTH: {len(self.driver.page_source)}")
+            print("-"*50 + "Webdriver waiting for element.")
+            next = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH, next_xpath)))
+            print("-"*50 + "Webdriver element found.")
+            #next = self.driver.find_element_by_xpath("//a[@id='em-read-more']/a")
+            try:
+                print("-"*50 + "Webdriver clicking element")
+                next.click()
+                print("-"*50 + "Webdriver element clicked")
+                # get the data and write it to scrapy items
+            except:
+                print("-"*50 + 'No next page.')
+                break
 
-    def parse_article(self, response):
-        date = response.xpath("//time[@itemprop='datePublished']/text()").get()
-        if date:
-            day_time = date.split()
-            day      = day_time[0]
-            time     = day_time[1]
-            YMD      = day.split("/")
-            HMS      = time.split('h')
-            new_date = f"{YMD[2]}-{YMD[1]}-{YMD[0]} {HMS[0]}:{HMS[1]}:00"
-
-            title = response.xpath("//h1[@class='content-head__title']/text()").get()
-            link  = response.url
-            values = (new_date, title, link)
-            self.conn.execute(self.INSERT_DATA, values)
