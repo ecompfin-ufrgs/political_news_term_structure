@@ -54,8 +54,8 @@ class Logger:
         logger.setLevel(level)
         logger.addHandler(console_handler)
         logger.addHandler(file_handler)
-        logger.debug("Logger configured.")
+        logger.debug("logger configured")
         return logger
 
 if __name__ == "__main__":
-    log = Logger("test")
+    log = Logger("logger test")

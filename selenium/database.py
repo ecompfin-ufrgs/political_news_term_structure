@@ -5,9 +5,10 @@ class Database:
     def __init__(
         self,
         name        : str = "test.db",
-        table       : str = "test"):
+        table       : str = "test",
+        log_name    : str = "database"):
 
-        self.logger      = Logger("database")
+        self.logger      = Logger(log_name)
 
         self.name        = name
         self.table       = table
@@ -59,4 +60,4 @@ class Database:
         return script
 
 if __name__ == "__main__":
-    db = Database()
+    db = Database(log_name="database test")
