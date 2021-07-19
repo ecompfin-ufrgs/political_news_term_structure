@@ -1,0 +1,39 @@
+2021-07-19 00:57:58,584:test:DEBUG:Logger configured.
+2021-07-19 00:57:58,584:test:DEBUG:oi
+2021-07-19 00:58:30,411:test:DEBUG:Logger configured.
+2021-07-19 00:58:47,622:database:DEBUG:Logger configured.
+2021-07-19 00:58:47,624:database:DEBUG:Connection open.
+2021-07-19 00:58:47,627:database:DEBUG:test table dropped
+2021-07-19 00:58:47,629:database:DEBUG:test table created
+2021-07-19 00:59:53,217:database:DEBUG:Logger configured.
+2021-07-19 00:59:53,217:database:DEBUG:Connection open.
+2021-07-19 00:59:53,219:database:DEBUG:test table dropped
+2021-07-19 00:59:53,222:database:DEBUG:test table created
+2021-07-19 01:06:55,514:database:DEBUG:Logger configured.
+2021-07-19 01:06:55,515:database:DEBUG:Connection open.
+2021-07-19 01:06:55,517:database:DEBUG:test table dropped
+2021-07-19 01:06:55,519:database:DEBUG:test table created
+2021-07-19 01:08:05,919:database:DEBUG:Logger configured.
+2021-07-19 01:08:05,920:database:DEBUG:Connection open.
+2021-07-19 01:08:05,922:database:DEBUG:test table dropped
+2021-07-19 01:08:05,924:database:DEBUG:test table created
+2021-07-19 01:09:09,244:database:DEBUG:Logger configured.
+2021-07-19 01:09:09,244:database:DEBUG:Connection open.
+2021-07-19 01:09:09,248:database:DEBUG:test table dropped
+2021-07-19 01:09:09,250:database:DEBUG:test table created
+2021-07-19 01:09:32,836:database:DEBUG:Logger configured.
+2021-07-19 01:09:32,837:database:DEBUG:test.db connection open.
+2021-07-19 01:09:32,840:database:DEBUG:test table dropped
+2021-07-19 01:09:32,842:database:DEBUG:test table created
+2021-07-19 01:10:10,911:database:DEBUG:Logger configured.
+2021-07-19 01:10:10,913:database:DEBUG:test.db connection open
+2021-07-19 01:10:10,917:database:DEBUG:test table dropped
+2021-07-19 01:10:10,919:database:DEBUG:test table created
+2021-07-19 01:12:35,136:database:DEBUG:Logger configured.
+2021-07-19 01:12:35,137:database:DEBUG:test.db connection open
+2021-07-19 01:12:35,141:database:DEBUG:test table dropped
+2021-07-19 01:12:35,142:database:DEBUG:test table created
+2021-07-19 01:12:41,042:database:DEBUG:Logger configured.
+2021-07-19 01:12:41,043:database:DEBUG:test.db connection open
+2021-07-19 01:12:41,045:database:DEBUG:test table dropped
+2021-07-19 01:12:41,049:database:DEBUG:test table created

@@ -4,6 +4,7 @@ from   selenium.webdriver.chrome.options import Options
 from   selenium.webdriver.common.by      import By
 from   selenium.webdriver.support.ui     import WebDriverWait
 from   selenium.webdriver.support        import expected_conditions as EC
+from   selenium.webdriver.common.keys    import Keys
 import sqlite3
 
 class MySpider(scrapy.Spider):
@@ -48,9 +49,9 @@ class MySpider(scrapy.Spider):
         print("-"*50 + "Webdriver closed.")
         
     def parse(self, response):
-        next_xpath = '//a[@id="em-read-more"]'
+        next_xpath = '//*[@id="em-read-more"]'
         self.driver.get(response.url)
-        while True:
+        for _ in range(20):
             print("-"*50 + f"SOURCE LENGTH: {len(self.driver.page_source)}")
             print("-"*50 + "Webdriver waiting for element.")
             next = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH, next_xpath)))
@@ -58,10 +59,9 @@ class MySpider(scrapy.Spider):
             #next = self.driver.find_element_by_xpath("//a[@id='em-read-more']/a")
             try:
                 print("-"*50 + "Webdriver clicking element")
-                next.click()
+                next.send_keys("webdriver" + Keys.ENTER)
                 print("-"*50 + "Webdriver element clicked")
                 # get the data and write it to scrapy items
             except:
                 print("-"*50 + 'No next page.')
                 break
-
