@@ -1,0 +1,5 @@
+2021-07-19 12:35:33,989:database test:DEBUG:logger configured
+2021-07-19 12:35:33,990:database test:DEBUG:test.db connection open
+2021-07-19 12:35:33,992:database test:DEBUG:test table dropped
+2021-07-19 12:35:33,994:database test:DEBUG:test table created
+2021-07-19 12:35:33,994:database test:DEBUG:test.db connection closed

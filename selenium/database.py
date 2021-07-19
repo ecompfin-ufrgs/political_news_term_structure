@@ -61,3 +61,4 @@ class Database:
 
 if __name__ == "__main__":
     db = Database(log_name="database test")
+    del db
