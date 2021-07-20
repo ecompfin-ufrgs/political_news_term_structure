@@ -8,9 +8,10 @@ class Logger:
         level  : int = logging.DEBUG,
         mode   : str = "a",
         format : str = "%(asctime)s:%(name)s:%(levelname)s:%(message)s"):
-
-        self.logger = self.config(name, file, level, mode, format)
-        self.debug  = self.logger.debug
+        
+        self.logger  = self.config(name, file, level, mode, format)
+        self.debug   = self.logger.debug
+        self.warning = self.logger.warning
 
     def console_handler(self,
         level     : int,

@@ -1,18 +1,20 @@
 from scraper import Scraper
 
 
-class Correio(Scraper):
+class Zero(Scraper):
     def __init__(self,
-        start_url   : str = "https://www.correiobraziliense.com.br/politica",
-        next_xpath  : str = "//*[@id='em-read-more']",
-        row_xpath   : str = "//article",
-        title_xpath : str = ".//h2",
-        date_xpath  : str = ".//small",
-        n_pages     : int = 1000,
-        n_last      : int = 50,
-        db_name     : str = "news.db",
-        db_table    : str = "correio"):
+        start_url    : str = "https://gauchazh.clicrbs.com.br/politica/ultimas-noticias/",
+        next_xpath   : str = "//button[@class='btn-show-more']",
+        row_xpath    : str = "//div[@class='card article-card article']",
+        title_xpath  : str = ".//h2",#[@class='m-crd-pt__headline']",
+        date_xpath   : str = ".//time",
+        n_pages      : int = 5,
+        n_last_pages : int = 50,
+        db_name      : str = "news.db",
+        db_table     : str = "zero",
+        log_file     : str = "zero.log"):
         super().__init__(
+            log_file = log_file,
             db_name  = db_name,
             db_table = db_table)
         self.start_url    = start_url
@@ -21,7 +23,7 @@ class Correio(Scraper):
         self.title_xpath  = title_xpath
         self.date_xpath   = date_xpath
         self.n_pages      = n_pages
-        self.n_last       = n_last
+        self.n_last_pages = n_last_pages
         self.elements     = []
 
     def run(self):
@@ -30,17 +32,14 @@ class Correio(Scraper):
             self.logger.debug(f"page {i} - finding elements")
             new_elements = self.webdriver.get_elements(self.row_xpath)
             self.logger.debug("looping through elements")
-            for element in new_elements[-self.n_last:]:
-                if element not in self.elements[-2*self.n_last:]:
+            for element in new_elements[-self.n_last_pages:]:
+                if element not in self.elements:
                     self.elements.append(element)
                     try:
                         title = self.webdriver.get_inner(self.title_xpath, element).text
                         date  = self.webdriver.get_inner(self.date_xpath, element).text
-                        if date:
-                            date = self.get_date(date)
-                            self.database.insert(date, title)
-                        else:
-                            self.logger.warning("null date")
+                        date = self.get_date(date)
+                        self.database.insert(date, title)
                     except:
                         self.logger.warning("inner elements not found")
             try:
@@ -53,12 +52,12 @@ class Correio(Scraper):
     def get_date(date):
         lst  = date.split()
         day  = lst[2]
-        time = lst[3]
+        time = lst[0]
         day = day[6:] + "-" + day[3:5] + "-" + day[:2]
         time = time + ":00"
         return day + " " + time
 
 if __name__ == "__main__":
-    c = Correio()
+    c = Zero()
     c.run()
     del c

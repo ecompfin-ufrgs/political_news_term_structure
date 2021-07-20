@@ -4,12 +4,12 @@ import sqlite3
 class Database:
     def __init__(
         self,
-        name        : str = "test.db",
-        table       : str = "test",
-        log_name    : str = "database"):
+        name     : str = "test.db",
+        table    : str = "test",
+        log_name : str = "database",
+        log_file : str = "log.log"):
 
-        self.logger      = Logger(log_name)
-
+        self.logger      = Logger(log_name, log_file)
         self.name        = name
         self.table       = table
         self.conn        = self.config()
@@ -19,6 +19,7 @@ class Database:
         self.logger.debug(f"{self.name} connection closed")
 
     def config(self):
+        self.logger.debug(f"{self.name} opening connection")
         conn = sqlite3.connect(self.name)
         self.logger.debug(f"{self.name} connection open")
         conn.execute(self.get_drop())
@@ -33,7 +34,7 @@ class Database:
         values = (date, title)
         self.conn.execute(self.get_insert(),values)
         self.conn.commit()
-        self.logger.debug(f"{values} inserted into {self.name}")
+        self.logger.debug(f"({date}|{title[:20]}) inserted into {self.table} in {self.name}")
 
     def get_drop(self):
         script = f"""

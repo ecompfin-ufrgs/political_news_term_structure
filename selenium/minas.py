@@ -1,63 +1,63 @@
-import logging
-from   selenium                          import webdriver
-from   selenium.webdriver.chrome.options import Options
-from   selenium.webdriver.common.by      import By
-from   selenium.webdriver.support.ui     import WebDriverWait
-from   selenium.webdriver.support        import expected_conditions as EC
-from   selenium.webdriver.common.keys    import Keys
-import sqlite3
-import time
+from scraper import Scraper
 
-logging.basicConfig(level=0)
 
-DROP_TABLE = """
-    DROP TABLE IF EXISTS minas;
-    """
+class Minas(Scraper):
+    def __init__(self,
+        start_url    : str = "https://www.em.com.br/politica/",
+        next_xpath   : str = "//*[@id='em-read-more']",
+        row_xpath    : str = "//div[@class='news-box free pb-10 mb-20']",
+        title_xpath  : str = ".//a[@class='txt-gray']",
+        date_xpath   : str = ".//small",
+        n_pages      : int = 1000,
+        n_last       : int = 50,
+        db_name      : str = "news.db",
+        db_table     : str = "minas",
+        log_file     : str = "minas.log"):
+        super().__init__(
+            log_file = log_file,
+            db_name  = db_name,
+            db_table = db_table)
+        self.start_url    = start_url
+        self.next_xpath   = next_xpath
+        self.row_xpath    = row_xpath
+        self.title_xpath  = title_xpath
+        self.date_xpath   = date_xpath
+        self.n_pages      = n_pages
+        self.n_last       = n_last
+        self.elements     = []
 
-CREATE_TABLE = """
-    CREATE TABLE IF NOT EXISTS minas (
-    id    INT AUTO INCREMENT PRIMARY KEY,
-    date  DATETIME,
-    title VARCHAR(255),
-    link  VARCHAR(255)
-    );
-    """
-    
-INSERT_DATA = """
-    INSERT INTO minas (date, title, link)
-    VALUES (?, ?, ?);
-    """
-
-a          = "-" * 50
-
-next_path  = "//*[@id='em-read-more']"
-row_path   = "//div[@class='row']"
-title_path = ".//a[@class='txt-gray']"
-time_path  = ".//small"
-
-driver_path    = "/Users/bernardopaulsen/chromedriver"
-driver_options = Options()
-driver_options.add_argument("--headless")
-
-with sqlite3.connect("news.db") as conn:
-    conn.execute(DROP_TABLE)
-    conn.execute(CREATE_TABLE)
-    with webdriver.Chrome(driver_path, options=driver_options) as driver:
-        driver.get("https://www.em.com.br/politica/")
-        #all_elements = []
-        for i in range(2):
-            #new_elements = driver.find_elements(By.XPATH, row_path)
-            #all_elements + [element for element in new_elements if element not in all_elements]
+    def run(self):
+        self.webdriver.get(self.start_url)
+        for i in range(self.n_pages):
+            self.logger.debug(f"page {i} - finding elements")
+            new_elements = self.webdriver.get_elements(self.row_xpath)
+            self.logger.debug("looping through elements")
+            for element in new_elements[-self.n_last:]:
+                if element not in self.elements[-2*self.n_last:]:
+                    self.elements.append(element)
+                    try:
+                        title = self.webdriver.get_inner(self.title_xpath, element).text
+                        date  = self.webdriver.get_inner(self.date_xpath, element).text
+                        date = self.get_date(date)
+                        self.database.insert(date, title)
+                    except:
+                        self.logger.warning("inner elements not found")
             try:
-                find     = (By.XPATH, next_path)
-                presence = EC.presence_of_element_located(find)
-                next     = WebDriverWait(driver, 10).until(presence)
-                enter    = "webdriver" + Keys.ENTER
-                next.send_keys(enter)
-                time.sleep(.5)
+                self.webdriver.next_page(self.next_xpath)
             except:
+                self.logger.warning("no next page")
                 break
-        all_elements = driver.find_elements(By.XPATH, row_path)
-        for element in all_elements:
-                title_link = element.find_element(By.XPATH, title_path)
-                print(title_link.text)
+
+    @staticmethod
+    def get_date(date):
+        lst  = date.split()
+        day  = lst[2]
+        time = lst[0]
+        day = day[6:] + "-" + day[3:5] + "-" + day[:2]
+        time = time + ":00"
+        return day + " " + time
+
+if __name__ == "__main__":
+    c = Minas()
+    c.run()
+    del c
