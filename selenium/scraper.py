@@ -87,6 +87,7 @@ class Scraper(ABC):
             except:
                 self.logger.warning("no next page")
                 break
+        del self
 
     def loop_elements(self,
         new_elements : list):
