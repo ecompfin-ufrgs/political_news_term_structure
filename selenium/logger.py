@@ -17,7 +17,7 @@ class Logger:
     :param level: Log level, defaults to logging.DEBUG
     :type level: int, optional
     :param mode: Log file mode, defaults to "a"
-    :tupe mode: str, optional
+    :type mode: str, optional
     :param format: Log format, defaults to "%(asctime)s:%(name)s:%(levelname)s:%(message)s"
     :type format: str, optional
     """
@@ -108,7 +108,7 @@ class Logger:
         :param level: Log level
         :type level: int
         :param mode: Log file mode
-        :tupe mode: str
+        :type mode: str
         :param format: Log format
         :type format: str
         

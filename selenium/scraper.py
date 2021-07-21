@@ -27,7 +27,7 @@ class Scraper(ABC):
     :type  date_xpath: str
     :param n_pages: Number of pages to scrap, defaults to 2000
     :type  n_pages: int, optional
-    :param n_last: Number of (last) news elements to inspect when looking for previously unscrapped news after next page click, defaults to 100
+    :param n_last: Number of (last) news elements to inspect when looking for previously unscrapped news after next page click, defaults to 200
     :type  n_last: int, optional
     :param log_name: Logger name, defaults to "sraper"
     :type  log_name: str, optional
@@ -46,7 +46,7 @@ class Scraper(ABC):
         title_xpath : str,
         date_xpath  : str,
         n_pages     : int = 2000,
-        n_last      : int = 100,
+        n_last      : int = 200,
         log_name    : str = "scraper",
         log_file    : str = "log.log",
         db_name     : str = "test.db",
@@ -96,9 +96,9 @@ class Scraper(ABC):
         :param new_elements: List of new article elements which will be looped by in search of article elements not yet found.
         :type new_elements: list
         """
-        self.logger.debug(f"looping through last {2*self.n_last} elements")
+        self.logger.debug(f"looping through last {self.n_last} elements")
         for element in new_elements[-self.n_last:]:
-            if element not in self.elements[-2*self.n_last:]:
+            if element not in self.elements[-self.n_last:]:
                 self.elements.append(element)
                 self.get_info(element)
 
