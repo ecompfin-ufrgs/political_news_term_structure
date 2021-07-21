@@ -28,9 +28,9 @@ class Minas(Scraper):
     :type  n_last: int, optional
     :param log_name: Logger name, defaults to "sraper"
     :type  log_name: str, optional
-    :param log_file: Log file name, defaults to "log.log"
+    :param log_file: Log file name, defaults to "minas.log"
     :type  log_file: str, optional
-    :param db_name: Database file name, defaults to "test.db"
+    :param db_name: Database file name, defaults to "news.db"
     :type  db_name: str, optional
     :param db_table: Database table name, defaults to "minas"
     :type  db_table: str, optional
@@ -44,8 +44,8 @@ class Minas(Scraper):
         n_pages     : int = 2000,
         n_last      : int = 200,
         log_name    : str = "scraper",
-        log_file    : str = "test.log",
-        db_name     : str = "test.db",
+        log_file    : str = "minas.log",
+        db_name     : str = "news.db",
         db_table    : str = "minas"):
         super().__init__(
             start_url   = start_url,
