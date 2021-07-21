@@ -1,5 +1,17 @@
 API
 =========
 
-.. automodule:: news-brazil
+.. automodule:: logger
+    :members:
+
+.. automodule:: database
+    :members:
+
+.. automodule:: webdriver
+    :members:
+
+.. automodule:: scraper
+    :members:
+
+.. automodule:: minas
     :members:
