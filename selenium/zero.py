@@ -1,4 +1,5 @@
-from scraper import Scraper
+import os
+from   scraper import Scraper
 
 
 class Zero(Scraper):
@@ -58,6 +59,7 @@ class Zero(Scraper):
         return day + " " + time
 
 if __name__ == "__main__":
+    os.system("rm zero.log")
     c = Zero()
     c.run()
     del c

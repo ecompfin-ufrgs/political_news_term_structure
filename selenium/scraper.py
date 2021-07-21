@@ -10,9 +10,10 @@ from logger                               import Logger
 from webdriver                            import Webdriver
 from selenium.webdriver.remote.webelement import WebElement
 
+
 class Scraper(ABC):
     """
-    Scrapes news websites. It uses Logger class for its logging, Webdriver class to connect to and navigate the web with selenium, and Database class to connect to and manage the database with SQLite3.
+    Class for scraping news websites.
     
     :param start_ulr: Main webpage from which to start scrapping
     :type  start_url: str
@@ -123,6 +124,9 @@ class Scraper(ABC):
         date : str):
         """
         Abstract method. Gets date string and formats it to DATETIME data type (SQLite3).
+
+        :param date: Date string.
+        :type date: str
         """
         pass
 

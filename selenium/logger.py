@@ -1,6 +1,26 @@
+"""
+Title       : Logger
+Description : Defines class logger, which implements a custom logger.
+Author      : Bernardo Paulsen
+Version     : 1.0.0
+"""
 import logging
 
 class Logger:
+    """
+    Class which implements a custom logger.
+
+    :param name: Logger name
+    :type name: str
+    :param file: Log file name, defaults to "log.log"
+    :type file: str, optional
+    :param level: Log level, defaults to logging.DEBUG
+    :type level: int, optional
+    :param mode: Log file mode, defaults to "a"
+    :tupe mode: str, optional
+    :param format: Log format, defaults to "%(asctime)s:%(name)s:%(levelname)s:%(message)s"
+    :type format: str, optional
+    """
     def __init__(
         self,
         name   : str,
@@ -8,7 +28,9 @@ class Logger:
         level  : int = logging.DEBUG,
         mode   : str = "a",
         format : str = "%(asctime)s:%(name)s:%(levelname)s:%(message)s"):
-        
+        """
+        Constructor method.
+        """
         self.logger  = self.config(name, file, level, mode, format)
         self.debug   = self.logger.debug
         self.warning = self.logger.warning
@@ -16,7 +38,17 @@ class Logger:
     def console_handler(self,
         level     : int,
         formatter : logging.Formatter):
+        """
+        Configures console handler.
 
+        :param level: Log level
+        :type level: int
+        :param formatter: Formatter
+        :type formatter: logging.Formatter
+
+        :return: Console handler
+        :rtype: logging.StreamHandler
+        """
         handler = logging.StreamHandler()
         handler.setLevel(level)
         handler.setFormatter(formatter)
@@ -27,7 +59,21 @@ class Logger:
         mode      : str,
         level     : int,
         formatter : logging.Formatter):
+        """
+        Configures file handler.
 
+        :param file: Log file name
+        :type file: str
+        :param mode: Log mode
+        :type mode: str
+        :param level: Log level
+        :type level: int
+        :param formatter: Formatter
+        :type formatter: logging.Formatter
+
+        :return: File handler
+        :rtype: logging.FileHandler
+        """
         handler = logging.FileHandler(
             filename = file,
             mode     = mode)
@@ -37,7 +83,12 @@ class Logger:
 
     def formatter(self,
         format : str):
+        """
+        Configures formatter.
 
+        :param format: Log format
+        :type format: str
+        """
         formatter = logging.Formatter(format)
         return formatter
 
@@ -47,6 +98,23 @@ class Logger:
         level  : int = 0,
         mode   : str = "w",
         format : str = "%(asctime)s:%(name)s:%(levelname)s:%(message)s"):
+        """
+        Configures logger.
+
+        :param name: Logger name
+        :type name: str
+        :param file: Log file name
+        :type file: str
+        :param level: Log level
+        :type level: int
+        :param mode: Log file mode
+        :tupe mode: str
+        :param format: Log format
+        :type format: str
+        
+        :return: Logger
+        :rtype: logging.Logger
+        """
 
         formatter       = self.formatter(format)
         logger          = logging.getLogger(name)
