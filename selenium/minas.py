@@ -43,7 +43,6 @@ class Minas(Scraper):
         date_xpath  : str = ".//small",
         n_pages     : int = 2000,
         n_last      : int = 200,
-        log_name    : str = "scraper",
         log_file    : str = "minas.log",
         db_name     : str = "news.db",
         db_table    : str = "minas"):
@@ -55,7 +54,6 @@ class Minas(Scraper):
             date_xpath  = date_xpath,
             n_pages     = n_pages,
             n_last      = n_last,
-            log_name    = log_name,
             log_file    = log_file,
             db_name     = db_name,
             db_table    = db_table)
