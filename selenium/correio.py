@@ -35,7 +35,7 @@ class Correio(Scraper):
         row_xpath   : str = "//article[position()>last()-200]",
         title_xpath : str = ".//h2",
         date_xpath  : str = ".//small",
-        n_pages     : int = 2000,
+        n_pages     : int = 1000,
         n_last      : int = 200,
         log_name    : str = "scraper",
         log_file    : str = "correio.log",
