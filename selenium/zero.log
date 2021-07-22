@@ -1,106 +1,33 @@
-2021-07-19 23:21:05,014:scraper:DEBUG:logger configured
-2021-07-19 23:21:05,014:database:DEBUG:logger configured
-2021-07-19 23:21:05,015:database:DEBUG:news.db opening connection
-2021-07-19 23:21:05,015:database:DEBUG:news.db connection open
-2021-07-19 23:21:05,015:database:DEBUG:zero table dropped
-2021-07-19 23:21:05,017:database:DEBUG:zero table created
-2021-07-19 23:21:05,018:webdriver:DEBUG:logger configured
-2021-07-19 23:21:06,983:webdriver:DEBUG:connection open
-2021-07-19 23:21:06,984:webdriver:DEBUG:getting page https://gauchazh.clicrbs.com.br/politica/ultimas-noticias/
-2021-07-19 23:21:13,916:webdriver:DEBUG:page received
-2021-07-19 23:21:13,916:scraper:DEBUG:page 0 - finding elements
-2021-07-19 23:21:13,947:webdriver:DEBUG:16 elements found
-2021-07-19 23:21:13,947:scraper:DEBUG:looping through elements
-2021-07-19 23:21:14,058:scraper:WARNING:inner elements not found
-2021-07-19 23:21:14,131:scraper:WARNING:inner elements not found
-2021-07-19 23:21:14,288:scraper:WARNING:inner elements not found
-2021-07-19 23:21:14,403:scraper:WARNING:inner elements not found
-2021-07-19 23:21:14,659:scraper:WARNING:inner elements not found
-2021-07-19 23:21:14,936:scraper:WARNING:inner elements not found
-2021-07-19 23:21:15,061:scraper:WARNING:inner elements not found
-2021-07-19 23:21:15,119:scraper:WARNING:inner elements not found
-2021-07-19 23:21:15,201:scraper:WARNING:inner elements not found
-2021-07-19 23:21:15,405:scraper:WARNING:inner elements not found
-2021-07-19 23:21:15,471:scraper:WARNING:inner elements not found
-2021-07-19 23:21:15,594:scraper:WARNING:inner elements not found
-2021-07-19 23:21:15,925:scraper:WARNING:inner elements not found
-2021-07-19 23:21:16,072:scraper:WARNING:inner elements not found
-2021-07-19 23:21:16,375:scraper:WARNING:inner elements not found
-2021-07-19 23:21:16,472:scraper:WARNING:inner elements not found
-2021-07-19 23:21:16,473:webdriver:DEBUG:clicking next page
-2021-07-19 23:21:16,934:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-19 23:21:17,437:scraper:DEBUG:page 1 - finding elements
-2021-07-19 23:21:17,748:webdriver:DEBUG:16 elements found
-2021-07-19 23:21:17,748:scraper:DEBUG:looping through elements
-2021-07-19 23:21:17,749:webdriver:DEBUG:clicking next page
-2021-07-19 23:21:17,885:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-19 23:21:18,387:scraper:DEBUG:page 2 - finding elements
-2021-07-19 23:21:18,858:webdriver:DEBUG:16 elements found
-2021-07-19 23:21:18,858:scraper:DEBUG:looping through elements
-2021-07-19 23:21:18,858:webdriver:DEBUG:clicking next page
-2021-07-19 23:21:19,015:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-19 23:21:19,516:scraper:DEBUG:page 3 - finding elements
-2021-07-19 23:21:19,839:webdriver:DEBUG:16 elements found
-2021-07-19 23:21:19,839:scraper:DEBUG:looping through elements
-2021-07-19 23:21:19,839:webdriver:DEBUG:clicking next page
-2021-07-19 23:21:20,058:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-19 23:21:20,561:scraper:DEBUG:page 4 - finding elements
-2021-07-19 23:21:20,825:webdriver:DEBUG:16 elements found
-2021-07-19 23:21:20,825:scraper:DEBUG:looping through elements
-2021-07-19 23:21:20,826:webdriver:DEBUG:clicking next page
-2021-07-19 23:21:21,048:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-19 23:21:21,551:database:DEBUG:news.db connection closed
-2021-07-19 23:21:22,063:webdriver:DEBUG:connection closed
-2021-07-19 23:24:23,704:scraper:DEBUG:logger configured
-2021-07-19 23:24:23,705:database:DEBUG:logger configured
-2021-07-19 23:24:23,706:database:DEBUG:news.db opening connection
-2021-07-19 23:24:23,708:database:DEBUG:news.db connection open
-2021-07-19 23:24:23,713:database:DEBUG:zero table dropped
-2021-07-19 23:24:23,718:database:DEBUG:zero table created
-2021-07-19 23:24:23,719:webdriver:DEBUG:logger configured
-2021-07-19 23:24:26,646:webdriver:DEBUG:connection open
-2021-07-19 23:24:26,647:webdriver:DEBUG:getting page https://gauchazh.clicrbs.com.br/politica/ultimas-noticias/
-2021-07-19 23:24:35,902:webdriver:DEBUG:page received
-2021-07-19 23:24:35,902:scraper:DEBUG:page 0 - finding elements
-2021-07-19 23:24:35,960:webdriver:DEBUG:16 elements found
-2021-07-19 23:24:35,961:scraper:DEBUG:looping through elements
-2021-07-19 23:24:36,047:scraper:WARNING:inner elements not found
-2021-07-19 23:24:36,110:scraper:WARNING:inner elements not found
-2021-07-19 23:24:36,190:scraper:WARNING:inner elements not found
-2021-07-19 23:24:36,261:scraper:WARNING:inner elements not found
-2021-07-19 23:24:36,450:scraper:WARNING:inner elements not found
-2021-07-19 23:24:36,560:scraper:WARNING:inner elements not found
-2021-07-19 23:24:36,652:scraper:WARNING:inner elements not found
-2021-07-19 23:24:36,730:scraper:WARNING:inner elements not found
-2021-07-19 23:24:36,822:scraper:WARNING:inner elements not found
-2021-07-19 23:24:37,093:scraper:WARNING:inner elements not found
-2021-07-19 23:24:37,461:scraper:WARNING:inner elements not found
-2021-07-19 23:24:37,709:scraper:WARNING:inner elements not found
-2021-07-19 23:24:37,898:scraper:WARNING:inner elements not found
-2021-07-19 23:24:38,125:scraper:WARNING:inner elements not found
-2021-07-19 23:24:38,229:scraper:WARNING:inner elements not found
-2021-07-19 23:24:38,315:scraper:WARNING:inner elements not found
-2021-07-19 23:24:38,315:webdriver:DEBUG:clicking next page
-2021-07-19 23:24:38,591:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-19 23:24:39,092:scraper:DEBUG:page 1 - finding elements
-2021-07-19 23:24:39,127:webdriver:DEBUG:16 elements found
-2021-07-19 23:24:39,127:scraper:DEBUG:looping through elements
-2021-07-19 23:24:39,127:webdriver:DEBUG:clicking next page
-2021-07-19 23:24:39,806:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-19 23:24:40,307:scraper:DEBUG:page 2 - finding elements
-2021-07-19 23:24:40,606:webdriver:DEBUG:16 elements found
-2021-07-19 23:24:40,607:scraper:DEBUG:looping through elements
-2021-07-19 23:24:40,607:webdriver:DEBUG:clicking next page
-2021-07-19 23:24:41,438:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-19 23:24:41,938:scraper:DEBUG:page 3 - finding elements
-2021-07-19 23:24:42,242:webdriver:DEBUG:16 elements found
-2021-07-19 23:24:42,242:scraper:DEBUG:looping through elements
-2021-07-19 23:24:42,243:webdriver:DEBUG:clicking next page
-2021-07-19 23:24:42,398:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-19 23:24:42,898:scraper:DEBUG:page 4 - finding elements
-2021-07-19 23:24:43,469:webdriver:DEBUG:16 elements found
-2021-07-19 23:24:43,470:scraper:DEBUG:looping through elements
-2021-07-19 23:24:43,470:webdriver:DEBUG:clicking next page
-2021-07-19 23:24:43,706:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-19 23:24:44,212:database:DEBUG:news.db connection closed
-2021-07-19 23:24:44,714:webdriver:DEBUG:connection closed
+2021-07-21 21:50:07,010:scraper:DEBUG:logger configured
+2021-07-21 21:50:07,011:database:DEBUG:logger configured
+2021-07-21 21:50:07,011:database:DEBUG:news.db opening connection
+2021-07-21 21:50:07,011:database:DEBUG:news.db connection open
+2021-07-21 21:50:07,015:database:DEBUG:zero table dropped
+2021-07-21 21:50:07,016:database:DEBUG:zero table created
+2021-07-21 21:50:07,016:webdriver:DEBUG:logger configured
+2021-07-21 21:50:08,801:webdriver:DEBUG:connection open
+2021-07-21 21:50:08,802:webdriver:DEBUG:getting page https://gauchazh.clicrbs.com.br/politica/ultimas-noticias/
+2021-07-21 21:50:15,410:webdriver:DEBUG:page received
+2021-07-21 21:50:15,410:scraper:DEBUG:page 0 - finding elements
+2021-07-21 21:50:15,427:webdriver:DEBUG:16 elements found
+2021-07-21 21:50:15,428:scraper:DEBUG:looping through last 200 elements
+2021-07-21 21:50:15,504:database:DEBUG:(2021-07-21 18:42:00|Davi Alcolumbre atri) inserted into zero in news.db
+2021-07-21 21:50:15,563:database:DEBUG:(2021-07-21 17:22:00|Roberto Jefferson é ) inserted into zero in news.db
+2021-07-21 21:50:15,631:database:DEBUG:(2021-07-21 14:43:00|Deputado André Ferna) inserted into zero in news.db
+2021-07-21 21:50:15,706:database:DEBUG:(2021-07-21 13:32:00|'No Brasil, seria ma) inserted into zero in news.db
+2021-07-21 21:50:15,862:database:DEBUG:(2021-07-21 13:22:00|Congresso repassou R) inserted into zero in news.db
+2021-07-21 21:50:15,924:database:DEBUG:(2021-07-21 11:27:00|Bolsonaro diz não sa) inserted into zero in news.db
+2021-07-21 21:50:15,982:database:DEBUG:(2021-07-21 10:57:00|Bolsonaro: 'era hipé) inserted into zero in news.db
+2021-07-21 21:50:16,047:database:DEBUG:(2021-07-21 10:28:00|Dr. Jairinho é alvo ) inserted into zero in news.db
+2021-07-21 21:50:16,178:database:DEBUG:(2021-07-21 10:22:00|Bolsonaro: 'se chega) inserted into zero in news.db
+2021-07-21 21:50:16,326:database:DEBUG:(2021-07-21 10:12:00|Bolsonaro diz que fa) inserted into zero in news.db
+2021-07-21 21:50:16,451:database:DEBUG:(2021-07-21 10:02:00|Bolsonaro oficializa) inserted into zero in news.db
+2021-07-21 21:50:16,661:database:DEBUG:(2021-07-21 09:07:00|Alckmin já articula ) inserted into zero in news.db
+2021-07-21 21:50:16,805:database:DEBUG:(2021-07-21 08:07:00|Deputado defende inv) inserted into zero in news.db
+2021-07-21 21:50:16,868:database:DEBUG:(2021-07-21 08:07:00|CPI da Covid cria se) inserted into zero in news.db
+2021-07-21 21:50:16,995:database:DEBUG:(2021-07-21 07:32:00|Congresso pode discu) inserted into zero in news.db
+2021-07-21 21:50:17,147:database:DEBUG:(2021-07-20 22:00:00|O que se sabe sobre ) inserted into zero in news.db
+2021-07-21 21:50:17,147:webdriver:DEBUG:clicking next page
+2021-07-21 21:50:18,336:scraper:WARNING:no next page
+2021-07-21 21:50:18,336:database:DEBUG:news.db connection closed
+2021-07-21 21:50:18,464:webdriver:DEBUG:connection closed
