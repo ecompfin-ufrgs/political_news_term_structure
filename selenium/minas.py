@@ -18,8 +18,8 @@ class Minas(Scraper):
     title_xpath = ".//a[@class='txt-gray']"
     date_xpath  = ".//small"
     n_last      = 200
-    log_file    = "minas"
-    db_name     = "news.db"
+    log_file    = "test"
+    db_name     = "test.db"
     db_table    = "minas"
     
     @staticmethod
