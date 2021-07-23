@@ -127,4 +127,4 @@ class Logger:
         return logger
 
 if __name__ == "__main__":
-    log = Logger("logger test")
+    log = Logger("logger")

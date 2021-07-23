@@ -122,5 +122,5 @@ class Webdriver:
 
 
 if __name__ == "__main__":
-    wd = Webdriver(log_name = "webdriver test")
+    wd = Webdriver()
     del wd

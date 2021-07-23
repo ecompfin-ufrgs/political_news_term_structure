@@ -103,5 +103,5 @@ class Database:
         return script
 
 if __name__ == "__main__":
-    db = Database(log_name="database test")
+    db = Database()
     del db

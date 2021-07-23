@@ -135,7 +135,3 @@ class Scraper(ABC):
         :type date: str
         """
         pass
-
-if __name__ == "__main__":
-    s = Scraper()
-    del s
