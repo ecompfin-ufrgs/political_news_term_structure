@@ -85,6 +85,8 @@ class Scraper(ABC):
                 self.logger.warning("no next page")
                 break
             i += 1
+            if i >= 20:
+                break
         del self
 
     def loop_elements(self,
