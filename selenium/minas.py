@@ -45,7 +45,5 @@ class Minas(Scraper):
 
 
 if __name__ == "__main__":
-    os.system("rm minas.log")
     c = Minas()
     c.run()
-    del c

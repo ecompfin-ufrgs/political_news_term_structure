@@ -4,11 +4,12 @@ Description : Defines abstract class Scraper, which scrapes news websites.
 Author      : Bernardo Paulsen
 Version     : 1.0.0
 """
-from abc                                  import ABC, abstractmethod
-from database                             import Database
-from logger                               import Logger
-from webdriver                            import Webdriver
-from selenium.webdriver.remote.webelement import WebElement
+from   abc                                  import ABC, abstractmethod
+from   database                             import Database
+from   logger                               import Logger
+import os
+from   selenium.webdriver.remote.webelement import WebElement
+from   webdriver                            import Webdriver
 
 #import line_profiler
 #import atexit
@@ -61,6 +62,7 @@ class Scraper(ABC):
         """
         Constructor method. Initiates Logger, Database and Webdriver.
         """
+        os.system(f"rm {self.log_file}.log")
         self.logger      = Logger(self.log_name, self.log_file)
         self.database    = Database(self.db_name, self.db_table, log_file = self.log_file)
         self.webdriver   = Webdriver(log_file = self.log_file)
