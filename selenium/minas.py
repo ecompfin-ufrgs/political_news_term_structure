@@ -19,7 +19,7 @@ class Minas(Scraper):
     date_xpath  : str = ".//small"
     n_pages     : int = 2000
     n_last      : int = 200
-    log_file    : str = "minas.log"
+    log_file    : str = "minas"
     db_name     : str = "news.db"
     db_table    : str = "minas"
     @staticmethod
