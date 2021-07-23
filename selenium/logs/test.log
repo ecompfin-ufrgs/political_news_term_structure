@@ -1,0 +1,515 @@
+2021-07-23 19:51:08,493:scraper:DEBUG:logger configured
+2021-07-23 19:51:08,493:database:DEBUG:logger configured
+2021-07-23 19:51:08,493:database:DEBUG:test.db opening connection
+2021-07-23 19:51:08,495:database:DEBUG:test.db connection open
+2021-07-23 19:51:08,496:database:DEBUG:minas table dropped
+2021-07-23 19:51:08,499:database:DEBUG:minas table created
+2021-07-23 19:51:08,499:webdriver:DEBUG:logger configured
+2021-07-23 19:51:12,439:webdriver:DEBUG:connection open
+2021-07-23 19:51:12,439:webdriver:DEBUG:getting page https://www.em.com.br/politica/
+2021-07-23 19:51:54,569:webdriver:DEBUG:page received
+2021-07-23 19:51:54,570:scraper:DEBUG:page 1
+2021-07-23 19:51:54,571:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:54,602:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:54,602:scraper:DEBUG:looping through elements
+2021-07-23 19:51:54,664:database:DEBUG:(2021-07-23 19:15:00|Justiça Eleitoral ca) inserted into minas in test.db
+2021-07-23 19:51:54,745:database:DEBUG:(2021-07-23 19:04:00|MPMG acusa ex-secret) inserted into minas in test.db
+2021-07-23 19:51:54,792:database:DEBUG:(2021-07-23 18:51:00|MPMG denuncia prefei) inserted into minas in test.db
+2021-07-23 19:51:54,835:database:DEBUG:(2021-07-23 18:35:00|Pazuello se reuniu c) inserted into minas in test.db
+2021-07-23 19:51:54,847:scraper:WARNING:inner elements not found
+2021-07-23 19:51:54,896:database:DEBUG:(2021-07-23 18:24:00|'Criatório de barata) inserted into minas in test.db
+2021-07-23 19:51:54,940:database:DEBUG:(2021-07-23 18:18:00|Joice nega ter sido ) inserted into minas in test.db
+2021-07-23 19:51:54,992:database:DEBUG:(2021-07-23 18:01:00|FHC diz que é bem me) inserted into minas in test.db
+2021-07-23 19:51:55,043:database:DEBUG:(2021-07-23 17:10:00|Renan sobre Bolsonar) inserted into minas in test.db
+2021-07-23 19:51:55,093:database:DEBUG:(2021-07-23 17:00:00|MG: governo promete ) inserted into minas in test.db
+2021-07-23 19:51:55,138:database:DEBUG:(2021-07-23 16:37:00|Vereadora sofre amea) inserted into minas in test.db
+2021-07-23 19:51:55,182:database:DEBUG:(2021-07-23 16:26:00|Quatro meses após de) inserted into minas in test.db
+2021-07-23 19:51:55,259:database:DEBUG:(2021-07-23 16:16:00|Randolfe confirma qu) inserted into minas in test.db
+2021-07-23 19:51:55,269:scraper:WARNING:inner elements not found
+2021-07-23 19:51:55,315:database:DEBUG:(2021-07-23 16:14:00|Joice Hasselmann pre) inserted into minas in test.db
+2021-07-23 19:51:55,373:database:DEBUG:(2021-07-23 15:38:00|Bolsonaro diz que a ) inserted into minas in test.db
+2021-07-23 19:51:55,430:database:DEBUG:(2021-07-23 15:35:00|Bolsonaro volta a fa) inserted into minas in test.db
+2021-07-23 19:51:55,496:database:DEBUG:(2021-07-23 15:31:00|Bolsonaro deve inclu) inserted into minas in test.db
+2021-07-23 19:51:55,557:database:DEBUG:(2021-07-23 15:29:00|Ciro Gomes classific) inserted into minas in test.db
+2021-07-23 19:51:55,610:database:DEBUG:(2021-07-23 15:23:00|Bolsonaro defende vo) inserted into minas in test.db
+2021-07-23 19:51:55,663:database:DEBUG:(2021-07-23 15:19:00|Por inconstitucional) inserted into minas in test.db
+2021-07-23 19:51:55,746:database:DEBUG:(2021-07-23 14:50:00|Bolsonaro diz que of) inserted into minas in test.db
+2021-07-23 19:51:55,748:database:DEBUG:changes commited
+2021-07-23 19:51:55,748:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:56,020:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:56,221:scraper:DEBUG:page 2
+2021-07-23 19:51:56,221:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:56,240:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:56,241:scraper:DEBUG:looping through elements
+2021-07-23 19:51:56,241:database:DEBUG:changes commited
+2021-07-23 19:51:56,241:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:56,292:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:56,495:scraper:DEBUG:page 3
+2021-07-23 19:51:56,495:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:56,510:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:56,511:scraper:DEBUG:looping through elements
+2021-07-23 19:51:56,511:database:DEBUG:changes commited
+2021-07-23 19:51:56,511:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:56,583:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:56,788:scraper:DEBUG:page 4
+2021-07-23 19:51:56,788:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:56,799:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:56,800:scraper:DEBUG:looping through elements
+2021-07-23 19:51:56,800:database:DEBUG:changes commited
+2021-07-23 19:51:56,800:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:56,862:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:57,062:scraper:DEBUG:page 5
+2021-07-23 19:51:57,063:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:57,080:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:57,080:scraper:DEBUG:looping through elements
+2021-07-23 19:51:57,080:database:DEBUG:changes commited
+2021-07-23 19:51:57,081:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:57,146:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:57,350:scraper:DEBUG:page 6
+2021-07-23 19:51:57,350:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:57,359:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:57,359:scraper:DEBUG:looping through elements
+2021-07-23 19:51:57,359:database:DEBUG:changes commited
+2021-07-23 19:51:57,359:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:57,412:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:57,615:scraper:DEBUG:page 7
+2021-07-23 19:51:57,615:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:57,629:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:57,629:scraper:DEBUG:looping through elements
+2021-07-23 19:51:57,630:database:DEBUG:changes commited
+2021-07-23 19:51:57,630:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:57,695:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:57,898:scraper:DEBUG:page 8
+2021-07-23 19:51:57,899:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:57,917:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:57,917:scraper:DEBUG:looping through elements
+2021-07-23 19:51:57,918:database:DEBUG:changes commited
+2021-07-23 19:51:57,918:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:58,011:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:58,217:scraper:DEBUG:page 9
+2021-07-23 19:51:58,217:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:58,229:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:58,230:scraper:DEBUG:looping through elements
+2021-07-23 19:51:58,230:database:DEBUG:changes commited
+2021-07-23 19:51:58,230:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:58,305:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:58,507:scraper:DEBUG:page 10
+2021-07-23 19:51:58,507:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:58,522:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:58,522:scraper:DEBUG:looping through elements
+2021-07-23 19:51:58,522:database:DEBUG:changes commited
+2021-07-23 19:51:58,522:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:58,637:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:58,842:scraper:DEBUG:page 11
+2021-07-23 19:51:58,843:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:58,858:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:58,859:scraper:DEBUG:looping through elements
+2021-07-23 19:51:58,859:database:DEBUG:changes commited
+2021-07-23 19:51:58,859:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:58,946:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:59,149:scraper:DEBUG:page 12
+2021-07-23 19:51:59,150:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:59,162:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:59,162:scraper:DEBUG:looping through elements
+2021-07-23 19:51:59,162:database:DEBUG:changes commited
+2021-07-23 19:51:59,162:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:59,265:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:59,469:scraper:DEBUG:page 13
+2021-07-23 19:51:59,470:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:59,480:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:59,480:scraper:DEBUG:looping through elements
+2021-07-23 19:51:59,480:database:DEBUG:changes commited
+2021-07-23 19:51:59,481:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:59,556:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:51:59,756:scraper:DEBUG:page 14
+2021-07-23 19:51:59,757:webdriver:DEBUG:findind elements...
+2021-07-23 19:51:59,765:webdriver:DEBUG:22 elements found
+2021-07-23 19:51:59,766:scraper:DEBUG:looping through elements
+2021-07-23 19:51:59,766:database:DEBUG:changes commited
+2021-07-23 19:51:59,766:webdriver:DEBUG:clicking next page
+2021-07-23 19:51:59,855:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:00,055:scraper:DEBUG:page 15
+2021-07-23 19:52:00,056:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:00,065:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:00,065:scraper:DEBUG:looping through elements
+2021-07-23 19:52:00,065:database:DEBUG:changes commited
+2021-07-23 19:52:00,065:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:00,146:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:00,346:scraper:DEBUG:page 16
+2021-07-23 19:52:00,347:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:00,359:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:00,359:scraper:DEBUG:looping through elements
+2021-07-23 19:52:00,359:database:DEBUG:changes commited
+2021-07-23 19:52:00,359:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:00,424:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:00,625:scraper:DEBUG:page 17
+2021-07-23 19:52:00,625:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:00,636:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:00,636:scraper:DEBUG:looping through elements
+2021-07-23 19:52:00,636:database:DEBUG:changes commited
+2021-07-23 19:52:00,636:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:00,711:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:00,914:scraper:DEBUG:page 18
+2021-07-23 19:52:00,914:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:00,926:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:00,926:scraper:DEBUG:looping through elements
+2021-07-23 19:52:00,927:database:DEBUG:changes commited
+2021-07-23 19:52:00,927:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:01,004:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:01,205:scraper:DEBUG:page 19
+2021-07-23 19:52:01,206:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:01,216:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:01,216:scraper:DEBUG:looping through elements
+2021-07-23 19:52:01,216:database:DEBUG:changes commited
+2021-07-23 19:52:01,216:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:01,289:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:01,492:database:DEBUG:test.db connection closed
+2021-07-23 19:52:01,615:webdriver:DEBUG:connection closed
+2021-07-23 19:52:13,385:scraper:DEBUG:logger configured
+2021-07-23 19:52:13,385:database:DEBUG:logger configured
+2021-07-23 19:52:13,385:database:DEBUG:test.db opening connection
+2021-07-23 19:52:13,386:database:DEBUG:test.db connection open
+2021-07-23 19:52:13,388:database:DEBUG:minas table dropped
+2021-07-23 19:52:13,389:database:DEBUG:minas table created
+2021-07-23 19:52:13,390:webdriver:DEBUG:logger configured
+2021-07-23 19:52:13,390:webdriver:DEBUG:opening connection...
+2021-07-23 19:52:15,403:webdriver:DEBUG:connection open
+2021-07-23 19:52:15,403:webdriver:DEBUG:getting page https://www.em.com.br/politica/...
+2021-07-23 19:52:47,201:webdriver:DEBUG:page received
+2021-07-23 19:52:47,204:scraper:DEBUG:page 1
+2021-07-23 19:52:47,205:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:47,246:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:47,249:scraper:DEBUG:looping through elements
+2021-07-23 19:52:47,333:database:DEBUG:(2021-07-23 19:15:00|Justiça Eleitoral ca) inserted into minas in test.db
+2021-07-23 19:52:47,411:database:DEBUG:(2021-07-23 19:04:00|MPMG acusa ex-secret) inserted into minas in test.db
+2021-07-23 19:52:47,474:database:DEBUG:(2021-07-23 18:51:00|MPMG denuncia prefei) inserted into minas in test.db
+2021-07-23 19:52:47,535:database:DEBUG:(2021-07-23 18:35:00|Pazuello se reuniu c) inserted into minas in test.db
+2021-07-23 19:52:47,546:scraper:WARNING:inner elements not found
+2021-07-23 19:52:47,631:database:DEBUG:(2021-07-23 18:24:00|'Criatório de barata) inserted into minas in test.db
+2021-07-23 19:52:47,703:database:DEBUG:(2021-07-23 18:18:00|Joice nega ter sido ) inserted into minas in test.db
+2021-07-23 19:52:47,786:database:DEBUG:(2021-07-23 18:01:00|FHC diz que é bem me) inserted into minas in test.db
+2021-07-23 19:52:47,858:database:DEBUG:(2021-07-23 17:10:00|Renan sobre Bolsonar) inserted into minas in test.db
+2021-07-23 19:52:47,922:database:DEBUG:(2021-07-23 17:00:00|MG: governo promete ) inserted into minas in test.db
+2021-07-23 19:52:48,006:database:DEBUG:(2021-07-23 16:37:00|Vereadora sofre amea) inserted into minas in test.db
+2021-07-23 19:52:48,073:database:DEBUG:(2021-07-23 16:26:00|Quatro meses após de) inserted into minas in test.db
+2021-07-23 19:52:48,135:database:DEBUG:(2021-07-23 16:16:00|Randolfe confirma qu) inserted into minas in test.db
+2021-07-23 19:52:48,154:scraper:WARNING:inner elements not found
+2021-07-23 19:52:48,240:database:DEBUG:(2021-07-23 16:14:00|Joice Hasselmann pre) inserted into minas in test.db
+2021-07-23 19:52:48,313:database:DEBUG:(2021-07-23 15:38:00|Bolsonaro diz que a ) inserted into minas in test.db
+2021-07-23 19:52:48,388:database:DEBUG:(2021-07-23 15:35:00|Bolsonaro volta a fa) inserted into minas in test.db
+2021-07-23 19:52:48,455:database:DEBUG:(2021-07-23 15:31:00|Bolsonaro deve inclu) inserted into minas in test.db
+2021-07-23 19:52:48,523:database:DEBUG:(2021-07-23 15:29:00|Ciro Gomes classific) inserted into minas in test.db
+2021-07-23 19:52:48,637:database:DEBUG:(2021-07-23 15:23:00|Bolsonaro defende vo) inserted into minas in test.db
+2021-07-23 19:52:48,703:database:DEBUG:(2021-07-23 15:19:00|Por inconstitucional) inserted into minas in test.db
+2021-07-23 19:52:48,772:database:DEBUG:(2021-07-23 14:50:00|Bolsonaro diz que of) inserted into minas in test.db
+2021-07-23 19:52:48,774:database:DEBUG:changes commited
+2021-07-23 19:52:48,774:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:49,011:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:49,514:scraper:DEBUG:page 2
+2021-07-23 19:52:49,514:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:49,522:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:49,523:scraper:DEBUG:looping through elements
+2021-07-23 19:52:49,523:database:DEBUG:changes commited
+2021-07-23 19:52:49,523:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:49,590:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:50,091:scraper:DEBUG:page 3
+2021-07-23 19:52:50,091:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:50,102:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:50,102:scraper:DEBUG:looping through elements
+2021-07-23 19:52:50,102:database:DEBUG:changes commited
+2021-07-23 19:52:50,102:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:50,176:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:50,677:scraper:DEBUG:page 4
+2021-07-23 19:52:50,678:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:50,687:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:50,687:scraper:DEBUG:looping through elements
+2021-07-23 19:52:50,688:database:DEBUG:changes commited
+2021-07-23 19:52:50,688:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:50,756:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:51,259:scraper:DEBUG:page 5
+2021-07-23 19:52:51,259:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:51,268:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:51,269:scraper:DEBUG:looping through elements
+2021-07-23 19:52:51,269:database:DEBUG:changes commited
+2021-07-23 19:52:51,269:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:51,368:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:51,875:scraper:DEBUG:page 6
+2021-07-23 19:52:51,875:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:51,967:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:51,968:scraper:DEBUG:looping through elements
+2021-07-23 19:52:51,968:database:DEBUG:changes commited
+2021-07-23 19:52:51,969:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:52,157:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:52,662:scraper:DEBUG:page 7
+2021-07-23 19:52:52,662:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:52,673:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:52,673:scraper:DEBUG:looping through elements
+2021-07-23 19:52:52,673:database:DEBUG:changes commited
+2021-07-23 19:52:52,673:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:52,771:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:53,273:scraper:DEBUG:page 8
+2021-07-23 19:52:53,273:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:53,285:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:53,286:scraper:DEBUG:looping through elements
+2021-07-23 19:52:53,286:database:DEBUG:changes commited
+2021-07-23 19:52:53,286:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:53,392:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:53,898:scraper:DEBUG:page 9
+2021-07-23 19:52:53,898:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:53,914:webdriver:DEBUG:22 elements found
+2021-07-23 19:52:53,914:scraper:DEBUG:looping through elements
+2021-07-23 19:52:53,915:database:DEBUG:changes commited
+2021-07-23 19:52:53,915:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:54,014:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:54,514:scraper:DEBUG:page 10
+2021-07-23 19:52:54,515:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:54,689:webdriver:DEBUG:42 elements found
+2021-07-23 19:52:54,689:scraper:DEBUG:looping through elements
+2021-07-23 19:52:54,923:database:DEBUG:(2021-07-23 14:09:00|'Eu não sabia. Fui a) inserted into minas in test.db
+2021-07-23 19:52:54,995:database:DEBUG:(2021-07-23 13:30:00|Para embaixador dos ) inserted into minas in test.db
+2021-07-23 19:52:55,060:database:DEBUG:(2021-07-23 13:19:00|Alexandre nega recur) inserted into minas in test.db
+2021-07-23 19:52:55,123:database:DEBUG:(2021-07-23 13:15:00|O general que se tor) inserted into minas in test.db
+2021-07-23 19:52:55,241:database:DEBUG:(2021-07-23 12:58:00|Bolsonaro admite que) inserted into minas in test.db
+2021-07-23 19:52:55,319:database:DEBUG:(2021-07-23 12:56:00|Bolsonaro sobre fund) inserted into minas in test.db
+2021-07-23 19:52:55,406:database:DEBUG:(2021-07-23 12:52:00|Bolsonaro: temos tra) inserted into minas in test.db
+2021-07-23 19:52:55,475:database:DEBUG:(2021-07-23 12:24:00|Bolsonaro sobre alia) inserted into minas in test.db
+2021-07-23 19:52:55,544:database:DEBUG:(2021-07-23 12:11:00|Bharat rescinde acor) inserted into minas in test.db
+2021-07-23 19:52:55,621:database:DEBUG:(2021-07-23 11:42:00|Bolsonaro sobre fili) inserted into minas in test.db
+2021-07-23 19:52:55,691:database:DEBUG:(2021-07-23 10:25:00|Fabricante da Covaxi) inserted into minas in test.db
+2021-07-23 19:52:55,773:database:DEBUG:(2021-07-23 10:13:00|Comissão da Câmara d) inserted into minas in test.db
+2021-07-23 19:52:55,851:database:DEBUG:(2021-07-23 09:00:00|'Eu sou do Centrão',) inserted into minas in test.db
+2021-07-23 19:52:55,920:database:DEBUG:(2021-07-23 08:39:00|Bolsonaro sobre Ciro) inserted into minas in test.db
+2021-07-23 19:52:56,011:database:DEBUG:(2021-07-23 06:46:00|'Semipresidencialism) inserted into minas in test.db
+2021-07-23 19:52:56,092:database:DEBUG:(2021-07-23 06:44:00|Caso Braga Netto se ) inserted into minas in test.db
+2021-07-23 19:52:56,188:database:DEBUG:(2021-07-22 23:10:00|Após acordar ensangu) inserted into minas in test.db
+2021-07-23 19:52:56,265:database:DEBUG:(2021-07-22 22:42:00|Filósofo que traduzi) inserted into minas in test.db
+2021-07-23 19:52:56,326:database:DEBUG:(2021-07-22 22:42:00|Bolsonaro: 'Se as ur) inserted into minas in test.db
+2021-07-23 19:52:56,392:database:DEBUG:(2021-07-22 22:40:00|Governo de SP: Bolso) inserted into minas in test.db
+2021-07-23 19:52:56,397:database:DEBUG:changes commited
+2021-07-23 19:52:56,397:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:56,464:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:56,968:scraper:DEBUG:page 11
+2021-07-23 19:52:56,969:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:57,162:webdriver:DEBUG:42 elements found
+2021-07-23 19:52:57,162:scraper:DEBUG:looping through elements
+2021-07-23 19:52:57,163:database:DEBUG:changes commited
+2021-07-23 19:52:57,163:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:57,616:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:58,122:scraper:DEBUG:page 12
+2021-07-23 19:52:58,122:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:58,135:webdriver:DEBUG:42 elements found
+2021-07-23 19:52:58,135:scraper:DEBUG:looping through elements
+2021-07-23 19:52:58,136:database:DEBUG:changes commited
+2021-07-23 19:52:58,136:webdriver:DEBUG:clicking next page
+2021-07-23 19:52:58,303:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:52:58,807:scraper:DEBUG:page 13
+2021-07-23 19:52:58,807:webdriver:DEBUG:findind elements...
+2021-07-23 19:52:58,824:webdriver:DEBUG:62 elements found
+2021-07-23 19:52:58,824:scraper:DEBUG:looping through elements
+2021-07-23 19:52:58,935:database:DEBUG:(2021-07-22 12:13:00|Braga Netto chama am) inserted into minas in test.db
+2021-07-23 19:52:58,998:database:DEBUG:(2021-07-22 12:07:00|Parlamentares chamam) inserted into minas in test.db
+2021-07-23 19:52:59,068:database:DEBUG:(2021-07-22 11:45:00|Bolsonaro: o Butanta) inserted into minas in test.db
+2021-07-23 19:52:59,153:database:DEBUG:(2021-07-22 11:20:00|Eduardo Bolsonaro ac) inserted into minas in test.db
+2021-07-23 19:52:59,336:database:DEBUG:(2021-07-22 11:06:00|Bolsonaro diz que já) inserted into minas in test.db
+2021-07-23 19:52:59,600:database:DEBUG:(2021-07-22 10:54:00|'Brasileiro vai julg) inserted into minas in test.db
+2021-07-23 19:52:59,684:database:DEBUG:(2021-07-22 10:49:00|Ministro Braga Netto) inserted into minas in test.db
+2021-07-23 19:52:59,752:database:DEBUG:(2021-07-22 10:46:00|Eleições: Barroso di) inserted into minas in test.db
+2021-07-23 19:52:59,825:database:DEBUG:(2021-07-22 09:32:00|Bolsonaro confirma C) inserted into minas in test.db
+2021-07-23 19:52:59,895:database:DEBUG:(2021-07-22 08:59:00|De máscara, Bolsonar) inserted into minas in test.db
+2021-07-23 19:52:59,969:database:DEBUG:(2021-07-22 08:02:00|Mãe de Ciro Nogueira) inserted into minas in test.db
+2021-07-23 19:53:00,092:database:DEBUG:(2021-07-22 08:00:00|Bolsonaro põe Centrã) inserted into minas in test.db
+2021-07-23 19:53:00,186:database:DEBUG:(2021-07-21 22:43:00|Alcolumbre atribui a) inserted into minas in test.db
+2021-07-23 19:53:00,266:database:DEBUG:(2021-07-21 19:51:00|Carlos Viana projeta) inserted into minas in test.db
+2021-07-23 19:53:00,324:database:DEBUG:(2021-07-21 19:24:00|Deputado aciona TCE ) inserted into minas in test.db
+2021-07-23 19:53:00,404:database:DEBUG:(2021-07-21 18:41:00|Cármen Lúcia nega ma) inserted into minas in test.db
+2021-07-23 19:53:00,551:database:DEBUG:(2021-07-21 18:13:00|Bolsonaro deve ir ao) inserted into minas in test.db
+2021-07-23 19:53:00,631:database:DEBUG:(2021-07-21 17:30:00|Senador aciona STF p) inserted into minas in test.db
+2021-07-23 19:53:00,701:database:DEBUG:(2021-07-21 17:16:00|Roberto Jefferson é ) inserted into minas in test.db
+2021-07-23 19:53:00,765:database:DEBUG:(2021-07-21 16:40:00|Marcos do Val diz qu) inserted into minas in test.db
+2021-07-23 19:53:00,767:database:DEBUG:changes commited
+2021-07-23 19:53:00,768:webdriver:DEBUG:clicking next page
+2021-07-23 19:53:00,879:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:53:01,384:scraper:DEBUG:page 14
+2021-07-23 19:53:01,384:webdriver:DEBUG:findind elements...
+2021-07-23 19:53:01,998:webdriver:DEBUG:102 elements found
+2021-07-23 19:53:01,998:scraper:DEBUG:looping through elements
+2021-07-23 19:53:02,843:database:DEBUG:(2021-07-19 20:40:00|Queiroga: pode haver) inserted into minas in test.db
+2021-07-23 19:53:03,101:database:DEBUG:(2021-07-19 20:20:00|Parlamentares aciona) inserted into minas in test.db
+2021-07-23 19:53:03,238:database:DEBUG:(2021-07-19 20:18:00|Bolsonaro diz não ac) inserted into minas in test.db
+2021-07-23 19:53:03,802:database:DEBUG:(2021-07-19 19:19:00|Quem é Mia Khalifa, ) inserted into minas in test.db
+2021-07-23 19:53:04,164:database:DEBUG:(2021-07-19 19:03:00|MP-SP denuncia 12 PM) inserted into minas in test.db
+2021-07-23 19:53:04,406:database:DEBUG:(2021-07-19 18:00:00|CPI da BHTrans lança) inserted into minas in test.db
+2021-07-23 19:53:04,570:database:DEBUG:(2021-07-19 18:00:00|Vice-presidente da C) inserted into minas in test.db
+2021-07-23 19:53:04,704:database:DEBUG:(2021-07-19 17:36:00|Aziz rebate Bolsonar) inserted into minas in test.db
+2021-07-23 19:53:04,884:database:DEBUG:(2021-07-19 16:42:00|Randolfe para Bolson) inserted into minas in test.db
+2021-07-23 19:53:05,019:database:DEBUG:(2021-07-19 16:23:00|Marcos Rogério sobre) inserted into minas in test.db
+2021-07-23 19:53:05,164:database:DEBUG:(2021-07-19 16:09:00|Pode haver 'algum ti) inserted into minas in test.db
+2021-07-23 19:53:05,291:database:DEBUG:(2021-07-19 16:02:00|''Eu vetaria'', diz ) inserted into minas in test.db
+2021-07-23 19:53:05,493:database:DEBUG:(2021-07-19 16:00:00|Arthur Lira: 'Podemo) inserted into minas in test.db
+2021-07-23 19:53:06,177:database:DEBUG:(2021-07-19 15:49:00|'Até hospitalizado e) inserted into minas in test.db
+2021-07-23 19:53:06,306:database:DEBUG:(2021-07-19 15:31:00|Bolsonaro diz que ta) inserted into minas in test.db
+2021-07-23 19:53:06,453:database:DEBUG:(2021-07-19 15:29:00|BH oficializa data p) inserted into minas in test.db
+2021-07-23 19:53:06,588:database:DEBUG:(2021-07-19 14:54:00|Após Bolsonaro citar) inserted into minas in test.db
+2021-07-23 19:53:06,852:database:DEBUG:(2021-07-19 14:53:00|Vice da Câmara pede ) inserted into minas in test.db
+2021-07-23 19:53:07,009:database:DEBUG:(2021-07-19 14:48:00|Bolsonaro ironiza in) inserted into minas in test.db
+2021-07-23 19:53:07,255:database:DEBUG:(2021-07-19 14:35:00|Bolsonaro defende Pa) inserted into minas in test.db
+2021-07-23 19:53:07,468:database:DEBUG:(2021-07-19 14:09:00|Bolsonaro chama pres) inserted into minas in test.db
+2021-07-23 19:53:07,597:database:DEBUG:(2021-07-19 13:30:00|'PEC Pazuello ajuda ) inserted into minas in test.db
+2021-07-23 19:53:07,814:database:DEBUG:(2021-07-19 13:21:00|Justiça Eleitoral ca) inserted into minas in test.db
+2021-07-23 19:53:08,000:database:DEBUG:(2021-07-19 13:15:00|Vinte e seis dos 81 ) inserted into minas in test.db
+2021-07-23 19:53:08,087:database:DEBUG:(2021-07-19 12:53:00|Bolsonaro: (Deputado) inserted into minas in test.db
+2021-07-23 19:53:08,236:database:DEBUG:(2021-07-19 12:03:00|Entidades 'antifasci) inserted into minas in test.db
+2021-07-23 19:53:08,317:database:DEBUG:(2021-07-19 10:47:00|Mia Khalifa responde) inserted into minas in test.db
+2021-07-23 19:53:08,419:database:DEBUG:(2021-07-19 10:47:00|Bolsonaro despacha d) inserted into minas in test.db
+2021-07-23 19:53:08,524:database:DEBUG:(2021-07-19 08:19:00|'CPI tem que dar nom) inserted into minas in test.db
+2021-07-23 19:53:08,587:database:DEBUG:(2021-07-19 08:01:00|Presidente do PSDB d) inserted into minas in test.db
+2021-07-23 19:53:08,694:database:DEBUG:(2021-07-19 08:00:00|Escritor bolsonarist) inserted into minas in test.db
+2021-07-23 19:53:08,767:database:DEBUG:(2021-07-19 04:00:00|Escolhido de Bolsona) inserted into minas in test.db
+2021-07-23 19:53:08,885:database:DEBUG:(2021-07-19 04:00:00|Saiba como foram esc) inserted into minas in test.db
+2021-07-23 19:53:08,988:database:DEBUG:(2021-07-18 16:00:00|Dono de firma recebi) inserted into minas in test.db
+2021-07-23 19:53:09,253:database:DEBUG:(2021-07-18 16:00:00|Brasil é o país que ) inserted into minas in test.db
+2021-07-23 19:53:09,360:database:DEBUG:(2021-07-18 16:00:00|Contra impeachment, ) inserted into minas in test.db
+2021-07-23 19:53:09,447:database:DEBUG:(2021-07-18 15:53:00|Dono de firma recebi) inserted into minas in test.db
+2021-07-23 19:53:09,537:database:DEBUG:(2021-07-18 15:44:00|Na rua, contra prota) inserted into minas in test.db
+2021-07-23 19:53:09,631:database:DEBUG:(2021-07-18 15:39:00|Apoiadores de Bolson) inserted into minas in test.db
+2021-07-23 19:53:09,703:database:DEBUG:(2021-07-18 14:05:00|Vice da Câmara, Marc) inserted into minas in test.db
+2021-07-23 19:53:09,706:database:DEBUG:changes commited
+2021-07-23 19:53:09,707:webdriver:DEBUG:clicking next page
+2021-07-23 19:53:09,766:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:53:10,266:scraper:DEBUG:page 15
+2021-07-23 19:53:10,267:webdriver:DEBUG:findind elements...
+2021-07-23 19:53:10,371:webdriver:DEBUG:122 elements found
+2021-07-23 19:53:10,371:scraper:DEBUG:looping through elements
+2021-07-23 19:53:10,446:database:DEBUG:(2021-07-16 21:04:00|Bolsonaro evolui 'sa) inserted into minas in test.db
+2021-07-23 19:53:10,600:database:DEBUG:(2021-07-16 20:41:00|Servidor Luís Ricard) inserted into minas in test.db
+2021-07-23 19:53:10,712:database:DEBUG:(2021-07-16 20:18:00|Guedes chega a hospi) inserted into minas in test.db
+2021-07-23 19:53:10,796:database:DEBUG:(2021-07-16 20:11:00|Sem previsão de alta) inserted into minas in test.db
+2021-07-23 19:53:10,950:database:DEBUG:(2021-07-16 19:55:00|Artistas se unem em ) inserted into minas in test.db
+2021-07-23 19:53:11,050:database:DEBUG:(2021-07-16 18:35:00|Enquete em site não ) inserted into minas in test.db
+2021-07-23 19:53:11,190:database:DEBUG:(2021-07-16 18:35:00|PF abre inquérito pa) inserted into minas in test.db
+2021-07-23 19:53:11,300:database:DEBUG:(2021-07-16 18:28:00|Questionado sobre Bo) inserted into minas in test.db
+2021-07-23 19:53:11,431:database:DEBUG:(2021-07-16 17:52:00|Renan Calheiros pede) inserted into minas in test.db
+2021-07-23 19:53:11,653:database:DEBUG:(2021-07-16 17:50:00|Spray antiCOVID vend) inserted into minas in test.db
+2021-07-23 19:53:11,789:database:DEBUG:(2021-07-16 17:33:00|Contarato sobre poss) inserted into minas in test.db
+2021-07-23 19:53:11,976:database:DEBUG:(2021-07-16 17:11:00|Com 126 mortes na Eu) inserted into minas in test.db
+2021-07-23 19:53:12,060:database:DEBUG:(2021-07-16 16:57:00|Com iminente derrota) inserted into minas in test.db
+2021-07-23 19:53:12,154:database:DEBUG:(2021-07-16 16:20:00|Após criticarem Fund) inserted into minas in test.db
+2021-07-23 19:53:12,227:database:DEBUG:(2021-07-16 16:03:00|Ricardo Barros defen) inserted into minas in test.db
+2021-07-23 19:53:12,296:database:DEBUG:(2021-07-16 15:13:00|Viúva de Adriano da ) inserted into minas in test.db
+2021-07-23 19:53:12,372:database:DEBUG:(2021-07-16 15:10:00|Em publicação no Fac) inserted into minas in test.db
+2021-07-23 19:53:12,444:database:DEBUG:(2021-07-16 15:09:00|Vídeo comprova que P) inserted into minas in test.db
+2021-07-23 19:53:12,523:database:DEBUG:(2021-07-16 14:32:00|Pazuello se reuniu c) inserted into minas in test.db
+2021-07-23 19:53:12,589:database:DEBUG:(2021-07-16 13:58:00|Eleições 2022: Ciro ) inserted into minas in test.db
+2021-07-23 19:53:12,592:database:DEBUG:changes commited
+2021-07-23 19:53:12,592:webdriver:DEBUG:clicking next page
+2021-07-23 19:53:12,660:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:53:13,163:scraper:DEBUG:page 16
+2021-07-23 19:53:13,163:webdriver:DEBUG:findind elements...
+2021-07-23 19:53:13,243:webdriver:DEBUG:142 elements found
+2021-07-23 19:53:13,243:scraper:DEBUG:looping through elements
+2021-07-23 19:53:13,323:database:DEBUG:(2021-07-16 13:56:00|Boletim diz que pres) inserted into minas in test.db
+2021-07-23 19:53:13,447:database:DEBUG:(2021-07-16 13:39:00|Tentativa de barrar ) inserted into minas in test.db
+2021-07-23 19:53:13,668:database:DEBUG:(2021-07-16 13:12:00|Omar Aziz: 'Bolsonar) inserted into minas in test.db
+2021-07-23 19:53:13,736:database:DEBUG:(2021-07-16 12:52:00|Veja: 'Tô cremosinho) inserted into minas in test.db
+2021-07-23 19:53:13,958:database:DEBUG:(2021-07-16 12:47:00|Sem sonda e sem másc) inserted into minas in test.db
+2021-07-23 19:53:14,267:database:DEBUG:(2021-07-16 12:31:00|Aziz sobre Wizard: ') inserted into minas in test.db
+2021-07-23 19:53:14,395:database:DEBUG:(2021-07-16 12:20:00|Bolsonaro já despach) inserted into minas in test.db
+2021-07-23 19:53:14,512:database:DEBUG:(2021-07-16 12:13:00|Depoimentos à CPI da) inserted into minas in test.db
+2021-07-23 19:53:14,593:database:DEBUG:(2021-07-16 12:11:00|Zema anuncia fim do ) inserted into minas in test.db
+2021-07-23 19:53:14,663:database:DEBUG:(2021-07-16 10:39:00|Kalil sobre corrupçã) inserted into minas in test.db
+2021-07-23 19:53:14,736:database:DEBUG:(2021-07-16 10:35:00|Vice-presidente da C) inserted into minas in test.db
+2021-07-23 19:53:14,808:database:DEBUG:(2021-07-16 10:24:00|Kalil sobre mortes n) inserted into minas in test.db
+2021-07-23 19:53:14,879:database:DEBUG:(2021-07-16 10:19:00|Kalil: 'Qualquer pre) inserted into minas in test.db
+2021-07-23 19:53:14,965:database:DEBUG:(2021-07-16 09:35:00|Internautas cobram c) inserted into minas in test.db
+2021-07-23 19:53:15,037:database:DEBUG:(2021-07-16 08:03:00|Promotoria apura int) inserted into minas in test.db
+2021-07-23 19:53:15,119:database:DEBUG:(2021-07-16 08:02:00|Comissão prevê rejei) inserted into minas in test.db
+2021-07-23 19:53:15,211:database:DEBUG:(2021-07-16 08:00:00|Orçamento de 2022 ma) inserted into minas in test.db
+2021-07-23 19:53:15,271:database:DEBUG:(2021-07-16 08:00:00|Congresso aprova fun) inserted into minas in test.db
+2021-07-23 19:53:15,349:database:DEBUG:(2021-07-15 22:15:00|Aziz sobre Carlos Bo) inserted into minas in test.db
+2021-07-23 19:53:15,455:database:DEBUG:(2021-07-15 22:04:00|Secom: Bolsonaro ret) inserted into minas in test.db
+2021-07-23 19:53:15,459:database:DEBUG:changes commited
+2021-07-23 19:53:15,459:webdriver:DEBUG:clicking next page
+2021-07-23 19:53:15,565:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:53:16,068:scraper:DEBUG:page 17
+2021-07-23 19:53:16,069:webdriver:DEBUG:findind elements...
+2021-07-23 19:53:16,135:webdriver:DEBUG:162 elements found
+2021-07-23 19:53:16,135:scraper:DEBUG:looping through elements
+2021-07-23 19:53:16,236:database:DEBUG:(2021-07-15 21:47:00|Biden diz que não en) inserted into minas in test.db
+2021-07-23 19:53:16,368:database:DEBUG:(2021-07-15 21:02:00|Como votaram deputad) inserted into minas in test.db
+2021-07-23 19:53:16,451:database:DEBUG:(2021-07-15 21:00:00|Políticos aliados te) inserted into minas in test.db
+2021-07-23 19:53:16,589:database:DEBUG:(2021-07-15 20:53:00|Randolfe a Bolsonaro) inserted into minas in test.db
+2021-07-23 19:53:16,699:database:DEBUG:(2021-07-15 20:46:00|Hospital: Bolsonaro ) inserted into minas in test.db
+2021-07-23 19:53:16,818:database:DEBUG:(2021-07-15 20:39:00|O presidente melhoro) inserted into minas in test.db
+2021-07-23 19:53:16,960:database:DEBUG:(2021-07-15 20:30:00|YouTube remove canal) inserted into minas in test.db
+2021-07-23 19:53:17,036:database:DEBUG:(2021-07-15 20:17:00|CPI ouve superintend) inserted into minas in test.db
+2021-07-23 19:53:17,125:database:DEBUG:(2021-07-15 19:43:00|Liminar do TJMG derr) inserted into minas in test.db
+2021-07-23 19:53:17,203:database:DEBUG:(2021-07-15 19:13:00|Senadores aprovam LD) inserted into minas in test.db
+2021-07-23 19:53:17,408:database:DEBUG:(2021-07-15 18:41:00|Aziz sobre ataque de) inserted into minas in test.db
+2021-07-23 19:53:17,495:database:DEBUG:(2021-07-15 18:00:00|Lewandowski da acess) inserted into minas in test.db
+2021-07-23 19:53:17,603:database:DEBUG:(2021-07-15 18:00:00|General Heleno: recu) inserted into minas in test.db
+2021-07-23 19:53:17,745:database:DEBUG:(2021-07-15 18:00:00|Bolsonaro tira foto ) inserted into minas in test.db
+2021-07-23 19:53:17,948:database:DEBUG:(2021-07-15 18:00:00|Internado, Bolsonaro) inserted into minas in test.db
+2021-07-23 19:53:18,050:database:DEBUG:(2021-07-15 18:00:00|Internado em SP, Bol) inserted into minas in test.db
+2021-07-23 19:53:18,137:database:DEBUG:(2021-07-15 17:05:00|Representante da Dav) inserted into minas in test.db
+2021-07-23 19:53:18,211:database:DEBUG:(2021-07-15 17:03:00|BH: Kalil quer pagar) inserted into minas in test.db
+2021-07-23 19:53:18,289:database:DEBUG:(2021-07-15 17:01:00|Comissão do Congress) inserted into minas in test.db
+2021-07-23 19:53:18,370:database:DEBUG:(2021-07-15 16:35:00|João Doria está com ) inserted into minas in test.db
+2021-07-23 19:53:18,373:database:DEBUG:changes commited
+2021-07-23 19:53:18,374:webdriver:DEBUG:clicking next page
+2021-07-23 19:53:18,452:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:53:18,954:scraper:DEBUG:page 18
+2021-07-23 19:53:18,954:webdriver:DEBUG:findind elements...
+2021-07-23 19:53:19,047:webdriver:DEBUG:182 elements found
+2021-07-23 19:53:19,048:scraper:DEBUG:looping through elements
+2021-07-23 19:53:19,141:database:DEBUG:(2021-07-15 16:28:00|Randolfe e Tebet enu) inserted into minas in test.db
+2021-07-23 19:53:19,264:database:DEBUG:(2021-07-15 16:10:00|Câmara aprova texto-) inserted into minas in test.db
+2021-07-23 19:53:19,516:database:DEBUG:(2021-07-15 16:05:00|Assessor de Bolsonar) inserted into minas in test.db
+2021-07-23 19:53:19,634:database:DEBUG:(2021-07-15 15:22:00|Carvalho citou oito ) inserted into minas in test.db
+2021-07-23 19:53:19,752:database:DEBUG:(2021-07-15 14:51:00|Marcos Rogério suger) inserted into minas in test.db
+2021-07-23 19:53:19,836:database:DEBUG:(2021-07-15 14:49:00|Kalil assina projeto) inserted into minas in test.db
+2021-07-23 19:53:19,918:database:DEBUG:(2021-07-15 14:42:00|Mario Frias afirma q) inserted into minas in test.db
+2021-07-23 19:53:19,987:database:DEBUG:(2021-07-15 14:29:00|Flávio diz que Bolso) inserted into minas in test.db
+2021-07-23 19:53:20,061:database:DEBUG:(2021-07-15 14:18:00|Aziz: 'O que Elcio F) inserted into minas in test.db
+2021-07-23 19:53:20,137:database:DEBUG:(2021-07-15 13:46:00|Auditora prestou 'de) inserted into minas in test.db
+2021-07-23 19:53:20,212:database:DEBUG:(2021-07-15 13:46:00|CPI: Carvalho diz te) inserted into minas in test.db
+2021-07-23 19:53:20,288:database:DEBUG:(2021-07-15 13:29:00|Flávio diz que Bolso) inserted into minas in test.db
+2021-07-23 19:53:20,376:database:DEBUG:(2021-07-15 13:21:00|CMO rejeita destaque) inserted into minas in test.db
+2021-07-23 19:53:20,446:database:DEBUG:(2021-07-15 13:15:00|'Tive relação mais p) inserted into minas in test.db
+2021-07-23 19:53:20,531:database:DEBUG:(2021-07-15 13:10:00|Omar Aziz: Elcio Fra) inserted into minas in test.db
+2021-07-23 19:53:20,620:database:DEBUG:(2021-07-15 13:09:00|Parlamentares mineir) inserted into minas in test.db
+2021-07-23 19:53:20,711:database:DEBUG:(2021-07-15 13:00:00|Empresário tentou ne) inserted into minas in test.db
+2021-07-23 19:53:20,806:database:DEBUG:(2021-07-15 12:46:00|Dono do Oiapoque diz) inserted into minas in test.db
+2021-07-23 19:53:20,905:database:DEBUG:(2021-07-15 12:35:00|Boletim médico indic) inserted into minas in test.db
+2021-07-23 19:53:20,996:database:DEBUG:(2021-07-15 12:32:00|Bolsonaro 'segue evo) inserted into minas in test.db
+2021-07-23 19:53:20,998:database:DEBUG:changes commited
+2021-07-23 19:53:20,999:webdriver:DEBUG:clicking next page
+2021-07-23 19:53:21,072:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:53:21,575:scraper:DEBUG:page 19
+2021-07-23 19:53:21,575:webdriver:DEBUG:findind elements...
+2021-07-23 19:53:21,690:webdriver:DEBUG:200 elements found
+2021-07-23 19:53:21,690:scraper:DEBUG:looping through elements
+2021-07-23 19:53:21,813:database:DEBUG:(2021-07-15 12:20:00|'Uma associação de c) inserted into minas in test.db
+2021-07-23 19:53:21,976:database:DEBUG:(2021-07-15 12:17:00|Carvalho: a mim não ) inserted into minas in test.db
+2021-07-23 19:53:22,100:database:DEBUG:(2021-07-15 12:13:00|Correção: Hospital o) inserted into minas in test.db
+2021-07-23 19:53:22,230:database:DEBUG:(2021-07-15 12:10:00|Hospital onde Bolson) inserted into minas in test.db
+2021-07-23 19:53:22,343:database:DEBUG:(2021-07-15 11:47:00|'Presidente está bem) inserted into minas in test.db
+2021-07-23 19:53:22,470:database:DEBUG:(2021-07-15 11:43:00|Com Bolsonaro intern) inserted into minas in test.db
+2021-07-23 19:53:22,571:database:DEBUG:(2021-07-15 11:22:00|Representante da Dav) inserted into minas in test.db
+2021-07-23 19:53:22,727:database:DEBUG:(2021-07-15 11:22:00|CPI da Covid amplia ) inserted into minas in test.db
+2021-07-23 19:53:22,812:database:DEBUG:(2021-07-15 11:13:00|CPI aprova requerime) inserted into minas in test.db
+2021-07-23 19:53:22,902:database:DEBUG:(2021-07-15 10:22:00|Vídeo que circula na) inserted into minas in test.db
+2021-07-23 19:53:23,016:database:DEBUG:(2021-07-15 10:22:00|CPI da Covid inicia ) inserted into minas in test.db
+2021-07-23 19:53:23,196:database:DEBUG:(2021-07-15 09:45:00|Opinião pública sobr) inserted into minas in test.db
+2021-07-23 19:53:23,294:database:DEBUG:(2021-07-15 09:34:00|Eduardo Bolsonaro so) inserted into minas in test.db
+2021-07-23 19:53:23,394:database:DEBUG:(2021-07-15 09:27:00|Hospital atualiza pr) inserted into minas in test.db
+2021-07-23 19:53:23,500:database:DEBUG:(2021-07-15 08:56:00|Próximo boletim médi) inserted into minas in test.db
+2021-07-23 19:53:23,594:database:DEBUG:(2021-07-15 08:52:00|CPI: acompanhe o dep) inserted into minas in test.db
+2021-07-23 19:53:23,688:database:DEBUG:(2021-07-15 08:50:00|Relatório inclui 'di) inserted into minas in test.db
+2021-07-23 19:53:23,850:database:DEBUG:(2021-07-15 08:30:00|Projeto prevê que Câ) inserted into minas in test.db
+2021-07-23 19:53:23,948:database:DEBUG:(2021-07-15 08:02:00|Onyx e Luis Miranda ) inserted into minas in test.db
+2021-07-23 19:53:24,045:database:DEBUG:(2021-07-14 23:06:00|Flávio Bolsonaro: 'q) inserted into minas in test.db
+2021-07-23 19:53:24,048:database:DEBUG:changes commited
+2021-07-23 19:53:24,048:webdriver:DEBUG:clicking next page
+2021-07-23 19:53:24,120:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 19:53:24,623:database:DEBUG:test.db connection closed
+2021-07-23 19:53:24,930:webdriver:DEBUG:connection closed

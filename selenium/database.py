@@ -78,7 +78,7 @@ class Database:
         """
         values = (date, title)
         self.conn.execute(self.insert_scrpit,values)
-        self.logger.debug(f"({date}|{title[:20]}) inserted into {self.table} in {self.name}")
+        self.logger.debug(f"({date}|{title[:20]}) inserted into table in database")
 
     def get_drop(self):
         """

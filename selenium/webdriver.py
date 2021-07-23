@@ -52,6 +52,7 @@ class Webdriver:
         """
         driver_options = Options()
         driver_options.add_argument(self.options)
+        self.logger.debug("opening connection...")
         driver = webdriver.Chrome(self.path, options=driver_options)
         self.logger.debug("connection open")
         return driver
@@ -64,7 +65,7 @@ class Webdriver:
         :param url: Url to connect to in webdriver
         :type url: str
         """
-        self.logger.debug(f"getting page {url}")
+        self.logger.debug(f"getting page {url}...")
         self.driver.get(url)
         self.logger.debug(f"page received")
     
@@ -117,7 +118,7 @@ class Webdriver:
         enter    = "webdriver" + Keys.ENTER
         next.send_keys(enter)
         self.logger.debug("next page clicked, sleeping...")
-        time.sleep(.2)
+        time.sleep(.5)
 
 
 

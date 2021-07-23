@@ -103,7 +103,7 @@ class Scraper(ABC):
         :param new_elements: List of new article elements which will be looped by in search of article elements not yet found.
         :type new_elements: list
         """
-        self.logger.debug(f"looping through elements")
+        self.logger.debug("looping through elements...")
         for element in new_elements:
             if element not in self.elements[-self.n_last:]:
                 self.elements.append(element)
