@@ -19,12 +19,19 @@ class Correio(Scraper):
     db_table    = "correio"
     @staticmethod
     def get_date(date):
+        """
+        Gets date string and formats it to DATETIME data type (SQLite3).
+
+        :param date: Date string
+        :type date: str
+
+        :return: Formatted date
+        :rtype: str
+        """
         lst  = date.split()
         day  = lst[2]
         time = lst[3]
-        day = day[6:] + "-" + day[3:5] + "-" + day[:2]
-        time = time + ":00"
-        return day + " " + time
+        return f"{day[6:]}-{day[3:5]}-{day[:2]} {time}:00"
 
 if __name__ == "__main__":
     os.system("rm correio.log")
