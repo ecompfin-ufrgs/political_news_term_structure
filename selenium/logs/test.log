@@ -513,3 +513,481 @@
 2021-07-23 19:53:24,120:webdriver:DEBUG:next page clicked, sleeping...
 2021-07-23 19:53:24,623:database:DEBUG:test.db connection closed
 2021-07-23 19:53:24,930:webdriver:DEBUG:connection closed
+2021-07-23 20:02:07,500:scraper:DEBUG:logger configured
+2021-07-23 20:02:07,500:database:DEBUG:logger configured
+2021-07-23 20:02:07,501:database:DEBUG:test.db opening connection
+2021-07-23 20:02:07,502:database:DEBUG:test.db connection open
+2021-07-23 20:02:07,503:database:DEBUG:minas table dropped
+2021-07-23 20:02:07,505:database:DEBUG:minas table created
+2021-07-23 20:02:07,505:webdriver:DEBUG:logger configured
+2021-07-23 20:02:07,505:webdriver:DEBUG:opening connection...
+2021-07-23 20:02:09,525:webdriver:DEBUG:connection open
+2021-07-23 20:02:09,525:webdriver:DEBUG:getting page https://www.em.com.br/politica/...
+2021-07-23 20:06:26,233:scraper:DEBUG:logger configured
+2021-07-23 20:06:26,233:database:DEBUG:logger configured
+2021-07-23 20:06:26,233:database:DEBUG:test.db opening connection
+2021-07-23 20:06:26,234:database:DEBUG:test.db connection open
+2021-07-23 20:06:26,236:database:DEBUG:minas table dropped
+2021-07-23 20:06:26,238:database:DEBUG:minas table created
+2021-07-23 20:06:26,239:webdriver:DEBUG:logger configured
+2021-07-23 20:06:26,239:webdriver:DEBUG:opening connection...
+2021-07-23 20:06:28,302:webdriver:DEBUG:connection open
+2021-07-23 20:06:28,302:webdriver:DEBUG:getting page https://www.em.com.br/politica/...
+2021-07-23 20:06:32,456:webdriver:DEBUG:page received
+2021-07-23 20:06:32,456:scraper:DEBUG:page 1
+2021-07-23 20:06:32,457:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:32,488:webdriver:DEBUG:22 elements found
+2021-07-23 20:06:32,491:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:32,785:database:DEBUG:(2021-07-23 19:15:00|Justiça Eleitoral ca) inserted into table in database
+2021-07-23 20:06:33,028:database:DEBUG:(2021-07-23 19:04:00|MPMG acusa ex-secret) inserted into table in database
+2021-07-23 20:06:33,217:database:DEBUG:(2021-07-23 18:51:00|MPMG denuncia prefei) inserted into table in database
+2021-07-23 20:06:33,321:database:DEBUG:(2021-07-23 18:35:00|Pazuello se reuniu c) inserted into table in database
+2021-07-23 20:06:33,338:scraper:WARNING:inner elements not found
+2021-07-23 20:06:33,447:database:DEBUG:(2021-07-23 18:24:00|'Criatório de barata) inserted into table in database
+2021-07-23 20:06:33,516:database:DEBUG:(2021-07-23 18:18:00|Joice nega ter sido ) inserted into table in database
+2021-07-23 20:06:33,582:database:DEBUG:(2021-07-23 18:01:00|FHC diz que é bem me) inserted into table in database
+2021-07-23 20:06:33,638:database:DEBUG:(2021-07-23 17:10:00|Renan sobre Bolsonar) inserted into table in database
+2021-07-23 20:06:33,694:database:DEBUG:(2021-07-23 17:00:00|MG: governo promete ) inserted into table in database
+2021-07-23 20:06:33,750:database:DEBUG:(2021-07-23 16:37:00|Vereadora sofre amea) inserted into table in database
+2021-07-23 20:06:33,804:database:DEBUG:(2021-07-23 16:26:00|Quatro meses após de) inserted into table in database
+2021-07-23 20:06:33,860:database:DEBUG:(2021-07-23 16:16:00|Randolfe confirma qu) inserted into table in database
+2021-07-23 20:06:33,872:scraper:WARNING:inner elements not found
+2021-07-23 20:06:33,940:database:DEBUG:(2021-07-23 16:14:00|Joice Hasselmann pre) inserted into table in database
+2021-07-23 20:06:33,998:database:DEBUG:(2021-07-23 15:38:00|Bolsonaro diz que a ) inserted into table in database
+2021-07-23 20:06:34,053:database:DEBUG:(2021-07-23 15:35:00|Bolsonaro volta a fa) inserted into table in database
+2021-07-23 20:06:34,105:database:DEBUG:(2021-07-23 15:31:00|Bolsonaro deve inclu) inserted into table in database
+2021-07-23 20:06:34,163:database:DEBUG:(2021-07-23 15:29:00|Ciro Gomes classific) inserted into table in database
+2021-07-23 20:06:34,219:database:DEBUG:(2021-07-23 15:23:00|Bolsonaro defende vo) inserted into table in database
+2021-07-23 20:06:34,276:database:DEBUG:(2021-07-23 15:19:00|Por inconstitucional) inserted into table in database
+2021-07-23 20:06:34,330:database:DEBUG:(2021-07-23 14:50:00|Bolsonaro diz que of) inserted into table in database
+2021-07-23 20:06:34,333:database:DEBUG:changes commited
+2021-07-23 20:06:34,333:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:34,574:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:35,078:scraper:DEBUG:page 2
+2021-07-23 20:06:35,078:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:35,150:webdriver:DEBUG:42 elements found
+2021-07-23 20:06:35,150:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:35,209:database:DEBUG:(2021-07-23 14:39:00|Bolsonaro: PP passa ) inserted into table in database
+2021-07-23 20:06:35,271:database:DEBUG:(2021-07-23 14:23:00|Após acusação de fra) inserted into table in database
+2021-07-23 20:06:35,338:database:DEBUG:(2021-07-23 14:09:00|'Eu não sabia. Fui a) inserted into table in database
+2021-07-23 20:06:35,397:database:DEBUG:(2021-07-23 13:30:00|Para embaixador dos ) inserted into table in database
+2021-07-23 20:06:35,473:database:DEBUG:(2021-07-23 13:19:00|Alexandre nega recur) inserted into table in database
+2021-07-23 20:06:35,542:database:DEBUG:(2021-07-23 13:15:00|O general que se tor) inserted into table in database
+2021-07-23 20:06:35,618:database:DEBUG:(2021-07-23 12:58:00|Bolsonaro admite que) inserted into table in database
+2021-07-23 20:06:35,694:database:DEBUG:(2021-07-23 12:56:00|Bolsonaro sobre fund) inserted into table in database
+2021-07-23 20:06:35,767:database:DEBUG:(2021-07-23 12:52:00|Bolsonaro: temos tra) inserted into table in database
+2021-07-23 20:06:35,861:database:DEBUG:(2021-07-23 12:24:00|Bolsonaro sobre alia) inserted into table in database
+2021-07-23 20:06:36,107:database:DEBUG:(2021-07-23 12:11:00|Bharat rescinde acor) inserted into table in database
+2021-07-23 20:06:36,220:database:DEBUG:(2021-07-23 11:42:00|Bolsonaro sobre fili) inserted into table in database
+2021-07-23 20:06:36,700:database:DEBUG:(2021-07-23 10:25:00|Fabricante da Covaxi) inserted into table in database
+2021-07-23 20:06:37,591:database:DEBUG:(2021-07-23 10:13:00|Comissão da Câmara d) inserted into table in database
+2021-07-23 20:06:37,899:database:DEBUG:(2021-07-23 09:00:00|'Eu sou do Centrão',) inserted into table in database
+2021-07-23 20:06:38,052:database:DEBUG:(2021-07-23 08:39:00|Bolsonaro sobre Ciro) inserted into table in database
+2021-07-23 20:06:38,202:database:DEBUG:(2021-07-23 06:46:00|'Semipresidencialism) inserted into table in database
+2021-07-23 20:06:38,359:database:DEBUG:(2021-07-23 06:44:00|Caso Braga Netto se ) inserted into table in database
+2021-07-23 20:06:38,459:database:DEBUG:(2021-07-22 23:10:00|Após acordar ensangu) inserted into table in database
+2021-07-23 20:06:38,554:database:DEBUG:(2021-07-22 22:42:00|Filósofo que traduzi) inserted into table in database
+2021-07-23 20:06:38,557:database:DEBUG:changes commited
+2021-07-23 20:06:38,557:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:38,709:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:39,214:scraper:DEBUG:page 3
+2021-07-23 20:06:39,214:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:39,264:webdriver:DEBUG:62 elements found
+2021-07-23 20:06:39,265:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:39,411:database:DEBUG:(2021-07-22 22:42:00|Bolsonaro: 'Se as ur) inserted into table in database
+2021-07-23 20:06:39,495:database:DEBUG:(2021-07-22 22:40:00|Governo de SP: Bolso) inserted into table in database
+2021-07-23 20:06:39,597:database:DEBUG:(2021-07-22 22:05:00|Joice Hasselmann sof) inserted into table in database
+2021-07-23 20:06:39,683:database:DEBUG:(2021-07-22 21:24:00|Ciro Nogueira repass) inserted into table in database
+2021-07-23 20:06:39,758:database:DEBUG:(2021-07-22 21:18:00|Bolsonaro evita fala) inserted into table in database
+2021-07-23 20:06:39,833:database:DEBUG:(2021-07-22 21:14:00|Improbidade: MP move) inserted into table in database
+2021-07-23 20:06:39,900:database:DEBUG:(2021-07-22 20:59:00|Bolsonaro diz que va) inserted into table in database
+2021-07-23 20:06:39,971:database:DEBUG:(2021-07-22 20:38:00|Filósofo Roberto Rom) inserted into table in database
+2021-07-23 20:06:40,118:database:DEBUG:(2021-07-22 20:23:00|Bolsonaro sobre PP: ) inserted into table in database
+2021-07-23 20:06:40,325:database:DEBUG:(2021-07-22 19:51:00|Bolsonaro questiona ) inserted into table in database
+2021-07-23 20:06:40,392:database:DEBUG:(2021-07-22 19:37:00|Bia Kicis se encontr) inserted into table in database
+2021-07-23 20:06:41,103:database:DEBUG:(2021-07-22 19:08:00|Em vídeo de 2018, Ed) inserted into table in database
+2021-07-23 20:06:42,258:database:DEBUG:(2021-07-22 18:37:00|Colisão Negra por Di) inserted into table in database
+2021-07-23 20:06:42,919:database:DEBUG:(2021-07-22 18:01:00|Maia sobre ameaça de) inserted into table in database
+2021-07-23 20:06:43,079:database:DEBUG:(2021-07-22 17:01:00|Kalil sobre candidat) inserted into table in database
+2021-07-23 20:06:43,253:database:DEBUG:(2021-07-22 17:00:00|Flávio Bolsonaro iro) inserted into table in database
+2021-07-23 20:06:43,401:database:DEBUG:(2021-07-22 16:55:00|Eleições: especialis) inserted into table in database
+2021-07-23 20:06:43,542:database:DEBUG:(2021-07-22 16:40:00|Rosa pede que PGR se) inserted into table in database
+2021-07-23 20:06:43,698:database:DEBUG:(2021-07-22 16:23:00|Mourão: É lógico que) inserted into table in database
+2021-07-23 20:06:43,917:database:DEBUG:(2021-07-22 16:17:00|Mourão diz que Brasi) inserted into table in database
+2021-07-23 20:06:43,919:database:DEBUG:changes commited
+2021-07-23 20:06:43,919:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:44,024:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:44,527:scraper:DEBUG:page 4
+2021-07-23 20:06:44,528:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:44,559:webdriver:DEBUG:82 elements found
+2021-07-23 20:06:44,559:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:44,704:database:DEBUG:(2021-07-22 15:45:00|Fachin: 'Populistas ) inserted into table in database
+2021-07-23 20:06:44,793:database:DEBUG:(2021-07-22 15:24:00|Bolsonaro sobre refo) inserted into table in database
+2021-07-23 20:06:44,894:database:DEBUG:(2021-07-22 15:19:00|Para Aziz, Queiroga ) inserted into table in database
+2021-07-23 20:06:44,974:database:DEBUG:(2021-07-22 15:14:00|Renan Calheiros pede) inserted into table in database
+2021-07-23 20:06:45,102:database:DEBUG:(2021-07-22 15:03:00|Braga Netto pode ser) inserted into table in database
+2021-07-23 20:06:45,180:database:DEBUG:(2021-07-22 14:57:00|Na ausência de gover) inserted into table in database
+2021-07-23 20:06:45,283:database:DEBUG:(2021-07-22 14:32:00|Ministro Fachin menc) inserted into table in database
+2021-07-23 20:06:45,454:database:DEBUG:(2021-07-22 14:06:00|Fábio Trad (PSD-MS) ) inserted into table in database
+2021-07-23 20:06:45,564:database:DEBUG:(2021-07-22 14:01:00|Secretária diz que e) inserted into table in database
+2021-07-23 20:06:45,664:database:DEBUG:(2021-07-22 13:56:00|Bolsonaro sobre Barr) inserted into table in database
+2021-07-23 20:06:45,755:database:DEBUG:(2021-07-22 13:52:00|'PT foi refém do PMD) inserted into table in database
+2021-07-23 20:06:45,844:database:DEBUG:(2021-07-22 13:23:00|Eleições: Bolsonaro ) inserted into table in database
+2021-07-23 20:06:45,941:database:DEBUG:(2021-07-22 13:22:00|Pacheco defende voto) inserted into table in database
+2021-07-23 20:06:46,027:database:DEBUG:(2021-07-22 13:22:00|Lira reafirma eleiçõ) inserted into table in database
+2021-07-23 20:06:46,106:database:DEBUG:(2021-07-22 12:54:00|Bolsonaro: Barros co) inserted into table in database
+2021-07-23 20:06:46,196:database:DEBUG:(2021-07-22 12:45:00|Vídeo: Roberto Jeffe) inserted into table in database
+2021-07-23 20:06:46,288:database:DEBUG:(2021-07-22 12:38:00|Mayra Pinheiro pediu) inserted into table in database
+2021-07-23 20:06:46,372:database:DEBUG:(2021-07-22 12:36:00|Bolsonaro fala sobre) inserted into table in database
+2021-07-23 20:06:46,434:database:DEBUG:(2021-07-22 12:13:00|Braga Netto chama am) inserted into table in database
+2021-07-23 20:06:46,523:database:DEBUG:(2021-07-22 12:07:00|Parlamentares chamam) inserted into table in database
+2021-07-23 20:06:46,525:database:DEBUG:changes commited
+2021-07-23 20:06:46,525:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:46,644:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:47,147:scraper:DEBUG:page 5
+2021-07-23 20:06:47,148:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:47,162:webdriver:DEBUG:82 elements found
+2021-07-23 20:06:47,162:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:47,165:database:DEBUG:changes commited
+2021-07-23 20:06:47,165:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:47,276:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:47,781:scraper:DEBUG:page 6
+2021-07-23 20:06:47,781:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:47,794:webdriver:DEBUG:82 elements found
+2021-07-23 20:06:47,794:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:47,796:database:DEBUG:changes commited
+2021-07-23 20:06:47,796:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:47,884:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:48,389:scraper:DEBUG:page 7
+2021-07-23 20:06:48,389:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:48,415:webdriver:DEBUG:82 elements found
+2021-07-23 20:06:48,416:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:48,419:database:DEBUG:changes commited
+2021-07-23 20:06:48,420:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:48,497:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:48,997:scraper:DEBUG:page 8
+2021-07-23 20:06:48,997:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:49,029:webdriver:DEBUG:82 elements found
+2021-07-23 20:06:49,030:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:49,033:database:DEBUG:changes commited
+2021-07-23 20:06:49,034:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:49,138:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:49,641:scraper:DEBUG:page 9
+2021-07-23 20:06:49,642:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:49,694:webdriver:DEBUG:122 elements found
+2021-07-23 20:06:49,696:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:49,777:database:DEBUG:(2021-07-21 16:07:00|Maia ironiza mudança) inserted into table in database
+2021-07-23 20:06:49,852:database:DEBUG:(2021-07-21 15:59:00|Randolfe recebe honr) inserted into table in database
+2021-07-23 20:06:49,970:database:DEBUG:(2021-07-21 15:50:00|Paulo Guedes confirm) inserted into table in database
+2021-07-23 20:06:50,102:database:DEBUG:(2021-07-21 15:12:00|Marília Campos, pref) inserted into table in database
+2021-07-23 20:06:50,176:database:DEBUG:(2021-07-21 14:48:00|Candidatura de Kalil) inserted into table in database
+2021-07-23 20:06:50,255:database:DEBUG:(2021-07-21 14:36:00|Deputado André Ferna) inserted into table in database
+2021-07-23 20:06:50,336:database:DEBUG:(2021-07-21 14:31:00|Cotado para Casa Civ) inserted into table in database
+2021-07-23 20:06:50,417:database:DEBUG:(2021-07-21 14:25:00|Cotado para a Casa C) inserted into table in database
+2021-07-23 20:06:50,529:database:DEBUG:(2021-07-21 13:49:00|Mãe de Ciro Nogueira) inserted into table in database
+2021-07-23 20:06:50,628:database:DEBUG:(2021-07-21 13:43:00|''Cuidado que iverme) inserted into table in database
+2021-07-23 20:06:50,720:database:DEBUG:(2021-07-21 13:25:00|'No Brasil, seria ma) inserted into table in database
+2021-07-23 20:06:50,808:database:DEBUG:(2021-07-21 13:25:00|Ciro Nogueira deve c) inserted into table in database
+2021-07-23 20:06:50,893:database:DEBUG:(2021-07-21 13:13:00|Congresso repassou R) inserted into table in database
+2021-07-23 20:06:50,981:database:DEBUG:(2021-07-21 12:21:00|Bolsonaro: 'A CPI qu) inserted into table in database
+2021-07-23 20:06:51,065:database:DEBUG:(2021-07-21 12:05:00|Semipresidencialismo) inserted into table in database
+2021-07-23 20:06:51,146:database:DEBUG:(2021-07-21 11:23:00|Bolsonaro diz não sa) inserted into table in database
+2021-07-23 20:06:51,235:database:DEBUG:(2021-07-21 10:51:00|Bolsonaro: 'Era hipé) inserted into table in database
+2021-07-23 20:06:51,305:database:DEBUG:(2021-07-21 10:20:00|Após Gleisi Hoffmann) inserted into table in database
+2021-07-23 20:06:51,375:database:DEBUG:(2021-07-21 10:16:00|Bolsonaro: 'se chega) inserted into table in database
+2021-07-23 20:06:51,451:database:DEBUG:(2021-07-21 10:07:00|Bolsonaro diz que 'p) inserted into table in database
+2021-07-23 20:06:51,532:database:DEBUG:(2021-07-22 12:13:00|Braga Netto chama am) inserted into table in database
+2021-07-23 20:06:51,601:database:DEBUG:(2021-07-22 12:07:00|Parlamentares chamam) inserted into table in database
+2021-07-23 20:06:51,684:database:DEBUG:(2021-07-22 11:45:00|Bolsonaro: o Butanta) inserted into table in database
+2021-07-23 20:06:51,760:database:DEBUG:(2021-07-22 11:20:00|Eduardo Bolsonaro ac) inserted into table in database
+2021-07-23 20:06:51,837:database:DEBUG:(2021-07-22 11:06:00|Bolsonaro diz que já) inserted into table in database
+2021-07-23 20:06:51,914:database:DEBUG:(2021-07-22 10:54:00|'Brasileiro vai julg) inserted into table in database
+2021-07-23 20:06:51,990:database:DEBUG:(2021-07-22 10:49:00|Ministro Braga Netto) inserted into table in database
+2021-07-23 20:06:52,078:database:DEBUG:(2021-07-22 10:46:00|Eleições: Barroso di) inserted into table in database
+2021-07-23 20:06:52,158:database:DEBUG:(2021-07-22 09:32:00|Bolsonaro confirma C) inserted into table in database
+2021-07-23 20:06:52,242:database:DEBUG:(2021-07-22 08:59:00|De máscara, Bolsonar) inserted into table in database
+2021-07-23 20:06:52,327:database:DEBUG:(2021-07-22 08:02:00|Mãe de Ciro Nogueira) inserted into table in database
+2021-07-23 20:06:52,411:database:DEBUG:(2021-07-22 08:00:00|Bolsonaro põe Centrã) inserted into table in database
+2021-07-23 20:06:52,489:database:DEBUG:(2021-07-21 22:43:00|Alcolumbre atribui a) inserted into table in database
+2021-07-23 20:06:52,571:database:DEBUG:(2021-07-21 19:51:00|Carlos Viana projeta) inserted into table in database
+2021-07-23 20:06:52,655:database:DEBUG:(2021-07-21 19:24:00|Deputado aciona TCE ) inserted into table in database
+2021-07-23 20:06:52,744:database:DEBUG:(2021-07-21 18:41:00|Cármen Lúcia nega ma) inserted into table in database
+2021-07-23 20:06:52,827:database:DEBUG:(2021-07-21 18:13:00|Bolsonaro deve ir ao) inserted into table in database
+2021-07-23 20:06:52,903:database:DEBUG:(2021-07-21 17:30:00|Senador aciona STF p) inserted into table in database
+2021-07-23 20:06:52,985:database:DEBUG:(2021-07-21 17:16:00|Roberto Jefferson é ) inserted into table in database
+2021-07-23 20:06:53,073:database:DEBUG:(2021-07-21 16:40:00|Marcos do Val diz qu) inserted into table in database
+2021-07-23 20:06:53,075:database:DEBUG:changes commited
+2021-07-23 20:06:53,075:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:53,188:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:53,700:scraper:DEBUG:page 10
+2021-07-23 20:06:53,700:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:53,775:webdriver:DEBUG:142 elements found
+2021-07-23 20:06:53,775:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:53,879:database:DEBUG:(2021-07-20 18:33:00|Facebook libera aces) inserted into table in database
+2021-07-23 20:06:53,970:database:DEBUG:(2021-07-20 18:14:00|Vice da Câmara sinal) inserted into table in database
+2021-07-23 20:06:54,141:database:DEBUG:(2021-07-20 18:06:00|Randolfe Rodrigues a) inserted into table in database
+2021-07-23 20:06:54,261:database:DEBUG:(2021-07-20 17:57:00|Kassab sobre candida) inserted into table in database
+2021-07-23 20:06:54,330:database:DEBUG:(2021-07-20 17:42:00|Doria sobre Lula e B) inserted into table in database
+2021-07-23 20:06:54,402:database:DEBUG:(2021-07-20 17:17:00|Alessandro Vieira re) inserted into table in database
+2021-07-23 20:06:54,478:database:DEBUG:(2021-07-20 17:13:00|Covaxin: PF pede que) inserted into table in database
+2021-07-23 20:06:54,563:database:DEBUG:(2021-07-20 17:00:00|Randolfe protocola q) inserted into table in database
+2021-07-23 20:06:54,678:database:DEBUG:(2021-07-20 16:53:00|Bolsonaro diz que en) inserted into table in database
+2021-07-23 20:06:54,777:database:DEBUG:(2021-07-20 16:15:00|Bolsonaro: 'Cabo da ) inserted into table in database
+2021-07-23 20:06:54,857:database:DEBUG:(2021-07-20 16:09:00|Eduardo Cunha se diz) inserted into table in database
+2021-07-23 20:06:54,941:database:DEBUG:(2021-07-20 15:56:00|Bolsonaro anuncia qu) inserted into table in database
+2021-07-23 20:06:55,026:database:DEBUG:(2021-07-20 15:56:00|Por ordem de ministr) inserted into table in database
+2021-07-23 20:06:55,117:database:DEBUG:(2021-07-20 15:16:00|Depois de ataques de) inserted into table in database
+2021-07-23 20:06:55,210:database:DEBUG:(2021-07-20 14:55:00|Vice da Câmara: 'Bol) inserted into table in database
+2021-07-23 20:06:55,294:database:DEBUG:(2021-07-20 14:39:00|Após anunciar veto a) inserted into table in database
+2021-07-23 20:06:55,373:database:DEBUG:(2021-07-20 14:35:00|Miranda afirma que r) inserted into table in database
+2021-07-23 20:06:55,458:database:DEBUG:(2021-07-20 14:34:00|Valor médio do novo ) inserted into table in database
+2021-07-23 20:06:55,546:database:DEBUG:(2021-07-20 14:24:00|Bolsonaro promete du) inserted into table in database
+2021-07-23 20:06:55,641:database:DEBUG:(2021-07-20 14:10:00|Bolsonaro para Doria) inserted into table in database
+2021-07-23 20:06:55,644:database:DEBUG:changes commited
+2021-07-23 20:06:55,644:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:55,755:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:56,257:scraper:DEBUG:page 11
+2021-07-23 20:06:56,257:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:56,293:webdriver:DEBUG:162 elements found
+2021-07-23 20:06:56,294:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:56,424:database:DEBUG:(2021-07-19 20:40:00|Queiroga: pode haver) inserted into table in database
+2021-07-23 20:06:56,508:database:DEBUG:(2021-07-19 20:20:00|Parlamentares aciona) inserted into table in database
+2021-07-23 20:06:56,597:database:DEBUG:(2021-07-19 20:18:00|Bolsonaro diz não ac) inserted into table in database
+2021-07-23 20:06:56,679:database:DEBUG:(2021-07-19 19:19:00|Quem é Mia Khalifa, ) inserted into table in database
+2021-07-23 20:06:56,762:database:DEBUG:(2021-07-19 19:03:00|MP-SP denuncia 12 PM) inserted into table in database
+2021-07-23 20:06:56,847:database:DEBUG:(2021-07-19 18:00:00|CPI da BHTrans lança) inserted into table in database
+2021-07-23 20:06:56,927:database:DEBUG:(2021-07-19 18:00:00|Vice-presidente da C) inserted into table in database
+2021-07-23 20:06:57,007:database:DEBUG:(2021-07-19 17:36:00|Aziz rebate Bolsonar) inserted into table in database
+2021-07-23 20:06:57,091:database:DEBUG:(2021-07-19 16:42:00|Randolfe para Bolson) inserted into table in database
+2021-07-23 20:06:57,195:database:DEBUG:(2021-07-19 16:23:00|Marcos Rogério sobre) inserted into table in database
+2021-07-23 20:06:57,302:database:DEBUG:(2021-07-19 16:09:00|Pode haver 'algum ti) inserted into table in database
+2021-07-23 20:06:57,483:database:DEBUG:(2021-07-19 16:02:00|''Eu vetaria'', diz ) inserted into table in database
+2021-07-23 20:06:57,568:database:DEBUG:(2021-07-19 16:00:00|Arthur Lira: 'Podemo) inserted into table in database
+2021-07-23 20:06:57,651:database:DEBUG:(2021-07-19 15:49:00|'Até hospitalizado e) inserted into table in database
+2021-07-23 20:06:57,730:database:DEBUG:(2021-07-19 15:31:00|Bolsonaro diz que ta) inserted into table in database
+2021-07-23 20:06:57,818:database:DEBUG:(2021-07-19 15:29:00|BH oficializa data p) inserted into table in database
+2021-07-23 20:06:57,897:database:DEBUG:(2021-07-19 14:54:00|Após Bolsonaro citar) inserted into table in database
+2021-07-23 20:06:57,992:database:DEBUG:(2021-07-19 14:53:00|Vice da Câmara pede ) inserted into table in database
+2021-07-23 20:06:58,074:database:DEBUG:(2021-07-19 14:48:00|Bolsonaro ironiza in) inserted into table in database
+2021-07-23 20:06:58,149:database:DEBUG:(2021-07-19 14:35:00|Bolsonaro defende Pa) inserted into table in database
+2021-07-23 20:06:58,152:database:DEBUG:changes commited
+2021-07-23 20:06:58,152:webdriver:DEBUG:clicking next page
+2021-07-23 20:06:58,247:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:06:58,748:scraper:DEBUG:page 12
+2021-07-23 20:06:58,748:webdriver:DEBUG:findind elements...
+2021-07-23 20:06:58,786:webdriver:DEBUG:182 elements found
+2021-07-23 20:06:58,787:scraper:DEBUG:looping through elements...
+2021-07-23 20:06:58,893:database:DEBUG:(2021-07-19 14:09:00|Bolsonaro chama pres) inserted into table in database
+2021-07-23 20:06:58,979:database:DEBUG:(2021-07-19 13:30:00|'PEC Pazuello ajuda ) inserted into table in database
+2021-07-23 20:06:59,126:database:DEBUG:(2021-07-19 13:21:00|Justiça Eleitoral ca) inserted into table in database
+2021-07-23 20:06:59,233:database:DEBUG:(2021-07-19 13:15:00|Vinte e seis dos 81 ) inserted into table in database
+2021-07-23 20:06:59,319:database:DEBUG:(2021-07-19 12:53:00|Bolsonaro: (Deputado) inserted into table in database
+2021-07-23 20:06:59,407:database:DEBUG:(2021-07-19 12:03:00|Entidades 'antifasci) inserted into table in database
+2021-07-23 20:06:59,494:database:DEBUG:(2021-07-19 10:47:00|Mia Khalifa responde) inserted into table in database
+2021-07-23 20:06:59,585:database:DEBUG:(2021-07-19 10:47:00|Bolsonaro despacha d) inserted into table in database
+2021-07-23 20:06:59,702:database:DEBUG:(2021-07-19 08:19:00|'CPI tem que dar nom) inserted into table in database
+2021-07-23 20:06:59,798:database:DEBUG:(2021-07-19 08:01:00|Presidente do PSDB d) inserted into table in database
+2021-07-23 20:06:59,878:database:DEBUG:(2021-07-19 08:00:00|Escritor bolsonarist) inserted into table in database
+2021-07-23 20:06:59,963:database:DEBUG:(2021-07-19 04:00:00|Escolhido de Bolsona) inserted into table in database
+2021-07-23 20:07:00,045:database:DEBUG:(2021-07-19 04:00:00|Saiba como foram esc) inserted into table in database
+2021-07-23 20:07:00,168:database:DEBUG:(2021-07-18 16:00:00|Dono de firma recebi) inserted into table in database
+2021-07-23 20:07:00,255:database:DEBUG:(2021-07-18 16:00:00|Brasil é o país que ) inserted into table in database
+2021-07-23 20:07:00,381:database:DEBUG:(2021-07-18 16:00:00|Contra impeachment, ) inserted into table in database
+2021-07-23 20:07:00,478:database:DEBUG:(2021-07-18 15:53:00|Dono de firma recebi) inserted into table in database
+2021-07-23 20:07:00,721:database:DEBUG:(2021-07-18 15:44:00|Na rua, contra prota) inserted into table in database
+2021-07-23 20:07:00,920:database:DEBUG:(2021-07-18 15:39:00|Apoiadores de Bolson) inserted into table in database
+2021-07-23 20:07:01,049:database:DEBUG:(2021-07-18 14:05:00|Vice da Câmara, Marc) inserted into table in database
+2021-07-23 20:07:01,051:database:DEBUG:changes commited
+2021-07-23 20:07:01,051:webdriver:DEBUG:clicking next page
+2021-07-23 20:07:01,190:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:07:01,696:scraper:DEBUG:page 13
+2021-07-23 20:07:01,696:webdriver:DEBUG:findind elements...
+2021-07-23 20:07:01,759:webdriver:DEBUG:200 elements found
+2021-07-23 20:07:01,759:scraper:DEBUG:looping through elements...
+2021-07-23 20:07:01,863:database:DEBUG:(2021-07-18 12:40:00|Bolsonaro diz que pr) inserted into table in database
+2021-07-23 20:07:01,944:database:DEBUG:(2021-07-18 12:38:00|'Perguntem se Lula a) inserted into table in database
+2021-07-23 20:07:02,084:database:DEBUG:(2021-07-18 12:34:00|'Amanhã volto a desp) inserted into table in database
+2021-07-23 20:07:02,221:database:DEBUG:(2021-07-18 12:32:00|Bolsonaro refuta acu) inserted into table in database
+2021-07-23 20:07:02,316:database:DEBUG:(2021-07-18 12:29:00|Após novas críticas ) inserted into table in database
+2021-07-23 20:07:02,409:database:DEBUG:(2021-07-18 12:27:00|Bolsonaro questiona ) inserted into table in database
+2021-07-23 20:07:02,563:database:DEBUG:(2021-07-18 12:25:00|Após alta, Bolsonaro) inserted into table in database
+2021-07-23 20:07:02,675:database:DEBUG:(2021-07-18 12:22:00|Bolsonaro se reunirá) inserted into table in database
+2021-07-23 20:07:02,762:database:DEBUG:(2021-07-18 12:03:00|Bolsonaro ignora que) inserted into table in database
+2021-07-23 20:07:02,845:database:DEBUG:(2021-07-18 11:36:00|'Distritão': nova fo) inserted into table in database
+2021-07-23 20:07:03,007:database:DEBUG:(2021-07-18 11:25:00|Bolsonaro quer comer) inserted into table in database
+2021-07-23 20:07:03,171:database:DEBUG:(2021-07-18 11:19:00|Bolsonaro: 'Tudo que) inserted into table in database
+2021-07-23 20:07:03,258:database:DEBUG:(2021-07-18 10:46:00|Bolsonaro sobre víde) inserted into table in database
+2021-07-23 20:07:03,446:database:DEBUG:(2021-07-18 10:28:00|Sem provas, Bolsonar) inserted into table in database
+2021-07-23 20:07:03,525:database:DEBUG:(2021-07-18 10:10:00|Bolsonaro recebe alt) inserted into table in database
+2021-07-23 20:07:03,620:database:DEBUG:(2021-07-18 09:43:00|Bolsonaro tem alta m) inserted into table in database
+2021-07-23 20:07:03,701:database:DEBUG:(2021-07-18 09:26:00|"Presidente pode ser) inserted into table in database
+2021-07-23 20:07:03,789:database:DEBUG:(2021-07-18 08:37:00|Bolsonaro continua e) inserted into table in database
+2021-07-23 20:07:03,888:database:DEBUG:(2021-07-18 06:00:00|Prefeitos buscam obr) inserted into table in database
+2021-07-23 20:07:03,968:database:DEBUG:(2021-07-18 04:00:00|Fake news ganham nov) inserted into table in database
+2021-07-23 20:07:03,971:database:DEBUG:changes commited
+2021-07-23 20:07:03,971:webdriver:DEBUG:clicking next page
+2021-07-23 20:07:04,068:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:07:04,569:scraper:DEBUG:page 14
+2021-07-23 20:07:04,569:webdriver:DEBUG:findind elements...
+2021-07-23 20:07:04,604:webdriver:DEBUG:200 elements found
+2021-07-23 20:07:04,605:scraper:DEBUG:looping through elements...
+2021-07-23 20:07:04,737:database:DEBUG:(2021-07-17 21:20:00|Câmara de SP aprova ) inserted into table in database
+2021-07-23 20:07:04,835:database:DEBUG:(2021-07-17 20:29:00|Bolsonaro deve ter a) inserted into table in database
+2021-07-23 20:07:04,947:database:DEBUG:(2021-07-17 18:48:00|Rogério Marinho tem ) inserted into table in database
+2021-07-23 20:07:05,035:database:DEBUG:(2021-07-17 18:08:00|Randolfe Rodrigues a) inserted into table in database
+2021-07-23 20:07:05,126:database:DEBUG:(2021-07-17 17:17:00|Cirurgia abriria esp) inserted into table in database
+2021-07-23 20:07:05,221:database:DEBUG:(2021-07-17 17:00:00|Equipe médica diz qu) inserted into table in database
+2021-07-23 20:07:05,309:database:DEBUG:(2021-07-17 13:00:00|Urna eletrônica: Mil) inserted into table in database
+2021-07-23 20:07:05,393:database:DEBUG:(2021-07-17 12:40:00|MPRJ nomeia coordena) inserted into table in database
+2021-07-23 20:07:05,517:database:DEBUG:(2021-07-17 12:13:00|Coronavac: Pazuello ) inserted into table in database
+2021-07-23 20:07:05,611:database:DEBUG:(2021-07-17 11:20:00|Bolsonaro publica no) inserted into table in database
+2021-07-23 20:07:05,805:database:DEBUG:(2021-07-17 10:55:00|Rogério Marinho pass) inserted into table in database
+2021-07-23 20:07:05,924:database:DEBUG:(2021-07-17 09:15:00|Bolsonaro pode receb) inserted into table in database
+2021-07-23 20:07:06,012:database:DEBUG:(2021-07-17 09:00:00|'Câmara não vai acei) inserted into table in database
+2021-07-23 20:07:06,126:database:DEBUG:(2021-07-17 08:51:00|Dono de empresa rece) inserted into table in database
+2021-07-23 20:07:06,225:database:DEBUG:(2021-07-17 08:50:00|Adiamento da PEC do ) inserted into table in database
+2021-07-23 20:07:06,321:database:DEBUG:(2021-07-17 08:40:00|Candidato nas prévia) inserted into table in database
+2021-07-23 20:07:06,420:database:DEBUG:(2021-07-17 08:22:00|Eduardo Bolsonaro cu) inserted into table in database
+2021-07-23 20:07:06,512:database:DEBUG:(2021-07-17 08:00:00|Só cinco siglas tent) inserted into table in database
+2021-07-23 20:07:06,605:database:DEBUG:(2021-07-17 07:58:00|"A CPI abriu a caixa) inserted into table in database
+2021-07-23 20:07:06,710:database:DEBUG:(2021-07-16 22:14:00|Deputado diz que não) inserted into table in database
+2021-07-23 20:07:06,713:database:DEBUG:changes commited
+2021-07-23 20:07:06,713:webdriver:DEBUG:clicking next page
+2021-07-23 20:07:06,823:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:07:07,327:scraper:DEBUG:page 15
+2021-07-23 20:07:07,327:webdriver:DEBUG:findind elements...
+2021-07-23 20:07:07,363:webdriver:DEBUG:200 elements found
+2021-07-23 20:07:07,363:scraper:DEBUG:looping through elements...
+2021-07-23 20:07:07,494:database:DEBUG:(2021-07-16 21:04:00|Bolsonaro evolui 'sa) inserted into table in database
+2021-07-23 20:07:07,630:database:DEBUG:(2021-07-16 20:41:00|Servidor Luís Ricard) inserted into table in database
+2021-07-23 20:07:07,715:database:DEBUG:(2021-07-16 20:18:00|Guedes chega a hospi) inserted into table in database
+2021-07-23 20:07:07,813:database:DEBUG:(2021-07-16 20:11:00|Sem previsão de alta) inserted into table in database
+2021-07-23 20:07:07,905:database:DEBUG:(2021-07-16 19:55:00|Artistas se unem em ) inserted into table in database
+2021-07-23 20:07:07,995:database:DEBUG:(2021-07-16 18:35:00|Enquete em site não ) inserted into table in database
+2021-07-23 20:07:08,094:database:DEBUG:(2021-07-16 18:35:00|PF abre inquérito pa) inserted into table in database
+2021-07-23 20:07:08,220:database:DEBUG:(2021-07-16 18:28:00|Questionado sobre Bo) inserted into table in database
+2021-07-23 20:07:08,359:database:DEBUG:(2021-07-16 17:52:00|Renan Calheiros pede) inserted into table in database
+2021-07-23 20:07:08,541:database:DEBUG:(2021-07-16 17:50:00|Spray antiCOVID vend) inserted into table in database
+2021-07-23 20:07:08,628:database:DEBUG:(2021-07-16 17:33:00|Contarato sobre poss) inserted into table in database
+2021-07-23 20:07:08,716:database:DEBUG:(2021-07-16 17:11:00|Com 126 mortes na Eu) inserted into table in database
+2021-07-23 20:07:08,813:database:DEBUG:(2021-07-16 16:57:00|Com iminente derrota) inserted into table in database
+2021-07-23 20:07:08,920:database:DEBUG:(2021-07-16 16:20:00|Após criticarem Fund) inserted into table in database
+2021-07-23 20:07:09,011:database:DEBUG:(2021-07-16 16:03:00|Ricardo Barros defen) inserted into table in database
+2021-07-23 20:07:09,111:database:DEBUG:(2021-07-16 15:13:00|Viúva de Adriano da ) inserted into table in database
+2021-07-23 20:07:09,224:database:DEBUG:(2021-07-16 15:10:00|Em publicação no Fac) inserted into table in database
+2021-07-23 20:07:09,330:database:DEBUG:(2021-07-16 15:09:00|Vídeo comprova que P) inserted into table in database
+2021-07-23 20:07:09,424:database:DEBUG:(2021-07-16 14:32:00|Pazuello se reuniu c) inserted into table in database
+2021-07-23 20:07:09,511:database:DEBUG:(2021-07-16 13:58:00|Eleições 2022: Ciro ) inserted into table in database
+2021-07-23 20:07:09,514:database:DEBUG:changes commited
+2021-07-23 20:07:09,514:webdriver:DEBUG:clicking next page
+2021-07-23 20:07:09,633:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:07:10,136:scraper:DEBUG:page 16
+2021-07-23 20:07:10,137:webdriver:DEBUG:findind elements...
+2021-07-23 20:07:10,207:webdriver:DEBUG:200 elements found
+2021-07-23 20:07:10,207:scraper:DEBUG:looping through elements...
+2021-07-23 20:07:10,336:database:DEBUG:(2021-07-16 13:56:00|Boletim diz que pres) inserted into table in database
+2021-07-23 20:07:10,430:database:DEBUG:(2021-07-16 13:39:00|Tentativa de barrar ) inserted into table in database
+2021-07-23 20:07:10,523:database:DEBUG:(2021-07-16 13:12:00|Omar Aziz: 'Bolsonar) inserted into table in database
+2021-07-23 20:07:10,624:database:DEBUG:(2021-07-16 12:52:00|Veja: 'Tô cremosinho) inserted into table in database
+2021-07-23 20:07:10,737:database:DEBUG:(2021-07-16 12:47:00|Sem sonda e sem másc) inserted into table in database
+2021-07-23 20:07:10,831:database:DEBUG:(2021-07-16 12:31:00|Aziz sobre Wizard: ') inserted into table in database
+2021-07-23 20:07:10,922:database:DEBUG:(2021-07-16 12:20:00|Bolsonaro já despach) inserted into table in database
+2021-07-23 20:07:11,060:database:DEBUG:(2021-07-16 12:13:00|Depoimentos à CPI da) inserted into table in database
+2021-07-23 20:07:11,171:database:DEBUG:(2021-07-16 12:11:00|Zema anuncia fim do ) inserted into table in database
+2021-07-23 20:07:11,377:database:DEBUG:(2021-07-16 10:39:00|Kalil sobre corrupçã) inserted into table in database
+2021-07-23 20:07:11,492:database:DEBUG:(2021-07-16 10:35:00|Vice-presidente da C) inserted into table in database
+2021-07-23 20:07:11,589:database:DEBUG:(2021-07-16 10:24:00|Kalil sobre mortes n) inserted into table in database
+2021-07-23 20:07:11,696:database:DEBUG:(2021-07-16 10:19:00|Kalil: 'Qualquer pre) inserted into table in database
+2021-07-23 20:07:11,804:database:DEBUG:(2021-07-16 09:35:00|Internautas cobram c) inserted into table in database
+2021-07-23 20:07:11,902:database:DEBUG:(2021-07-16 08:03:00|Promotoria apura int) inserted into table in database
+2021-07-23 20:07:12,007:database:DEBUG:(2021-07-16 08:02:00|Comissão prevê rejei) inserted into table in database
+2021-07-23 20:07:12,095:database:DEBUG:(2021-07-16 08:00:00|Orçamento de 2022 ma) inserted into table in database
+2021-07-23 20:07:12,181:database:DEBUG:(2021-07-16 08:00:00|Congresso aprova fun) inserted into table in database
+2021-07-23 20:07:12,268:database:DEBUG:(2021-07-15 22:15:00|Aziz sobre Carlos Bo) inserted into table in database
+2021-07-23 20:07:12,361:database:DEBUG:(2021-07-15 22:04:00|Secom: Bolsonaro ret) inserted into table in database
+2021-07-23 20:07:12,364:database:DEBUG:changes commited
+2021-07-23 20:07:12,364:webdriver:DEBUG:clicking next page
+2021-07-23 20:07:12,456:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:07:12,960:scraper:DEBUG:page 17
+2021-07-23 20:07:12,960:webdriver:DEBUG:findind elements...
+2021-07-23 20:07:12,999:webdriver:DEBUG:200 elements found
+2021-07-23 20:07:12,999:scraper:DEBUG:looping through elements...
+2021-07-23 20:07:13,140:database:DEBUG:(2021-07-15 21:47:00|Biden diz que não en) inserted into table in database
+2021-07-23 20:07:13,222:database:DEBUG:(2021-07-15 21:02:00|Como votaram deputad) inserted into table in database
+2021-07-23 20:07:13,308:database:DEBUG:(2021-07-15 21:00:00|Políticos aliados te) inserted into table in database
+2021-07-23 20:07:13,399:database:DEBUG:(2021-07-15 20:53:00|Randolfe a Bolsonaro) inserted into table in database
+2021-07-23 20:07:13,493:database:DEBUG:(2021-07-15 20:46:00|Hospital: Bolsonaro ) inserted into table in database
+2021-07-23 20:07:13,582:database:DEBUG:(2021-07-15 20:39:00|O presidente melhoro) inserted into table in database
+2021-07-23 20:07:13,669:database:DEBUG:(2021-07-15 20:30:00|YouTube remove canal) inserted into table in database
+2021-07-23 20:07:13,755:database:DEBUG:(2021-07-15 20:17:00|CPI ouve superintend) inserted into table in database
+2021-07-23 20:07:13,865:database:DEBUG:(2021-07-15 19:43:00|Liminar do TJMG derr) inserted into table in database
+2021-07-23 20:07:13,957:database:DEBUG:(2021-07-15 19:13:00|Senadores aprovam LD) inserted into table in database
+2021-07-23 20:07:14,043:database:DEBUG:(2021-07-15 18:41:00|Aziz sobre ataque de) inserted into table in database
+2021-07-23 20:07:14,228:database:DEBUG:(2021-07-15 18:00:00|Lewandowski da acess) inserted into table in database
+2021-07-23 20:07:14,355:database:DEBUG:(2021-07-15 18:00:00|General Heleno: recu) inserted into table in database
+2021-07-23 20:07:14,441:database:DEBUG:(2021-07-15 18:00:00|Bolsonaro tira foto ) inserted into table in database
+2021-07-23 20:07:14,529:database:DEBUG:(2021-07-15 18:00:00|Internado, Bolsonaro) inserted into table in database
+2021-07-23 20:07:14,628:database:DEBUG:(2021-07-15 18:00:00|Internado em SP, Bol) inserted into table in database
+2021-07-23 20:07:14,722:database:DEBUG:(2021-07-15 17:05:00|Representante da Dav) inserted into table in database
+2021-07-23 20:07:14,827:database:DEBUG:(2021-07-15 17:03:00|BH: Kalil quer pagar) inserted into table in database
+2021-07-23 20:07:14,931:database:DEBUG:(2021-07-15 17:01:00|Comissão do Congress) inserted into table in database
+2021-07-23 20:07:15,038:database:DEBUG:(2021-07-15 16:35:00|João Doria está com ) inserted into table in database
+2021-07-23 20:07:15,040:database:DEBUG:changes commited
+2021-07-23 20:07:15,040:webdriver:DEBUG:clicking next page
+2021-07-23 20:07:15,171:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:07:15,673:scraper:DEBUG:page 18
+2021-07-23 20:07:15,673:webdriver:DEBUG:findind elements...
+2021-07-23 20:07:15,760:webdriver:DEBUG:200 elements found
+2021-07-23 20:07:15,760:scraper:DEBUG:looping through elements...
+2021-07-23 20:07:15,883:database:DEBUG:(2021-07-15 16:28:00|Randolfe e Tebet enu) inserted into table in database
+2021-07-23 20:07:15,988:database:DEBUG:(2021-07-15 16:10:00|Câmara aprova texto-) inserted into table in database
+2021-07-23 20:07:16,202:database:DEBUG:(2021-07-15 16:05:00|Assessor de Bolsonar) inserted into table in database
+2021-07-23 20:07:16,306:database:DEBUG:(2021-07-15 15:22:00|Carvalho citou oito ) inserted into table in database
+2021-07-23 20:07:16,405:database:DEBUG:(2021-07-15 14:51:00|Marcos Rogério suger) inserted into table in database
+2021-07-23 20:07:16,504:database:DEBUG:(2021-07-15 14:49:00|Kalil assina projeto) inserted into table in database
+2021-07-23 20:07:16,620:database:DEBUG:(2021-07-15 14:42:00|Mario Frias afirma q) inserted into table in database
+2021-07-23 20:07:16,757:database:DEBUG:(2021-07-15 14:29:00|Flávio diz que Bolso) inserted into table in database
+2021-07-23 20:07:16,856:database:DEBUG:(2021-07-15 14:18:00|Aziz: 'O que Elcio F) inserted into table in database
+2021-07-23 20:07:16,947:database:DEBUG:(2021-07-15 13:46:00|Auditora prestou 'de) inserted into table in database
+2021-07-23 20:07:17,045:database:DEBUG:(2021-07-15 13:46:00|CPI: Carvalho diz te) inserted into table in database
+2021-07-23 20:07:17,155:database:DEBUG:(2021-07-15 13:29:00|Flávio diz que Bolso) inserted into table in database
+2021-07-23 20:07:17,262:database:DEBUG:(2021-07-15 13:21:00|CMO rejeita destaque) inserted into table in database
+2021-07-23 20:07:17,371:database:DEBUG:(2021-07-15 13:15:00|'Tive relação mais p) inserted into table in database
+2021-07-23 20:07:17,467:database:DEBUG:(2021-07-15 13:10:00|Omar Aziz: Elcio Fra) inserted into table in database
+2021-07-23 20:07:17,574:database:DEBUG:(2021-07-15 13:09:00|Parlamentares mineir) inserted into table in database
+2021-07-23 20:07:17,673:database:DEBUG:(2021-07-15 13:00:00|Empresário tentou ne) inserted into table in database
+2021-07-23 20:07:17,779:database:DEBUG:(2021-07-15 12:46:00|Dono do Oiapoque diz) inserted into table in database
+2021-07-23 20:07:17,879:database:DEBUG:(2021-07-15 12:35:00|Boletim médico indic) inserted into table in database
+2021-07-23 20:07:17,982:database:DEBUG:(2021-07-15 12:32:00|Bolsonaro 'segue evo) inserted into table in database
+2021-07-23 20:07:17,985:database:DEBUG:changes commited
+2021-07-23 20:07:17,985:webdriver:DEBUG:clicking next page
+2021-07-23 20:07:18,104:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:07:18,605:scraper:DEBUG:page 19
+2021-07-23 20:07:18,605:webdriver:DEBUG:findind elements...
+2021-07-23 20:07:18,672:webdriver:DEBUG:200 elements found
+2021-07-23 20:07:18,672:scraper:DEBUG:looping through elements...
+2021-07-23 20:07:18,821:database:DEBUG:(2021-07-15 12:20:00|'Uma associação de c) inserted into table in database
+2021-07-23 20:07:18,925:database:DEBUG:(2021-07-15 12:17:00|Carvalho: a mim não ) inserted into table in database
+2021-07-23 20:07:19,035:database:DEBUG:(2021-07-15 12:13:00|Correção: Hospital o) inserted into table in database
+2021-07-23 20:07:19,132:database:DEBUG:(2021-07-15 12:10:00|Hospital onde Bolson) inserted into table in database
+2021-07-23 20:07:19,232:database:DEBUG:(2021-07-15 11:47:00|'Presidente está bem) inserted into table in database
+2021-07-23 20:07:19,341:database:DEBUG:(2021-07-15 11:43:00|Com Bolsonaro intern) inserted into table in database
+2021-07-23 20:07:19,441:database:DEBUG:(2021-07-15 11:22:00|Representante da Dav) inserted into table in database
+2021-07-23 20:07:19,577:database:DEBUG:(2021-07-15 11:22:00|CPI da Covid amplia ) inserted into table in database
+2021-07-23 20:07:19,762:database:DEBUG:(2021-07-15 11:13:00|CPI aprova requerime) inserted into table in database
+2021-07-23 20:07:19,908:database:DEBUG:(2021-07-15 10:22:00|Vídeo que circula na) inserted into table in database
+2021-07-23 20:07:20,005:database:DEBUG:(2021-07-15 10:22:00|CPI da Covid inicia ) inserted into table in database
+2021-07-23 20:07:20,126:database:DEBUG:(2021-07-15 09:45:00|Opinião pública sobr) inserted into table in database
+2021-07-23 20:07:20,239:database:DEBUG:(2021-07-15 09:34:00|Eduardo Bolsonaro so) inserted into table in database
+2021-07-23 20:07:20,352:database:DEBUG:(2021-07-15 09:27:00|Hospital atualiza pr) inserted into table in database
+2021-07-23 20:07:20,688:database:DEBUG:(2021-07-15 08:56:00|Próximo boletim médi) inserted into table in database
+2021-07-23 20:07:20,835:database:DEBUG:(2021-07-15 08:52:00|CPI: acompanhe o dep) inserted into table in database
+2021-07-23 20:07:20,945:database:DEBUG:(2021-07-15 08:50:00|Relatório inclui 'di) inserted into table in database
+2021-07-23 20:07:21,037:database:DEBUG:(2021-07-15 08:30:00|Projeto prevê que Câ) inserted into table in database
+2021-07-23 20:07:21,129:database:DEBUG:(2021-07-15 08:02:00|Onyx e Luis Miranda ) inserted into table in database
+2021-07-23 20:07:21,213:database:DEBUG:(2021-07-14 23:06:00|Flávio Bolsonaro: 'q) inserted into table in database
+2021-07-23 20:07:21,215:database:DEBUG:changes commited
+2021-07-23 20:07:21,216:webdriver:DEBUG:clicking next page
+2021-07-23 20:07:21,336:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 20:07:21,842:database:DEBUG:test.db connection closed
+2021-07-23 20:07:22,086:webdriver:DEBUG:connection closed
