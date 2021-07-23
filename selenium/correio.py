@@ -14,7 +14,7 @@ class Correio(Scraper):
     n_pages     = 10
     n_last      = 200
     log_name    = "scraper"
-    log_file    = "correio.log"
+    log_file    = "correio"
     db_name     = "news.db"
     db_table    = "correio"
     @staticmethod
