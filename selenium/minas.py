@@ -7,10 +7,10 @@ Version     : 1.0.0
 import os
 from   scraper import Scraper
 
-import line_profiler
-import atexit
-profile = line_profiler.LineProfiler()
-atexit.register(profile.print_stats)
+#import line_profiler
+#import atexit
+#profile = line_profiler.LineProfiler()
+#atexit.register(profile.print_stats)
 
 class Minas(Scraper):
     """
@@ -27,7 +27,6 @@ class Minas(Scraper):
     db_table    = "minas"
     
     @staticmethod
-    @profile
     def get_date(
         date : str):
         """

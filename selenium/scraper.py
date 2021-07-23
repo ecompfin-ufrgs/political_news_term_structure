@@ -10,10 +10,10 @@ from logger                               import Logger
 from webdriver                            import Webdriver
 from selenium.webdriver.remote.webelement import WebElement
 
-import line_profiler
-import atexit
-profile = line_profiler.LineProfiler()
-atexit.register(profile.print_stats)
+#import line_profiler
+#import atexit
+#profile = line_profiler.LineProfiler()
+#atexit.register(profile.print_stats)
 
 class Scraper(ABC):
     """
@@ -73,7 +73,6 @@ class Scraper(ABC):
         del self.database
         del self.webdriver
 
-    @profile
     def run(self):
         """
         Runs web scrapping.
@@ -94,7 +93,6 @@ class Scraper(ABC):
                 break
         del self
 
-    @profile
     def loop_elements(self,
         new_elements : list):
         """
@@ -110,7 +108,6 @@ class Scraper(ABC):
                 self.get_info(element)
         self.database.commit()
 
-    @profile
     def get_info(self,
         element : WebElement):
         """

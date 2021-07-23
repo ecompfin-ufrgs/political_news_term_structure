@@ -7,10 +7,10 @@ Version     : 1.0.0
 from   logger import Logger
 import sqlite3
 
-import line_profiler
-import atexit
-profile = line_profiler.LineProfiler()
-atexit.register(profile.print_stats)
+#import line_profiler
+#import atexit
+#profile = line_profiler.LineProfiler()
+#atexit.register(profile.print_stats)
 
 class Database:
     """
@@ -64,7 +64,6 @@ class Database:
         self.logger.debug(f"{self.table} table created")
         return conn
 
-    @profile
     def insert(self,
         date  : str, 
         title : str):

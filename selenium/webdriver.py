@@ -14,10 +14,10 @@ from   selenium.webdriver.common.keys       import Keys
 from   selenium.webdriver.remote.webelement import WebElement
 import time
 
-import line_profiler
-import atexit
-profile = line_profiler.LineProfiler()
-atexit.register(profile.print_stats)
+#import line_profiler
+#import atexit
+#profile = line_profiler.LineProfiler()
+#atexit.register(profile.print_stats)
 
 class Webdriver:
     """
@@ -102,7 +102,6 @@ class Webdriver:
         inner = element.find_element(By.XPATH, xpath)
         return inner
 
-    @profile
     def next_page(self,
         xpath : str):
         """
