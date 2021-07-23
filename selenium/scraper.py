@@ -102,6 +102,7 @@ class Scraper(ABC):
             if element not in self.elements[-self.n_last:]:
                 self.elements.append(element)
                 self.get_info(element)
+        self.database.commit()
 
     def get_info(self,
         element : WebElement):

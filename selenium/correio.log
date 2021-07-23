@@ -1,1281 +1,388 @@
-2021-07-22 13:05:47,991:scraper:DEBUG:logger configured
-2021-07-22 13:05:47,991:database:DEBUG:logger configured
-2021-07-22 13:05:47,991:database:DEBUG:news.db opening connection
-2021-07-22 13:05:47,994:database:DEBUG:news.db connection open
-2021-07-22 13:05:48,025:database:DEBUG:correio table dropped
-2021-07-22 13:05:48,028:database:DEBUG:correio table created
-2021-07-22 13:05:48,028:webdriver:DEBUG:logger configured
-2021-07-22 13:05:53,737:webdriver:DEBUG:connection open
-2021-07-22 13:05:53,738:webdriver:DEBUG:getting page https://www.correiobraziliense.com.br/politica
-2021-07-22 13:07:33,172:webdriver:DEBUG:page received
-2021-07-22 13:07:33,172:scraper:DEBUG:page 0 - finding elements
-2021-07-22 13:07:33,207:webdriver:DEBUG:22 elements found
-2021-07-22 13:07:33,207:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:07:33,289:scraper:WARNING:inner elements not found
-2021-07-22 13:07:33,340:scraper:WARNING:inner elements not found
-2021-07-22 13:07:33,394:database:DEBUG:(2021-07-22 13:04:00|Bolsonaro defende al) inserted into correio in news.db
-2021-07-22 13:07:33,446:database:DEBUG:(2021-07-22 12:31:00|Bolsonaro diz que nã) inserted into correio in news.db
-2021-07-22 13:07:33,500:database:DEBUG:(2021-07-22 12:00:00|Bolsonaro sobre auxí) inserted into correio in news.db
-2021-07-22 13:07:33,575:database:DEBUG:(2021-07-22 11:55:00|Bolsonaro: Ministéri) inserted into correio in news.db
-2021-07-22 13:07:33,628:database:DEBUG:(2021-07-22 11:50:00|Simone Tebet alerta ) inserted into correio in news.db
-2021-07-22 13:07:33,678:database:DEBUG:(2021-07-22 11:42:00|Barroso diz que Lira) inserted into correio in news.db
-2021-07-22 13:07:33,730:database:DEBUG:(2021-07-22 11:39:00|Arthur Lira não nega) inserted into correio in news.db
-2021-07-22 13:07:33,785:database:DEBUG:(2021-07-22 11:32:00|Bolsonaro sobre Ciro) inserted into correio in news.db
-2021-07-22 13:07:33,842:database:DEBUG:(2021-07-22 11:26:00|"É preciso uma posiç) inserted into correio in news.db
-2021-07-22 13:07:33,965:database:DEBUG:(2021-07-22 11:23:00|"Forças Armadas semp) inserted into correio in news.db
-2021-07-22 13:07:34,014:database:DEBUG:(2021-07-22 11:01:00|Ministro da Defesa p) inserted into correio in news.db
-2021-07-22 13:07:34,101:database:DEBUG:(2021-07-22 10:50:00|Bolsonaro confirma C) inserted into correio in news.db
-2021-07-22 13:07:34,157:database:DEBUG:(2021-07-22 10:07:00|Braga Netto diz que ) inserted into correio in news.db
-2021-07-22 13:07:34,208:database:DEBUG:(2021-07-22 06:00:00|Em meio à CPI e com ) inserted into correio in news.db
-2021-07-22 13:07:34,261:database:DEBUG:(2021-07-22 06:00:00|Minirreforma ministe) inserted into correio in news.db
-2021-07-22 13:07:34,333:database:DEBUG:(2021-07-22 06:00:00|Mãe de Ciro Nogueira) inserted into correio in news.db
-2021-07-22 13:07:34,430:database:DEBUG:(2021-07-22 06:00:00|Kassab aposta no est) inserted into correio in news.db
-2021-07-22 13:07:34,528:database:DEBUG:(2021-07-21 22:40:00|Governador do MT def) inserted into correio in news.db
-2021-07-22 13:07:34,625:database:DEBUG:(2021-07-21 21:33:00|Senadores apontam fa) inserted into correio in news.db
-2021-07-22 13:07:34,705:database:DEBUG:(2021-07-21 21:08:00|Com Ciro Nogueira na) inserted into correio in news.db
-2021-07-22 13:07:34,706:webdriver:DEBUG:clicking next page
-2021-07-22 13:07:35,014:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:07:36,018:scraper:DEBUG:page 1 - finding elements
-2021-07-22 13:07:36,036:webdriver:DEBUG:22 elements found
-2021-07-22 13:07:36,036:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:07:36,037:webdriver:DEBUG:clicking next page
-2021-07-22 13:07:36,126:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:07:37,132:scraper:DEBUG:page 2 - finding elements
-2021-07-22 13:07:37,157:webdriver:DEBUG:62 elements found
-2021-07-22 13:07:37,157:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:07:37,265:database:DEBUG:(2021-07-21 20:51:00|Cármen Lúcia nega ma) inserted into correio in news.db
-2021-07-22 13:07:37,326:database:DEBUG:(2021-07-21 19:00:00|"Terceira via vai se) inserted into correio in news.db
-2021-07-22 13:07:37,423:database:DEBUG:(2021-07-21 18:14:00|Senadora pede que TC) inserted into correio in news.db
-2021-07-22 13:07:37,497:database:DEBUG:(2021-07-21 18:09:00|Randolfe será condec) inserted into correio in news.db
-2021-07-22 13:07:37,561:database:DEBUG:(2021-07-21 17:27:00|Alessandro Vieira ac) inserted into correio in news.db
-2021-07-22 13:07:37,637:database:DEBUG:(2021-07-21 16:07:00|Citado na CPI, coron) inserted into correio in news.db
-2021-07-22 13:07:37,734:database:DEBUG:(2021-07-21 15:23:00|Bolsonaro: 'era hipé) inserted into correio in news.db
-2021-07-22 13:07:37,804:database:DEBUG:(2021-07-21 13:45:00|Caso Ciro Nogueira v) inserted into correio in news.db
-2021-07-22 13:07:37,891:database:DEBUG:(2021-07-21 13:42:00|Prestes a ingressar ) inserted into correio in news.db
-2021-07-22 13:07:37,964:database:DEBUG:(2021-07-21 13:16:00|Bolsonaro pretende r) inserted into correio in news.db
-2021-07-22 13:07:38,028:database:DEBUG:(2021-07-21 12:42:00|Bolsonaro: "Cadeira ) inserted into correio in news.db
-2021-07-22 13:07:38,102:database:DEBUG:(2021-07-21 12:20:00|Bolsonaro: "Cuidado ) inserted into correio in news.db
-2021-07-22 13:07:38,183:database:DEBUG:(2021-07-21 11:51:00|Bolsonaro diz que de) inserted into correio in news.db
-2021-07-22 13:07:38,266:database:DEBUG:(2021-07-21 11:46:00|Bolsonaro: "Se tives) inserted into correio in news.db
-2021-07-22 13:07:38,359:database:DEBUG:(2021-07-21 11:21:00|Bolsonaro: "O G7 da ) inserted into correio in news.db
-2021-07-22 13:07:38,479:database:DEBUG:(2021-07-21 10:15:00|Semipresidencialismo) inserted into correio in news.db
-2021-07-22 13:07:38,536:database:DEBUG:(2021-07-21 09:51:00|Após Gleisi Hoffmann) inserted into correio in news.db
-2021-07-22 13:07:38,655:database:DEBUG:(2021-07-21 09:50:00|Reforma ministerial:) inserted into correio in news.db
-2021-07-22 13:07:38,744:database:DEBUG:(2021-07-21 09:49:00|Bolsonaro diz que "p) inserted into correio in news.db
-2021-07-22 13:07:38,806:database:DEBUG:(2021-07-21 06:00:00|Alexandre Garcia: "F) inserted into correio in news.db
-2021-07-22 13:07:38,871:database:DEBUG:(2021-07-21 06:00:00|Rosa Weber decidirá ) inserted into correio in news.db
-2021-07-22 13:07:38,934:database:DEBUG:(2021-07-21 06:00:00|Lula e Bolsonaro des) inserted into correio in news.db
-2021-07-22 13:07:39,006:database:DEBUG:(2021-07-21 06:00:00|Aras sofre resistênc) inserted into correio in news.db
-2021-07-22 13:07:39,130:database:DEBUG:(2021-07-20 23:59:00|Com respaldo do MDB,) inserted into correio in news.db
-2021-07-22 13:07:39,350:database:DEBUG:(2021-07-20 23:50:00|PF: investigação que) inserted into correio in news.db
-2021-07-22 13:07:39,432:database:DEBUG:(2021-07-20 22:27:00|Luís Miranda reage a) inserted into correio in news.db
-2021-07-22 13:07:39,512:database:DEBUG:(2021-07-20 22:19:00|Flávio Bolsonaro rep) inserted into correio in news.db
-2021-07-22 13:07:39,597:database:DEBUG:(2021-07-20 21:44:00|Kassab sobre candida) inserted into correio in news.db
-2021-07-22 13:07:39,659:database:DEBUG:(2021-07-20 20:51:00|Fábio Faria desponta) inserted into correio in news.db
-2021-07-22 13:07:39,725:database:DEBUG:(2021-07-20 19:46:00|Eduardo Bolsonaro re) inserted into correio in news.db
-2021-07-22 13:07:39,798:database:DEBUG:(2021-07-20 19:19:00|CPMI das Fake News r) inserted into correio in news.db
-2021-07-22 13:07:39,876:database:DEBUG:(2021-07-20 18:29:00|CPI da Covid-19 divi) inserted into correio in news.db
-2021-07-22 13:07:39,941:database:DEBUG:(2021-07-20 17:39:00|Presidente afastado ) inserted into correio in news.db
-2021-07-22 13:07:40,084:database:DEBUG:(2021-07-20 16:45:00|"Bolsonaro arma acor) inserted into correio in news.db
-2021-07-22 13:07:40,156:database:DEBUG:(2021-07-20 15:49:00|Bolsonaro decide rec) inserted into correio in news.db
-2021-07-22 13:07:40,227:database:DEBUG:(2021-07-20 15:45:00|Por ordem de Anderso) inserted into correio in news.db
-2021-07-22 13:07:40,298:database:DEBUG:(2021-07-20 15:27:00|Bolsonaro reafirma v) inserted into correio in news.db
-2021-07-22 13:07:40,359:database:DEBUG:(2021-07-20 15:09:00|Lula: 'Semipresidenc) inserted into correio in news.db
-2021-07-22 13:07:40,420:database:DEBUG:(2021-07-20 14:47:00|Bolsonaro: "Cabo da ) inserted into correio in news.db
-2021-07-22 13:07:40,504:database:DEBUG:(2021-07-20 14:36:00|Depoimento de Luís M) inserted into correio in news.db
-2021-07-22 13:07:40,505:webdriver:DEBUG:clicking next page
-2021-07-22 13:07:40,560:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:07:41,563:scraper:DEBUG:page 3 - finding elements
-2021-07-22 13:07:41,589:webdriver:DEBUG:62 elements found
-2021-07-22 13:07:41,589:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:07:41,590:webdriver:DEBUG:clicking next page
-2021-07-22 13:07:41,645:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:07:42,645:scraper:DEBUG:page 4 - finding elements
-2021-07-22 13:07:42,734:webdriver:DEBUG:102 elements found
-2021-07-22 13:07:42,735:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:07:42,829:database:DEBUG:(2021-07-20 14:25:00|Bolsonaro defende al) inserted into correio in news.db
-2021-07-22 13:07:42,896:database:DEBUG:(2021-07-20 14:22:00|Em recuperação, Bols) inserted into correio in news.db
-2021-07-22 13:07:42,960:database:DEBUG:(2021-07-20 14:18:00|"Querem me f*, teria) inserted into correio in news.db
-2021-07-22 13:07:43,028:database:DEBUG:(2021-07-20 14:06:00|Luis Miranda diz que) inserted into correio in news.db
-2021-07-22 13:07:43,094:database:DEBUG:(2021-07-20 14:01:00|Luis Miranda confirm) inserted into correio in news.db
-2021-07-22 13:07:43,205:database:DEBUG:(2021-07-20 13:56:00|Valor médio do novo ) inserted into correio in news.db
-2021-07-22 13:07:43,287:database:DEBUG:(2021-07-20 13:53:00|Bolsonaro volta a di) inserted into correio in news.db
-2021-07-22 13:07:43,349:database:DEBUG:(2021-07-20 13:51:00|Bolsonaro ironiza Do) inserted into correio in news.db
-2021-07-22 13:07:43,410:database:DEBUG:(2021-07-20 13:44:00|Bolsonaro ataca Lula) inserted into correio in news.db
-2021-07-22 13:07:43,478:database:DEBUG:(2021-07-20 13:34:00|Bolsonaro: "Não tem ) inserted into correio in news.db
-2021-07-22 13:07:43,543:database:DEBUG:(2021-07-20 12:02:00|Bolsonaro sobre elei) inserted into correio in news.db
-2021-07-22 13:07:43,627:database:DEBUG:(2021-07-20 11:51:00|Braga Netto: "Precis) inserted into correio in news.db
-2021-07-22 13:07:43,736:database:DEBUG:(2021-07-20 08:55:00|Quem é Mia Khalifa, ) inserted into correio in news.db
-2021-07-22 13:07:43,815:database:DEBUG:(2021-07-20 06:00:00|Decisão sobre fundão) inserted into correio in news.db
-2021-07-22 13:07:43,940:database:DEBUG:(2021-07-20 06:00:00|CPI foca em empresa ) inserted into correio in news.db
-2021-07-22 13:07:44,009:database:DEBUG:(2021-07-19 22:36:00|Bolsonaro diz que ve) inserted into correio in news.db
-2021-07-22 13:07:44,069:database:DEBUG:(2021-07-19 19:55:00|Bolsonaro: "Eu não a) inserted into correio in news.db
-2021-07-22 13:07:44,132:database:DEBUG:(2021-07-19 19:42:00|Parlamentares vão ao) inserted into correio in news.db
-2021-07-22 13:07:44,206:database:DEBUG:(2021-07-19 19:37:00|Omar Aziz: "Roberto ) inserted into correio in news.db
-2021-07-22 13:07:44,272:database:DEBUG:(2021-07-19 18:09:00|"Não é invenção minh) inserted into correio in news.db
-2021-07-22 13:07:44,350:database:DEBUG:(2021-07-19 18:00:00|Fux descarta urgênci) inserted into correio in news.db
-2021-07-22 13:07:44,443:database:DEBUG:(2021-07-19 17:39:00|Aziz volta a compara) inserted into correio in news.db
-2021-07-22 13:07:44,529:database:DEBUG:(2021-07-19 17:24:00|Artistas lançam mani) inserted into correio in news.db
-2021-07-22 13:07:44,604:database:DEBUG:(2021-07-19 16:25:00|Mourão sobre fundo e) inserted into correio in news.db
-2021-07-22 13:07:44,681:database:DEBUG:(2021-07-19 15:34:00|Pode haver "algum ti) inserted into correio in news.db
-2021-07-22 13:07:44,748:database:DEBUG:(2021-07-19 14:47:00|Bolsonaro diz que Ra) inserted into correio in news.db
-2021-07-22 13:07:44,814:database:DEBUG:(2021-07-19 14:30:00|Vice-presidente da C) inserted into correio in news.db
-2021-07-22 13:07:44,903:database:DEBUG:(2021-07-19 14:21:00|Bolsonaro ironiza in) inserted into correio in news.db
-2021-07-22 13:07:44,974:database:DEBUG:(2021-07-19 14:05:00|Bolsonaro defende Pa) inserted into correio in news.db
-2021-07-22 13:07:45,048:database:DEBUG:(2021-07-19 14:04:00|Bolsonaro chama pres) inserted into correio in news.db
-2021-07-22 13:07:45,110:database:DEBUG:(2021-07-19 11:43:00|Bolsonaro sobre dore) inserted into correio in news.db
-2021-07-22 13:07:45,176:database:DEBUG:(2021-07-19 10:04:00|Após alta, Bolsonaro) inserted into correio in news.db
-2021-07-22 13:07:45,250:database:DEBUG:(2021-07-18 23:12:00|Chinesa Sinovac diz ) inserted into correio in news.db
-2021-07-22 13:07:45,333:database:DEBUG:(2021-07-18 15:48:00|Olavo de Carvalho te) inserted into correio in news.db
-2021-07-22 13:07:45,413:database:DEBUG:(2021-07-18 13:27:00|Bolsonaro culpa gove) inserted into correio in news.db
-2021-07-22 13:07:45,488:database:DEBUG:(2021-07-18 13:16:00|Bolsonaro defende vo) inserted into correio in news.db
-2021-07-22 13:07:45,577:database:DEBUG:(2021-07-18 12:26:00|Brasília é o paraíso) inserted into correio in news.db
-2021-07-22 13:07:45,654:database:DEBUG:(2021-07-18 09:40:00|Bolsonaro recebe alt) inserted into correio in news.db
-2021-07-22 13:07:45,734:database:DEBUG:(2021-07-18 08:00:00|Bolsonaro continua e) inserted into correio in news.db
-2021-07-22 13:07:45,797:database:DEBUG:(2021-07-18 06:00:00|"Presidente pode ser) inserted into correio in news.db
-2021-07-22 13:07:45,798:webdriver:DEBUG:clicking next page
-2021-07-22 13:07:45,856:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:07:46,862:scraper:DEBUG:page 5 - finding elements
-2021-07-22 13:07:46,892:webdriver:DEBUG:102 elements found
-2021-07-22 13:07:46,893:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:07:46,897:webdriver:DEBUG:clicking next page
-2021-07-22 13:07:47,013:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:07:48,014:scraper:DEBUG:page 6 - finding elements
-2021-07-22 13:07:48,054:webdriver:DEBUG:102 elements found
-2021-07-22 13:07:48,054:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:07:48,058:webdriver:DEBUG:clicking next page
-2021-07-22 13:07:48,193:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:07:49,193:scraper:DEBUG:page 7 - finding elements
-2021-07-22 13:07:49,243:webdriver:DEBUG:142 elements found
-2021-07-22 13:07:49,245:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:07:49,333:database:DEBUG:(2021-07-16 22:07:00|PF abre inquérito pa) inserted into correio in news.db
-2021-07-22 13:07:49,394:database:DEBUG:(2021-07-16 20:06:00|Bolsonaro passa por ) inserted into correio in news.db
-2021-07-22 13:07:49,479:database:DEBUG:(2021-07-16 19:51:00|Bolsonaro passou por) inserted into correio in news.db
-2021-07-22 13:07:49,557:database:DEBUG:(2021-07-16 19:37:00|Em quadro estável, B) inserted into correio in news.db
-2021-07-22 13:07:49,629:database:DEBUG:(2021-07-16 18:35:00|CPI vai mirar em emp) inserted into correio in news.db
-2021-07-22 13:07:49,712:database:DEBUG:(2021-07-16 17:47:00|Bolsonaro despacha d) inserted into correio in news.db
-2021-07-22 13:07:49,801:database:DEBUG:(2021-07-16 17:07:00|Depoimentos à CPI da) inserted into correio in news.db
-2021-07-22 13:07:49,875:database:DEBUG:(2021-07-16 16:47:00|Comissão da Câmara a) inserted into correio in news.db
-2021-07-22 13:07:49,967:database:DEBUG:(2021-07-16 15:02:00|Pazuello prometeu co) inserted into correio in news.db
-2021-07-22 13:07:50,040:database:DEBUG:(2021-07-16 13:19:00|É contra, mas votou ) inserted into correio in news.db
-2021-07-22 13:07:50,155:database:DEBUG:(2021-07-16 13:02:00|Bolsonaro passa bem,) inserted into correio in news.db
-2021-07-22 13:07:50,216:database:DEBUG:(2021-07-16 11:47:00|Bolsonaro já despach) inserted into correio in news.db
-2021-07-22 13:07:50,379:database:DEBUG:(2021-07-16 09:19:00|Doria com covid: por) inserted into correio in news.db
-2021-07-22 13:07:50,453:database:DEBUG:(2021-07-16 06:00:00|Vergonha do Congress) inserted into correio in news.db
-2021-07-22 13:07:50,542:database:DEBUG:(2021-07-16 06:00:00|Mais militares citad) inserted into correio in news.db
-2021-07-22 13:07:50,635:database:DEBUG:(2021-07-16 06:00:00|Randolfe a Bolsonaro) inserted into correio in news.db
-2021-07-22 13:07:50,718:database:DEBUG:(2021-07-16 06:00:00|Movimento político d) inserted into correio in news.db
-2021-07-22 13:07:50,799:database:DEBUG:(2021-07-15 22:54:00|Bolsonaro amplia açã) inserted into correio in news.db
-2021-07-22 13:07:50,922:database:DEBUG:(2021-07-15 22:49:00|Senado vota se SUS p) inserted into correio in news.db
-2021-07-22 13:07:50,995:database:DEBUG:(2021-07-15 22:27:00|Sancionada lei que l) inserted into correio in news.db
-2021-07-22 13:07:51,065:database:DEBUG:(2021-07-18 06:00:00|Disseminação de fake) inserted into correio in news.db
-2021-07-22 13:07:51,144:database:DEBUG:(2021-07-18 06:00:00|'Distritão': nova fo) inserted into correio in news.db
-2021-07-22 13:07:51,214:database:DEBUG:(2021-07-18 06:00:00|Escolhido para o Sup) inserted into correio in news.db
-2021-07-22 13:07:51,287:database:DEBUG:(2021-07-18 06:00:00|Mesmo de recesso, CP) inserted into correio in news.db
-2021-07-22 13:07:51,358:database:DEBUG:(2021-07-17 19:30:00|Randolfe acusa Pazue) inserted into correio in news.db
-2021-07-22 13:07:51,432:database:DEBUG:(2021-07-17 18:55:00|CPI da Covid formali) inserted into correio in news.db
-2021-07-22 13:07:51,567:database:DEBUG:(2021-07-17 18:19:00|Bolsonaro deve ter a) inserted into correio in news.db
-2021-07-22 13:07:51,674:database:DEBUG:(2021-07-17 16:08:00|Cirurgia abriria esp) inserted into correio in news.db
-2021-07-22 13:07:51,826:database:DEBUG:(2021-07-17 11:18:00|CPI da Covid: senado) inserted into correio in news.db
-2021-07-22 13:07:51,896:database:DEBUG:(2021-07-17 11:13:00|Ministro Rogério Mar) inserted into correio in news.db
-2021-07-22 13:07:52,092:database:DEBUG:(2021-07-17 11:02:00|Bolsonaro pode receb) inserted into correio in news.db
-2021-07-22 13:07:52,239:database:DEBUG:(2021-07-17 06:00:00|Após recesso, CPI ex) inserted into correio in news.db
-2021-07-22 13:07:52,376:database:DEBUG:(2021-07-17 06:00:00|"A CPI da Pandemia a) inserted into correio in news.db
-2021-07-22 13:07:52,497:database:DEBUG:(2021-07-17 06:00:00|Fundão Eleitoral: Ed) inserted into correio in news.db
-2021-07-22 13:07:52,593:database:DEBUG:(2021-07-17 06:00:00|Adiamento da PEC do ) inserted into correio in news.db
-2021-07-22 13:07:52,658:database:DEBUG:(2021-07-17 06:00:00|No recesso, CPI deve) inserted into correio in news.db
-2021-07-22 13:07:52,831:database:DEBUG:(2021-07-17 00:12:00|Irmão do deputado Lu) inserted into correio in news.db
-2021-07-22 13:07:52,894:database:DEBUG:(2021-07-16 23:47:00|Forças Armadas não a) inserted into correio in news.db
-2021-07-22 13:07:52,993:database:DEBUG:(2021-07-16 23:28:00|Pazuello diz que pro) inserted into correio in news.db
-2021-07-22 13:07:53,094:database:DEBUG:(2021-07-16 23:18:00|No recesso, senadore) inserted into correio in news.db
-2021-07-22 13:07:53,094:webdriver:DEBUG:clicking next page
-2021-07-22 13:07:53,174:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:07:54,179:scraper:DEBUG:page 8 - finding elements
-2021-07-22 13:07:54,211:webdriver:DEBUG:162 elements found
-2021-07-22 13:07:54,211:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:07:54,338:database:DEBUG:(2021-07-15 22:24:00|Políticos aliados te) inserted into correio in news.db
-2021-07-22 13:07:54,427:database:DEBUG:(2021-07-15 22:19:00|Após decisão, You Tu) inserted into correio in news.db
-2021-07-22 13:07:54,513:database:DEBUG:(2021-07-15 21:56:00|Parlamentares defend) inserted into correio in news.db
-2021-07-22 13:07:54,584:database:DEBUG:(2021-07-15 20:08:00|Bolsonaro retira son) inserted into correio in news.db
-2021-07-22 13:07:54,652:database:DEBUG:(2021-07-15 20:05:00|Partidos da oposição) inserted into correio in news.db
-2021-07-22 13:07:54,724:database:DEBUG:(2021-07-15 19:28:00|Aziz rebate post de ) inserted into correio in news.db
-2021-07-22 13:07:54,805:database:DEBUG:(2021-07-15 19:02:00|Congresso aprova tex) inserted into correio in news.db
-2021-07-22 13:07:54,882:database:DEBUG:(2021-07-15 18:48:00|Bolsonaro em entrevi) inserted into correio in news.db
-2021-07-22 13:07:54,951:database:DEBUG:(2021-07-15 18:47:00|Depoente chama Blanc) inserted into correio in news.db
-2021-07-22 13:07:55,025:database:DEBUG:(2021-07-15 18:36:00|Randolfe e Tebet enu) inserted into correio in news.db
-2021-07-22 13:07:55,096:database:DEBUG:(2021-07-15 18:17:00|No hospital, Bolsona) inserted into correio in news.db
-2021-07-22 13:07:55,165:database:DEBUG:(2021-07-15 17:58:00|Internado em São Pau) inserted into correio in news.db
-2021-07-22 13:07:55,251:database:DEBUG:(2021-07-15 17:40:00|Internado, Bolsonaro) inserted into correio in news.db
-2021-07-22 13:07:55,329:database:DEBUG:(2021-07-15 17:36:00|Doria testa positivo) inserted into correio in news.db
-2021-07-22 13:07:55,478:database:DEBUG:(2021-07-15 16:51:00|Representante da Dav) inserted into correio in news.db
-2021-07-22 13:07:55,562:database:DEBUG:(2021-07-15 16:02:00|Representante da Dav) inserted into correio in news.db
-2021-07-22 13:07:55,667:database:DEBUG:(2021-07-15 15:44:00|Representante da Dav) inserted into correio in news.db
-2021-07-22 13:07:55,777:database:DEBUG:(2021-07-15 15:38:00|Câmara aprova texto ) inserted into correio in news.db
-2021-07-22 13:07:55,844:database:DEBUG:(2021-07-15 14:13:00|Representante da Dav) inserted into correio in news.db
-2021-07-22 13:07:55,921:database:DEBUG:(2021-07-15 12:27:00|Bolsonaro melhora, m) inserted into correio in news.db
-2021-07-22 13:07:55,921:webdriver:DEBUG:clicking next page
-2021-07-22 13:07:55,982:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:07:56,983:scraper:DEBUG:page 9 - finding elements
-2021-07-22 13:07:57,049:webdriver:DEBUG:202 elements found
-2021-07-22 13:07:57,049:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:07:57,147:database:DEBUG:(2021-07-15 12:18:00|Flávio diz que Bolso) inserted into correio in news.db
-2021-07-22 13:07:57,212:database:DEBUG:(2021-07-15 12:14:00|Com Bolsonaro intern) inserted into correio in news.db
-2021-07-22 13:07:57,338:database:DEBUG:(2021-07-15 12:13:00|Eduardo diz que Jair) inserted into correio in news.db
-2021-07-22 13:07:57,435:database:DEBUG:(2021-07-15 10:16:00|Ao vivo: representan) inserted into correio in news.db
-2021-07-22 13:07:57,531:database:DEBUG:(2021-07-15 06:00:00|Bolsonaro deve ser o) inserted into correio in news.db
-2021-07-22 13:07:57,602:database:DEBUG:(2021-07-15 06:00:00|Análise: mesmo polit) inserted into correio in news.db
-2021-07-22 13:07:57,690:database:DEBUG:(2021-07-15 06:00:00|CPI pretende pôr exe) inserted into correio in news.db
-2021-07-22 13:07:57,757:database:DEBUG:(2021-07-15 06:00:00|Tebet aponta Flavio ) inserted into correio in news.db
-2021-07-22 13:07:57,832:database:DEBUG:(2021-07-15 06:00:00|Obstrução intestinal) inserted into correio in news.db
-2021-07-22 13:07:57,916:database:DEBUG:(2021-07-14 23:33:00|Câmara aprova medida) inserted into correio in news.db
-2021-07-22 13:07:58,013:database:DEBUG:(2021-07-14 23:16:00|Câmara aprova projet) inserted into correio in news.db
-2021-07-22 13:07:58,078:database:DEBUG:(2021-07-14 23:12:00|Após internação, equ) inserted into correio in news.db
-2021-07-22 13:07:58,164:database:DEBUG:(2021-07-14 22:58:00|"O caminho é o Elcio) inserted into correio in news.db
-2021-07-22 13:07:58,236:database:DEBUG:(2021-07-14 22:34:00|Nem Mourão, nem Lira) inserted into correio in news.db
-2021-07-22 13:07:58,319:database:DEBUG:(2021-07-14 21:55:00|Representante da Dav) inserted into correio in news.db
-2021-07-22 13:07:58,403:database:DEBUG:(2021-07-14 21:42:00|Análise: Bolsonaro u) inserted into correio in news.db
-2021-07-22 13:07:58,469:database:DEBUG:(2021-07-14 21:21:00|Internado em São Pau) inserted into correio in news.db
-2021-07-22 13:07:58,583:database:DEBUG:(2021-07-14 21:20:00|Pacheco autoriza pro) inserted into correio in news.db
-2021-07-22 13:07:58,667:database:DEBUG:(2021-07-14 21:16:00|Fux permite que coro) inserted into correio in news.db
-2021-07-22 13:07:58,735:database:DEBUG:(2021-07-14 19:41:00|Flávio diz que Bolso) inserted into correio in news.db
-2021-07-22 13:07:58,812:database:DEBUG:(2021-07-14 18:43:00|Congresso Nacional v) inserted into correio in news.db
-2021-07-22 13:07:58,898:database:DEBUG:(2021-07-14 18:19:00|Globo faz plantão pa) inserted into correio in news.db
-2021-07-22 13:07:58,977:database:DEBUG:(2021-07-14 18:14:00|Flávio diz que Bolso) inserted into correio in news.db
-2021-07-22 13:07:59,057:database:DEBUG:(2021-07-14 17:29:00|Mensagens de Domingh) inserted into correio in news.db
-2021-07-22 13:07:59,132:database:DEBUG:(2021-07-14 17:02:00|Deputada protocola P) inserted into correio in news.db
-2021-07-22 13:07:59,202:database:DEBUG:(2021-07-14 16:40:00|Bolsonaro diz que po) inserted into correio in news.db
-2021-07-22 13:07:59,270:database:DEBUG:(2021-07-14 16:05:00|Bolsonaro está com o) inserted into correio in news.db
-2021-07-22 13:07:59,344:database:DEBUG:(2021-07-14 15:55:00|Diretora da Precisa ) inserted into correio in news.db
-2021-07-22 13:07:59,439:database:DEBUG:(2021-07-14 14:55:00|Diretora da Precisa ) inserted into correio in news.db
-2021-07-22 13:07:59,541:database:DEBUG:(2021-07-14 13:01:00|CPI adia depoimento ) inserted into correio in news.db
-2021-07-22 13:07:59,638:database:DEBUG:(2021-07-14 12:53:00|Executiva da Precisa) inserted into correio in news.db
-2021-07-22 13:07:59,865:database:DEBUG:(2021-07-14 12:23:00|Bolsonaro: médicos a) inserted into correio in news.db
-2021-07-22 13:07:59,961:database:DEBUG:(2021-07-14 12:20:00|Quadro de Bolsonaro ) inserted into correio in news.db
-2021-07-22 13:08:00,053:database:DEBUG:(2021-07-14 11:32:00|Documento do governo) inserted into correio in news.db
-2021-07-22 13:08:00,154:database:DEBUG:(2021-07-14 10:21:00|Ao vivo: CPI da Covi) inserted into correio in news.db
-2021-07-22 13:08:00,225:database:DEBUG:(2021-07-14 08:52:00|Bolsonaro passa mal ) inserted into correio in news.db
-2021-07-22 13:08:00,311:database:DEBUG:(2021-07-14 06:00:00|Nove vezes em que Bo) inserted into correio in news.db
-2021-07-22 13:08:00,402:database:DEBUG:(2021-07-14 06:00:00|"Bolsonaro não será ) inserted into correio in news.db
-2021-07-22 13:08:00,507:database:DEBUG:(2021-07-14 06:00:00|Randolfe diz que gov) inserted into correio in news.db
-2021-07-22 13:08:00,626:database:DEBUG:(2021-07-14 06:00:00|Alexandre Garcia: "O) inserted into correio in news.db
-2021-07-22 13:08:00,626:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:00,686:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:01,687:scraper:DEBUG:page 10 - finding elements
-2021-07-22 13:08:01,747:webdriver:DEBUG:202 elements found
-2021-07-22 13:08:01,747:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:01,776:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:01,935:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:02,940:scraper:DEBUG:page 11 - finding elements
-2021-07-22 13:08:02,992:webdriver:DEBUG:222 elements found
-2021-07-22 13:08:02,993:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:03,084:database:DEBUG:(2021-07-13 21:54:00|Fux limita direito a) inserted into correio in news.db
-2021-07-22 13:08:03,186:database:DEBUG:(2021-07-13 21:30:00|Candidatos da lista ) inserted into correio in news.db
-2021-07-22 13:08:03,279:database:DEBUG:(2021-07-13 21:12:00|Aziz reconvoca repre) inserted into correio in news.db
-2021-07-22 13:08:03,342:database:DEBUG:(2021-07-13 21:02:00|Relator da reforma t) inserted into correio in news.db
-2021-07-22 13:08:03,428:database:DEBUG:(2021-07-13 20:51:00|"Tenho 3 cartões cor) inserted into correio in news.db
-2021-07-22 13:08:03,503:database:DEBUG:(2021-07-13 20:32:00|Omar Aziz chama Jair) inserted into correio in news.db
-2021-07-22 13:08:03,595:database:DEBUG:(2021-07-13 19:37:00|Casal usa camisa con) inserted into correio in news.db
-2021-07-22 13:08:03,671:database:DEBUG:(2021-07-13 19:24:00|Luís Miranda prestar) inserted into correio in news.db
-2021-07-22 13:08:03,750:database:DEBUG:(2021-07-13 19:18:00|CPI decide retomar s) inserted into correio in news.db
-2021-07-22 13:08:03,815:database:DEBUG:(2021-07-13 19:03:00|Presidente do PT rec) inserted into correio in news.db
-2021-07-22 13:08:03,916:database:DEBUG:(2021-07-13 19:01:00|"PEC Pazuello" alcan) inserted into correio in news.db
-2021-07-22 13:08:04,012:database:DEBUG:(2021-07-13 18:39:00|Polícia Federal diz ) inserted into correio in news.db
-2021-07-22 13:08:04,096:database:DEBUG:(2021-07-13 18:33:00|Fux diz ao Senado qu) inserted into correio in news.db
-2021-07-22 13:08:04,234:database:DEBUG:(2021-07-13 18:17:00|Bolsonaro reclama de) inserted into correio in news.db
-2021-07-22 13:08:04,351:database:DEBUG:(2021-07-13 17:44:00|Daniel Silveira esca) inserted into correio in news.db
-2021-07-22 13:08:04,464:database:DEBUG:(2021-07-13 17:15:00|Bolsonaro se reúne n) inserted into correio in news.db
-2021-07-22 13:08:04,587:database:DEBUG:(2021-07-13 16:34:00|Bolsonaro: "Que Deus) inserted into correio in news.db
-2021-07-22 13:08:04,680:database:DEBUG:(2021-07-13 16:34:00|"Nem horror, nem ter) inserted into correio in news.db
-2021-07-22 13:08:04,767:database:DEBUG:(2021-07-13 16:04:00|Defesa de Emanuela M) inserted into correio in news.db
-2021-07-22 13:08:04,842:database:DEBUG:(2021-07-13 15:31:00|CPI pede ao STF escl) inserted into correio in news.db
-2021-07-22 13:08:04,842:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:04,952:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:05,952:scraper:DEBUG:page 12 - finding elements
-2021-07-22 13:08:05,995:webdriver:DEBUG:222 elements found
-2021-07-22 13:08:05,995:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:06,016:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:06,076:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:07,081:scraper:DEBUG:page 13 - finding elements
-2021-07-22 13:08:07,134:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:07,135:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:07,225:database:DEBUG:(2021-07-13 14:51:00|Corpo de Adriano da ) inserted into correio in news.db
-2021-07-22 13:08:07,314:database:DEBUG:(2021-07-13 14:10:00|Bolsonaro recebe pre) inserted into correio in news.db
-2021-07-22 13:08:07,396:database:DEBUG:(2021-07-13 14:03:00|Fux diz a senadores ) inserted into correio in news.db
-2021-07-22 13:08:07,498:database:DEBUG:(2021-07-13 13:52:00|Fux se prontifica a ) inserted into correio in news.db
-2021-07-22 13:08:07,582:database:DEBUG:(2021-07-13 13:04:00|Bolsonaro chama Lula) inserted into correio in news.db
-2021-07-22 13:08:07,670:database:DEBUG:(2021-07-13 12:57:00|Senadores fazem 1 mi) inserted into correio in news.db
-2021-07-22 13:08:07,768:database:DEBUG:(2021-07-13 12:47:00|Senador pede acesso ) inserted into correio in news.db
-2021-07-22 13:08:07,866:database:DEBUG:(2021-07-13 12:44:00|CPI: Aziz suspende s) inserted into correio in news.db
-2021-07-22 13:08:07,951:database:DEBUG:(2021-07-13 12:33:00|Bolsonaro: "Manda o ) inserted into correio in news.db
-2021-07-22 13:08:08,048:database:DEBUG:(2021-07-13 12:17:00|Polícia Federal inve) inserted into correio in news.db
-2021-07-22 13:08:08,115:database:DEBUG:(2021-07-13 12:08:00|Câmara convida Braga) inserted into correio in news.db
-2021-07-22 13:08:08,205:database:DEBUG:(2021-07-13 11:09:00|‘PEC Pazuello’ deve ) inserted into correio in news.db
-2021-07-22 13:08:08,279:database:DEBUG:(2021-07-13 11:07:00|Ao vivo: CPI interro) inserted into correio in news.db
-2021-07-22 13:08:08,366:database:DEBUG:(2021-07-13 06:00:00|Fux cobra de Bolsona) inserted into correio in news.db
-2021-07-22 13:08:08,451:database:DEBUG:(2021-07-13 06:00:00|"Voto impresso é len) inserted into correio in news.db
-2021-07-22 13:08:08,521:database:DEBUG:(2021-07-13 06:00:00|Cotado à Presidência) inserted into correio in news.db
-2021-07-22 13:08:08,595:database:DEBUG:(2021-07-13 06:00:00|CPI da Covid: depoen) inserted into correio in news.db
-2021-07-22 13:08:08,674:database:DEBUG:(2021-07-13 06:00:00|"Alguém tem de expli) inserted into correio in news.db
-2021-07-22 13:08:08,776:database:DEBUG:(2021-07-13 00:00:00|"Exemplo de combate ) inserted into correio in news.db
-2021-07-22 13:08:08,852:database:DEBUG:(2021-07-12 22:34:00|"Eu não gravei o pre) inserted into correio in news.db
-2021-07-22 13:08:08,960:database:DEBUG:(2021-07-12 22:00:00|Bolsonaro se recusa ) inserted into correio in news.db
-2021-07-22 13:08:09,067:database:DEBUG:(2021-07-12 21:50:00|A jornalistas, Bolso) inserted into correio in news.db
-2021-07-22 13:08:09,167:database:DEBUG:(2021-07-12 21:44:00|Advogada deixa defes) inserted into correio in news.db
-2021-07-22 13:08:09,244:database:DEBUG:(2021-07-12 21:03:00|Acusações sem provas) inserted into correio in news.db
-2021-07-22 13:08:09,383:database:DEBUG:(2021-07-12 20:48:00|Bolsonaro pedirá con) inserted into correio in news.db
-2021-07-22 13:08:09,767:database:DEBUG:(2021-07-12 20:20:00|Secretário de Econom) inserted into correio in news.db
-2021-07-22 13:08:09,870:database:DEBUG:(2021-07-12 20:12:00|Morre, aos 88 anos, ) inserted into correio in news.db
-2021-07-22 13:08:10,043:database:DEBUG:(2021-07-12 19:39:00|Bolsonaro após conve) inserted into correio in news.db
-2021-07-22 13:08:10,138:database:DEBUG:(2021-07-12 19:27:00|Bolsonaro: estou com) inserted into correio in news.db
-2021-07-22 13:08:10,249:database:DEBUG:(2021-07-12 18:39:00|Bolsonaro nega preva) inserted into correio in news.db
-2021-07-22 13:08:10,337:database:DEBUG:(2021-07-12 18:28:00|Bolsonaro diz que Ba) inserted into correio in news.db
-2021-07-22 13:08:10,444:database:DEBUG:(2021-07-12 17:57:00|Fux concede à respon) inserted into correio in news.db
-2021-07-22 13:08:10,565:database:DEBUG:(2021-07-12 17:44:00|Presidente Jair Bols) inserted into correio in news.db
-2021-07-22 13:08:10,647:database:DEBUG:(2021-07-12 16:16:00|Reverendo apresenta ) inserted into correio in news.db
-2021-07-22 13:08:10,760:database:DEBUG:(2021-07-12 14:43:00|Bolsonaro diz que "n) inserted into correio in news.db
-2021-07-22 13:08:10,872:database:DEBUG:(2021-07-12 14:34:00|Responsável técnica ) inserted into correio in news.db
-2021-07-22 13:08:10,974:database:DEBUG:(2021-07-12 13:47:00|Pacheco diz que não ) inserted into correio in news.db
-2021-07-22 13:08:11,076:database:DEBUG:(2021-07-12 13:10:00|PF abre inquérito pa) inserted into correio in news.db
-2021-07-22 13:08:11,196:database:DEBUG:(2021-07-12 12:58:00|Bolsonaro chama Omar) inserted into correio in news.db
-2021-07-22 13:08:11,308:database:DEBUG:(2021-07-12 10:51:00|PF vai apurar suspei) inserted into correio in news.db
-2021-07-22 13:08:11,308:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:11,407:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:12,408:scraper:DEBUG:page 14 - finding elements
-2021-07-22 13:08:12,466:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:12,466:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:12,483:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:12,547:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:13,551:scraper:DEBUG:page 15 - finding elements
-2021-07-22 13:08:13,589:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:13,590:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:13,602:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:13,654:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:14,656:scraper:DEBUG:page 16 - finding elements
-2021-07-22 13:08:14,724:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:14,725:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:14,739:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:14,797:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:15,797:scraper:DEBUG:page 17 - finding elements
-2021-07-22 13:08:15,857:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:15,858:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:15,872:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:15,919:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:16,924:scraper:DEBUG:page 18 - finding elements
-2021-07-22 13:08:16,988:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:16,989:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:17,005:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:17,068:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:18,069:scraper:DEBUG:page 19 - finding elements
-2021-07-22 13:08:18,128:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:18,128:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:18,154:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:18,218:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:19,220:scraper:DEBUG:page 20 - finding elements
-2021-07-22 13:08:19,307:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:19,307:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:19,321:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:19,474:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:20,475:scraper:DEBUG:page 21 - finding elements
-2021-07-22 13:08:20,524:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:20,524:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:20,535:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:20,596:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:21,597:scraper:DEBUG:page 22 - finding elements
-2021-07-22 13:08:21,667:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:21,667:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:21,712:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:21,780:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:22,786:scraper:DEBUG:page 23 - finding elements
-2021-07-22 13:08:22,827:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:22,827:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:22,839:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:22,907:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:23,908:scraper:DEBUG:page 24 - finding elements
-2021-07-22 13:08:23,959:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:23,959:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:23,979:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:24,048:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:25,053:scraper:DEBUG:page 25 - finding elements
-2021-07-22 13:08:25,104:webdriver:DEBUG:262 elements found
-2021-07-22 13:08:25,104:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:25,120:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:25,194:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:26,196:scraper:DEBUG:page 26 - finding elements
-2021-07-22 13:08:26,271:webdriver:DEBUG:322 elements found
-2021-07-22 13:08:26,272:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:26,379:database:DEBUG:(2021-07-12 06:00:00|Torquato Jardim apon) inserted into correio in news.db
-2021-07-22 13:08:26,477:database:DEBUG:(2021-07-12 06:00:00|Com apoio, frente pe) inserted into correio in news.db
-2021-07-22 13:08:26,568:database:DEBUG:(2021-07-12 06:00:00|CPI corre contra o t) inserted into correio in news.db
-2021-07-22 13:08:26,671:database:DEBUG:(2021-07-12 06:00:00|Após saída de Araújo) inserted into correio in news.db
-2021-07-22 13:08:26,756:database:DEBUG:(2021-07-12 06:00:00|Após nota, especiali) inserted into correio in news.db
-2021-07-22 13:08:26,838:database:DEBUG:(2021-07-11 21:07:00|General Santos Cruz ) inserted into correio in news.db
-2021-07-22 13:08:26,925:database:DEBUG:(2021-07-11 19:00:00|Datafolha: Para 70% ) inserted into correio in news.db
-2021-07-22 13:08:27,020:database:DEBUG:(2021-07-11 15:50:00|Doria fará cirurgia ) inserted into correio in news.db
-2021-07-22 13:08:27,101:database:DEBUG:(2021-07-11 12:20:00|Prisão na CPI da Cov) inserted into correio in news.db
-2021-07-22 13:08:27,265:database:DEBUG:(2021-07-11 06:00:00|Citando "crime de re) inserted into correio in news.db
-2021-07-22 13:08:27,346:database:DEBUG:(2021-07-11 06:00:00|Ataques de Bolsonaro) inserted into correio in news.db
-2021-07-22 13:08:27,435:database:DEBUG:(2021-07-11 06:00:00|Investigando militar) inserted into correio in news.db
-2021-07-22 13:08:27,524:database:DEBUG:(2021-07-10 22:16:00|Associação de procur) inserted into correio in news.db
-2021-07-22 13:08:27,607:database:DEBUG:(2021-07-10 21:17:00|Caso Marielle: promo) inserted into correio in news.db
-2021-07-22 13:08:27,689:database:DEBUG:(2021-07-10 18:35:00|Datafolha aponta que) inserted into correio in news.db
-2021-07-22 13:08:27,772:database:DEBUG:(2021-07-10 17:42:00|Oposição vê confissã) inserted into correio in news.db
-2021-07-22 13:08:27,859:database:DEBUG:(2021-07-10 17:36:00|RS vai apurar "com r) inserted into correio in news.db
-2021-07-22 13:08:27,945:database:DEBUG:(2021-07-10 16:38:00|Bolsonaro diz que co) inserted into correio in news.db
-2021-07-22 13:08:28,028:database:DEBUG:(2021-07-10 14:54:00|Flávio Bolsonaro se ) inserted into correio in news.db
-2021-07-22 13:08:28,110:database:DEBUG:(2021-07-10 14:08:00|Bolsonaro sobre susp) inserted into correio in news.db
-2021-07-22 13:08:28,184:database:DEBUG:(2021-07-10 13:51:00|Bolsonaro: o que Bar) inserted into correio in news.db
-2021-07-22 13:08:28,269:database:DEBUG:(2021-07-10 13:37:00|"Há indícios muito f) inserted into correio in news.db
-2021-07-22 13:08:28,337:database:DEBUG:(2021-07-10 13:36:00|Bolsonaro: 'não poss) inserted into correio in news.db
-2021-07-22 13:08:28,409:database:DEBUG:(2021-07-10 13:34:00|Bolsonaro: não abrir) inserted into correio in news.db
-2021-07-22 13:08:28,518:database:DEBUG:(2021-07-10 12:59:00|Arthur Lira: urna de) inserted into correio in news.db
-2021-07-22 13:08:28,684:database:DEBUG:(2021-07-10 12:58:00|Após declarações de ) inserted into correio in news.db
-2021-07-22 13:08:28,810:database:DEBUG:(2021-07-10 11:45:00|Bolsonaro participa ) inserted into correio in news.db
-2021-07-22 13:08:28,924:database:DEBUG:(2021-07-10 09:36:00|Fiscal pediu rescisã) inserted into correio in news.db
-2021-07-22 13:08:28,994:database:DEBUG:(2021-07-10 06:00:00|Pacheco: Quem preten) inserted into correio in news.db
-2021-07-22 13:08:29,091:database:DEBUG:(2021-07-10 06:00:00|'O mal vence quando ) inserted into correio in news.db
-2021-07-22 13:08:29,161:database:DEBUG:(2021-07-10 06:00:00|Ovasco, novo preside) inserted into correio in news.db
-2021-07-22 13:08:29,237:database:DEBUG:(2021-07-10 06:00:00|Pacheco diz que tens) inserted into correio in news.db
-2021-07-22 13:08:29,326:database:DEBUG:(2021-07-10 06:00:00|"Faltou a arte do di) inserted into correio in news.db
-2021-07-22 13:08:29,439:database:DEBUG:(2021-07-10 06:00:00|Temor da existência ) inserted into correio in news.db
-2021-07-22 13:08:29,519:database:DEBUG:(2021-07-10 00:15:00|Ibrade repudia falas) inserted into correio in news.db
-2021-07-22 13:08:29,586:database:DEBUG:(2021-07-10 00:15:00|Bolsonaro passa mal ) inserted into correio in news.db
-2021-07-22 13:08:29,789:database:DEBUG:(2021-07-09 23:31:00|Parlamentar que apal) inserted into correio in news.db
-2021-07-22 13:08:29,891:database:DEBUG:(2021-07-09 22:14:00|CPI da Covid decide ) inserted into correio in news.db
-2021-07-22 13:08:29,954:database:DEBUG:(2021-07-09 22:10:00|Wassef, advogado da ) inserted into correio in news.db
-2021-07-22 13:08:30,154:database:DEBUG:(2021-07-09 21:34:00|CPI da Covid: o que ) inserted into correio in news.db
-2021-07-22 13:08:30,288:database:DEBUG:(2021-07-09 20:54:00|Barroso foi vítima d) inserted into correio in news.db
-2021-07-22 13:08:30,442:database:DEBUG:(2021-07-09 20:28:00|Comandante da Aeroná) inserted into correio in news.db
-2021-07-22 13:08:30,527:database:DEBUG:(2021-07-09 19:46:00|Datafolha: Lula tem ) inserted into correio in news.db
-2021-07-22 13:08:30,617:database:DEBUG:(2021-07-09 19:22:00|Candidata ao STF def) inserted into correio in news.db
-2021-07-22 13:08:30,720:database:DEBUG:(2021-07-09 18:45:00|Senador Otto Alencar) inserted into correio in news.db
-2021-07-22 13:08:30,815:database:DEBUG:(2021-07-09 18:03:00|TSE diz que atuar co) inserted into correio in news.db
-2021-07-22 13:08:30,904:database:DEBUG:(2021-07-09 17:51:00|"Meu couro é grosso") inserted into correio in news.db
-2021-07-22 13:08:30,978:database:DEBUG:(2021-07-09 17:32:00|Relator da CPI cobra) inserted into correio in news.db
-2021-07-22 13:08:31,072:database:DEBUG:(2021-07-09 17:28:00|Pacheco rebate Bolso) inserted into correio in news.db
-2021-07-22 13:08:31,162:database:DEBUG:(2021-07-09 16:56:00|Pacheco diz que Cong) inserted into correio in news.db
-2021-07-22 13:08:31,313:database:DEBUG:(2021-07-09 16:49:00|Em revés para Bolson) inserted into correio in news.db
-2021-07-22 13:08:31,429:database:DEBUG:(2021-07-09 15:57:00|"Não haverá virada d) inserted into correio in news.db
-2021-07-22 13:08:31,510:database:DEBUG:(2021-07-09 15:14:00|Consultor diz que Lu) inserted into correio in news.db
-2021-07-22 13:08:31,581:database:DEBUG:(2021-07-09 13:35:00|Consultor vê quantid) inserted into correio in news.db
-2021-07-22 13:08:31,694:database:DEBUG:(2021-07-09 13:08:00|Bolsonaro: "Já está ) inserted into correio in news.db
-2021-07-22 13:08:31,791:database:DEBUG:(2021-07-09 12:58:00|CNBB cobra apuração ) inserted into correio in news.db
-2021-07-22 13:08:31,880:database:DEBUG:(2021-07-09 12:41:00|Braga Netto a cadete) inserted into correio in news.db
-2021-07-22 13:08:31,947:database:DEBUG:(2021-07-09 12:22:00|Bolsonaro ataca mini) inserted into correio in news.db
-2021-07-22 13:08:32,020:database:DEBUG:(2021-07-09 12:01:00|Bolsonaro volta a at) inserted into correio in news.db
-2021-07-22 13:08:32,081:database:DEBUG:(2021-07-09 11:41:00|Governista, senador ) inserted into correio in news.db
-2021-07-22 13:08:32,082:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:32,358:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:33,362:scraper:DEBUG:page 27 - finding elements
-2021-07-22 13:08:33,487:webdriver:DEBUG:562 elements found
-2021-07-22 13:08:33,487:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:33,562:database:DEBUG:(2021-07-08 14:32:00|MBL quer bolsonarist) inserted into correio in news.db
-2021-07-22 13:08:33,651:database:DEBUG:(2021-07-08 14:25:00|Ex-coordenadora de I) inserted into correio in news.db
-2021-07-22 13:08:33,734:database:DEBUG:(2021-07-08 14:01:00|Bolsonaro a Fernánde) inserted into correio in news.db
-2021-07-22 13:08:33,803:database:DEBUG:(2021-07-08 13:37:00|MPF avalia como "imo) inserted into correio in news.db
-2021-07-22 13:08:33,880:database:DEBUG:(2021-07-08 13:30:00|Elcio Franco quis ex) inserted into correio in news.db
-2021-07-22 13:08:34,017:database:DEBUG:(2021-07-08 12:41:00|Bolsonaro prega flex) inserted into correio in news.db
-2021-07-22 13:08:34,091:database:DEBUG:(2021-07-08 12:21:00|Ex-coordenadora do P) inserted into correio in news.db
-2021-07-22 13:08:34,179:database:DEBUG:(2021-07-08 10:47:00|Ao vivo: ex-coordena) inserted into correio in news.db
-2021-07-22 13:08:34,258:database:DEBUG:(2021-07-08 10:14:00|Em reunião no Planal) inserted into correio in news.db
-2021-07-22 13:08:34,357:database:DEBUG:(2021-07-08 07:47:00|Governo exonera dire) inserted into correio in news.db
-2021-07-22 13:08:34,487:database:DEBUG:(2021-07-08 06:00:00|Veja os principais p) inserted into correio in news.db
-2021-07-22 13:08:34,597:database:DEBUG:(2021-07-08 06:00:00|Aziz classifica reaç) inserted into correio in news.db
-2021-07-22 13:08:34,736:database:DEBUG:(2021-07-08 06:00:00|Tropa de choque do g) inserted into correio in news.db
-2021-07-22 13:08:34,842:database:DEBUG:(2021-07-08 06:00:00|"Estamos há dois ano) inserted into correio in news.db
-2021-07-22 13:08:34,947:database:DEBUG:(2021-07-08 06:00:00|CPI aprova convocaçã) inserted into correio in news.db
-2021-07-22 13:08:35,032:database:DEBUG:(2021-07-08 00:19:00|CPI da Covid: govern) inserted into correio in news.db
-2021-07-22 13:08:35,175:database:DEBUG:(2021-07-07 23:49:00|Preso por mentir na ) inserted into correio in news.db
-2021-07-22 13:08:35,268:database:DEBUG:(2021-07-07 21:34:00|Bolsonaro: acham que) inserted into correio in news.db
-2021-07-22 13:08:35,368:database:DEBUG:(2021-07-07 20:58:00|"Podem fazer mil not) inserted into correio in news.db
-2021-07-22 13:08:35,436:database:DEBUG:(2021-07-07 20:48:00|Braga Netto repudia,) inserted into correio in news.db
-2021-07-22 13:08:35,510:database:DEBUG:(2021-07-02 21:29:00|Senado iniciará sema) inserted into correio in news.db
-2021-07-22 13:08:35,599:database:DEBUG:(2021-07-02 20:05:00|"Irmãos Miranda ment) inserted into correio in news.db
-2021-07-22 13:08:35,762:database:DEBUG:(2021-07-02 17:32:00|Governador do RS, Ed) inserted into correio in news.db
-2021-07-22 13:08:35,838:database:DEBUG:(2021-07-02 13:06:00|Bolsonaro promete li) inserted into correio in news.db
-2021-07-22 13:08:35,929:database:DEBUG:(2021-07-02 12:33:00|Flávio diz não poder) inserted into correio in news.db
-2021-07-22 13:08:36,008:database:DEBUG:(2021-07-02 12:18:00|Bolsonaro volta a at) inserted into correio in news.db
-2021-07-22 13:08:36,102:database:DEBUG:(2021-07-02 11:59:00|Bolsonaro diz que Ed) inserted into correio in news.db
-2021-07-22 13:08:36,188:database:DEBUG:(2021-07-02 11:06:00|PGR pede abertura de) inserted into correio in news.db
-2021-07-22 13:08:36,276:database:DEBUG:(2021-07-02 10:56:00|MPF ingressa com açã) inserted into correio in news.db
-2021-07-22 13:08:36,355:database:DEBUG:(2021-07-02 06:00:00|Marco Aurélio partic) inserted into correio in news.db
-2021-07-22 13:08:36,429:database:DEBUG:(2021-07-02 06:00:00|Depoimento de vended) inserted into correio in news.db
-2021-07-22 13:08:36,526:database:DEBUG:(2021-07-02 06:00:00|Miranda vê armação e) inserted into correio in news.db
-2021-07-22 13:08:36,595:database:DEBUG:(2021-07-02 00:24:00|Ministra nega pedido) inserted into correio in news.db
-2021-07-22 13:08:36,717:database:DEBUG:(2021-07-01 23:28:00|'Grupo de WhatsApp v) inserted into correio in news.db
-2021-07-22 13:08:36,869:database:DEBUG:(2021-07-01 23:04:00|Bolsonaro ironiza "p) inserted into correio in news.db
-2021-07-22 13:08:36,967:database:DEBUG:(2021-07-01 22:52:00|Bolsonaro ameaça não) inserted into correio in news.db
-2021-07-22 13:08:37,039:database:DEBUG:(2021-07-01 22:48:00|"Sou um governador g) inserted into correio in news.db
-2021-07-22 13:08:37,131:database:DEBUG:(2021-07-01 21:57:00|Moraes arquiva inqué) inserted into correio in news.db
-2021-07-22 13:08:37,268:database:DEBUG:(2021-07-01 21:40:00|CPI da Covid: entend) inserted into correio in news.db
-2021-07-22 13:08:37,467:database:DEBUG:(2021-07-01 21:10:00|PSol entra com repre) inserted into correio in news.db
-2021-07-22 13:08:37,612:database:DEBUG:(2021-07-07 06:00:00|Senadores desconfiam) inserted into correio in news.db
-2021-07-22 13:08:37,719:database:DEBUG:(2021-07-07 06:00:00|Tebet indica falsifi) inserted into correio in news.db
-2021-07-22 13:08:37,851:database:DEBUG:(2021-07-07 06:00:00|Acusado de corrupção) inserted into correio in news.db
-2021-07-22 13:08:37,959:database:DEBUG:(2021-07-07 06:00:00|CPI apura disputa po) inserted into correio in news.db
-2021-07-22 13:08:38,038:database:DEBUG:(2021-07-07 06:00:00|"Não podemos institu) inserted into correio in news.db
-2021-07-22 13:08:38,107:database:DEBUG:(2021-07-07 06:00:00|Alexandre Garcia: "H) inserted into correio in news.db
-2021-07-22 13:08:38,176:database:DEBUG:(2021-07-06 23:01:00|Forças Armadas atuar) inserted into correio in news.db
-2021-07-22 13:08:38,284:database:DEBUG:(2021-07-06 22:55:00|Protestos: como bols) inserted into correio in news.db
-2021-07-22 13:08:38,377:database:DEBUG:(2021-07-06 21:11:00|Bolsonaro defende fi) inserted into correio in news.db
-2021-07-22 13:08:38,466:database:DEBUG:(2021-07-06 19:55:00|Sem esquerda, MBL e ) inserted into correio in news.db
-2021-07-22 13:08:38,533:database:DEBUG:(2021-07-06 19:14:00|Câmara contraria gov) inserted into correio in news.db
-2021-07-22 13:08:38,623:database:DEBUG:(2021-07-06 19:03:00|Câmara deve votar pr) inserted into correio in news.db
-2021-07-22 13:08:38,696:database:DEBUG:(2021-07-06 18:36:00|Ministro do STF crit) inserted into correio in news.db
-2021-07-22 13:08:38,771:database:DEBUG:(2021-07-06 18:19:00|Datena assina filiaç) inserted into correio in news.db
-2021-07-22 13:08:38,908:database:DEBUG:(2021-07-06 17:18:00|Voto impresso é tent) inserted into correio in news.db
-2021-07-22 13:08:38,992:database:DEBUG:(2021-07-06 16:26:00|CPI levanta sigilo d) inserted into correio in news.db
-2021-07-22 13:08:39,070:database:DEBUG:(2021-07-06 16:18:00|Candidato a uma vaga) inserted into correio in news.db
-2021-07-22 13:08:39,146:database:DEBUG:(2021-07-06 15:15:00|Covaxin: servidora s) inserted into correio in news.db
-2021-07-22 13:08:39,223:database:DEBUG:(2021-07-06 14:24:00|PF adquire sistema d) inserted into correio in news.db
-2021-07-22 13:08:39,304:database:DEBUG:(2021-07-06 13:42:00|Fiscal de contrato d) inserted into correio in news.db
-2021-07-22 13:08:39,379:database:DEBUG:(2021-07-09 06:00:00|Reunião de militares) inserted into correio in news.db
-2021-07-22 13:08:39,459:database:DEBUG:(2021-07-08 22:50:00|Rejeição de Bolsonar) inserted into correio in news.db
-2021-07-22 13:08:39,553:database:DEBUG:(2021-07-08 22:37:00|Votação da LDO é adi) inserted into correio in news.db
-2021-07-22 13:08:39,675:database:DEBUG:(2021-07-08 22:13:00|Olavo de Carvalho é ) inserted into correio in news.db
-2021-07-22 13:08:39,761:database:DEBUG:(2021-07-08 21:16:00|Queiroga irá definir) inserted into correio in news.db
-2021-07-22 13:08:39,848:database:DEBUG:(2021-07-08 21:02:00|"Caguei para a CPI. ) inserted into correio in news.db
-2021-07-22 13:08:39,972:database:DEBUG:(2021-07-08 19:23:00|"Não acuso ninguém",) inserted into correio in news.db
-2021-07-22 13:08:40,142:database:DEBUG:(2021-07-08 18:51:00|Câmara aprova priori) inserted into correio in news.db
-2021-07-22 13:08:40,220:database:DEBUG:(2021-07-08 18:35:00|Flávio diz que prisã) inserted into correio in news.db
-2021-07-22 13:08:40,368:database:DEBUG:(2021-07-08 18:30:00|"Eu posso até ter me) inserted into correio in news.db
-2021-07-22 13:08:40,481:database:DEBUG:(2021-07-08 18:24:00|Presidente do Senado) inserted into correio in news.db
-2021-07-22 13:08:40,573:database:DEBUG:(2021-07-08 17:44:00|Covax: governo contr) inserted into correio in news.db
-2021-07-22 13:08:40,649:database:DEBUG:(2021-07-08 17:28:00|Em carta, CPI cobra ) inserted into correio in news.db
-2021-07-22 13:08:40,734:database:DEBUG:(2021-07-08 17:13:00|"Nós vamos investiga) inserted into correio in news.db
-2021-07-22 13:08:40,834:database:DEBUG:(2021-07-08 17:02:00|Deputado Túlio Gadêl) inserted into correio in news.db
-2021-07-22 13:08:40,917:database:DEBUG:(2021-07-08 16:45:00|Avaliação negativa d) inserted into correio in news.db
-2021-07-22 13:08:40,997:database:DEBUG:(2021-07-08 15:40:00|Bolsonaro, a apoiado) inserted into correio in news.db
-2021-07-22 13:08:41,077:database:DEBUG:(2021-07-08 14:54:00|Aziz cobra de Bolson) inserted into correio in news.db
-2021-07-22 13:08:41,154:database:DEBUG:(2021-07-08 14:47:00|Bolsonaro ataca Aziz) inserted into correio in news.db
-2021-07-22 13:08:41,245:database:DEBUG:(2021-07-08 14:37:00|Bolsonaro: "Ou fazem) inserted into correio in news.db
-2021-07-22 13:08:41,353:database:DEBUG:(2021-07-05 13:44:00|Seis razões que difi) inserted into correio in news.db
-2021-07-22 13:08:41,448:database:DEBUG:(2021-07-05 13:36:00|Partido Novo declara) inserted into correio in news.db
-2021-07-22 13:08:41,523:database:DEBUG:(2021-07-05 11:08:00|Privatização do sane) inserted into correio in news.db
-2021-07-22 13:08:41,605:database:DEBUG:(2021-07-05 10:04:00|Bolsonaro entra na l) inserted into correio in news.db
-2021-07-22 13:08:41,717:database:DEBUG:(2021-07-05 06:00:00|Barros força ida à C) inserted into correio in news.db
-2021-07-22 13:08:41,832:database:DEBUG:(2021-07-05 06:00:00|Grupo de deputados d) inserted into correio in news.db
-2021-07-22 13:08:41,929:database:DEBUG:(2021-07-05 06:00:00|Governistas desengav) inserted into correio in news.db
-2021-07-22 13:08:42,033:database:DEBUG:(2021-07-05 06:00:00|"Talvez esteja abrin) inserted into correio in news.db
-2021-07-22 13:08:42,127:database:DEBUG:(2021-07-05 06:00:00|Após governador assu) inserted into correio in news.db
-2021-07-22 13:08:42,216:database:DEBUG:(2021-07-04 21:30:00|'Não pode sequestrar) inserted into correio in news.db
-2021-07-22 13:08:42,307:database:DEBUG:(2021-07-04 21:18:00|Centrão e militares ) inserted into correio in news.db
-2021-07-22 13:08:42,384:database:DEBUG:(2021-07-04 20:38:00|"Bolsonaro não tem m) inserted into correio in news.db
-2021-07-22 13:08:42,463:database:DEBUG:(2021-07-04 18:14:00|Carlos Wizard: quais) inserted into correio in news.db
-2021-07-22 13:08:42,538:database:DEBUG:(2021-07-04 18:12:00|Caso Covaxin: 5 pont) inserted into correio in news.db
-2021-07-22 13:08:42,656:database:DEBUG:(2021-07-04 16:33:00|Eduardo Leite nega c) inserted into correio in news.db
-2021-07-22 13:08:42,743:database:DEBUG:(2021-07-04 15:45:00|Doria repudia ato de) inserted into correio in news.db
-2021-07-22 13:08:42,850:database:DEBUG:(2021-07-04 14:55:00|Eduardo Paes rebate ) inserted into correio in news.db
-2021-07-22 13:08:42,959:database:DEBUG:(2021-07-04 14:26:00|Eleitores de municíp) inserted into correio in news.db
-2021-07-22 13:08:43,041:database:DEBUG:(2021-07-04 11:24:00|Bolsonaro sobre vand) inserted into correio in news.db
-2021-07-22 13:08:43,118:database:DEBUG:(2021-07-04 07:00:00|PGR deve ser rápida ) inserted into correio in news.db
-2021-07-22 13:08:43,216:database:DEBUG:(2021-07-04 07:00:00|Renan estranha que, ) inserted into correio in news.db
-2021-07-22 13:08:43,339:database:DEBUG:(2021-07-03 18:29:00|PF indicia Renan Cal) inserted into correio in news.db
-2021-07-22 13:08:43,469:database:DEBUG:(2021-07-03 17:34:00|União pagou R$ 19 bi) inserted into correio in news.db
-2021-07-22 13:08:43,557:database:DEBUG:(2021-07-03 17:21:00|Pastor Everaldo: def) inserted into correio in news.db
-2021-07-22 13:08:43,653:database:DEBUG:(2021-07-03 17:19:00|Degase tem novo dire) inserted into correio in news.db
-2021-07-22 13:08:43,734:database:DEBUG:(2021-07-03 12:44:00|Protestos contra Bol) inserted into correio in news.db
-2021-07-22 13:08:43,844:database:DEBUG:(2021-07-03 11:51:00|Manifestantes anti-B) inserted into correio in news.db
-2021-07-22 13:08:43,961:database:DEBUG:(2021-07-03 11:14:00|Chuva não atrapalha ) inserted into correio in news.db
-2021-07-22 13:08:44,049:database:DEBUG:(2021-07-03 10:30:00|Juiz aceita denúncia) inserted into correio in news.db
-2021-07-22 13:08:44,142:database:DEBUG:(2021-07-03 08:53:00|Protestos contra Bol) inserted into correio in news.db
-2021-07-22 13:08:44,233:database:DEBUG:(2021-07-03 06:00:00|CPI da Covid: Barros) inserted into correio in news.db
-2021-07-22 13:08:44,328:database:DEBUG:(2021-07-03 06:00:00|Bolsonaro tem até se) inserted into correio in news.db
-2021-07-22 13:08:44,442:database:DEBUG:(2021-07-03 06:00:00|Rosa Weber atende PG) inserted into correio in news.db
-2021-07-22 13:08:44,539:database:DEBUG:(2021-07-03 06:00:00|Gesto do governador ) inserted into correio in news.db
-2021-07-22 13:08:44,619:database:DEBUG:(2021-07-02 23:48:00|Bolsonaro deve ignor) inserted into correio in news.db
-2021-07-22 13:08:44,704:database:DEBUG:(2021-07-02 23:41:00|Bolsonaro autoriza u) inserted into correio in news.db
-2021-07-22 13:08:44,775:database:DEBUG:(2021-07-02 23:06:00|STF autoriza inquéri) inserted into correio in news.db
-2021-07-22 13:08:44,889:database:DEBUG:(2021-07-02 22:33:00|Pesquisa avalia ação) inserted into correio in news.db
-2021-07-22 13:08:44,979:database:DEBUG:(2021-07-02 22:26:00|Geração 68: militant) inserted into correio in news.db
-2021-07-22 13:08:45,090:database:DEBUG:(2021-07-02 21:39:00|Barros entra com man) inserted into correio in news.db
-2021-07-22 13:08:45,190:database:DEBUG:(2021-07-01 18:24:00|Covaxin: para senado) inserted into correio in news.db
-2021-07-22 13:08:45,268:database:DEBUG:(2021-07-01 16:48:00|Celular de depoente ) inserted into correio in news.db
-2021-07-22 13:08:45,380:database:DEBUG:(2021-07-01 16:11:00|Cabo da PM ganharia ) inserted into correio in news.db
-2021-07-22 13:08:45,465:database:DEBUG:(2021-07-01 16:03:00|Moraes abre novo inq) inserted into correio in news.db
-2021-07-22 13:08:45,548:database:DEBUG:(2021-07-01 15:34:00|OAB convoca reunião ) inserted into correio in news.db
-2021-07-22 13:08:45,665:database:DEBUG:(2021-07-01 15:14:00|Dominghetti reafirma) inserted into correio in news.db
-2021-07-22 13:08:45,750:database:DEBUG:(2021-07-01 14:12:00|Luis Miranda diz que) inserted into correio in news.db
-2021-07-22 13:08:45,847:database:DEBUG:(2021-07-01 14:04:00|Dominghetti seria te) inserted into correio in news.db
-2021-07-22 13:08:45,931:database:DEBUG:(2021-07-01 13:03:00|Bolsonaro critica mi) inserted into correio in news.db
-2021-07-22 13:08:46,013:database:DEBUG:(2021-07-01 12:59:00|Dominghetti mostra á) inserted into correio in news.db
-2021-07-22 13:08:46,092:database:DEBUG:(2021-07-01 12:39:00|Marco Aurélio se des) inserted into correio in news.db
-2021-07-22 13:08:46,164:database:DEBUG:(2021-07-01 12:06:00|Em meio a denúncias ) inserted into correio in news.db
-2021-07-22 13:08:46,276:database:DEBUG:(2021-07-01 11:32:00|CPI recorre de decis) inserted into correio in news.db
-2021-07-22 13:08:46,364:database:DEBUG:(2021-07-01 10:25:00|Ao vivo: autor de de) inserted into correio in news.db
-2021-07-22 13:08:46,453:database:DEBUG:(2021-07-01 06:00:00|Ricardo Barros terá ) inserted into correio in news.db
-2021-07-22 13:08:46,604:database:DEBUG:(2021-07-01 06:00:00|Autor de denúncia de) inserted into correio in news.db
-2021-07-22 13:08:46,684:database:DEBUG:(2021-07-01 06:00:00|Confira quais são os) inserted into correio in news.db
-2021-07-22 13:08:46,784:database:DEBUG:(2021-06-30 23:29:00|Denúncias fragilizam) inserted into correio in news.db
-2021-07-22 13:08:46,895:database:DEBUG:(2021-06-30 23:26:00|Lira não vai analisa) inserted into correio in news.db
-2021-07-22 13:08:46,985:database:DEBUG:(2021-06-30 23:13:00|CPI antecipa depoime) inserted into correio in news.db
-2021-07-22 13:08:47,094:database:DEBUG:(2021-06-30 21:55:00|Doutor Jairinho perd) inserted into correio in news.db
-2021-07-22 13:08:47,182:database:DEBUG:(2021-06-30 20:33:00|MP e PF abrem invest) inserted into correio in news.db
-2021-07-22 13:08:47,283:database:DEBUG:(2021-06-30 20:01:00|Precisa e Bharat ref) inserted into correio in news.db
-2021-07-22 13:08:47,393:database:DEBUG:(2021-06-30 18:21:00|E-mail mostra respos) inserted into correio in news.db
-2021-07-22 13:08:47,477:database:DEBUG:(2021-06-30 17:08:00|Alessandro Vieira so) inserted into correio in news.db
-2021-07-22 13:08:47,587:database:DEBUG:(2021-06-30 16:50:00|Superpedido de impea) inserted into correio in news.db
-2021-07-22 13:08:47,672:database:DEBUG:(2021-06-30 16:47:00|Saúde dispensa tenen) inserted into correio in news.db
-2021-07-22 13:08:47,768:database:DEBUG:(2021-06-30 16:37:00|General nomeado por ) inserted into correio in news.db
-2021-07-22 13:08:47,883:database:DEBUG:(2021-06-30 15:55:00|Mourão diz não há es) inserted into correio in news.db
-2021-07-22 13:08:47,998:database:DEBUG:(2021-06-30 15:45:00|CPI vai recorrer da ) inserted into correio in news.db
-2021-07-22 13:08:48,095:database:DEBUG:(2021-06-30 15:22:00|Bolsonaro inaugura E) inserted into correio in news.db
-2021-07-22 13:08:48,164:database:DEBUG:(2021-06-30 14:16:00|Bolsonaro: "Não vão ) inserted into correio in news.db
-2021-07-22 13:08:48,249:database:DEBUG:(2021-06-30 13:54:00|CPI convoca Ricardo ) inserted into correio in news.db
-2021-07-22 13:08:48,341:database:DEBUG:(2021-06-30 12:31:00|Omar Aziz: CPI vai f) inserted into correio in news.db
-2021-07-22 13:08:48,431:database:DEBUG:(2021-06-30 12:15:00|Para Renan Calheiros) inserted into correio in news.db
-2021-07-22 13:08:48,522:database:DEBUG:(2021-06-30 11:52:00|Carlos Wizard decide) inserted into correio in news.db
-2021-07-22 13:08:48,777:database:DEBUG:(2021-06-30 10:10:00|Propina por vacinas?) inserted into correio in news.db
-2021-07-22 13:08:48,874:database:DEBUG:(2021-06-30 06:00:00|Presidente da ABCVAC) inserted into correio in news.db
-2021-07-22 13:08:48,960:database:DEBUG:(2021-06-30 06:00:00|Denúncias de propina) inserted into correio in news.db
-2021-07-22 13:08:49,050:database:DEBUG:(2021-06-30 06:00:00|Governo dá a terceir) inserted into correio in news.db
-2021-07-22 13:08:49,153:database:DEBUG:(2021-06-30 06:00:00|Alexandre Garcia: "B) inserted into correio in news.db
-2021-07-22 13:08:49,370:database:DEBUG:(2021-06-30 06:00:00|Denúncia contra Bols) inserted into correio in news.db
-2021-07-22 13:08:49,485:database:DEBUG:(2021-06-30 00:38:00|Denúncias de propina) inserted into correio in news.db
-2021-07-22 13:08:49,580:database:DEBUG:(2021-06-29 23:06:00|Ciro Gomes: Tem que ) inserted into correio in news.db
-2021-07-22 13:08:49,678:database:DEBUG:(2021-06-29 22:54:00|Randolfe sobre denún) inserted into correio in news.db
-2021-07-22 13:08:49,764:database:DEBUG:(2021-06-29 22:25:00|Ministério da Saúde ) inserted into correio in news.db
-2021-07-22 13:08:49,865:database:DEBUG:(2021-06-29 22:13:00|CPI vai convocar rep) inserted into correio in news.db
-2021-07-22 13:08:49,951:database:DEBUG:(2021-06-29 22:13:00|Luis Miranda recebeu) inserted into correio in news.db
-2021-07-22 13:08:50,058:database:DEBUG:(2021-06-29 21:58:00|Diretor do ministéri) inserted into correio in news.db
-2021-07-22 13:08:50,167:database:DEBUG:(2021-06-29 21:50:00|PGR pede ao STF que ) inserted into correio in news.db
-2021-07-22 13:08:50,279:database:DEBUG:(2021-06-29 21:25:00|CGU apontou cinco in) inserted into correio in news.db
-2021-07-22 13:08:50,364:database:DEBUG:(2021-06-29 21:19:00|Conselho de Ética ap) inserted into correio in news.db
-2021-07-22 13:08:50,450:database:DEBUG:(2021-06-29 21:11:00|Senado prorroga por ) inserted into correio in news.db
-2021-07-22 13:08:50,593:database:DEBUG:(2021-06-29 19:50:00|Covaxin: Precisa fir) inserted into correio in news.db
-2021-07-22 13:08:50,732:database:DEBUG:(2021-06-29 19:20:00|'Superimpeachment': ) inserted into correio in news.db
-2021-07-22 13:08:50,856:database:DEBUG:(2021-06-29 18:42:00|Arthur Lira alfineta) inserted into correio in news.db
-2021-07-22 13:08:50,979:database:DEBUG:(2021-06-29 13:53:00|Fernando Bezerra: Bo) inserted into correio in news.db
-2021-07-22 13:08:51,090:database:DEBUG:(2021-06-29 13:38:00|Noticia-crime contra) inserted into correio in news.db
-2021-07-22 13:08:51,224:database:DEBUG:(2021-06-29 12:40:00|Renan diz que CPI de) inserted into correio in news.db
-2021-07-22 13:08:51,313:database:DEBUG:(2021-06-29 12:08:00|Datena decide se fil) inserted into correio in news.db
-2021-07-22 13:08:51,449:database:DEBUG:(2021-06-29 11:59:00|Anvisa encerra proce) inserted into correio in news.db
-2021-07-22 13:08:51,588:database:DEBUG:(2021-06-29 10:40:00|CPI da Covid agora m) inserted into correio in news.db
-2021-07-22 13:08:51,731:database:DEBUG:(2021-06-29 08:56:00|CPI da Covid: Quem é) inserted into correio in news.db
-2021-07-22 13:08:51,831:database:DEBUG:(2021-06-29 06:00:00|"Se ele (Bolsonaro) ) inserted into correio in news.db
-2021-07-22 13:08:51,928:database:DEBUG:(2021-06-29 06:00:00|PEC do voto impresso) inserted into correio in news.db
-2021-07-22 13:08:52,073:database:DEBUG:(2021-06-29 00:07:00|Bolsonaro ironiza a ) inserted into correio in news.db
-2021-07-22 13:08:52,167:database:DEBUG:(2021-06-28 22:42:00|CPI da Covid obtém a) inserted into correio in news.db
-2021-07-22 13:08:52,252:database:DEBUG:(2021-06-28 21:13:00|Rosa Weber vai relat) inserted into correio in news.db
-2021-07-22 13:08:52,371:database:DEBUG:(2021-06-28 19:56:00|Filipe Barros aprese) inserted into correio in news.db
-2021-07-22 13:08:52,462:database:DEBUG:(2021-06-28 19:54:00|O que é prevaricação) inserted into correio in news.db
-2021-07-22 13:08:52,555:database:DEBUG:(2021-06-28 18:27:00|CPI: Alessandro Viei) inserted into correio in news.db
-2021-07-22 13:08:52,650:database:DEBUG:(2021-06-28 17:49:00|Familiares de vítima) inserted into correio in news.db
-2021-07-22 13:08:52,757:database:DEBUG:(2021-06-28 17:28:00|Senadores vão ao STF) inserted into correio in news.db
-2021-07-22 13:08:52,847:database:DEBUG:(2021-06-28 17:17:00|Randolfe Rodrigues p) inserted into correio in news.db
-2021-07-22 13:08:52,946:database:DEBUG:(2021-06-28 16:31:00|Luis Miranda: "Não m) inserted into correio in news.db
-2021-07-22 13:08:53,053:database:DEBUG:(2021-06-28 16:14:00|Rosa Weber fala sobr) inserted into correio in news.db
-2021-07-22 13:08:53,172:database:DEBUG:(2021-06-28 15:07:00|Bolsonaro pode ser j) inserted into correio in news.db
-2021-07-22 13:08:53,281:database:DEBUG:(2021-06-28 15:02:00|CPI da Covid: 3 pont) inserted into correio in news.db
-2021-07-22 13:08:53,422:database:DEBUG:(2021-06-28 14:36:00|Ação que obrigaria B) inserted into correio in news.db
-2021-07-22 13:08:53,539:database:DEBUG:(2021-06-28 14:28:00|Prorrogação da CPI d) inserted into correio in news.db
-2021-07-22 13:08:53,539:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:53,624:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:54,628:scraper:DEBUG:page 28 - finding elements
-2021-07-22 13:08:54,800:webdriver:DEBUG:582 elements found
-2021-07-22 13:08:54,800:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:54,920:database:DEBUG:(2021-06-28 13:34:00|Bolsonaro: "Eu, por ) inserted into correio in news.db
-2021-07-22 13:08:55,011:database:DEBUG:(2021-06-28 13:24:00|Sem provas, Bolsonar) inserted into correio in news.db
-2021-07-22 13:08:55,111:database:DEBUG:(2021-06-28 12:56:00|Bolsonaro diz que Ra) inserted into correio in news.db
-2021-07-22 13:08:55,218:database:DEBUG:(2021-06-28 12:25:00|Bolsonaro comenta mo) inserted into correio in news.db
-2021-07-22 13:08:55,328:database:DEBUG:(2021-06-28 06:00:00|Randolfe Rodrigues a) inserted into correio in news.db
-2021-07-22 13:08:55,417:database:DEBUG:(2021-06-28 06:00:00|Apoio do Centrão ao ) inserted into correio in news.db
-2021-07-22 13:08:55,508:database:DEBUG:(2021-06-28 06:00:00|Partidos de esquerda) inserted into correio in news.db
-2021-07-22 13:08:55,607:database:DEBUG:(2021-06-27 21:37:00|Manifestantes se reú) inserted into correio in news.db
-2021-07-22 13:08:55,715:database:DEBUG:(2021-06-27 20:22:00|Ricardo Barros diz q) inserted into correio in news.db
-2021-07-22 13:08:55,825:database:DEBUG:(2021-06-27 17:50:00|Luís Miranda diz que) inserted into correio in news.db
-2021-07-22 13:08:55,922:database:DEBUG:(2021-06-27 07:00:00|Sombra da corrupção ) inserted into correio in news.db
-2021-07-22 13:08:56,032:database:DEBUG:(2021-06-27 07:00:00|André Mendonça despo) inserted into correio in news.db
-2021-07-22 13:08:56,136:database:DEBUG:(2021-06-27 07:00:00|Randolfe Rodrigues a) inserted into correio in news.db
-2021-07-22 13:08:56,215:database:DEBUG:(2021-06-26 19:11:00|Voto impresso não co) inserted into correio in news.db
-2021-07-22 13:08:56,344:database:DEBUG:(2021-06-26 17:46:00|Quem é Ricardo Barro) inserted into correio in news.db
-2021-07-22 13:08:56,456:database:DEBUG:(2021-06-26 17:39:00|Presidentes de 11 pa) inserted into correio in news.db
-2021-07-22 13:08:56,557:database:DEBUG:(2021-06-26 17:25:00|Luis Miranda (DEM-DF) inserted into correio in news.db
-2021-07-22 13:08:56,658:database:DEBUG:(2021-06-26 16:45:00|PSOL vai ao Supremo ) inserted into correio in news.db
-2021-07-22 13:08:56,757:database:DEBUG:(2021-06-26 14:28:00|Morre ex-senador Jos) inserted into correio in news.db
-2021-07-22 13:08:56,871:database:DEBUG:(2021-06-26 12:50:00|Sem máscara, Bolsona) inserted into correio in news.db
-2021-07-22 13:08:56,871:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:56,944:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:57,945:scraper:DEBUG:page 29 - finding elements
-2021-07-22 13:08:58,144:webdriver:DEBUG:582 elements found
-2021-07-22 13:08:58,144:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:58,155:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:58,387:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:08:59,390:scraper:DEBUG:page 30 - finding elements
-2021-07-22 13:08:59,570:webdriver:DEBUG:582 elements found
-2021-07-22 13:08:59,570:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:08:59,588:webdriver:DEBUG:clicking next page
-2021-07-22 13:08:59,719:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:00,724:scraper:DEBUG:page 31 - finding elements
-2021-07-22 13:09:00,906:webdriver:DEBUG:582 elements found
-2021-07-22 13:09:00,907:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:00,922:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:01,070:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:02,073:scraper:DEBUG:page 32 - finding elements
-2021-07-22 13:09:02,272:webdriver:DEBUG:662 elements found
-2021-07-22 13:09:02,272:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:02,376:database:DEBUG:(2021-06-25 15:17:00|Luis Miranda chega à) inserted into correio in news.db
-2021-07-22 13:09:02,470:database:DEBUG:(2021-06-25 14:21:00|Governo inaugura cen) inserted into correio in news.db
-2021-07-22 13:09:02,567:database:DEBUG:(2021-06-25 13:25:00|Bolsonaro volta a at) inserted into correio in news.db
-2021-07-22 13:09:02,672:database:DEBUG:(2021-06-25 12:07:00|Bolsonaro sobre Mour) inserted into correio in news.db
-2021-07-22 13:09:02,777:database:DEBUG:(2021-06-25 11:46:00|Governo apresenta pr) inserted into correio in news.db
-2021-07-22 13:09:02,876:database:DEBUG:(2021-06-25 11:43:00|Bolsonaro sobre Cova) inserted into correio in news.db
-2021-07-22 13:09:02,976:database:DEBUG:(2021-06-25 07:51:00|Lula tem 49% dos vot) inserted into correio in news.db
-2021-07-22 13:09:03,087:database:DEBUG:(2021-06-25 06:00:00|Meio ambiente tem no) inserted into correio in news.db
-2021-07-22 13:09:03,192:database:DEBUG:(2021-06-25 06:00:00|CPI da Covid deve te) inserted into correio in news.db
-2021-07-22 13:09:03,267:database:DEBUG:(2021-06-25 06:00:00|Empresa atuou na emb) inserted into correio in news.db
-2021-07-22 13:09:03,375:database:DEBUG:(2021-06-25 00:26:00|Bolsonaro questiona ) inserted into correio in news.db
-2021-07-22 13:09:03,472:database:DEBUG:(2021-06-24 23:45:00|Bolsonaro critica a ) inserted into correio in news.db
-2021-07-22 13:09:03,575:database:DEBUG:(2021-06-24 23:34:00|Bolsonaro: Quem deci) inserted into correio in news.db
-2021-07-22 13:09:03,680:database:DEBUG:(2021-06-24 23:25:00|Bolsonaro sobre Cova) inserted into correio in news.db
-2021-07-22 13:09:03,775:database:DEBUG:(2021-06-24 20:37:00|Em foto com Bolsonar) inserted into correio in news.db
-2021-07-22 13:09:03,881:database:DEBUG:(2021-06-24 20:33:00|CPI: PF não encontra) inserted into correio in news.db
-2021-07-22 13:09:03,990:database:DEBUG:(2021-06-24 20:05:00|Covaxin: entenda o e) inserted into correio in news.db
-2021-07-22 13:09:04,086:database:DEBUG:(2021-06-24 19:32:00|Governo libera R$ 38) inserted into correio in news.db
-2021-07-22 13:09:04,185:database:DEBUG:(2021-06-24 19:19:00|Patriota afasta pres) inserted into correio in news.db
-2021-07-22 13:09:04,286:database:DEBUG:(2021-06-24 19:17:00|Senador José Serra é) inserted into correio in news.db
-2021-07-22 13:09:04,392:database:DEBUG:(2021-06-24 19:12:00|Gilmar declara Moro ) inserted into correio in news.db
-2021-07-22 13:09:04,495:database:DEBUG:(2021-06-24 18:26:00|Augusto Nunes afirma) inserted into correio in news.db
-2021-07-22 13:09:04,582:database:DEBUG:(2021-06-24 17:59:00|Aprovação do governo) inserted into correio in news.db
-2021-07-22 13:09:04,804:database:DEBUG:(2021-06-24 17:50:00|Maioria do STF decid) inserted into correio in news.db
-2021-07-22 13:09:04,916:database:DEBUG:(2021-06-24 17:50:00|Bolsonaro: Não são t) inserted into correio in news.db
-2021-07-22 13:09:05,016:database:DEBUG:(2021-06-24 17:38:00|Kalil diz que Bolson) inserted into correio in news.db
-2021-07-22 13:09:05,148:database:DEBUG:(2021-06-24 17:20:00|Vice de Augusto Aras) inserted into correio in news.db
-2021-07-22 13:09:05,259:database:DEBUG:(2021-06-24 16:49:00|Anvisa informa à CPI) inserted into correio in news.db
-2021-07-22 13:09:05,359:database:DEBUG:(2021-06-24 16:12:00|Deputado Daniel Silv) inserted into correio in news.db
-2021-07-22 13:09:05,495:database:DEBUG:(2021-06-24 14:47:00|Relatório do TCU mos) inserted into correio in news.db
-2021-07-22 13:09:05,592:database:DEBUG:(2021-06-24 14:43:00|Delegado da PF ironi) inserted into correio in news.db
-2021-07-22 13:09:05,713:database:DEBUG:(2021-06-24 14:36:00|Luis Miranda pede qu) inserted into correio in news.db
-2021-07-22 13:09:05,818:database:DEBUG:(2021-06-24 14:17:00|Estudo sobre covid-1) inserted into correio in news.db
-2021-07-22 13:09:05,930:database:DEBUG:(2021-06-24 14:02:00|Senador governista d) inserted into correio in news.db
-2021-07-22 13:09:06,034:database:DEBUG:(2021-06-24 12:58:00|Lira diz que falou a) inserted into correio in news.db
-2021-07-22 13:09:06,133:database:DEBUG:(2021-06-24 12:47:00|Governo Bolsonaro po) inserted into correio in news.db
-2021-07-22 13:09:06,230:database:DEBUG:(2021-06-24 12:25:00|Renan Calheiros cham) inserted into correio in news.db
-2021-07-22 13:09:06,350:database:DEBUG:(2021-06-24 06:00:00|Salles fora do gover) inserted into correio in news.db
-2021-07-22 13:09:06,444:database:DEBUG:(2021-06-24 06:00:00|Luis Miranda e irmão) inserted into correio in news.db
-2021-07-22 13:09:06,549:database:DEBUG:(2021-06-24 06:00:00|Decreto permite que ) inserted into correio in news.db
-2021-07-22 13:09:06,647:database:DEBUG:(2021-06-26 06:00:00|Salles fica sem o pa) inserted into correio in news.db
-2021-07-22 13:09:06,744:database:DEBUG:(2021-06-26 06:00:00|CPI da Covid: irmãos) inserted into correio in news.db
-2021-07-22 13:09:06,857:database:DEBUG:(2021-06-26 00:13:00|CPI apresentará notí) inserted into correio in news.db
-2021-07-22 13:09:06,955:database:DEBUG:(2021-06-25 23:44:00|"Imbecil" e "espanho) inserted into correio in news.db
-2021-07-22 13:09:07,061:database:DEBUG:(2021-06-25 23:25:00|Depoimentos de irmão) inserted into correio in news.db
-2021-07-22 13:09:07,173:database:DEBUG:(2021-06-25 23:02:00|CPI da Covid: os emb) inserted into correio in news.db
-2021-07-22 13:09:07,277:database:DEBUG:(2021-06-25 23:00:00|Omar Aziz pede refor) inserted into correio in news.db
-2021-07-22 13:09:07,394:database:DEBUG:(2021-06-25 22:54:00|CPI da Covid: "Não s) inserted into correio in news.db
-2021-07-22 13:09:07,492:database:DEBUG:(2021-06-25 22:50:00|Bolsonaro diz que se) inserted into correio in news.db
-2021-07-22 13:09:07,584:database:DEBUG:(2021-06-25 22:00:00|Luís Miranda diz ser) inserted into correio in news.db
-2021-07-22 13:09:07,688:database:DEBUG:(2021-06-25 21:57:00|Advogado da família ) inserted into correio in news.db
-2021-07-22 13:09:07,827:database:DEBUG:(2021-06-25 21:33:00|Ex-governador Cabral) inserted into correio in news.db
-2021-07-22 13:09:07,931:database:DEBUG:(2021-06-25 20:50:00|Barroso suspende con) inserted into correio in news.db
-2021-07-22 13:09:08,019:database:DEBUG:(2021-06-25 20:47:00|Randolfe: CPI vai vo) inserted into correio in news.db
-2021-07-22 13:09:08,133:database:DEBUG:(2021-06-25 20:23:00|PF de São Paulo reco) inserted into correio in news.db
-2021-07-22 13:09:08,236:database:DEBUG:(2021-06-25 20:14:00|Pai de Eduardo Paes ) inserted into correio in news.db
-2021-07-22 13:09:08,337:database:DEBUG:(2021-06-25 18:45:00|Covaxin: Luis Mirand) inserted into correio in news.db
-2021-07-22 13:09:08,444:database:DEBUG:(2021-06-25 18:33:00|Justiça Federal cond) inserted into correio in news.db
-2021-07-22 13:09:08,562:database:DEBUG:(2021-06-25 18:03:00|Pela 2ª vez, Governo) inserted into correio in news.db
-2021-07-22 13:09:08,667:database:DEBUG:(2021-06-25 17:48:00|Servidor diz à CPI q) inserted into correio in news.db
-2021-07-22 13:09:08,773:database:DEBUG:(2021-06-24 06:00:00|Governo reage com am) inserted into correio in news.db
-2021-07-22 13:09:08,878:database:DEBUG:(2021-06-24 06:00:00|CPI da Covid vai ouv) inserted into correio in news.db
-2021-07-22 13:09:08,980:database:DEBUG:(2021-06-24 06:00:00|Lista tríplice do MP) inserted into correio in news.db
-2021-07-22 13:09:09,087:database:DEBUG:(2021-06-24 01:00:00|Dias antes de Anvisa) inserted into correio in news.db
-2021-07-22 13:09:09,201:database:DEBUG:(2021-06-24 00:24:00|Ministério transferi) inserted into correio in news.db
-2021-07-22 13:09:09,320:database:DEBUG:(2021-06-23 23:01:00|Artistas e pensadore) inserted into correio in news.db
-2021-07-22 13:09:09,438:database:DEBUG:(2021-06-23 22:44:00|Covaxin: Miranda diz) inserted into correio in news.db
-2021-07-22 13:09:09,589:database:DEBUG:(2021-06-23 22:14:00|Juiz coloca assessor) inserted into correio in news.db
-2021-07-22 13:09:09,694:database:DEBUG:(2021-06-23 21:43:00|Senado aprova que in) inserted into correio in news.db
-2021-07-22 13:09:09,799:database:DEBUG:(2021-06-23 20:57:00|Projeto de lei que r) inserted into correio in news.db
-2021-07-22 13:09:09,889:database:DEBUG:(2021-06-23 20:10:00|Abin nega autoria de) inserted into correio in news.db
-2021-07-22 13:09:10,003:database:DEBUG:(2021-06-23 19:56:00|Bolsonaro sobre Sall) inserted into correio in news.db
-2021-07-22 13:09:10,113:database:DEBUG:(2021-06-23 19:40:00|Planalto determina à) inserted into correio in news.db
-2021-07-22 13:09:10,214:database:DEBUG:(2021-06-23 19:37:00|WWF sobre Salles: "T) inserted into correio in news.db
-2021-07-22 13:09:10,329:database:DEBUG:(2021-06-23 19:25:00|Covaxin: ministro do) inserted into correio in news.db
-2021-07-22 13:09:10,434:database:DEBUG:(2021-06-23 18:21:00|STF decide enviar ce) inserted into correio in news.db
-2021-07-22 13:09:10,544:database:DEBUG:(2021-06-23 17:41:00|Fabricante de hidrox) inserted into correio in news.db
-2021-07-22 13:09:10,653:database:DEBUG:(2021-06-23 17:32:00|CPI da Covid mira em) inserted into correio in news.db
-2021-07-22 13:09:10,756:database:DEBUG:(2021-06-23 17:26:00|Mourão diz que falto) inserted into correio in news.db
-2021-07-22 13:09:10,858:database:DEBUG:(2021-06-23 17:25:00|Salles é exonerado a) inserted into correio in news.db
-2021-07-22 13:09:10,858:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:10,936:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:11,940:scraper:DEBUG:page 33 - finding elements
-2021-07-22 13:09:12,168:webdriver:DEBUG:682 elements found
-2021-07-22 13:09:12,168:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:12,293:database:DEBUG:(2021-06-23 17:10:00|Há "fortíssimos" ind) inserted into correio in news.db
-2021-07-22 13:09:12,397:database:DEBUG:(2021-06-23 16:56:00|CPI apura se empresa) inserted into correio in news.db
-2021-07-22 13:09:12,510:database:DEBUG:(2021-06-23 16:50:00|Plenário do STF refe) inserted into correio in news.db
-2021-07-22 13:09:12,618:database:DEBUG:(2021-06-23 16:24:00|"Clima tá horrível n) inserted into correio in news.db
-2021-07-22 13:09:12,736:database:DEBUG:(2021-06-23 15:21:00|CPI quer saber se Bo) inserted into correio in news.db
-2021-07-22 13:09:12,865:database:DEBUG:(2021-06-23 14:08:00|Após protestos, Bols) inserted into correio in news.db
-2021-07-22 13:09:13,133:database:DEBUG:(2021-06-23 14:06:00|Após protesto com fe) inserted into correio in news.db
-2021-07-22 13:09:13,241:database:DEBUG:(2021-06-23 13:54:00|Isolado, Geraldo Alc) inserted into correio in news.db
-2021-07-22 13:09:13,361:database:DEBUG:(2021-06-23 13:32:00|Queiroga se irrita c) inserted into correio in news.db
-2021-07-22 13:09:13,470:database:DEBUG:(2021-06-23 13:21:00|CPI vai requisitar p) inserted into correio in news.db
-2021-07-22 13:09:13,578:database:DEBUG:(2021-06-23 12:15:00|General Heleno: "Amé) inserted into correio in news.db
-2021-07-22 13:09:13,678:database:DEBUG:(2021-06-23 12:08:00|Bolsonaro compartilh) inserted into correio in news.db
-2021-07-22 13:09:13,904:database:DEBUG:(2021-06-23 11:31:00|PL 490: Entenda o qu) inserted into correio in news.db
-2021-07-22 13:09:13,982:database:DEBUG:(2021-06-23 11:25:00|Gigantesco volume de) inserted into correio in news.db
-2021-07-22 13:09:14,086:database:DEBUG:(2021-06-23 06:00:00|Alexandre Garcia: "É) inserted into correio in news.db
-2021-07-22 13:09:14,177:database:DEBUG:(2021-06-23 06:00:00|Terras indígenas: co) inserted into correio in news.db
-2021-07-22 13:09:14,263:database:DEBUG:(2021-06-23 06:00:00|CPI da Covid investi) inserted into correio in news.db
-2021-07-22 13:09:14,372:database:DEBUG:(2021-06-23 06:00:00|CPI da Covid: veja l) inserted into correio in news.db
-2021-07-22 13:09:14,447:database:DEBUG:(2021-06-22 23:18:00|Operação Faroeste: á) inserted into correio in news.db
-2021-07-22 13:09:14,526:database:DEBUG:(2021-06-22 23:09:00|Bolsonaro veta PL qu) inserted into correio in news.db
-2021-07-22 13:09:14,527:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:14,587:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:15,591:scraper:DEBUG:page 34 - finding elements
-2021-07-22 13:09:15,853:webdriver:DEBUG:682 elements found
-2021-07-22 13:09:15,853:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:15,869:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:15,984:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:16,986:scraper:DEBUG:page 35 - finding elements
-2021-07-22 13:09:17,242:webdriver:DEBUG:702 elements found
-2021-07-22 13:09:17,242:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:17,354:database:DEBUG:(2021-06-22 22:09:00|CPI inicia "nova fre) inserted into correio in news.db
-2021-07-22 13:09:17,415:database:DEBUG:(2021-06-22 21:45:00|CPI vai ouvir servid) inserted into correio in news.db
-2021-07-22 13:09:17,487:database:DEBUG:(2021-06-22 21:42:00|A CPI da Pandemia po) inserted into correio in news.db
-2021-07-22 13:09:17,557:database:DEBUG:(2021-06-22 21:35:00|Luiza Frischeisen é ) inserted into correio in news.db
-2021-07-22 13:09:17,651:database:DEBUG:(2021-06-22 20:56:00|Após caso Lázaro, pr) inserted into correio in news.db
-2021-07-22 13:09:17,709:database:DEBUG:(2021-06-22 20:44:00|"Ordem partiu do Est) inserted into correio in news.db
-2021-07-22 13:09:17,782:database:DEBUG:(2021-06-22 20:23:00|Governo diz ao Supre) inserted into correio in news.db
-2021-07-22 13:09:17,847:database:DEBUG:(2021-06-22 20:08:00|Bolsonaro descreve r) inserted into correio in news.db
-2021-07-22 13:09:17,974:database:DEBUG:(2021-06-22 19:38:00|Delegado que fez bus) inserted into correio in news.db
-2021-07-22 13:09:18,045:database:DEBUG:(2021-06-22 19:23:00|Bolsonaro sobre auto) inserted into correio in news.db
-2021-07-22 13:09:18,104:database:DEBUG:(2021-06-22 19:11:00|Bolsonaro defende Sa) inserted into correio in news.db
-2021-07-22 13:09:18,179:database:DEBUG:(2021-06-22 18:31:00|Bolsonaro manda Gued) inserted into correio in news.db
-2021-07-22 13:09:18,244:database:DEBUG:(2021-06-22 18:21:00|Osmar Terra admite à) inserted into correio in news.db
-2021-07-22 13:09:18,313:database:DEBUG:(2021-06-22 17:56:00|Sócio da Precisa inf) inserted into correio in news.db
-2021-07-22 13:09:18,389:database:DEBUG:(2021-06-22 16:52:00|Gás lacrimogêneo con) inserted into correio in news.db
-2021-07-22 13:09:18,466:database:DEBUG:(2021-06-22 16:43:00|Governador Flávio Di) inserted into correio in news.db
-2021-07-22 13:09:18,539:database:DEBUG:(2021-06-22 16:23:00|MPF: "Não se justifi) inserted into correio in news.db
-2021-07-22 13:09:18,604:database:DEBUG:(2021-06-22 16:03:00|CPI da Covid: Osmar ) inserted into correio in news.db
-2021-07-22 13:09:18,673:database:DEBUG:(2021-06-22 15:49:00|Irmão de Michelle Bo) inserted into correio in news.db
-2021-07-22 13:09:18,732:database:DEBUG:(2021-06-22 15:40:00|Agiotagem, sonegação) inserted into correio in news.db
-2021-07-22 13:09:18,733:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:18,806:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:19,808:scraper:DEBUG:page 36 - finding elements
-2021-07-22 13:09:20,063:webdriver:DEBUG:742 elements found
-2021-07-22 13:09:20,063:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:20,169:database:DEBUG:(2021-06-22 13:39:00|Vacina indiana ficou) inserted into correio in news.db
-2021-07-22 13:09:20,237:database:DEBUG:(2021-06-22 13:19:00|Osmar Terra diz que ) inserted into correio in news.db
-2021-07-22 13:09:20,315:database:DEBUG:(2021-06-22 12:54:00|Diferentemente do qu) inserted into correio in news.db
-2021-07-22 13:09:20,382:database:DEBUG:(2021-06-22 10:49:00|Bolsonaro ataca Rena) inserted into correio in news.db
-2021-07-22 13:09:20,439:database:DEBUG:(2021-06-22 10:21:00|Mudança do sistema e) inserted into correio in news.db
-2021-07-22 13:09:20,508:database:DEBUG:(2021-06-22 09:42:00|AO VIVO: CPI da Covi) inserted into correio in news.db
-2021-07-22 13:09:20,575:database:DEBUG:(2021-06-22 09:41:00|Com Bíblia e Constit) inserted into correio in news.db
-2021-07-22 13:09:20,643:database:DEBUG:(2021-06-22 06:00:00|"O gestor desonesto ) inserted into correio in news.db
-2021-07-22 13:09:20,709:database:DEBUG:(2021-06-22 06:00:00|CPI da Covid: mesmo ) inserted into correio in news.db
-2021-07-22 13:09:20,774:database:DEBUG:(2021-06-22 06:00:00|CPI da Covid: Osmar ) inserted into correio in news.db
-2021-07-22 13:09:20,846:database:DEBUG:(2021-06-21 23:05:00|Marco Aurélio sobre ) inserted into correio in news.db
-2021-07-22 13:09:20,921:database:DEBUG:(2021-06-21 22:55:00|Justiça nega pedido ) inserted into correio in news.db
-2021-07-22 13:09:20,996:database:DEBUG:(2021-06-21 22:53:00|Bolsonaro: Caminho () inserted into correio in news.db
-2021-07-22 13:09:21,058:database:DEBUG:(2021-06-21 22:49:00|Câmara aprova texto-) inserted into correio in news.db
-2021-07-22 13:09:21,136:database:DEBUG:(2021-06-21 22:46:00|Excesso de candidato) inserted into correio in news.db
-2021-07-22 13:09:21,208:database:DEBUG:(2021-06-21 22:36:00|Vídeo compara reação) inserted into correio in news.db
-2021-07-22 13:09:21,273:database:DEBUG:(2021-06-21 22:27:00|Marco Aurélio defend) inserted into correio in news.db
-2021-07-22 13:09:21,345:database:DEBUG:(2021-06-21 21:35:00|O que se sabe sobre ) inserted into correio in news.db
-2021-07-22 13:09:21,408:database:DEBUG:(2021-06-21 21:31:00|Senado discute reaju) inserted into correio in news.db
-2021-07-22 13:09:21,486:database:DEBUG:(2021-06-21 21:25:00|Filha de guru bolson) inserted into correio in news.db
-2021-07-22 13:09:21,563:database:DEBUG:(2021-06-21 21:24:00|Barroso se reúne com) inserted into correio in news.db
-2021-07-22 13:09:21,625:database:DEBUG:(2021-06-21 21:11:00|"Temos que fazer mel) inserted into correio in news.db
-2021-07-22 13:09:21,691:database:DEBUG:(2021-06-21 19:47:00|Aras defende que STF) inserted into correio in news.db
-2021-07-22 13:09:21,749:database:DEBUG:(2021-06-21 19:40:00|Corregedor do TSE dá) inserted into correio in news.db
-2021-07-22 13:09:21,830:database:DEBUG:(2021-06-21 19:26:00|Em Guaratinguetá, Bo) inserted into correio in news.db
-2021-07-22 13:09:21,900:database:DEBUG:(2021-06-21 18:49:00|Servidor relatou pre) inserted into correio in news.db
-2021-07-22 13:09:21,995:database:DEBUG:(2021-06-21 18:26:00|Em sentença inédita,) inserted into correio in news.db
-2021-07-22 13:09:22,108:database:DEBUG:(2021-06-21 18:08:00|Lula é absolvido de ) inserted into correio in news.db
-2021-07-22 13:09:22,299:database:DEBUG:(2021-06-21 17:57:00|Luciano Huck critica) inserted into correio in news.db
-2021-07-22 13:09:22,459:database:DEBUG:(2021-06-21 17:49:00|Após se vacinar, Ran) inserted into correio in news.db
-2021-07-22 13:09:22,580:database:DEBUG:(2021-06-21 16:23:00|Após ignorar 500 mil) inserted into correio in news.db
-2021-07-22 13:09:22,693:database:DEBUG:(2021-06-21 16:01:00|Bolsonaro volta a in) inserted into correio in news.db
-2021-07-22 13:09:22,819:database:DEBUG:(2021-06-21 15:38:00|Bolsonaro defende tr) inserted into correio in news.db
-2021-07-22 13:09:22,948:database:DEBUG:(2021-06-21 14:48:00|Agência de Comunicaç) inserted into correio in news.db
-2021-07-22 13:09:23,033:database:DEBUG:(2021-06-21 13:57:00|Eduardo Bolsonaro e ) inserted into correio in news.db
-2021-07-22 13:09:23,099:database:DEBUG:(2021-06-21 13:47:00|MP-MA imputa peculat) inserted into correio in news.db
-2021-07-22 13:09:23,178:database:DEBUG:(2021-06-21 13:41:00|Depoimento de Carlos) inserted into correio in news.db
-2021-07-22 13:09:23,256:database:DEBUG:(2021-06-21 12:18:00|No auge da crise, mi) inserted into correio in news.db
-2021-07-22 13:09:23,333:database:DEBUG:(2021-06-21 12:07:00|Bolsonaro sobre Lula) inserted into correio in news.db
-2021-07-22 13:09:23,410:database:DEBUG:(2021-06-21 11:43:00|CPI da Covid: que mu) inserted into correio in news.db
-2021-07-22 13:09:23,411:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:23,481:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:24,487:scraper:DEBUG:page 37 - finding elements
-2021-07-22 13:09:24,724:webdriver:DEBUG:742 elements found
-2021-07-22 13:09:24,725:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:24,735:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:24,834:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:25,837:scraper:DEBUG:page 38 - finding elements
-2021-07-22 13:09:26,082:webdriver:DEBUG:762 elements found
-2021-07-22 13:09:26,082:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:26,180:database:DEBUG:(2021-06-21 11:16:00|Doria afirma que não) inserted into correio in news.db
-2021-07-22 13:09:26,253:database:DEBUG:(2021-06-21 08:28:00|Por que oposição de ) inserted into correio in news.db
-2021-07-22 13:09:26,317:database:DEBUG:(2021-06-21 06:00:00|CPI da Covid vai foc) inserted into correio in news.db
-2021-07-22 13:09:26,395:database:DEBUG:(2021-06-20 23:27:00|Mesmo com promessas,) inserted into correio in news.db
-2021-07-22 13:09:26,460:database:DEBUG:(2021-06-20 17:31:00|Nise Yamaguchi diz q) inserted into correio in news.db
-2021-07-22 13:09:26,537:database:DEBUG:(2021-06-20 17:26:00|STF dá 5 dias para B) inserted into correio in news.db
-2021-07-22 13:09:26,614:database:DEBUG:(2021-06-20 17:14:00|'É chato deixar o vi) inserted into correio in news.db
-2021-07-22 13:09:26,680:database:DEBUG:(2021-06-20 16:59:00|Câmara dos Deputados) inserted into correio in news.db
-2021-07-22 13:09:26,743:database:DEBUG:(2021-06-20 14:05:00|Sem Paes, Queiroga i) inserted into correio in news.db
-2021-07-22 13:09:26,809:database:DEBUG:(2021-06-20 12:53:00|Queiroga: Programa d) inserted into correio in news.db
-2021-07-22 13:09:26,872:database:DEBUG:(2021-06-20 06:00:00|"É demais imaginar q) inserted into correio in news.db
-2021-07-22 13:09:26,942:database:DEBUG:(2021-06-20 06:00:00|Bolsonaro fez "apelo) inserted into correio in news.db
-2021-07-22 13:09:27,007:database:DEBUG:(2021-06-19 22:44:00|Presidentes do Senad) inserted into correio in news.db
-2021-07-22 13:09:27,078:database:DEBUG:(2021-06-19 18:00:00|Fábio Faria critica ) inserted into correio in news.db
-2021-07-22 13:09:27,148:database:DEBUG:(2021-06-19 17:52:00|'Há culpados e eles ) inserted into correio in news.db
-2021-07-22 13:09:27,218:database:DEBUG:(2021-06-19 17:47:00|Lideranças e polític) inserted into correio in news.db
-2021-07-22 13:09:27,288:database:DEBUG:(2021-06-19 17:06:00|900 dias: governo li) inserted into correio in news.db
-2021-07-22 13:09:27,365:database:DEBUG:(2021-06-19 17:01:00|Bolsonaro chama Láza) inserted into correio in news.db
-2021-07-22 13:09:27,436:database:DEBUG:(2021-06-19 14:07:00|Nova sede da PF em B) inserted into correio in news.db
-2021-07-22 13:09:27,513:database:DEBUG:(2021-06-19 13:40:00|MPE pede aplicação d) inserted into correio in news.db
-2021-07-22 13:09:27,513:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:27,570:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:28,571:scraper:DEBUG:page 39 - finding elements
-2021-07-22 13:09:28,816:webdriver:DEBUG:782 elements found
-2021-07-22 13:09:28,817:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:28,905:database:DEBUG:(2021-06-19 13:32:00|Bolsonaro acompanha ) inserted into correio in news.db
-2021-07-22 13:09:28,984:database:DEBUG:(2021-06-19 12:09:00|Ato contra Bolsonaro) inserted into correio in news.db
-2021-07-22 13:09:29,054:database:DEBUG:(2021-06-19 12:07:00|Manifestações querem) inserted into correio in news.db
-2021-07-22 13:09:29,128:database:DEBUG:(2021-06-19 10:55:00|Queiroga se arrepend) inserted into correio in news.db
-2021-07-22 13:09:29,204:database:DEBUG:(2021-06-19 10:52:00|Ministério da Saúde ) inserted into correio in news.db
-2021-07-22 13:09:29,280:database:DEBUG:(2021-06-19 10:48:00|Pedido para desobrig) inserted into correio in news.db
-2021-07-22 13:09:29,358:database:DEBUG:(2021-06-19 10:42:00|Queiroga sugeriu diá) inserted into correio in news.db
-2021-07-22 13:09:29,431:database:DEBUG:(2021-06-19 10:16:00|Dezenas de manifesta) inserted into correio in news.db
-2021-07-22 13:09:29,496:database:DEBUG:(2021-06-19 08:53:00|Ações de Direitos hu) inserted into correio in news.db
-2021-07-22 13:09:29,567:database:DEBUG:(2021-06-19 08:53:00|O que diz relatório ) inserted into correio in news.db
-2021-07-22 13:09:29,638:database:DEBUG:(2021-06-19 08:51:00|Manifestações contra) inserted into correio in news.db
-2021-07-22 13:09:29,715:database:DEBUG:(2021-06-19 06:00:00|Renan Calheiros estu) inserted into correio in news.db
-2021-07-22 13:09:29,790:database:DEBUG:(2021-06-19 06:00:00|Osmar Terra vai depo) inserted into correio in news.db
-2021-07-22 13:09:29,856:database:DEBUG:(2021-06-19 06:00:00|"Terceira via em 202) inserted into correio in news.db
-2021-07-22 13:09:29,930:database:DEBUG:(2021-06-18 23:54:00|CPI da Covid: o que ) inserted into correio in news.db
-2021-07-22 13:09:29,999:database:DEBUG:(2021-06-18 23:35:00|Moro revela a apoiad) inserted into correio in news.db
-2021-07-22 13:09:30,078:database:DEBUG:(2021-06-18 23:06:00|Presidente Jair Bols) inserted into correio in news.db
-2021-07-22 13:09:30,156:database:DEBUG:(2021-06-18 22:26:00|Prints de tela do Wh) inserted into correio in news.db
-2021-07-22 13:09:30,222:database:DEBUG:(2021-06-18 21:45:00|Barroso determina qu) inserted into correio in news.db
-2021-07-22 13:09:30,289:database:DEBUG:(2021-06-18 21:27:00|Faltou ação do PGR n) inserted into correio in news.db
-2021-07-22 13:09:30,290:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:30,355:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:31,356:scraper:DEBUG:page 40 - finding elements
-2021-07-22 13:09:31,666:webdriver:DEBUG:782 elements found
-2021-07-22 13:09:31,667:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:31,679:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:31,761:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:32,763:scraper:DEBUG:page 41 - finding elements
-2021-07-22 13:09:33,043:webdriver:DEBUG:842 elements found
-2021-07-22 13:09:33,043:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:33,127:database:DEBUG:(2021-06-18 10:47:00|Flávio Dino anuncia ) inserted into correio in news.db
-2021-07-22 13:09:33,212:database:DEBUG:(2021-06-18 06:00:00|CPI da Covid divulga) inserted into correio in news.db
-2021-07-22 13:09:33,282:database:DEBUG:(2021-06-18 06:00:00|CPI da Covid: suspen) inserted into correio in news.db
-2021-07-22 13:09:33,360:database:DEBUG:(2021-06-18 06:00:00|Só quem perde as ele) inserted into correio in news.db
-2021-07-22 13:09:33,422:database:DEBUG:(2021-06-18 00:14:00|Bolsonaro sobre terc) inserted into correio in news.db
-2021-07-22 13:09:33,498:database:DEBUG:(2021-06-17 23:59:00|Bolsonaro fala sobre) inserted into correio in news.db
-2021-07-22 13:09:33,577:database:DEBUG:(2021-06-17 23:47:00|Bolsonaro fala em "c) inserted into correio in news.db
-2021-07-22 13:09:33,651:database:DEBUG:(2021-06-17 23:06:00|Bolsonaro: quem já c) inserted into correio in news.db
-2021-07-22 13:09:33,722:database:DEBUG:(2021-06-17 22:31:00|Governo revoga mais ) inserted into correio in news.db
-2021-07-22 13:09:33,803:database:DEBUG:(2021-06-17 22:25:00|Bolsonaro volta a de) inserted into correio in news.db
-2021-07-22 13:09:33,874:database:DEBUG:(2021-06-17 14:41:00|"Arma deixa você dor) inserted into correio in news.db
-2021-07-22 13:09:33,940:database:DEBUG:(2021-06-17 14:34:00|Flávio Dino, governa) inserted into correio in news.db
-2021-07-22 13:09:34,023:database:DEBUG:(2021-06-17 14:24:00|Senadores voltam a c) inserted into correio in news.db
-2021-07-22 13:09:34,111:database:DEBUG:(2021-06-17 13:49:00|PF prende suposto op) inserted into correio in news.db
-2021-07-22 13:09:34,180:database:DEBUG:(2021-06-17 13:41:00|Câmara cria dia de p) inserted into correio in news.db
-2021-07-22 13:09:34,262:database:DEBUG:(2021-06-17 13:38:00|Lula diz não saber s) inserted into correio in news.db
-2021-07-22 13:09:34,342:database:DEBUG:(2021-06-17 12:34:00|SP: Câmara quer muda) inserted into correio in news.db
-2021-07-22 13:09:34,418:database:DEBUG:(2021-06-17 12:10:00|Queiroga deverá pass) inserted into correio in news.db
-2021-07-22 13:09:34,486:database:DEBUG:(2021-06-17 11:03:00|CPI: Wizard não apar) inserted into correio in news.db
-2021-07-22 13:09:34,565:database:DEBUG:(2021-06-17 08:59:00|O que diz relatório ) inserted into correio in news.db
-2021-07-22 13:09:34,640:database:DEBUG:(2021-06-18 20:55:00|STF autoriza conduçã) inserted into correio in news.db
-2021-07-22 13:09:34,716:database:DEBUG:(2021-06-18 20:15:00|Sindicalista diz que) inserted into correio in news.db
-2021-07-22 13:09:34,785:database:DEBUG:(2021-06-18 19:56:00|Bolsonaro inaugura 1) inserted into correio in news.db
-2021-07-22 13:09:35,031:database:DEBUG:(2021-06-18 19:28:00|Carlos Wizard: quem ) inserted into correio in news.db
-2021-07-22 13:09:35,183:database:DEBUG:(2021-06-18 18:54:00|Brasil registra 2,4 ) inserted into correio in news.db
-2021-07-22 13:09:35,311:database:DEBUG:(2021-06-18 18:38:00|Para defender Bolson) inserted into correio in news.db
-2021-07-22 13:09:35,454:database:DEBUG:(2021-06-18 18:24:00|Por que oposição de ) inserted into correio in news.db
-2021-07-22 13:09:35,654:database:DEBUG:(2021-06-18 18:19:00|Coalizão Negra de Di) inserted into correio in news.db
-2021-07-22 13:09:35,752:database:DEBUG:(2021-06-18 17:39:00|'Motociata' fez banc) inserted into correio in news.db
-2021-07-22 13:09:35,863:database:DEBUG:(2021-06-18 17:00:00|Queiroga diz 'estar ) inserted into correio in news.db
-2021-07-22 13:09:35,939:database:DEBUG:(2021-06-18 16:37:00|Toffoli suspende que) inserted into correio in news.db
-2021-07-22 13:09:36,066:database:DEBUG:(2021-06-18 16:27:00|Fernando Henrique Ca) inserted into correio in news.db
-2021-07-22 13:09:36,153:database:DEBUG:(2021-06-18 16:10:00|CPI da Covid: Witzel) inserted into correio in news.db
-2021-07-22 13:09:36,237:database:DEBUG:(2021-06-18 16:07:00|CPI da Covid não vai) inserted into correio in news.db
-2021-07-22 13:09:36,334:database:DEBUG:(2021-06-18 16:06:00|Marco Aurélio adia a) inserted into correio in news.db
-2021-07-22 13:09:36,490:database:DEBUG:(2021-06-18 15:54:00|Voto na esquerda mig) inserted into correio in news.db
-2021-07-22 13:09:36,579:database:DEBUG:(2021-06-18 15:40:00|Sem máscara, Bolsona) inserted into correio in news.db
-2021-07-22 13:09:36,671:database:DEBUG:(2021-06-18 15:25:00|Renan Calheiros anun) inserted into correio in news.db
-2021-07-22 13:09:36,758:database:DEBUG:(2021-06-18 14:32:00|Lista de e-mails da ) inserted into correio in news.db
-2021-07-22 13:09:36,847:database:DEBUG:(2021-06-18 11:34:00|"É igual a buscar le) inserted into correio in news.db
-2021-07-22 13:09:36,931:database:DEBUG:(2021-06-17 08:34:00|'Nenhum nome do cent) inserted into correio in news.db
-2021-07-22 13:09:37,028:database:DEBUG:(2021-06-17 06:00:00|"Ministério paralelo) inserted into correio in news.db
-2021-07-22 13:09:37,111:database:DEBUG:(2021-06-17 06:00:00|UE está pronta para ) inserted into correio in news.db
-2021-07-22 13:09:37,195:database:DEBUG:(2021-06-17 06:00:00|Deputados afrouxam a) inserted into correio in news.db
-2021-07-22 13:09:37,295:database:DEBUG:(2021-06-17 06:00:00|Partidos buscam nome) inserted into correio in news.db
-2021-07-22 13:09:37,398:database:DEBUG:(2021-06-17 06:00:00|Senadores pretendem ) inserted into correio in news.db
-2021-07-22 13:09:37,476:database:DEBUG:(2021-06-17 06:00:00|CPI quebra sigilo de) inserted into correio in news.db
-2021-07-22 13:09:37,557:database:DEBUG:(2021-06-16 23:39:00|E-mails mostram que ) inserted into correio in news.db
-2021-07-22 13:09:37,637:database:DEBUG:(2021-06-16 23:16:00|Bolsonaro e aliados ) inserted into correio in news.db
-2021-07-22 13:09:37,715:database:DEBUG:(2021-06-16 22:55:00|Alexandre de Moraes ) inserted into correio in news.db
-2021-07-22 13:09:37,799:database:DEBUG:(2021-06-16 22:32:00|Cármen atende PF e s) inserted into correio in news.db
-2021-07-22 13:09:37,887:database:DEBUG:(2021-06-16 22:30:00|CPI da Covid: 3 ques) inserted into correio in news.db
-2021-07-22 13:09:37,964:database:DEBUG:(2021-06-16 22:28:00|Barroso autoriza Car) inserted into correio in news.db
-2021-07-22 13:09:38,042:database:DEBUG:(2021-06-16 22:26:00|Gilmar autoriza auto) inserted into correio in news.db
-2021-07-22 13:09:38,125:database:DEBUG:(2021-06-16 22:24:00|Câmara aprova projet) inserted into correio in news.db
-2021-07-22 13:09:38,207:database:DEBUG:(2021-06-16 22:08:00|Sem máscara, deputad) inserted into correio in news.db
-2021-07-22 13:09:38,289:database:DEBUG:(2021-06-16 20:29:00|Relator da reforma a) inserted into correio in news.db
-2021-07-22 13:09:38,375:database:DEBUG:(2021-06-16 19:52:00|CCJ adia análise de ) inserted into correio in news.db
-2021-07-22 13:09:38,445:database:DEBUG:(2021-06-16 19:15:00|Ex-comandante da Lav) inserted into correio in news.db
-2021-07-22 13:09:38,524:database:DEBUG:(2021-06-16 18:45:00|Witzel vira réu na J) inserted into correio in news.db
-2021-07-22 13:09:38,524:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:38,594:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:39,597:scraper:DEBUG:page 42 - finding elements
-2021-07-22 13:09:39,888:webdriver:DEBUG:842 elements found
-2021-07-22 13:09:39,888:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:39,904:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:39,995:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:40,996:scraper:DEBUG:page 43 - finding elements
-2021-07-22 13:09:41,290:webdriver:DEBUG:842 elements found
-2021-07-22 13:09:41,290:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:41,299:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:41,398:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:42,399:scraper:DEBUG:page 44 - finding elements
-2021-07-22 13:09:42,694:webdriver:DEBUG:842 elements found
-2021-07-22 13:09:42,695:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:42,706:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:42,777:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:43,782:scraper:DEBUG:page 45 - finding elements
-2021-07-22 13:09:44,213:webdriver:DEBUG:902 elements found
-2021-07-22 13:09:44,214:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:44,299:database:DEBUG:(2021-06-16 18:39:00|Witzel diz que milíc) inserted into correio in news.db
-2021-07-22 13:09:44,385:database:DEBUG:(2021-06-16 18:22:00|Rosa Weber mantém qu) inserted into correio in news.db
-2021-07-22 13:09:44,472:database:DEBUG:(2021-06-16 17:48:00|Bolsonaro se reúne c) inserted into correio in news.db
-2021-07-22 13:09:44,616:database:DEBUG:(2021-06-16 17:35:00|Bolsonaro quer caos ) inserted into correio in news.db
-2021-07-22 13:09:44,714:database:DEBUG:(2021-06-16 16:59:00|Patriota marca conve) inserted into correio in news.db
-2021-07-22 13:09:44,802:database:DEBUG:(2021-06-16 15:39:00|Witzel deixa a CPI d) inserted into correio in news.db
-2021-07-22 13:09:44,875:database:DEBUG:(2021-06-16 14:28:00|Rosa rejeita pedido ) inserted into correio in news.db
-2021-07-22 13:09:44,949:database:DEBUG:(2021-06-16 14:13:00|Demora no auxílio em) inserted into correio in news.db
-2021-07-22 13:09:45,024:database:DEBUG:(2021-06-16 13:36:00|Em CPI, Witzel diz q) inserted into correio in news.db
-2021-07-22 13:09:45,107:database:DEBUG:(2021-06-16 12:29:00|Para se defender, Wi) inserted into correio in news.db
-2021-07-22 13:09:45,187:database:DEBUG:(2021-06-16 12:16:00|Bolsonaro confirma m) inserted into correio in news.db
-2021-07-22 13:09:45,375:database:DEBUG:(2021-06-16 11:39:00|Bolsonaro defende pr) inserted into correio in news.db
-2021-07-22 13:09:45,470:database:DEBUG:(2021-06-16 11:22:00|CPI da Covid vai ret) inserted into correio in news.db
-2021-07-22 13:09:45,559:database:DEBUG:(2021-06-16 10:05:00|Ao vivo: CPI da Covi) inserted into correio in news.db
-2021-07-22 13:09:45,642:database:DEBUG:(2021-06-16 10:05:00|Wilson Witzel pode l) inserted into correio in news.db
-2021-07-22 13:09:45,721:database:DEBUG:(2021-06-16 10:00:00|CPI da Covid não vai) inserted into correio in news.db
-2021-07-22 13:09:45,808:database:DEBUG:(2021-06-16 09:41:00|Huck confirma novo p) inserted into correio in news.db
-2021-07-22 13:09:45,886:database:DEBUG:(2021-06-16 06:00:00|Relator da reforma a) inserted into correio in news.db
-2021-07-22 13:09:45,965:database:DEBUG:(2021-06-16 06:00:00|CPI vai votar pedido) inserted into correio in news.db
-2021-07-22 13:09:46,068:database:DEBUG:(2021-06-16 06:00:00|Ex-presidente José S) inserted into correio in news.db
-2021-07-22 13:09:46,160:database:DEBUG:(2021-06-15 14:22:00|Ex-secretário do AM ) inserted into correio in news.db
-2021-07-22 13:09:46,244:database:DEBUG:(2021-06-15 13:17:00|Relator deve sugerir) inserted into correio in news.db
-2021-07-22 13:09:46,352:database:DEBUG:(2021-06-15 12:43:00|Ex-secretário do AM ) inserted into correio in news.db
-2021-07-22 13:09:46,483:database:DEBUG:(2021-06-15 12:41:00|CPI nega depoimento ) inserted into correio in news.db
-2021-07-22 13:09:46,694:database:DEBUG:(2021-06-15 11:16:00|Brasil cai em rankin) inserted into correio in news.db
-2021-07-22 13:09:46,847:database:DEBUG:(2021-06-15 11:03:00|Bolsonaro a Doria: ") inserted into correio in news.db
-2021-07-22 13:09:47,060:database:DEBUG:(2021-06-15 10:46:00|Bolsonaro sobre proj) inserted into correio in news.db
-2021-07-22 13:09:47,271:database:DEBUG:(2021-06-15 06:47:00|Após ser expulso do ) inserted into correio in news.db
-2021-07-22 13:09:47,453:database:DEBUG:(2021-06-15 06:00:00|"CPI terá relação cl) inserted into correio in news.db
-2021-07-22 13:09:47,666:database:DEBUG:(2021-06-15 06:00:00|Crise provocada pela) inserted into correio in news.db
-2021-07-22 13:09:47,797:database:DEBUG:(2021-06-15 06:00:00|Racha no Patriota pr) inserted into correio in news.db
-2021-07-22 13:09:47,916:database:DEBUG:(2021-06-15 00:21:00|Sem consenso à vista) inserted into correio in news.db
-2021-07-22 13:09:48,011:database:DEBUG:(2021-06-14 23:34:00|Multa a Bolsonaro, s) inserted into correio in news.db
-2021-07-22 13:09:48,090:database:DEBUG:(2021-06-14 23:09:00|Rodrigo Maia é expul) inserted into correio in news.db
-2021-07-22 13:09:48,164:database:DEBUG:(2021-06-14 23:07:00|Eleições: o que tem ) inserted into correio in news.db
-2021-07-22 13:09:48,258:database:DEBUG:(2021-06-14 21:38:00|Após ignorar e-mails) inserted into correio in news.db
-2021-07-22 13:09:48,340:database:DEBUG:(2021-06-14 21:34:00|Mayra Pinheiro, a "c) inserted into correio in news.db
-2021-07-22 13:09:48,422:database:DEBUG:(2021-06-14 19:57:00|Twitter desabilita p) inserted into correio in news.db
-2021-07-22 13:09:48,507:database:DEBUG:(2021-06-14 19:44:00|Rosa Weber mantém aç) inserted into correio in news.db
-2021-07-22 13:09:48,595:database:DEBUG:(2021-06-14 19:28:00|Câmara discute adesã) inserted into correio in news.db
-2021-07-22 13:09:48,669:database:DEBUG:(2021-06-16 06:00:00|Quebras de sigilo: p) inserted into correio in news.db
-2021-07-22 13:09:48,760:database:DEBUG:(2021-06-16 06:00:00|Alexandre Garcia: "U) inserted into correio in news.db
-2021-07-22 13:09:48,849:database:DEBUG:(2021-06-16 06:00:00|Ex-secretário do Ama) inserted into correio in news.db
-2021-07-22 13:09:48,923:database:DEBUG:(2021-06-15 22:27:00|AGU recorre da decis) inserted into correio in news.db
-2021-07-22 13:09:49,008:database:DEBUG:(2021-06-15 22:18:00|Câmara aprova incent) inserted into correio in news.db
-2021-07-22 13:09:49,094:database:DEBUG:(2021-06-15 21:37:00|Doria quer concorrer) inserted into correio in news.db
-2021-07-22 13:09:49,173:database:DEBUG:(2021-06-15 20:38:00|CPI: STF dispensa pa) inserted into correio in news.db
-2021-07-22 13:09:49,258:database:DEBUG:(2021-06-15 20:03:00|Câmara autoriza labo) inserted into correio in news.db
-2021-07-22 13:09:49,344:database:DEBUG:(2021-06-15 19:27:00|Cabral pede ao STF q) inserted into correio in news.db
-2021-07-22 13:09:49,425:database:DEBUG:(2021-06-15 18:35:00|Eduardo Bolsonaro co) inserted into correio in news.db
-2021-07-22 13:09:49,509:database:DEBUG:(2021-06-15 18:31:00|Soraya Thronicke que) inserted into correio in news.db
-2021-07-22 13:09:49,598:database:DEBUG:(2021-06-15 18:00:00|A apoiadores, Bolson) inserted into correio in news.db
-2021-07-22 13:09:49,681:database:DEBUG:(2021-06-15 17:21:00|CPI vai reapresentar) inserted into correio in news.db
-2021-07-22 13:09:49,768:database:DEBUG:(2021-06-15 17:06:00|Ex-secretário do AM ) inserted into correio in news.db
-2021-07-22 13:09:49,859:database:DEBUG:(2021-06-15 16:46:00|Campêlo diz que não ) inserted into correio in news.db
-2021-07-22 13:09:49,938:database:DEBUG:(2021-06-15 16:43:00|Campelo: Governador ) inserted into correio in news.db
-2021-07-22 13:09:50,022:database:DEBUG:(2021-06-15 16:43:00|Mourão diz "sentir f) inserted into correio in news.db
-2021-07-22 13:09:50,104:database:DEBUG:(2021-06-15 15:50:00|Ex-secretário diz à ) inserted into correio in news.db
-2021-07-22 13:09:50,181:database:DEBUG:(2021-06-15 15:11:00|Doria rebate Bolsona) inserted into correio in news.db
-2021-07-22 13:09:50,274:database:DEBUG:(2021-06-15 14:54:00|Bolsonaro sobre vaga) inserted into correio in news.db
-2021-07-22 13:09:50,275:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:50,427:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:51,427:scraper:DEBUG:page 46 - finding elements
-2021-07-22 13:09:51,773:webdriver:DEBUG:922 elements found
-2021-07-22 13:09:51,773:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:51,882:database:DEBUG:(2021-06-14 19:05:00|Advogada promete pro) inserted into correio in news.db
-2021-07-22 13:09:51,968:database:DEBUG:(2021-06-14 18:40:00|TCU cria comissão pa) inserted into correio in news.db
-2021-07-22 13:09:52,047:database:DEBUG:(2021-06-14 18:31:00|Presidente do Senado) inserted into correio in news.db
-2021-07-22 13:09:52,126:database:DEBUG:(2021-06-14 18:28:00|Ministro da Saúde di) inserted into correio in news.db
-2021-07-22 13:09:52,202:database:DEBUG:(2021-06-14 18:23:00|MP-SP investiga se C) inserted into correio in news.db
-2021-07-22 13:09:52,294:database:DEBUG:(2021-06-14 18:20:00|Bolsonaro agradece a) inserted into correio in news.db
-2021-07-22 13:09:52,376:database:DEBUG:(2021-06-14 18:06:00|Joice Hasselmann ped) inserted into correio in news.db
-2021-07-22 13:09:52,462:database:DEBUG:(2021-06-14 17:52:00|Witzel vai ao Suprem) inserted into correio in news.db
-2021-07-22 13:09:52,544:database:DEBUG:(2021-06-14 16:29:00|Paes chama Doria de ) inserted into correio in news.db
-2021-07-22 13:09:52,624:database:DEBUG:(2021-06-14 15:12:00|MP-SP abre inquérito) inserted into correio in news.db
-2021-07-22 13:09:52,703:database:DEBUG:(2021-06-14 15:10:00|Flávio diz que Bolso) inserted into correio in news.db
-2021-07-22 13:09:52,789:database:DEBUG:(2021-06-14 14:57:00|Lira: relatores da r) inserted into correio in news.db
-2021-07-22 13:09:52,875:database:DEBUG:(2021-06-14 14:51:00|Barroso suspende que) inserted into correio in news.db
-2021-07-22 13:09:52,953:database:DEBUG:(2021-06-14 13:21:00|Federações viram boi) inserted into correio in news.db
-2021-07-22 13:09:53,032:database:DEBUG:(2021-06-14 12:45:00|Temer defende semipr) inserted into correio in news.db
-2021-07-22 13:09:53,112:database:DEBUG:(2021-06-14 12:22:00|Com viabilidade técn) inserted into correio in news.db
-2021-07-22 13:09:53,191:database:DEBUG:(2021-06-14 10:48:00|Bolsonaro diz que Re) inserted into correio in news.db
-2021-07-22 13:09:53,277:database:DEBUG:(2021-06-14 10:31:00|Bolsonaro ataca Dori) inserted into correio in news.db
-2021-07-22 13:09:53,355:database:DEBUG:(2021-06-14 06:00:00|Cresce a tensão entr) inserted into correio in news.db
-2021-07-22 13:09:53,436:database:DEBUG:(2021-06-14 06:00:00|Entenda os obstáculo) inserted into correio in news.db
-2021-07-22 13:09:53,436:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:53,504:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:54,505:scraper:DEBUG:page 47 - finding elements
-2021-07-22 13:09:54,856:webdriver:DEBUG:942 elements found
-2021-07-22 13:09:54,856:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:54,947:database:DEBUG:(2021-06-14 06:00:00|Maria Elizabeth Roch) inserted into correio in news.db
-2021-07-22 13:09:55,031:database:DEBUG:(2021-06-13 18:15:00|STF mantém quebra de) inserted into correio in news.db
-2021-07-22 13:09:55,106:database:DEBUG:(2021-06-13 06:00:00|Filiação do presiden) inserted into correio in news.db
-2021-07-22 13:09:55,191:database:DEBUG:(2021-06-13 06:00:00|Marco Maciel: o vice) inserted into correio in news.db
-2021-07-22 13:09:55,272:database:DEBUG:(2021-06-13 02:31:00|STF libera quebra de) inserted into correio in news.db
-2021-07-22 13:09:55,353:database:DEBUG:(2021-06-12 20:57:00|Justiça de São Paulo) inserted into correio in news.db
-2021-07-22 13:09:55,435:database:DEBUG:(2021-06-12 19:55:00|Bolsonaro decreta lu) inserted into correio in news.db
-2021-07-22 13:09:55,512:database:DEBUG:(2021-06-12 19:16:00|Empresa investigada ) inserted into correio in news.db
-2021-07-22 13:09:55,600:database:DEBUG:(2021-06-12 18:23:00|Passeio ciclístico d) inserted into correio in news.db
-2021-07-22 13:09:55,684:database:DEBUG:(2021-06-12 17:29:00|"Maior passeio ciclí) inserted into correio in news.db
-2021-07-22 13:09:55,764:database:DEBUG:(2021-06-12 17:26:00|Apesar das críticas,) inserted into correio in news.db
-2021-07-22 13:09:55,847:database:DEBUG:(2021-06-12 17:25:00|Flávio Bolsonaro cel) inserted into correio in news.db
-2021-07-22 13:09:55,928:database:DEBUG:(2021-06-12 14:06:00|Governo de SP multa ) inserted into correio in news.db
-2021-07-22 13:09:56,020:database:DEBUG:(2021-06-12 13:42:00|Políticos enaltecem ) inserted into correio in news.db
-2021-07-22 13:09:56,109:database:DEBUG:(2021-06-12 12:04:00|Militares planejam s) inserted into correio in news.db
-2021-07-22 13:09:56,200:database:DEBUG:(2021-06-12 11:47:00|Ministério da Saúde ) inserted into correio in news.db
-2021-07-22 13:09:56,310:database:DEBUG:(2021-06-12 11:44:00|Pazuello deve passar) inserted into correio in news.db
-2021-07-22 13:09:56,512:database:DEBUG:(2021-06-12 11:34:00|Acompanhado de apoia) inserted into correio in news.db
-2021-07-22 13:09:56,706:database:DEBUG:(2021-06-12 08:20:00|Marco Maciel, ex-vic) inserted into correio in news.db
-2021-07-22 13:09:56,825:database:DEBUG:(2021-06-12 06:00:00|"O tal de Queiroga":) inserted into correio in news.db
-2021-07-22 13:09:56,825:webdriver:DEBUG:clicking next page
-2021-07-22 13:09:56,886:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:09:57,889:scraper:DEBUG:page 48 - finding elements
-2021-07-22 13:09:58,296:webdriver:DEBUG:962 elements found
-2021-07-22 13:09:58,296:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:09:58,379:database:DEBUG:(2021-06-12 06:00:00|Procuradores da Repú) inserted into correio in news.db
-2021-07-22 13:09:58,466:database:DEBUG:(2021-06-12 06:00:00|CPI da Covid: especi) inserted into correio in news.db
-2021-07-22 13:09:58,550:database:DEBUG:(2021-06-12 01:08:00|CPI investiga empres) inserted into correio in news.db
-2021-07-22 13:09:58,627:database:DEBUG:(2021-06-11 22:20:00|"Apaixonado", ironiz) inserted into correio in news.db
-2021-07-22 13:09:58,709:database:DEBUG:(2021-06-11 21:13:00|Ernesto Araújo solic) inserted into correio in news.db
-2021-07-22 13:09:58,792:database:DEBUG:(2021-06-11 20:22:00|Bia Kicis anuncia ap) inserted into correio in news.db
-2021-07-22 13:09:58,872:database:DEBUG:(2021-06-11 19:13:00|Lula almoça com Paes) inserted into correio in news.db
-2021-07-22 13:09:58,951:database:DEBUG:(2021-06-11 18:50:00|Pela primeira vez, a) inserted into correio in news.db
-2021-07-22 13:09:59,069:database:DEBUG:(2021-06-11 16:35:00|Bolsonaro repete ame) inserted into correio in news.db
-2021-07-22 13:09:59,228:database:DEBUG:(2021-06-11 16:29:00|Aécio vai relatar na) inserted into correio in news.db
-2021-07-22 13:09:59,329:database:DEBUG:(2021-06-11 15:56:00|Lula amplia vantagem) inserted into correio in news.db
-2021-07-22 13:09:59,543:database:DEBUG:(2021-06-11 15:52:00|No ES, Bolsonaro vol) inserted into correio in news.db
-2021-07-22 13:09:59,622:database:DEBUG:(2021-06-11 15:45:00|"Plano de imunização) inserted into correio in news.db
-2021-07-22 13:09:59,692:database:DEBUG:(2021-06-11 14:57:00|À CPI, especialistas) inserted into correio in news.db
-2021-07-22 13:09:59,770:database:DEBUG:(2021-06-11 14:37:00|Cloroquina é mentira) inserted into correio in news.db
-2021-07-22 13:09:59,854:database:DEBUG:(2021-06-11 14:25:00|"Cloroquina não func) inserted into correio in news.db
-2021-07-22 13:09:59,933:database:DEBUG:(2021-06-11 14:10:00|Bolsonaro entra em a) inserted into correio in news.db
-2021-07-22 13:10:00,014:database:DEBUG:(2021-06-11 13:15:00|Sem máscara, Bolsona) inserted into correio in news.db
-2021-07-22 13:10:00,095:database:DEBUG:(2021-06-11 13:02:00|Maierovitch: 'Govern) inserted into correio in news.db
-2021-07-22 13:10:00,178:database:DEBUG:(2021-06-11 12:43:00|Paulo Marinho deixa ) inserted into correio in news.db
-2021-07-22 13:10:00,178:webdriver:DEBUG:clicking next page
-2021-07-22 13:10:00,244:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:10:01,247:scraper:DEBUG:page 49 - finding elements
-2021-07-22 13:10:32,845:webdriver:DEBUG:22 elements found
-2021-07-22 13:10:32,846:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:10:32,916:scraper:WARNING:inner elements not found
-2021-07-22 13:10:32,976:scraper:WARNING:inner elements not found
-2021-07-22 13:10:33,027:database:DEBUG:(2021-07-22 13:04:00|Bolsonaro defende al) inserted into correio in news.db
-2021-07-22 13:10:33,170:database:DEBUG:(2021-07-22 12:31:00|Bolsonaro diz que nã) inserted into correio in news.db
-2021-07-22 13:10:33,248:database:DEBUG:(2021-07-22 12:00:00|Bolsonaro sobre auxí) inserted into correio in news.db
-2021-07-22 13:10:33,307:database:DEBUG:(2021-07-22 11:55:00|Bolsonaro: Ministéri) inserted into correio in news.db
-2021-07-22 13:10:33,363:database:DEBUG:(2021-07-22 11:50:00|Simone Tebet alerta ) inserted into correio in news.db
-2021-07-22 13:10:33,417:database:DEBUG:(2021-07-22 11:42:00|Barroso diz que Lira) inserted into correio in news.db
-2021-07-22 13:10:33,580:database:DEBUG:(2021-07-22 11:39:00|Arthur Lira não nega) inserted into correio in news.db
-2021-07-22 13:10:33,694:database:DEBUG:(2021-07-22 11:32:00|Bolsonaro sobre Ciro) inserted into correio in news.db
-2021-07-22 13:10:33,743:database:DEBUG:(2021-07-22 11:26:00|"É preciso uma posiç) inserted into correio in news.db
-2021-07-22 13:10:33,816:database:DEBUG:(2021-07-22 11:23:00|"Forças Armadas semp) inserted into correio in news.db
-2021-07-22 13:10:33,876:database:DEBUG:(2021-07-22 11:01:00|Ministro da Defesa p) inserted into correio in news.db
-2021-07-22 13:10:33,925:database:DEBUG:(2021-07-22 10:50:00|Bolsonaro confirma C) inserted into correio in news.db
-2021-07-22 13:10:34,023:database:DEBUG:(2021-07-22 10:07:00|Braga Netto diz que ) inserted into correio in news.db
-2021-07-22 13:10:34,089:database:DEBUG:(2021-07-22 06:00:00|Em meio à CPI e com ) inserted into correio in news.db
-2021-07-22 13:10:34,142:database:DEBUG:(2021-07-22 06:00:00|Minirreforma ministe) inserted into correio in news.db
-2021-07-22 13:10:34,191:database:DEBUG:(2021-07-22 06:00:00|Mãe de Ciro Nogueira) inserted into correio in news.db
-2021-07-22 13:10:34,254:database:DEBUG:(2021-07-22 06:00:00|Kassab aposta no est) inserted into correio in news.db
-2021-07-22 13:10:34,308:database:DEBUG:(2021-07-21 22:40:00|Governador do MT def) inserted into correio in news.db
-2021-07-22 13:10:34,378:database:DEBUG:(2021-07-21 21:33:00|Senadores apontam fa) inserted into correio in news.db
-2021-07-22 13:10:34,469:database:DEBUG:(2021-07-21 21:08:00|Com Ciro Nogueira na) inserted into correio in news.db
-2021-07-22 13:10:34,469:webdriver:DEBUG:clicking next page
-2021-07-22 13:10:34,640:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:10:35,643:scraper:DEBUG:page 50 - finding elements
-2021-07-22 13:10:35,661:webdriver:DEBUG:42 elements found
-2021-07-22 13:10:35,662:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:10:35,759:database:DEBUG:(2021-07-21 20:51:00|Cármen Lúcia nega ma) inserted into correio in news.db
-2021-07-22 13:10:35,813:database:DEBUG:(2021-07-21 19:00:00|"Terceira via vai se) inserted into correio in news.db
-2021-07-22 13:10:35,873:database:DEBUG:(2021-07-21 18:14:00|Senadora pede que TC) inserted into correio in news.db
-2021-07-22 13:10:35,944:database:DEBUG:(2021-07-21 18:09:00|Randolfe será condec) inserted into correio in news.db
-2021-07-22 13:10:36,010:database:DEBUG:(2021-07-21 17:27:00|Alessandro Vieira ac) inserted into correio in news.db
-2021-07-22 13:10:36,062:database:DEBUG:(2021-07-21 16:07:00|Citado na CPI, coron) inserted into correio in news.db
-2021-07-22 13:10:36,123:database:DEBUG:(2021-07-21 15:23:00|Bolsonaro: 'era hipé) inserted into correio in news.db
-2021-07-22 13:10:36,177:database:DEBUG:(2021-07-21 13:45:00|Caso Ciro Nogueira v) inserted into correio in news.db
-2021-07-22 13:10:36,233:database:DEBUG:(2021-07-21 13:42:00|Prestes a ingressar ) inserted into correio in news.db
-2021-07-22 13:10:36,296:database:DEBUG:(2021-07-21 13:16:00|Bolsonaro pretende r) inserted into correio in news.db
-2021-07-22 13:10:36,351:database:DEBUG:(2021-07-21 12:42:00|Bolsonaro: "Cadeira ) inserted into correio in news.db
-2021-07-22 13:10:36,411:database:DEBUG:(2021-07-21 12:20:00|Bolsonaro: "Cuidado ) inserted into correio in news.db
-2021-07-22 13:10:36,468:database:DEBUG:(2021-07-21 11:51:00|Bolsonaro diz que de) inserted into correio in news.db
-2021-07-22 13:10:36,532:database:DEBUG:(2021-07-21 11:46:00|Bolsonaro: "Se tives) inserted into correio in news.db
-2021-07-22 13:10:36,605:database:DEBUG:(2021-07-21 11:21:00|Bolsonaro: "O G7 da ) inserted into correio in news.db
-2021-07-22 13:10:36,665:database:DEBUG:(2021-07-21 10:15:00|Semipresidencialismo) inserted into correio in news.db
-2021-07-22 13:10:36,723:database:DEBUG:(2021-07-21 09:51:00|Após Gleisi Hoffmann) inserted into correio in news.db
-2021-07-22 13:10:36,794:database:DEBUG:(2021-07-21 09:50:00|Reforma ministerial:) inserted into correio in news.db
-2021-07-22 13:10:36,858:database:DEBUG:(2021-07-21 09:49:00|Bolsonaro diz que "p) inserted into correio in news.db
-2021-07-22 13:10:36,904:database:DEBUG:(2021-07-21 06:00:00|Alexandre Garcia: "F) inserted into correio in news.db
-2021-07-22 13:10:36,905:webdriver:DEBUG:clicking next page
-2021-07-22 13:10:36,963:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:10:37,966:scraper:DEBUG:page 51 - finding elements
-2021-07-22 13:10:37,990:webdriver:DEBUG:62 elements found
-2021-07-22 13:10:37,991:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:10:38,072:database:DEBUG:(2021-07-21 06:00:00|Rosa Weber decidirá ) inserted into correio in news.db
-2021-07-22 13:10:38,135:database:DEBUG:(2021-07-21 06:00:00|Lula e Bolsonaro des) inserted into correio in news.db
-2021-07-22 13:10:38,189:database:DEBUG:(2021-07-21 06:00:00|Aras sofre resistênc) inserted into correio in news.db
-2021-07-22 13:10:38,241:database:DEBUG:(2021-07-20 23:59:00|Com respaldo do MDB,) inserted into correio in news.db
-2021-07-22 13:10:38,303:database:DEBUG:(2021-07-20 23:50:00|PF: investigação que) inserted into correio in news.db
-2021-07-22 13:10:38,353:database:DEBUG:(2021-07-20 22:27:00|Luís Miranda reage a) inserted into correio in news.db
-2021-07-22 13:10:38,410:database:DEBUG:(2021-07-20 22:19:00|Flávio Bolsonaro rep) inserted into correio in news.db
-2021-07-22 13:10:38,483:database:DEBUG:(2021-07-20 21:44:00|Kassab sobre candida) inserted into correio in news.db
-2021-07-22 13:10:38,555:database:DEBUG:(2021-07-20 20:51:00|Fábio Faria desponta) inserted into correio in news.db
-2021-07-22 13:10:38,663:database:DEBUG:(2021-07-20 19:46:00|Eduardo Bolsonaro re) inserted into correio in news.db
-2021-07-22 13:10:38,715:database:DEBUG:(2021-07-20 19:19:00|CPMI das Fake News r) inserted into correio in news.db
-2021-07-22 13:10:38,780:database:DEBUG:(2021-07-20 18:29:00|CPI da Covid-19 divi) inserted into correio in news.db
-2021-07-22 13:10:38,832:database:DEBUG:(2021-07-20 17:39:00|Presidente afastado ) inserted into correio in news.db
-2021-07-22 13:10:38,888:database:DEBUG:(2021-07-20 16:45:00|"Bolsonaro arma acor) inserted into correio in news.db
-2021-07-22 13:10:38,941:database:DEBUG:(2021-07-20 15:49:00|Bolsonaro decide rec) inserted into correio in news.db
-2021-07-22 13:10:38,990:database:DEBUG:(2021-07-20 15:45:00|Por ordem de Anderso) inserted into correio in news.db
-2021-07-22 13:10:39,056:database:DEBUG:(2021-07-20 15:27:00|Bolsonaro reafirma v) inserted into correio in news.db
-2021-07-22 13:10:39,106:database:DEBUG:(2021-07-20 15:09:00|Lula: 'Semipresidenc) inserted into correio in news.db
-2021-07-22 13:10:39,162:database:DEBUG:(2021-07-20 14:47:00|Bolsonaro: "Cabo da ) inserted into correio in news.db
-2021-07-22 13:10:39,218:database:DEBUG:(2021-07-20 14:36:00|Depoimento de Luís M) inserted into correio in news.db
-2021-07-22 13:10:39,219:webdriver:DEBUG:clicking next page
-2021-07-22 13:10:39,291:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:10:40,292:scraper:DEBUG:page 52 - finding elements
-2021-07-22 13:10:40,320:webdriver:DEBUG:82 elements found
-2021-07-22 13:10:40,320:scraper:DEBUG:looping through last 200 elements
-2021-07-22 13:10:40,423:database:DEBUG:(2021-07-20 14:25:00|Bolsonaro defende al) inserted into correio in news.db
-2021-07-22 13:10:40,475:database:DEBUG:(2021-07-20 14:22:00|Em recuperação, Bols) inserted into correio in news.db
-2021-07-22 13:10:40,541:database:DEBUG:(2021-07-20 14:18:00|"Querem me f*, teria) inserted into correio in news.db
-2021-07-22 13:10:40,603:database:DEBUG:(2021-07-20 14:06:00|Luis Miranda diz que) inserted into correio in news.db
-2021-07-22 13:10:40,700:database:DEBUG:(2021-07-20 14:01:00|Luis Miranda confirm) inserted into correio in news.db
-2021-07-22 13:10:40,751:database:DEBUG:(2021-07-20 13:56:00|Valor médio do novo ) inserted into correio in news.db
-2021-07-22 13:10:40,812:database:DEBUG:(2021-07-20 13:53:00|Bolsonaro volta a di) inserted into correio in news.db
-2021-07-22 13:10:40,861:database:DEBUG:(2021-07-20 13:51:00|Bolsonaro ironiza Do) inserted into correio in news.db
-2021-07-22 13:10:40,927:database:DEBUG:(2021-07-20 13:44:00|Bolsonaro ataca Lula) inserted into correio in news.db
-2021-07-22 13:10:40,991:database:DEBUG:(2021-07-20 13:34:00|Bolsonaro: "Não tem ) inserted into correio in news.db
-2021-07-22 13:10:41,047:database:DEBUG:(2021-07-20 12:02:00|Bolsonaro sobre elei) inserted into correio in news.db
-2021-07-22 13:10:41,104:database:DEBUG:(2021-07-20 11:51:00|Braga Netto: "Precis) inserted into correio in news.db
-2021-07-22 13:10:41,175:database:DEBUG:(2021-07-20 08:55:00|Quem é Mia Khalifa, ) inserted into correio in news.db
-2021-07-22 13:10:41,245:database:DEBUG:(2021-07-20 06:00:00|Decisão sobre fundão) inserted into correio in news.db
-2021-07-22 13:10:41,318:database:DEBUG:(2021-07-20 06:00:00|CPI foca em empresa ) inserted into correio in news.db
-2021-07-22 13:10:41,383:database:DEBUG:(2021-07-19 22:36:00|Bolsonaro diz que ve) inserted into correio in news.db
-2021-07-22 13:10:41,449:database:DEBUG:(2021-07-19 19:55:00|Bolsonaro: "Eu não a) inserted into correio in news.db
-2021-07-22 13:10:41,526:database:DEBUG:(2021-07-19 19:42:00|Parlamentares vão ao) inserted into correio in news.db
-2021-07-22 13:10:41,581:database:DEBUG:(2021-07-19 19:37:00|Omar Aziz: "Roberto ) inserted into correio in news.db
-2021-07-22 13:10:41,640:database:DEBUG:(2021-07-19 18:09:00|"Não é invenção minh) inserted into correio in news.db
-2021-07-22 13:10:41,640:webdriver:DEBUG:clicking next page
-2021-07-22 13:10:41,732:webdriver:DEBUG:next page clicked, sleeping...
-2021-07-22 13:10:42,349:scraper:WARNING:no next page
-2021-07-22 13:10:42,353:database:DEBUG:news.db connection closed
+2021-07-23 11:31:03,926:scraper:DEBUG:logger configured
+2021-07-23 11:31:03,927:database:DEBUG:logger configured
+2021-07-23 11:31:03,927:database:DEBUG:news.db opening connection
+2021-07-23 11:31:03,930:database:DEBUG:news.db connection open
+2021-07-23 11:31:03,940:database:DEBUG:correio table dropped
+2021-07-23 11:31:03,942:database:DEBUG:correio table created
+2021-07-23 11:31:03,943:webdriver:DEBUG:logger configured
+2021-07-23 11:31:06,925:webdriver:DEBUG:connection open
+2021-07-23 11:31:06,925:webdriver:DEBUG:getting page https://www.correiobraziliense.com.br/politica
+2021-07-23 11:31:13,646:webdriver:DEBUG:page received
+2021-07-23 11:31:13,646:scraper:DEBUG:page 0 - finding elements
+2021-07-23 11:31:13,714:webdriver:DEBUG:22 elements found
+2021-07-23 11:31:13,715:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:13,853:scraper:WARNING:inner elements not found
+2021-07-23 11:31:13,944:scraper:WARNING:inner elements not found
+2021-07-23 11:31:14,028:database:DEBUG:(2021-07-23 11:23:00|Bolsonaro sobre fili) inserted into correio in news.db
+2021-07-23 11:31:14,123:database:DEBUG:(2021-07-23 10:11:00|Fabricante da Covaxi) inserted into correio in news.db
+2021-07-23 11:31:14,328:database:DEBUG:(2021-07-23 09:44:00|'Semipresidencialism) inserted into correio in news.db
+2021-07-23 11:31:14,434:database:DEBUG:(2021-07-23 06:00:00|Negativa de Braga Ne) inserted into correio in news.db
+2021-07-23 11:31:14,517:database:DEBUG:(2021-07-23 06:00:00|Judiciário refuta am) inserted into correio in news.db
+2021-07-23 11:31:14,671:database:DEBUG:(2021-07-22 22:51:00|Após acordar com fra) inserted into correio in news.db
+2021-07-23 11:31:14,973:database:DEBUG:(2021-07-22 22:34:00|Futuro chefe da Casa) inserted into correio in news.db
+2021-07-23 11:31:15,045:database:DEBUG:(2021-07-22 22:23:00|"As coisas mudam", d) inserted into correio in news.db
+2021-07-23 11:31:15,109:database:DEBUG:(2021-07-22 22:05:00|Ex-ministro da Defes) inserted into correio in news.db
+2021-07-23 11:31:15,175:database:DEBUG:(2021-07-22 20:26:00|Polêmica relação de ) inserted into correio in news.db
+2021-07-23 11:31:15,241:database:DEBUG:(2021-07-22 19:35:00|Quem é Ciro Nogueira) inserted into correio in news.db
+2021-07-23 11:31:15,372:database:DEBUG:(2021-07-22 18:38:00|Bia Kicis se encontr) inserted into correio in news.db
+2021-07-23 11:31:15,444:database:DEBUG:(2021-07-22 18:12:00|Vídeo: Roberto Jeffe) inserted into correio in news.db
+2021-07-23 11:31:15,507:database:DEBUG:(2021-07-22 16:45:00|Deputado apresenta r) inserted into correio in news.db
+2021-07-23 11:31:15,581:database:DEBUG:(2021-07-22 16:42:00|Flávio Bolsonaro é v) inserted into correio in news.db
+2021-07-23 11:31:15,676:database:DEBUG:(2021-07-22 16:34:00|Recriação de ministé) inserted into correio in news.db
+2021-07-23 11:31:15,772:database:DEBUG:(2021-07-22 16:26:00|Aziz critica Capitã ) inserted into correio in news.db
+2021-07-23 11:31:15,840:database:DEBUG:(2021-07-22 16:19:00|Omar Aziz diz que id) inserted into correio in news.db
+2021-07-23 11:31:15,908:database:DEBUG:(2021-07-22 16:14:00|Pacheco: "Eleições p) inserted into correio in news.db
+2021-07-23 11:31:15,983:database:DEBUG:(2021-07-22 16:11:00|Ameaça à democracia ) inserted into correio in news.db
+2021-07-23 11:31:15,983:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:16,230:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:16,731:scraper:DEBUG:page 1 - finding elements
+2021-07-23 11:31:16,767:webdriver:DEBUG:22 elements found
+2021-07-23 11:31:16,768:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:16,769:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:16,907:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:17,411:scraper:DEBUG:page 2 - finding elements
+2021-07-23 11:31:17,453:webdriver:DEBUG:62 elements found
+2021-07-23 11:31:17,453:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:17,547:database:DEBUG:(2021-07-22 16:11:00|Bolsonaro diz que pe) inserted into correio in news.db
+2021-07-23 11:31:17,615:database:DEBUG:(2021-07-22 16:10:00|Bolsonaro: Mortes po) inserted into correio in news.db
+2021-07-23 11:31:17,708:database:DEBUG:(2021-07-22 16:08:00|Mourão: Brasil não é) inserted into correio in news.db
+2021-07-23 11:31:17,883:database:DEBUG:(2021-07-22 13:36:00|Proxalutamida: os qu) inserted into correio in news.db
+2021-07-23 11:31:17,975:database:DEBUG:(2021-07-22 13:13:00|Bolsonaro defende Ba) inserted into correio in news.db
+2021-07-23 11:31:18,071:database:DEBUG:(2021-07-22 13:04:00|Bolsonaro defende al) inserted into correio in news.db
+2021-07-23 11:31:18,136:database:DEBUG:(2021-07-22 12:31:00|Bolsonaro diz que nã) inserted into correio in news.db
+2021-07-23 11:31:18,192:database:DEBUG:(2021-07-22 12:00:00|Bolsonaro sobre auxí) inserted into correio in news.db
+2021-07-23 11:31:18,262:database:DEBUG:(2021-07-22 11:55:00|Bolsonaro: Ministéri) inserted into correio in news.db
+2021-07-23 11:31:18,324:database:DEBUG:(2021-07-22 11:50:00|Simone Tebet alerta ) inserted into correio in news.db
+2021-07-23 11:31:18,394:database:DEBUG:(2021-07-22 11:42:00|Barroso diz que Lira) inserted into correio in news.db
+2021-07-23 11:31:18,451:database:DEBUG:(2021-07-22 11:39:00|Arthur Lira não nega) inserted into correio in news.db
+2021-07-23 11:31:18,525:database:DEBUG:(2021-07-22 11:32:00|Bolsonaro sobre Ciro) inserted into correio in news.db
+2021-07-23 11:31:18,586:database:DEBUG:(2021-07-22 11:26:00|"É preciso uma posiç) inserted into correio in news.db
+2021-07-23 11:31:18,663:database:DEBUG:(2021-07-22 11:23:00|"Forças Armadas semp) inserted into correio in news.db
+2021-07-23 11:31:18,743:database:DEBUG:(2021-07-22 11:01:00|Ministro da Defesa p) inserted into correio in news.db
+2021-07-23 11:31:18,920:database:DEBUG:(2021-07-22 10:50:00|Bolsonaro confirma C) inserted into correio in news.db
+2021-07-23 11:31:18,982:database:DEBUG:(2021-07-22 10:07:00|Braga Netto diz que ) inserted into correio in news.db
+2021-07-23 11:31:19,062:database:DEBUG:(2021-07-22 06:00:00|Em meio à CPI e com ) inserted into correio in news.db
+2021-07-23 11:31:19,137:database:DEBUG:(2021-07-22 06:00:00|Minirreforma ministe) inserted into correio in news.db
+2021-07-23 11:31:19,207:database:DEBUG:(2021-07-22 06:00:00|Mãe de Ciro Nogueira) inserted into correio in news.db
+2021-07-23 11:31:19,267:database:DEBUG:(2021-07-22 06:00:00|Kassab aposta no est) inserted into correio in news.db
+2021-07-23 11:31:19,322:database:DEBUG:(2021-07-21 22:40:00|Governador do MT def) inserted into correio in news.db
+2021-07-23 11:31:19,398:database:DEBUG:(2021-07-21 21:33:00|Senadores apontam fa) inserted into correio in news.db
+2021-07-23 11:31:19,492:database:DEBUG:(2021-07-21 21:08:00|Com Ciro Nogueira na) inserted into correio in news.db
+2021-07-23 11:31:19,553:database:DEBUG:(2021-07-21 20:51:00|Cármen Lúcia nega ma) inserted into correio in news.db
+2021-07-23 11:31:19,625:database:DEBUG:(2021-07-21 19:00:00|"Terceira via vai se) inserted into correio in news.db
+2021-07-23 11:31:19,693:database:DEBUG:(2021-07-21 18:14:00|Senadora pede que TC) inserted into correio in news.db
+2021-07-23 11:31:19,757:database:DEBUG:(2021-07-21 18:09:00|Randolfe será condec) inserted into correio in news.db
+2021-07-23 11:31:19,830:database:DEBUG:(2021-07-21 17:27:00|Alessandro Vieira ac) inserted into correio in news.db
+2021-07-23 11:31:19,986:database:DEBUG:(2021-07-21 16:07:00|Citado na CPI, coron) inserted into correio in news.db
+2021-07-23 11:31:20,060:database:DEBUG:(2021-07-21 15:23:00|Bolsonaro: 'era hipé) inserted into correio in news.db
+2021-07-23 11:31:20,150:database:DEBUG:(2021-07-21 13:45:00|Caso Ciro Nogueira v) inserted into correio in news.db
+2021-07-23 11:31:20,221:database:DEBUG:(2021-07-21 13:42:00|Prestes a ingressar ) inserted into correio in news.db
+2021-07-23 11:31:20,304:database:DEBUG:(2021-07-21 13:16:00|Bolsonaro pretende r) inserted into correio in news.db
+2021-07-23 11:31:20,370:database:DEBUG:(2021-07-21 12:42:00|Bolsonaro: "Cadeira ) inserted into correio in news.db
+2021-07-23 11:31:20,435:database:DEBUG:(2021-07-21 12:20:00|Bolsonaro: "Cuidado ) inserted into correio in news.db
+2021-07-23 11:31:20,549:database:DEBUG:(2021-07-21 11:51:00|Bolsonaro diz que de) inserted into correio in news.db
+2021-07-23 11:31:20,624:database:DEBUG:(2021-07-21 11:46:00|Bolsonaro: "Se tives) inserted into correio in news.db
+2021-07-23 11:31:20,692:database:DEBUG:(2021-07-21 11:21:00|Bolsonaro: "O G7 da ) inserted into correio in news.db
+2021-07-23 11:31:20,692:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:20,758:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:21,259:scraper:DEBUG:page 3 - finding elements
+2021-07-23 11:31:21,297:webdriver:DEBUG:82 elements found
+2021-07-23 11:31:21,298:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:21,392:database:DEBUG:(2021-07-21 10:15:00|Semipresidencialismo) inserted into correio in news.db
+2021-07-23 11:31:21,461:database:DEBUG:(2021-07-21 09:51:00|Após Gleisi Hoffmann) inserted into correio in news.db
+2021-07-23 11:31:21,523:database:DEBUG:(2021-07-21 09:50:00|Reforma ministerial:) inserted into correio in news.db
+2021-07-23 11:31:21,587:database:DEBUG:(2021-07-21 09:49:00|Bolsonaro diz que "p) inserted into correio in news.db
+2021-07-23 11:31:21,658:database:DEBUG:(2021-07-21 06:00:00|Alexandre Garcia: "F) inserted into correio in news.db
+2021-07-23 11:31:21,727:database:DEBUG:(2021-07-21 06:00:00|Rosa Weber decidirá ) inserted into correio in news.db
+2021-07-23 11:31:21,801:database:DEBUG:(2021-07-21 06:00:00|Lula e Bolsonaro des) inserted into correio in news.db
+2021-07-23 11:31:21,864:database:DEBUG:(2021-07-21 06:00:00|Aras sofre resistênc) inserted into correio in news.db
+2021-07-23 11:31:21,935:database:DEBUG:(2021-07-20 23:59:00|Com respaldo do MDB,) inserted into correio in news.db
+2021-07-23 11:31:22,058:database:DEBUG:(2021-07-20 23:50:00|PF: investigação que) inserted into correio in news.db
+2021-07-23 11:31:22,157:database:DEBUG:(2021-07-20 22:27:00|Luís Miranda reage a) inserted into correio in news.db
+2021-07-23 11:31:22,209:database:DEBUG:(2021-07-20 22:19:00|Flávio Bolsonaro rep) inserted into correio in news.db
+2021-07-23 11:31:22,274:database:DEBUG:(2021-07-20 21:44:00|Kassab sobre candida) inserted into correio in news.db
+2021-07-23 11:31:22,335:database:DEBUG:(2021-07-20 20:51:00|Fábio Faria desponta) inserted into correio in news.db
+2021-07-23 11:31:22,490:database:DEBUG:(2021-07-20 19:46:00|Eduardo Bolsonaro re) inserted into correio in news.db
+2021-07-23 11:31:22,559:database:DEBUG:(2021-07-20 19:19:00|CPMI das Fake News r) inserted into correio in news.db
+2021-07-23 11:31:22,653:database:DEBUG:(2021-07-20 18:29:00|CPI da Covid-19 divi) inserted into correio in news.db
+2021-07-23 11:31:22,744:database:DEBUG:(2021-07-20 17:39:00|Presidente afastado ) inserted into correio in news.db
+2021-07-23 11:31:22,816:database:DEBUG:(2021-07-20 16:45:00|"Bolsonaro arma acor) inserted into correio in news.db
+2021-07-23 11:31:22,898:database:DEBUG:(2021-07-20 15:49:00|Bolsonaro decide rec) inserted into correio in news.db
+2021-07-23 11:31:22,899:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:22,962:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:23,464:scraper:DEBUG:page 4 - finding elements
+2021-07-23 11:31:23,495:webdriver:DEBUG:102 elements found
+2021-07-23 11:31:23,495:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:23,563:database:DEBUG:(2021-07-20 15:45:00|Por ordem de Anderso) inserted into correio in news.db
+2021-07-23 11:31:23,627:database:DEBUG:(2021-07-20 15:27:00|Bolsonaro reafirma v) inserted into correio in news.db
+2021-07-23 11:31:23,700:database:DEBUG:(2021-07-20 15:09:00|Lula: 'Semipresidenc) inserted into correio in news.db
+2021-07-23 11:31:23,811:database:DEBUG:(2021-07-20 14:47:00|Bolsonaro: "Cabo da ) inserted into correio in news.db
+2021-07-23 11:31:23,900:database:DEBUG:(2021-07-20 14:36:00|Depoimento de Luís M) inserted into correio in news.db
+2021-07-23 11:31:24,014:database:DEBUG:(2021-07-20 14:25:00|Bolsonaro defende al) inserted into correio in news.db
+2021-07-23 11:31:24,129:database:DEBUG:(2021-07-20 14:22:00|Em recuperação, Bols) inserted into correio in news.db
+2021-07-23 11:31:24,198:database:DEBUG:(2021-07-20 14:18:00|"Querem me f*, teria) inserted into correio in news.db
+2021-07-23 11:31:24,281:database:DEBUG:(2021-07-20 14:06:00|Luis Miranda diz que) inserted into correio in news.db
+2021-07-23 11:31:24,372:database:DEBUG:(2021-07-20 14:01:00|Luis Miranda confirm) inserted into correio in news.db
+2021-07-23 11:31:24,478:database:DEBUG:(2021-07-20 13:56:00|Valor médio do novo ) inserted into correio in news.db
+2021-07-23 11:31:24,622:database:DEBUG:(2021-07-20 13:53:00|Bolsonaro volta a di) inserted into correio in news.db
+2021-07-23 11:31:24,702:database:DEBUG:(2021-07-20 13:51:00|Bolsonaro ironiza Do) inserted into correio in news.db
+2021-07-23 11:31:24,758:database:DEBUG:(2021-07-20 13:44:00|Bolsonaro ataca Lula) inserted into correio in news.db
+2021-07-23 11:31:24,829:database:DEBUG:(2021-07-20 13:34:00|Bolsonaro: "Não tem ) inserted into correio in news.db
+2021-07-23 11:31:24,897:database:DEBUG:(2021-07-20 12:02:00|Bolsonaro sobre elei) inserted into correio in news.db
+2021-07-23 11:31:24,972:database:DEBUG:(2021-07-20 11:51:00|Braga Netto: "Precis) inserted into correio in news.db
+2021-07-23 11:31:25,073:database:DEBUG:(2021-07-20 08:55:00|Quem é Mia Khalifa, ) inserted into correio in news.db
+2021-07-23 11:31:25,168:database:DEBUG:(2021-07-20 06:00:00|Decisão sobre fundão) inserted into correio in news.db
+2021-07-23 11:31:25,230:database:DEBUG:(2021-07-20 06:00:00|CPI foca em empresa ) inserted into correio in news.db
+2021-07-23 11:31:25,230:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:25,328:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:25,833:scraper:DEBUG:page 5 - finding elements
+2021-07-23 11:31:25,861:webdriver:DEBUG:122 elements found
+2021-07-23 11:31:25,862:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:25,946:database:DEBUG:(2021-07-19 22:36:00|Bolsonaro diz que ve) inserted into correio in news.db
+2021-07-23 11:31:26,009:database:DEBUG:(2021-07-19 19:55:00|Bolsonaro: "Eu não a) inserted into correio in news.db
+2021-07-23 11:31:26,086:database:DEBUG:(2021-07-19 19:42:00|Parlamentares vão ao) inserted into correio in news.db
+2021-07-23 11:31:26,161:database:DEBUG:(2021-07-19 19:37:00|Omar Aziz: "Roberto ) inserted into correio in news.db
+2021-07-23 11:31:26,227:database:DEBUG:(2021-07-19 18:09:00|"Não é invenção minh) inserted into correio in news.db
+2021-07-23 11:31:26,316:database:DEBUG:(2021-07-19 18:00:00|Fux descarta urgênci) inserted into correio in news.db
+2021-07-23 11:31:26,390:database:DEBUG:(2021-07-19 17:39:00|Aziz volta a compara) inserted into correio in news.db
+2021-07-23 11:31:26,467:database:DEBUG:(2021-07-19 17:24:00|Artistas lançam mani) inserted into correio in news.db
+2021-07-23 11:31:26,550:database:DEBUG:(2021-07-19 16:25:00|Mourão sobre fundo e) inserted into correio in news.db
+2021-07-23 11:31:26,622:database:DEBUG:(2021-07-19 15:34:00|Pode haver "algum ti) inserted into correio in news.db
+2021-07-23 11:31:26,708:database:DEBUG:(2021-07-19 14:47:00|Bolsonaro diz que Ra) inserted into correio in news.db
+2021-07-23 11:31:26,944:database:DEBUG:(2021-07-19 14:30:00|Vice-presidente da C) inserted into correio in news.db
+2021-07-23 11:31:27,069:database:DEBUG:(2021-07-19 14:21:00|Bolsonaro ironiza in) inserted into correio in news.db
+2021-07-23 11:31:27,166:database:DEBUG:(2021-07-19 14:05:00|Bolsonaro defende Pa) inserted into correio in news.db
+2021-07-23 11:31:27,234:database:DEBUG:(2021-07-19 14:04:00|Bolsonaro chama pres) inserted into correio in news.db
+2021-07-23 11:31:27,317:database:DEBUG:(2021-07-19 11:43:00|Bolsonaro sobre dore) inserted into correio in news.db
+2021-07-23 11:31:27,394:database:DEBUG:(2021-07-19 10:04:00|Após alta, Bolsonaro) inserted into correio in news.db
+2021-07-23 11:31:27,502:database:DEBUG:(2021-07-18 23:12:00|Chinesa Sinovac diz ) inserted into correio in news.db
+2021-07-23 11:31:27,564:database:DEBUG:(2021-07-18 15:48:00|Olavo de Carvalho te) inserted into correio in news.db
+2021-07-23 11:31:27,640:database:DEBUG:(2021-07-18 13:27:00|Bolsonaro culpa gove) inserted into correio in news.db
+2021-07-23 11:31:27,640:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:27,702:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:28,204:scraper:DEBUG:page 6 - finding elements
+2021-07-23 11:31:28,233:webdriver:DEBUG:122 elements found
+2021-07-23 11:31:28,234:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:28,240:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:28,306:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:28,807:scraper:DEBUG:page 7 - finding elements
+2021-07-23 11:31:28,829:webdriver:DEBUG:142 elements found
+2021-07-23 11:31:28,829:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:28,905:database:DEBUG:(2021-07-18 13:16:00|Bolsonaro defende vo) inserted into correio in news.db
+2021-07-23 11:31:28,991:database:DEBUG:(2021-07-18 12:26:00|Brasília é o paraíso) inserted into correio in news.db
+2021-07-23 11:31:29,071:database:DEBUG:(2021-07-18 09:40:00|Bolsonaro recebe alt) inserted into correio in news.db
+2021-07-23 11:31:29,149:database:DEBUG:(2021-07-18 08:00:00|Bolsonaro continua e) inserted into correio in news.db
+2021-07-23 11:31:29,226:database:DEBUG:(2021-07-18 06:00:00|"Presidente pode ser) inserted into correio in news.db
+2021-07-23 11:31:29,302:database:DEBUG:(2021-07-18 06:00:00|Disseminação de fake) inserted into correio in news.db
+2021-07-23 11:31:29,379:database:DEBUG:(2021-07-18 06:00:00|'Distritão': nova fo) inserted into correio in news.db
+2021-07-23 11:31:29,447:database:DEBUG:(2021-07-18 06:00:00|Escolhido para o Sup) inserted into correio in news.db
+2021-07-23 11:31:29,584:database:DEBUG:(2021-07-18 06:00:00|Mesmo de recesso, CP) inserted into correio in news.db
+2021-07-23 11:31:29,730:database:DEBUG:(2021-07-17 19:30:00|Randolfe acusa Pazue) inserted into correio in news.db
+2021-07-23 11:31:29,815:database:DEBUG:(2021-07-17 18:55:00|CPI da Covid formali) inserted into correio in news.db
+2021-07-23 11:31:29,897:database:DEBUG:(2021-07-17 18:19:00|Bolsonaro deve ter a) inserted into correio in news.db
+2021-07-23 11:31:29,994:database:DEBUG:(2021-07-17 16:08:00|Cirurgia abriria esp) inserted into correio in news.db
+2021-07-23 11:31:30,059:database:DEBUG:(2021-07-17 11:18:00|CPI da Covid: senado) inserted into correio in news.db
+2021-07-23 11:31:30,162:database:DEBUG:(2021-07-17 11:13:00|Ministro Rogério Mar) inserted into correio in news.db
+2021-07-23 11:31:30,225:database:DEBUG:(2021-07-17 11:02:00|Bolsonaro pode receb) inserted into correio in news.db
+2021-07-23 11:31:30,316:database:DEBUG:(2021-07-17 06:00:00|Após recesso, CPI ex) inserted into correio in news.db
+2021-07-23 11:31:30,400:database:DEBUG:(2021-07-17 06:00:00|"A CPI da Pandemia a) inserted into correio in news.db
+2021-07-23 11:31:30,489:database:DEBUG:(2021-07-17 06:00:00|Fundão Eleitoral: Ed) inserted into correio in news.db
+2021-07-23 11:31:30,581:database:DEBUG:(2021-07-17 06:00:00|Adiamento da PEC do ) inserted into correio in news.db
+2021-07-23 11:31:30,582:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:30,653:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:31,155:scraper:DEBUG:page 8 - finding elements
+2021-07-23 11:31:31,182:webdriver:DEBUG:162 elements found
+2021-07-23 11:31:31,182:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:31,297:database:DEBUG:(2021-07-17 06:00:00|No recesso, CPI deve) inserted into correio in news.db
+2021-07-23 11:31:31,362:database:DEBUG:(2021-07-17 00:12:00|Irmão do deputado Lu) inserted into correio in news.db
+2021-07-23 11:31:31,450:database:DEBUG:(2021-07-16 23:47:00|Forças Armadas não a) inserted into correio in news.db
+2021-07-23 11:31:31,565:database:DEBUG:(2021-07-16 23:28:00|Pazuello diz que pro) inserted into correio in news.db
+2021-07-23 11:31:31,674:database:DEBUG:(2021-07-16 23:18:00|No recesso, senadore) inserted into correio in news.db
+2021-07-23 11:31:31,738:database:DEBUG:(2021-07-16 22:07:00|PF abre inquérito pa) inserted into correio in news.db
+2021-07-23 11:31:31,817:database:DEBUG:(2021-07-16 20:06:00|Bolsonaro passa por ) inserted into correio in news.db
+2021-07-23 11:31:31,912:database:DEBUG:(2021-07-16 19:51:00|Bolsonaro passou por) inserted into correio in news.db
+2021-07-23 11:31:31,981:database:DEBUG:(2021-07-16 19:37:00|Em quadro estável, B) inserted into correio in news.db
+2021-07-23 11:31:32,058:database:DEBUG:(2021-07-16 18:35:00|CPI vai mirar em emp) inserted into correio in news.db
+2021-07-23 11:31:32,176:database:DEBUG:(2021-07-16 17:47:00|Bolsonaro despacha d) inserted into correio in news.db
+2021-07-23 11:31:32,272:database:DEBUG:(2021-07-16 17:07:00|Depoimentos à CPI da) inserted into correio in news.db
+2021-07-23 11:31:32,357:database:DEBUG:(2021-07-16 16:47:00|Comissão da Câmara a) inserted into correio in news.db
+2021-07-23 11:31:32,444:database:DEBUG:(2021-07-16 15:02:00|Pazuello prometeu co) inserted into correio in news.db
+2021-07-23 11:31:32,528:database:DEBUG:(2021-07-16 13:19:00|É contra, mas votou ) inserted into correio in news.db
+2021-07-23 11:31:32,615:database:DEBUG:(2021-07-16 13:02:00|Bolsonaro passa bem,) inserted into correio in news.db
+2021-07-23 11:31:32,692:database:DEBUG:(2021-07-16 11:47:00|Bolsonaro já despach) inserted into correio in news.db
+2021-07-23 11:31:32,778:database:DEBUG:(2021-07-16 09:19:00|Doria com covid: por) inserted into correio in news.db
+2021-07-23 11:31:32,872:database:DEBUG:(2021-07-16 06:00:00|Vergonha do Congress) inserted into correio in news.db
+2021-07-23 11:31:32,967:database:DEBUG:(2021-07-16 06:00:00|Mais militares citad) inserted into correio in news.db
+2021-07-23 11:31:32,968:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:33,025:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:33,527:scraper:DEBUG:page 9 - finding elements
+2021-07-23 11:31:33,589:webdriver:DEBUG:182 elements found
+2021-07-23 11:31:33,590:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:33,730:database:DEBUG:(2021-07-16 06:00:00|Randolfe a Bolsonaro) inserted into correio in news.db
+2021-07-23 11:31:33,805:database:DEBUG:(2021-07-16 06:00:00|Movimento político d) inserted into correio in news.db
+2021-07-23 11:31:33,893:database:DEBUG:(2021-07-15 22:54:00|Bolsonaro amplia açã) inserted into correio in news.db
+2021-07-23 11:31:33,977:database:DEBUG:(2021-07-15 22:49:00|Senado vota se SUS p) inserted into correio in news.db
+2021-07-23 11:31:34,056:database:DEBUG:(2021-07-15 22:27:00|Sancionada lei que l) inserted into correio in news.db
+2021-07-23 11:31:34,139:database:DEBUG:(2021-07-15 22:24:00|Políticos aliados te) inserted into correio in news.db
+2021-07-23 11:31:34,210:database:DEBUG:(2021-07-15 22:19:00|Após decisão, You Tu) inserted into correio in news.db
+2021-07-23 11:31:34,300:database:DEBUG:(2021-07-15 21:56:00|Parlamentares defend) inserted into correio in news.db
+2021-07-23 11:31:34,369:database:DEBUG:(2021-07-15 20:08:00|Bolsonaro retira son) inserted into correio in news.db
+2021-07-23 11:31:34,466:database:DEBUG:(2021-07-15 20:05:00|Partidos da oposição) inserted into correio in news.db
+2021-07-23 11:31:34,592:database:DEBUG:(2021-07-15 19:28:00|Aziz rebate post de ) inserted into correio in news.db
+2021-07-23 11:31:34,661:database:DEBUG:(2021-07-15 19:02:00|Congresso aprova tex) inserted into correio in news.db
+2021-07-23 11:31:34,735:database:DEBUG:(2021-07-15 18:48:00|Bolsonaro em entrevi) inserted into correio in news.db
+2021-07-23 11:31:34,872:database:DEBUG:(2021-07-15 18:47:00|Depoente chama Blanc) inserted into correio in news.db
+2021-07-23 11:31:34,965:database:DEBUG:(2021-07-15 18:36:00|Randolfe e Tebet enu) inserted into correio in news.db
+2021-07-23 11:31:35,042:database:DEBUG:(2021-07-15 18:17:00|No hospital, Bolsona) inserted into correio in news.db
+2021-07-23 11:31:35,127:database:DEBUG:(2021-07-15 17:58:00|Internado em São Pau) inserted into correio in news.db
+2021-07-23 11:31:35,219:database:DEBUG:(2021-07-15 17:40:00|Internado, Bolsonaro) inserted into correio in news.db
+2021-07-23 11:31:35,314:database:DEBUG:(2021-07-15 17:36:00|Doria testa positivo) inserted into correio in news.db
+2021-07-23 11:31:35,391:database:DEBUG:(2021-07-15 16:51:00|Representante da Dav) inserted into correio in news.db
+2021-07-23 11:31:35,392:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:35,457:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:35,961:scraper:DEBUG:page 10 - finding elements
+2021-07-23 11:31:36,014:webdriver:DEBUG:222 elements found
+2021-07-23 11:31:36,014:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:36,151:database:DEBUG:(2021-07-15 16:02:00|Representante da Dav) inserted into correio in news.db
+2021-07-23 11:31:36,219:database:DEBUG:(2021-07-15 15:44:00|Representante da Dav) inserted into correio in news.db
+2021-07-23 11:31:36,309:database:DEBUG:(2021-07-15 15:38:00|Câmara aprova texto ) inserted into correio in news.db
+2021-07-23 11:31:36,415:database:DEBUG:(2021-07-15 14:13:00|Representante da Dav) inserted into correio in news.db
+2021-07-23 11:31:36,534:database:DEBUG:(2021-07-15 12:27:00|Bolsonaro melhora, m) inserted into correio in news.db
+2021-07-23 11:31:36,622:database:DEBUG:(2021-07-15 12:18:00|Flávio diz que Bolso) inserted into correio in news.db
+2021-07-23 11:31:36,706:database:DEBUG:(2021-07-15 12:14:00|Com Bolsonaro intern) inserted into correio in news.db
+2021-07-23 11:31:36,857:database:DEBUG:(2021-07-15 12:13:00|Eduardo diz que Jair) inserted into correio in news.db
+2021-07-23 11:31:36,957:database:DEBUG:(2021-07-15 10:16:00|Ao vivo: representan) inserted into correio in news.db
+2021-07-23 11:31:37,068:database:DEBUG:(2021-07-15 06:00:00|Bolsonaro deve ser o) inserted into correio in news.db
+2021-07-23 11:31:37,189:database:DEBUG:(2021-07-15 06:00:00|Análise: mesmo polit) inserted into correio in news.db
+2021-07-23 11:31:37,260:database:DEBUG:(2021-07-15 06:00:00|CPI pretende pôr exe) inserted into correio in news.db
+2021-07-23 11:31:37,459:database:DEBUG:(2021-07-15 06:00:00|Tebet aponta Flavio ) inserted into correio in news.db
+2021-07-23 11:31:37,573:database:DEBUG:(2021-07-15 06:00:00|Obstrução intestinal) inserted into correio in news.db
+2021-07-23 11:31:37,683:database:DEBUG:(2021-07-14 23:33:00|Câmara aprova medida) inserted into correio in news.db
+2021-07-23 11:31:37,775:database:DEBUG:(2021-07-14 23:16:00|Câmara aprova projet) inserted into correio in news.db
+2021-07-23 11:31:37,921:database:DEBUG:(2021-07-14 23:12:00|Após internação, equ) inserted into correio in news.db
+2021-07-23 11:31:38,018:database:DEBUG:(2021-07-14 22:58:00|"O caminho é o Elcio) inserted into correio in news.db
+2021-07-23 11:31:38,093:database:DEBUG:(2021-07-14 22:34:00|Nem Mourão, nem Lira) inserted into correio in news.db
+2021-07-23 11:31:38,201:database:DEBUG:(2021-07-14 21:55:00|Representante da Dav) inserted into correio in news.db
+2021-07-23 11:31:38,286:database:DEBUG:(2021-07-14 21:42:00|Análise: Bolsonaro u) inserted into correio in news.db
+2021-07-23 11:31:38,363:database:DEBUG:(2021-07-14 21:21:00|Internado em São Pau) inserted into correio in news.db
+2021-07-23 11:31:38,435:database:DEBUG:(2021-07-14 21:20:00|Pacheco autoriza pro) inserted into correio in news.db
+2021-07-23 11:31:38,524:database:DEBUG:(2021-07-14 21:16:00|Fux permite que coro) inserted into correio in news.db
+2021-07-23 11:31:38,637:database:DEBUG:(2021-07-14 19:41:00|Flávio diz que Bolso) inserted into correio in news.db
+2021-07-23 11:31:38,746:database:DEBUG:(2021-07-14 18:43:00|Congresso Nacional v) inserted into correio in news.db
+2021-07-23 11:31:38,836:database:DEBUG:(2021-07-14 18:19:00|Globo faz plantão pa) inserted into correio in news.db
+2021-07-23 11:31:38,996:database:DEBUG:(2021-07-14 18:14:00|Flávio diz que Bolso) inserted into correio in news.db
+2021-07-23 11:31:39,081:database:DEBUG:(2021-07-14 17:29:00|Mensagens de Domingh) inserted into correio in news.db
+2021-07-23 11:31:39,168:database:DEBUG:(2021-07-14 17:02:00|Deputada protocola P) inserted into correio in news.db
+2021-07-23 11:31:39,260:database:DEBUG:(2021-07-14 16:40:00|Bolsonaro diz que po) inserted into correio in news.db
+2021-07-23 11:31:39,350:database:DEBUG:(2021-07-14 16:05:00|Bolsonaro está com o) inserted into correio in news.db
+2021-07-23 11:31:39,496:database:DEBUG:(2021-07-14 15:55:00|Diretora da Precisa ) inserted into correio in news.db
+2021-07-23 11:31:39,569:database:DEBUG:(2021-07-14 14:55:00|Diretora da Precisa ) inserted into correio in news.db
+2021-07-23 11:31:39,672:database:DEBUG:(2021-07-14 13:01:00|CPI adia depoimento ) inserted into correio in news.db
+2021-07-23 11:31:39,764:database:DEBUG:(2021-07-14 12:53:00|Executiva da Precisa) inserted into correio in news.db
+2021-07-23 11:31:39,824:database:DEBUG:(2021-07-14 12:23:00|Bolsonaro: médicos a) inserted into correio in news.db
+2021-07-23 11:31:39,948:database:DEBUG:(2021-07-14 12:20:00|Quadro de Bolsonaro ) inserted into correio in news.db
+2021-07-23 11:31:40,041:database:DEBUG:(2021-07-14 11:32:00|Documento do governo) inserted into correio in news.db
+2021-07-23 11:31:40,138:database:DEBUG:(2021-07-14 10:21:00|Ao vivo: CPI da Covi) inserted into correio in news.db
+2021-07-23 11:31:40,139:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:40,196:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:40,700:scraper:DEBUG:page 11 - finding elements
+2021-07-23 11:31:40,742:webdriver:DEBUG:222 elements found
+2021-07-23 11:31:40,743:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:40,762:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:40,818:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:41,321:scraper:DEBUG:page 12 - finding elements
+2021-07-23 11:31:41,363:webdriver:DEBUG:262 elements found
+2021-07-23 11:31:41,363:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:41,467:database:DEBUG:(2021-07-14 08:52:00|Bolsonaro passa mal ) inserted into correio in news.db
+2021-07-23 11:31:41,560:database:DEBUG:(2021-07-14 06:00:00|Nove vezes em que Bo) inserted into correio in news.db
+2021-07-23 11:31:41,660:database:DEBUG:(2021-07-14 06:00:00|"Bolsonaro não será ) inserted into correio in news.db
+2021-07-23 11:31:41,787:database:DEBUG:(2021-07-14 06:00:00|Randolfe diz que gov) inserted into correio in news.db
+2021-07-23 11:31:41,925:database:DEBUG:(2021-07-14 06:00:00|Alexandre Garcia: "O) inserted into correio in news.db
+2021-07-23 11:31:42,121:database:DEBUG:(2021-07-13 21:54:00|Fux limita direito a) inserted into correio in news.db
+2021-07-23 11:31:42,207:database:DEBUG:(2021-07-13 21:30:00|Candidatos da lista ) inserted into correio in news.db
+2021-07-23 11:31:42,308:database:DEBUG:(2021-07-13 21:12:00|Aziz reconvoca repre) inserted into correio in news.db
+2021-07-23 11:31:42,406:database:DEBUG:(2021-07-13 21:02:00|Relator da reforma t) inserted into correio in news.db
+2021-07-23 11:31:42,503:database:DEBUG:(2021-07-13 20:51:00|"Tenho 3 cartões cor) inserted into correio in news.db
+2021-07-23 11:31:42,606:database:DEBUG:(2021-07-13 20:32:00|Omar Aziz chama Jair) inserted into correio in news.db
+2021-07-23 11:31:42,700:database:DEBUG:(2021-07-13 19:37:00|Casal usa camisa con) inserted into correio in news.db
+2021-07-23 11:31:42,807:database:DEBUG:(2021-07-13 19:24:00|Luís Miranda prestar) inserted into correio in news.db
+2021-07-23 11:31:42,894:database:DEBUG:(2021-07-13 19:18:00|CPI decide retomar s) inserted into correio in news.db
+2021-07-23 11:31:42,979:database:DEBUG:(2021-07-13 19:03:00|Presidente do PT rec) inserted into correio in news.db
+2021-07-23 11:31:43,068:database:DEBUG:(2021-07-13 19:01:00|"PEC Pazuello" alcan) inserted into correio in news.db
+2021-07-23 11:31:43,150:database:DEBUG:(2021-07-13 18:39:00|Polícia Federal diz ) inserted into correio in news.db
+2021-07-23 11:31:43,244:database:DEBUG:(2021-07-13 18:33:00|Fux diz ao Senado qu) inserted into correio in news.db
+2021-07-23 11:31:43,305:database:DEBUG:(2021-07-13 18:17:00|Bolsonaro reclama de) inserted into correio in news.db
+2021-07-23 11:31:43,362:database:DEBUG:(2021-07-13 17:44:00|Daniel Silveira esca) inserted into correio in news.db
+2021-07-23 11:31:43,431:database:DEBUG:(2021-07-13 17:15:00|Bolsonaro se reúne n) inserted into correio in news.db
+2021-07-23 11:31:43,513:database:DEBUG:(2021-07-13 16:34:00|Bolsonaro: "Que Deus) inserted into correio in news.db
+2021-07-23 11:31:43,571:database:DEBUG:(2021-07-13 16:34:00|"Nem horror, nem ter) inserted into correio in news.db
+2021-07-23 11:31:43,666:database:DEBUG:(2021-07-13 16:04:00|Defesa de Emanuela M) inserted into correio in news.db
+2021-07-23 11:31:43,751:database:DEBUG:(2021-07-13 15:31:00|CPI pede ao STF escl) inserted into correio in news.db
+2021-07-23 11:31:43,813:database:DEBUG:(2021-07-13 14:51:00|Corpo de Adriano da ) inserted into correio in news.db
+2021-07-23 11:31:43,871:database:DEBUG:(2021-07-13 14:10:00|Bolsonaro recebe pre) inserted into correio in news.db
+2021-07-23 11:31:43,971:database:DEBUG:(2021-07-13 14:03:00|Fux diz a senadores ) inserted into correio in news.db
+2021-07-23 11:31:44,290:database:DEBUG:(2021-07-13 13:52:00|Fux se prontifica a ) inserted into correio in news.db
+2021-07-23 11:31:44,358:database:DEBUG:(2021-07-13 13:04:00|Bolsonaro chama Lula) inserted into correio in news.db
+2021-07-23 11:31:44,414:database:DEBUG:(2021-07-13 12:57:00|Senadores fazem 1 mi) inserted into correio in news.db
+2021-07-23 11:31:44,473:database:DEBUG:(2021-07-13 12:47:00|Senador pede acesso ) inserted into correio in news.db
+2021-07-23 11:31:44,532:database:DEBUG:(2021-07-13 12:44:00|CPI: Aziz suspende s) inserted into correio in news.db
+2021-07-23 11:31:44,587:database:DEBUG:(2021-07-13 12:33:00|Bolsonaro: "Manda o ) inserted into correio in news.db
+2021-07-23 11:31:44,666:database:DEBUG:(2021-07-13 12:17:00|Polícia Federal inve) inserted into correio in news.db
+2021-07-23 11:31:44,737:database:DEBUG:(2021-07-13 12:08:00|Câmara convida Braga) inserted into correio in news.db
+2021-07-23 11:31:44,812:database:DEBUG:(2021-07-13 11:09:00|‘PEC Pazuello’ deve ) inserted into correio in news.db
+2021-07-23 11:31:44,873:database:DEBUG:(2021-07-13 11:07:00|Ao vivo: CPI interro) inserted into correio in news.db
+2021-07-23 11:31:44,930:database:DEBUG:(2021-07-13 06:00:00|Fux cobra de Bolsona) inserted into correio in news.db
+2021-07-23 11:31:44,983:database:DEBUG:(2021-07-13 06:00:00|"Voto impresso é len) inserted into correio in news.db
+2021-07-23 11:31:44,983:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:45,031:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:45,533:scraper:DEBUG:page 13 - finding elements
+2021-07-23 11:31:45,590:webdriver:DEBUG:282 elements found
+2021-07-23 11:31:45,591:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:45,690:database:DEBUG:(2021-07-13 06:00:00|Cotado à Presidência) inserted into correio in news.db
+2021-07-23 11:31:45,892:database:DEBUG:(2021-07-13 06:00:00|CPI da Covid: depoen) inserted into correio in news.db
+2021-07-23 11:31:45,955:database:DEBUG:(2021-07-13 06:00:00|"Alguém tem de expli) inserted into correio in news.db
+2021-07-23 11:31:46,011:database:DEBUG:(2021-07-13 00:00:00|"Exemplo de combate ) inserted into correio in news.db
+2021-07-23 11:31:46,081:database:DEBUG:(2021-07-12 22:34:00|"Eu não gravei o pre) inserted into correio in news.db
+2021-07-23 11:31:46,142:database:DEBUG:(2021-07-12 22:00:00|Bolsonaro se recusa ) inserted into correio in news.db
+2021-07-23 11:31:46,327:database:DEBUG:(2021-07-12 21:50:00|A jornalistas, Bolso) inserted into correio in news.db
+2021-07-23 11:31:46,487:database:DEBUG:(2021-07-12 21:44:00|Advogada deixa defes) inserted into correio in news.db
+2021-07-23 11:31:46,670:database:DEBUG:(2021-07-12 21:03:00|Acusações sem provas) inserted into correio in news.db
+2021-07-23 11:31:46,810:database:DEBUG:(2021-07-12 20:48:00|Bolsonaro pedirá con) inserted into correio in news.db
+2021-07-23 11:31:46,909:database:DEBUG:(2021-07-12 20:20:00|Secretário de Econom) inserted into correio in news.db
+2021-07-23 11:31:46,990:database:DEBUG:(2021-07-12 20:12:00|Morre, aos 88 anos, ) inserted into correio in news.db
+2021-07-23 11:31:47,051:database:DEBUG:(2021-07-12 19:39:00|Bolsonaro após conve) inserted into correio in news.db
+2021-07-23 11:31:47,118:database:DEBUG:(2021-07-12 19:27:00|Bolsonaro: estou com) inserted into correio in news.db
+2021-07-23 11:31:47,178:database:DEBUG:(2021-07-12 18:39:00|Bolsonaro nega preva) inserted into correio in news.db
+2021-07-23 11:31:47,232:database:DEBUG:(2021-07-12 18:28:00|Bolsonaro diz que Ba) inserted into correio in news.db
+2021-07-23 11:31:47,338:database:DEBUG:(2021-07-12 17:57:00|Fux concede à respon) inserted into correio in news.db
+2021-07-23 11:31:47,397:database:DEBUG:(2021-07-12 17:44:00|Presidente Jair Bols) inserted into correio in news.db
+2021-07-23 11:31:47,457:database:DEBUG:(2021-07-12 16:16:00|Reverendo apresenta ) inserted into correio in news.db
+2021-07-23 11:31:47,512:database:DEBUG:(2021-07-12 14:43:00|Bolsonaro diz que "n) inserted into correio in news.db
+2021-07-23 11:31:47,512:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:47,588:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:48,091:scraper:DEBUG:page 14 - finding elements
+2021-07-23 11:31:48,148:webdriver:DEBUG:302 elements found
+2021-07-23 11:31:48,149:scraper:DEBUG:looping through last 200 elements
+2021-07-23 11:31:48,213:database:DEBUG:(2021-07-12 14:34:00|Responsável técnica ) inserted into correio in news.db
+2021-07-23 11:31:48,267:database:DEBUG:(2021-07-12 13:47:00|Pacheco diz que não ) inserted into correio in news.db
+2021-07-23 11:31:48,325:database:DEBUG:(2021-07-12 13:10:00|PF abre inquérito pa) inserted into correio in news.db
+2021-07-23 11:31:48,441:database:DEBUG:(2021-07-12 12:58:00|Bolsonaro chama Omar) inserted into correio in news.db
+2021-07-23 11:31:48,560:database:DEBUG:(2021-07-12 10:51:00|PF vai apurar suspei) inserted into correio in news.db
+2021-07-23 11:31:48,649:database:DEBUG:(2021-07-12 06:00:00|Torquato Jardim apon) inserted into correio in news.db
+2021-07-23 11:31:48,759:database:DEBUG:(2021-07-12 06:00:00|Com apoio, frente pe) inserted into correio in news.db
+2021-07-23 11:31:48,883:database:DEBUG:(2021-07-12 06:00:00|CPI corre contra o t) inserted into correio in news.db
+2021-07-23 11:31:49,009:database:DEBUG:(2021-07-12 06:00:00|Após saída de Araújo) inserted into correio in news.db
+2021-07-23 11:31:49,126:database:DEBUG:(2021-07-12 06:00:00|Após nota, especiali) inserted into correio in news.db
+2021-07-23 11:31:49,280:database:DEBUG:(2021-07-11 21:07:00|General Santos Cruz ) inserted into correio in news.db
+2021-07-23 11:31:49,370:database:DEBUG:(2021-07-11 19:00:00|Datafolha: Para 70% ) inserted into correio in news.db
+2021-07-23 11:31:49,482:database:DEBUG:(2021-07-11 15:50:00|Doria fará cirurgia ) inserted into correio in news.db
+2021-07-23 11:31:49,620:database:DEBUG:(2021-07-11 12:20:00|Prisão na CPI da Cov) inserted into correio in news.db
+2021-07-23 11:31:49,714:database:DEBUG:(2021-07-11 06:00:00|Citando "crime de re) inserted into correio in news.db
+2021-07-23 11:31:49,808:database:DEBUG:(2021-07-11 06:00:00|Ataques de Bolsonaro) inserted into correio in news.db
+2021-07-23 11:31:49,910:database:DEBUG:(2021-07-11 06:00:00|Investigando militar) inserted into correio in news.db
+2021-07-23 11:31:50,022:database:DEBUG:(2021-07-10 22:16:00|Associação de procur) inserted into correio in news.db
+2021-07-23 11:31:50,124:database:DEBUG:(2021-07-10 21:17:00|Caso Marielle: promo) inserted into correio in news.db
+2021-07-23 11:31:50,231:database:DEBUG:(2021-07-10 18:35:00|Datafolha aponta que) inserted into correio in news.db
+2021-07-23 11:31:50,232:webdriver:DEBUG:clicking next page
+2021-07-23 11:31:50,312:webdriver:DEBUG:next page clicked, sleeping...
+2021-07-23 11:31:50,815:scraper:DEBUG:page 15 - finding elements

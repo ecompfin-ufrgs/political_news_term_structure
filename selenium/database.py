@@ -41,6 +41,10 @@ class Database:
         self.conn.close()
         self.logger.debug(f"{self.name} connection closed")
 
+    def commit(self):
+        self.conn.commit()
+        self.logger.debug("changes commited")
+
     def config(self):
         """
         Connects to database, drops table if it exists and creates new table.
@@ -67,7 +71,6 @@ class Database:
         """
         values = (date, title)
         self.conn.execute(self.get_insert(),values)
-        self.conn.commit()
         self.logger.debug(f"({date}|{title[:20]}) inserted into {self.table} in {self.name}")
 
     def get_drop(self):
