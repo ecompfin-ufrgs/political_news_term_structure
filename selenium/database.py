@@ -25,7 +25,7 @@ class Database:
         name     : str = "test.db",
         table    : str = "test",
         log_name : str = "database",
-        log_file : str = "log.log"):
+        log_file : str = "log"):
         """
         Constructor method.
         """

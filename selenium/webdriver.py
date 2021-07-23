@@ -28,16 +28,16 @@ class Webdriver:
     :param log_file: Log file name, defaults to "log.log"
     :type log_file: str, optional
     """
-    path    = "./chromedriver"
-    options = "--headless"
+    path     = "./chromedriver"
+    options  = "--headless"
+    log_name = "webdriver"
     def __init__(self,
-        log_name : str = "webdriver",
-        log_file : str = "log.log"):
+        log_file : str = "log"):
         """
         Contructor method.
         """
         self.logger = Logger(
-            log_name,
+            self.log_name,
             log_file)
         self.driver = self.config()
 

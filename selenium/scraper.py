@@ -15,22 +15,6 @@ class Scraper(ABC):
     """
     Class for scraping news websites.
     """
-    def __init__(self):
-        """
-        Constructor method. Initiates Logger, Database and Webdriver.
-        """
-        self.logger      = Logger(self.log_name, self.log_file)
-        self.database    = Database(self.db_name, self.db_table, log_file = self.log_file)
-        self.webdriver   = Webdriver(log_file = self.log_file)
-        self.elements    = []
-
-    def __del__(self):
-        """
-        Destructor method. Deletes Database and Logger.
-        """
-        del self.database
-        del self.webdriver
-
     @property
     @abstractmethod
     def start_url(self):
@@ -75,6 +59,22 @@ class Scraper(ABC):
     @abstractmethod
     def db_table(self):
         pass
+    
+    def __init__(self):
+        """
+        Constructor method. Initiates Logger, Database and Webdriver.
+        """
+        self.logger      = Logger(self.log_name, self.log_file)
+        self.database    = Database(self.db_name, self.db_table, log_file = self.log_file)
+        self.webdriver   = Webdriver(log_file = self.log_file)
+        self.elements    = []
+
+    def __del__(self):
+        """
+        Destructor method. Deletes Database and Logger.
+        """
+        del self.database
+        del self.webdriver
 
     def run(self):
         """

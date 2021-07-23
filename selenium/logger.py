@@ -12,7 +12,7 @@ class Logger:
 
     :param name: Logger name
     :type name: str
-    :param file: Log file name, defaults to "log.log"
+    :param file: Log file name, defaults to "log"
     :type file: str, optional
     :param level: Log level, defaults to logging.DEBUG
     :type level: int, optional
@@ -24,7 +24,7 @@ class Logger:
     def __init__(
         self,
         name   : str,
-        file   : str = "log.log",
+        file   : str = "log",
         level  : int = logging.DEBUG,
         mode   : str = "a",
         format : str = "%(asctime)s:%(name)s:%(levelname)s:%(message)s"):
@@ -94,10 +94,10 @@ class Logger:
 
     def config(self,
         name   : str,
-        file   : str = "log.log",
-        level  : int = 0,
-        mode   : str = "w",
-        format : str = "%(asctime)s:%(name)s:%(levelname)s:%(message)s"):
+        file   : str,
+        level  : int,
+        mode   : str,
+        format : str):
         """
         Configures logger.
 
@@ -119,7 +119,7 @@ class Logger:
         formatter       = self.formatter(format)
         logger          = logging.getLogger(name)
         console_handler = self.console_handler(level,formatter)
-        file_handler    = self.file_handler(file,mode,level,formatter)
+        file_handler    = self.file_handler(f"logs/{file}.log",mode,level,formatter)
         logger.setLevel(level)
         logger.addHandler(console_handler)
         logger.addHandler(file_handler)
