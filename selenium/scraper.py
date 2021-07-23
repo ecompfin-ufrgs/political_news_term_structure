@@ -15,6 +15,7 @@ class Scraper(ABC):
     """
     Class for scraping news websites.
     """
+    log_name = "scraper"
     @property
     @abstractmethod
     def start_url(self):
@@ -38,10 +39,6 @@ class Scraper(ABC):
     @property
     @abstractmethod
     def n_last(self):
-        pass
-    @property
-    @abstractmethod
-    def log_name(self):
         pass
     @property
     @abstractmethod

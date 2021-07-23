@@ -1,0 +1,9 @@
+2021-07-23 13:58:48,971:scraper:DEBUG:logger configured
+2021-07-23 13:58:48,971:database:DEBUG:logger configured
+2021-07-23 13:58:48,971:database:DEBUG:news.db opening connection
+2021-07-23 13:58:48,974:database:DEBUG:news.db connection open
+2021-07-23 13:58:49,049:database:DEBUG:minas table dropped
+2021-07-23 13:58:49,051:database:DEBUG:minas table created
+2021-07-23 13:58:49,051:webdriver:DEBUG:logger configured
+2021-07-23 13:58:51,238:webdriver:DEBUG:connection open
+2021-07-23 13:58:51,239:webdriver:DEBUG:getting page https://www.em.com.br/politica/
