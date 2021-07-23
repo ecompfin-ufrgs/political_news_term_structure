@@ -78,8 +78,9 @@ class Scraper(ABC):
         Runs web scrapping.
         """
         self.webdriver.get(self.start_url)
-        i = 1
+        i = 0
         while True:
+            i += 1
             self.logger.debug(f"page {i}")
             new_elements = self.webdriver.get_elements(self.row_xpath)
             self.loop_elements(new_elements)
@@ -87,9 +88,6 @@ class Scraper(ABC):
                 self.webdriver.next_page(self.next_xpath)
             except:
                 self.logger.warning("no next page")
-                break
-            i += 1
-            if i >= 20:
                 break
         del self
 
