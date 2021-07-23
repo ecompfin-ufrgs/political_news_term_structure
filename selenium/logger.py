@@ -27,7 +27,7 @@ class Logger:
         file   : str = "log",
         level  : int = logging.DEBUG,
         mode   : str = "a",
-        format : str = "%(asctime)s:%(name)s:%(levelname)s:%(message)s"):
+        format : str = "%(asctime)s::%(name)s::%(levelname)s::%(message)s"):
         """
         Constructor method.
         """
