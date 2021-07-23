@@ -17,7 +17,6 @@ class Minas(Scraper):
     row_xpath   : str = "//div[@class='news-box free pb-10 mb-20' and position()>last()-200]"
     title_xpath : str = ".//a[@class='txt-gray']"
     date_xpath  : str = ".//small"
-    n_pages     : int = 2000
     n_last      : int = 200
     log_file    : str = "minas"
     db_name     : str = "news.db"

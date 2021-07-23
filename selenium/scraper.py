@@ -37,10 +37,6 @@ class Scraper(ABC):
         pass
     @property
     @abstractmethod
-    def n_pages(self):
-        pass
-    @property
-    @abstractmethod
     def n_last(self):
         pass
     @property
@@ -81,7 +77,8 @@ class Scraper(ABC):
         Runs web scrapping.
         """
         self.webdriver.get(self.start_url)
-        for i in range(self.n_pages):
+        i = 1
+        while True:
             self.logger.debug(f"page {i} - finding elements")
             new_elements = self.webdriver.get_elements(self.row_xpath)
             self.loop_elements(new_elements)
@@ -90,6 +87,7 @@ class Scraper(ABC):
             except:
                 self.logger.warning("no next page")
                 break
+            i += 1
         del self
 
     def loop_elements(self,
