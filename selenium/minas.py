@@ -12,15 +12,16 @@ class Minas(Scraper):
     """
     Class, child of Scraper, which scrapes the political section of Estado de Minas website.
     """
-    start_url   : str = "https://www.em.com.br/politica/"
-    next_xpath  : str = "//*[@id='em-read-more']"
-    row_xpath   : str = "//div[@class='news-box free pb-10 mb-20' and position()>last()-200]"
-    title_xpath : str = ".//a[@class='txt-gray']"
-    date_xpath  : str = ".//small"
-    n_last      : int = 200
-    log_file    : str = "minas"
-    db_name     : str = "news.db"
-    db_table    : str = "minas"
+    start_url   = "https://www.em.com.br/politica/"
+    next_xpath  = "//*[@id='em-read-more']"
+    row_xpath   = "//div[@class='news-box free pb-10 mb-20' and position()>last()-200]"
+    title_xpath = ".//a[@class='txt-gray']"
+    date_xpath  = ".//small"
+    n_last      = 200
+    log_file    = "minas"
+    db_name     = "news.db"
+    db_table    = "minas"
+    
     @staticmethod
     def get_date(
         date : str):
