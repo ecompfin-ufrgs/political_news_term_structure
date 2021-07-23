@@ -7,6 +7,11 @@ Version     : 1.0.0
 from   logger import Logger
 import sqlite3
 
+import line_profiler
+import atexit
+profile = line_profiler.LineProfiler()
+atexit.register(profile.print_stats)
+
 class Database:
     """
     Class which connects to and edits database using SQLite3.
@@ -29,10 +34,11 @@ class Database:
         """
         Constructor method.
         """
-        self.logger      = Logger(log_name, log_file)
-        self.name        = name
-        self.table       = table
-        self.conn        = self.config()
+        self.logger        = Logger(log_name, log_file)
+        self.name          = name
+        self.table         = table
+        self.conn          = self.config()
+        self.insert_scrpit = f"INSERT INTO {self.table} (date, title) VALUES (?, ?);"
 
     def __del__(self):
         """
@@ -58,6 +64,7 @@ class Database:
         self.logger.debug(f"{self.table} table created")
         return conn
 
+    @profile
     def insert(self,
         date  : str, 
         title : str):
@@ -70,7 +77,7 @@ class Database:
         :type title: str
         """
         values = (date, title)
-        self.conn.execute(self.get_insert(),values)
+        self.conn.execute(self.insert_scrpit,values)
         self.logger.debug(f"({date}|{title[:20]}) inserted into {self.table} in {self.name}")
 
     def get_drop(self):
@@ -93,16 +100,6 @@ class Database:
         title VARCHAR(255),
         link  VARCHAR(255)
         );
-        """
-        return script
-
-    def get_insert(self):
-        """
-        Returns script used to insert data into table.
-        """
-        script = f"""
-        INSERT INTO {self.table} (date, title)
-        VALUES (?, ?);
         """
         return script
 

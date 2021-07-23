@@ -10,6 +10,10 @@ from logger                               import Logger
 from webdriver                            import Webdriver
 from selenium.webdriver.remote.webelement import WebElement
 
+import line_profiler
+import atexit
+profile = line_profiler.LineProfiler()
+atexit.register(profile.print_stats)
 
 class Scraper(ABC):
     """
@@ -69,6 +73,7 @@ class Scraper(ABC):
         del self.database
         del self.webdriver
 
+    @profile
     def run(self):
         """
         Runs web scrapping.
@@ -76,7 +81,7 @@ class Scraper(ABC):
         self.webdriver.get(self.start_url)
         i = 1
         while True:
-            self.logger.debug(f"page {i} - finding elements")
+            self.logger.debug(f"page {i}")
             new_elements = self.webdriver.get_elements(self.row_xpath)
             self.loop_elements(new_elements)
             try:
@@ -89,6 +94,7 @@ class Scraper(ABC):
                 break
         del self
 
+    @profile
     def loop_elements(self,
         new_elements : list):
         """
@@ -97,13 +103,14 @@ class Scraper(ABC):
         :param new_elements: List of new article elements which will be looped by in search of article elements not yet found.
         :type new_elements: list
         """
-        self.logger.debug(f"looping through last {self.n_last} elements")
-        for element in new_elements[-self.n_last:]:
+        self.logger.debug(f"looping through elements")
+        for element in new_elements:
             if element not in self.elements[-self.n_last:]:
                 self.elements.append(element)
                 self.get_info(element)
         self.database.commit()
 
+    @profile
     def get_info(self,
         element : WebElement):
         """

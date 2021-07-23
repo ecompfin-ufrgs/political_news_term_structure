@@ -14,17 +14,15 @@ from   selenium.webdriver.common.keys       import Keys
 from   selenium.webdriver.remote.webelement import WebElement
 import time
 
+import line_profiler
+import atexit
+profile = line_profiler.LineProfiler()
+atexit.register(profile.print_stats)
 
 class Webdriver:
     """
     Class which uses selenium to connect to, navigate and collect data from the internet.
     
-    :param path: chromedriver path, defaults to "/Users/bernardopaulsen/chromedriver"
-    :type path: str, optional
-    :param options: webdriver options, defaults to "--headless"
-    :type options: str, optional
-    :param log_name: Logger name, defaults to "webdriver"
-    :type log_name: str, optional
     :param log_file: Log file name, defaults to "log.log"
     :type log_file: str, optional
     """
@@ -81,6 +79,7 @@ class Webdriver:
         :return: Elements which match xpath expression,
         :rtype: list
         """
+        self.logger.debug("findind elements...")
         elements = self.driver.find_elements(By.XPATH, xpath)
         self.logger.debug(f"{len(elements)} elements found")
         return elements
@@ -102,6 +101,7 @@ class Webdriver:
         inner = element.find_element(By.XPATH, xpath)
         return inner
 
+    @profile
     def next_page(self,
         xpath : str):
         """
