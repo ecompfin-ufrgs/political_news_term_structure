@@ -28,9 +28,9 @@ class Webdriver:
     :param log_file: Log file name, defaults to "log.log"
     :type log_file: str, optional
     """
+    path    = "./chromedriver"
+    options = "--headless"
     def __init__(self,
-        path     : str = "/Users/bernardopaulsen/chromedriver",
-        options  : str = "--headless",
         log_name : str = "webdriver",
         log_file : str = "log.log"):
         """
@@ -39,9 +39,7 @@ class Webdriver:
         self.logger = Logger(
             log_name,
             log_file)
-        self.driver = self.config(
-            path    = path,
-            options = options)
+        self.driver = self.config()
 
     def __del__(self):
         """
@@ -50,20 +48,13 @@ class Webdriver:
         self.driver.close()
         self.logger.debug("connection closed")
 
-    def config(self,
-        path    : str,
-        options : str) -> webdriver.Chrome:
+    def config(self) -> webdriver.Chrome:
         """
         Configures Chrome webdriver.
-
-        :param path: chromedriver path
-        :type path: str
-        :param options: webdriver options
-        :type options: str
         """
         driver_options = Options()
-        driver_options.add_argument(options)
-        driver = webdriver.Chrome(path, options=driver_options)
+        driver_options.add_argument(self.options)
+        driver = webdriver.Chrome(self.path, options=driver_options)
         self.logger.debug("connection open")
         return driver
 
