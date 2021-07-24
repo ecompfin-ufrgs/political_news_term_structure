@@ -94,6 +94,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#module-webdriver">Webdriver</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#module-scraper">Scraper</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#module-minas">Minas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-correio">Correio</a></li>
 </ul>
 </li>
 </ul>
@@ -173,13 +174,13 @@ Author      : Bernardo Paulsen
 Version     : 1.0.0</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="logger.Logger">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">logger.</span></span><span class="sig-name descname"><span class="pre">Logger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'log.log'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">level</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'a'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'%(asctime)s:%(name)s:%(levelname)s:%(message)s'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#logger.Logger" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">logger.</span></span><span class="sig-name descname"><span class="pre">Logger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'log'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">level</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'a'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'%(asctime)s::%(name)s::%(levelname)s::%(message)s'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#logger.Logger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Class which implements a custom logger.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>name</strong> (<em>str</em>) – Logger name</p></li>
-<li><p><strong>file</strong> (<em>str</em><em>, </em><em>optional</em>) – Log file name, defaults to “log.log”</p></li>
+<li><p><strong>file</strong> (<em>str</em><em>, </em><em>optional</em>) – Log file name, defaults to “log”</p></li>
 <li><p><strong>level</strong> (<em>int</em><em>, </em><em>optional</em>) – Log level, defaults to logging.DEBUG</p></li>
 <li><p><strong>mode</strong> (<em>str</em><em>, </em><em>optional</em>) – Log file mode, defaults to “a”</p></li>
 <li><p><strong>format</strong> (<em>str</em><em>, </em><em>optional</em>) – Log format, defaults to “%(asctime)s:%(name)s:%(levelname)s:%(message)s”</p></li>
@@ -188,7 +189,7 @@ Version     : 1.0.0</p>
 </dl>
 <dl class="py method">
 <dt class="sig sig-object py" id="logger.Logger.config">
-<span class="sig-name descname"><span class="pre">config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'log.log'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">level</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'w'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'%(asctime)s:%(name)s:%(levelname)s:%(message)s'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#logger.Logger.config" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">level</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#logger.Logger.config" title="Permalink to this definition">¶</a></dt>
 <dd><p>Configures logger.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -273,7 +274,7 @@ Author      : Bernardo Paulsen
 Version     : 1.0.0</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="database.Database">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">database.</span></span><span class="sig-name descname"><span class="pre">Database</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'test.db'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'test'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'database'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'log.log'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#database.Database" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">database.</span></span><span class="sig-name descname"><span class="pre">Database</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'test.db'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'test'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'database'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'log'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#database.Database" title="Permalink to this definition">¶</a></dt>
 <dd><p>Class which connects to and edits database using SQLite3.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -286,6 +287,12 @@ Version     : 1.0.0</p>
 </dd>
 </dl>
 <dl class="py method">
+<dt class="sig sig-object py" id="database.Database.commit">
+<span class="sig-name descname"><span class="pre">commit</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#database.Database.commit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Commits changes.</p>
+</dd></dl>
+
+<dl class="py method">
 <dt class="sig sig-object py" id="database.Database.config">
 <span class="sig-name descname"><span class="pre">config</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#database.Database.config" title="Permalink to this definition">¶</a></dt>
 <dd><p>Connects to database, drops table if it exists and creates new table.</p>
@@ -295,18 +302,28 @@ Version     : 1.0.0</p>
 <dt class="sig sig-object py" id="database.Database.get_create">
 <span class="sig-name descname"><span class="pre">get_create</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#database.Database.get_create" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns script used to create table.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>create table script</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="database.Database.get_drop">
 <span class="sig-name descname"><span class="pre">get_drop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#database.Database.get_drop" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns scrip used to drop table.</p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py" id="database.Database.get_insert">
-<span class="sig-name descname"><span class="pre">get_insert</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#database.Database.get_insert" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns script used to insert data into table.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>drop table script</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py method">
@@ -334,30 +351,17 @@ Author      : Bernardo Paulsen
 Version     : 1.0.0</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="webdriver.Webdriver">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">webdriver.</span></span><span class="sig-name descname"><span class="pre">Webdriver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'/Users/bernardopaulsen/chromedriver'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">options</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'--headless'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'webdriver'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'log.log'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#webdriver.Webdriver" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">webdriver.</span></span><span class="sig-name descname"><span class="pre">Webdriver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">log_file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'log'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#webdriver.Webdriver" title="Permalink to this definition">¶</a></dt>
 <dd><p>Class which uses selenium to connect to, navigate and collect data from the internet.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>path</strong> (<em>str</em><em>, </em><em>optional</em>) – chromedriver path, defaults to “/Users/bernardopaulsen/chromedriver”</p></li>
-<li><p><strong>options</strong> (<em>str</em><em>, </em><em>optional</em>) – webdriver options, defaults to “–headless”</p></li>
-<li><p><strong>log_name</strong> (<em>str</em><em>, </em><em>optional</em>) – Logger name, defaults to “webdriver”</p></li>
-<li><p><strong>log_file</strong> (<em>str</em><em>, </em><em>optional</em>) – Log file name, defaults to “log.log”</p></li>
-</ul>
+<dd class="field-odd"><p><strong>log_file</strong> (<em>str</em><em>, </em><em>optional</em>) – Log file name, defaults to “log.log”</p>
 </dd>
 </dl>
 <dl class="py method">
 <dt class="sig sig-object py" id="webdriver.Webdriver.config">
-<span class="sig-name descname"><span class="pre">config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">options</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">selenium.webdriver.chrome.webdriver.WebDriver</span></span></span><a class="headerlink" href="#webdriver.Webdriver.config" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">config</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">selenium.webdriver.chrome.webdriver.WebDriver</span></span></span><a class="headerlink" href="#webdriver.Webdriver.config" title="Permalink to this definition">¶</a></dt>
 <dd><p>Configures Chrome webdriver.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>path</strong> (<em>str</em>) – chromedriver path</p></li>
-<li><p><strong>options</strong> (<em>str</em>) – webdriver options</p></li>
-</ul>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py method">
@@ -430,25 +434,8 @@ Author      : Bernardo Paulsen
 Version     : 1.0.0</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="scraper.Scraper">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">scraper.</span></span><span class="sig-name descname"><span class="pre">Scraper</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start_url</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">next_xpath</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">row_xpath</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title_xpath</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date_xpath</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_pages</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">2000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_last</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">100</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'scraper'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'log.log'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">db_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'test.db'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">db_table</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'test'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scraper.Scraper" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">scraper.</span></span><span class="sig-name descname"><span class="pre">Scraper</span></span><a class="headerlink" href="#scraper.Scraper" title="Permalink to this definition">¶</a></dt>
 <dd><p>Class for scraping news websites.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>start_ulr</strong> – Main webpage from which to start scrapping</p></li>
-<li><p><strong>next_xpath</strong> (<em>str</em>) – Xpath expression for next page element</p></li>
-<li><p><strong>row_xpath</strong> (<em>str</em>) – Xpath expression for news elements</p></li>
-<li><p><strong>title_xpath</strong> (<em>str</em>) – Xpath expression for title element inside news element</p></li>
-<li><p><strong>date_xpath</strong> (<em>str</em>) – Xpath expression for data element inside news element</p></li>
-<li><p><strong>n_pages</strong> (<em>int</em><em>, </em><em>optional</em>) – Number of pages to scrap, defaults to 2000</p></li>
-<li><p><strong>n_last</strong> (<em>int</em><em>, </em><em>optional</em>) – Number of (last) news elements to inspect when looking for previously unscrapped news after next page click, defaults to 100</p></li>
-<li><p><strong>log_name</strong> (<em>str</em><em>, </em><em>optional</em>) – Logger name, defaults to “sraper”</p></li>
-<li><p><strong>log_file</strong> (<em>str</em><em>, </em><em>optional</em>) – Log file name, defaults to “log.log”</p></li>
-<li><p><strong>db_name</strong> (<em>str</em><em>, </em><em>optional</em>) – Database file name, defaults to “test.db”</p></li>
-<li><p><strong>db_table</strong> (<em>str</em><em>, </em><em>optional</em>) – Database table name, defaults to “test”</p></li>
-</ul>
-</dd>
-</dl>
 <dl class="py method">
 <dt class="sig sig-object py" id="scraper.Scraper.get_date">
 <em class="property"><span class="pre">abstract</span> <span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_date</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scraper.Scraper.get_date" title="Permalink to this definition">¶</a></dt>
@@ -499,28 +486,37 @@ Author      : Bernardo Paulsen
 Version     : 1.0.0</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="minas.Minas">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">minas.</span></span><span class="sig-name descname"><span class="pre">Minas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start_url</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'https://www.em.com.br/politica/'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">next_xpath</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">&quot;//*[&#64;id='em-read-more']&quot;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">row_xpath</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">&quot;//div[&#64;class='news-box</span> <span class="pre">free</span> <span class="pre">pb-10</span> <span class="pre">mb-20'</span> <span class="pre">and</span> <span class="pre">position()&gt;last()-200]&quot;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title_xpath</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">&quot;.//a[&#64;class='txt-gray']&quot;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date_xpath</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'.//small'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_pages</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">2000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_last</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">200</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'scraper'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'test.log'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">db_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'test.db'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">db_table</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'minas'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#minas.Minas" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">minas.</span></span><span class="sig-name descname"><span class="pre">Minas</span></span><a class="headerlink" href="#minas.Minas" title="Permalink to this definition">¶</a></dt>
 <dd><p>Class, child of Scraper, which scrapes the political section of Estado de Minas website.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>start_ulr</strong> – Main webpage from which to start scrapping, defaults to “<a class="reference external" href="https://www.em.com.br/politica/">https://www.em.com.br/politica/</a>”</p></li>
-<li><p><strong>next_xpath</strong> (<em>str</em><em>, </em><em>optional</em>) – Xpath expression for next page element, defaults to “//<a href="#id1"><span class="problematic" id="id2">*</span></a>[&#64;id=’em-read-more’]”</p></li>
-<li><p><strong>row_xpath</strong> (<em>str</em><em>, </em><em>optional</em>) – Xpath expression for news elements, defaults to “//div[&#64;class=’news-box free pb-10 mb-20’ and position()&gt;last()-200]”</p></li>
-<li><p><strong>title_xpath</strong> (<em>str</em><em>, </em><em>optional</em>) – Xpath expression for title element inside news element, defaults to “.//a[&#64;class=’txt-gray’]”</p></li>
-<li><p><strong>date_xpath</strong> (<em>str</em><em>, </em><em>optional</em>) – Xpath expression for data element inside news element, defaults to “.//small”</p></li>
-<li><p><strong>n_pages</strong> (<em>int</em><em>, </em><em>optional</em>) – Number of pages to scrap, defaults to 2000</p></li>
-<li><p><strong>n_last</strong> (<em>int</em><em>, </em><em>optional</em>) – Number of (last) news elements to inspect when looking for previously unscrapped news after next page click, defaults to 200</p></li>
-<li><p><strong>log_name</strong> (<em>str</em><em>, </em><em>optional</em>) – Logger name, defaults to “sraper”</p></li>
-<li><p><strong>log_file</strong> (<em>str</em><em>, </em><em>optional</em>) – Log file name, defaults to “log.log”</p></li>
-<li><p><strong>db_name</strong> (<em>str</em><em>, </em><em>optional</em>) – Database file name, defaults to “test.db”</p></li>
-<li><p><strong>db_table</strong> (<em>str</em><em>, </em><em>optional</em>) – Database table name, defaults to “minas”</p></li>
-</ul>
-</dd>
-</dl>
 <dl class="py method">
 <dt class="sig sig-object py" id="minas.Minas.get_date">
 <em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_date</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#minas.Minas.get_date" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets date string and formats it to DATETIME data type (SQLite3).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>date</strong> (<em>str</em>) – Date string</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Formatted date</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-correio">
+<span id="correio"></span><h2>Correio<a class="headerlink" href="#module-correio" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="correio.Correio">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">correio.</span></span><span class="sig-name descname"><span class="pre">Correio</span></span><a class="headerlink" href="#correio.Correio" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class, child of Scraper, which scrapes the political section of Correio Braziliense website.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="correio.Correio.get_date">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">get_date</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#correio.Correio.get_date" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gets date string and formats it to DATETIME data type (SQLite3).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
