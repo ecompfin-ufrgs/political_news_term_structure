@@ -17,10 +17,12 @@ class Minas(Scraper):
     """
     start_url   = "https://www.em.com.br/politica/"
     next_xpath  = "//*[@id='em-read-more']"
-    row_xpath   = "//div[@class='news-box free pb-10 mb-20' and position()>last()-1000]"
+    row_type    = "div"
+    row_class   = "news-box free pb-10 mb-20"
     title_xpath = "a[class='txt-gray']"
     date_xpath  = "small"
     n_last      = 500
+    n_next      = 25
     log_file    = "minas"
     db_name     = "news.db"
     db_table    = "minas"

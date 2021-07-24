@@ -32,7 +32,11 @@ class Scraper(ABC):
         pass
     @property
     @abstractmethod
-    def row_xpath(self):
+    def row_type(self):
+        pass
+    @property
+    @abstractmethod
+    def row_class(self):
         pass
     @property
     @abstractmethod
@@ -45,6 +49,10 @@ class Scraper(ABC):
     @property
     @abstractmethod
     def n_last(self):
+        pass
+    @property
+    @abstractmethod
+    def n_next(self):
         pass
     @property
     @abstractmethod
@@ -66,6 +74,7 @@ class Scraper(ABC):
         self.logger      = Logger(self.log_name, self.log_file)
         self.database    = Database(self.db_name, self.db_table, log_file = self.log_file)
         self.webdriver   = Webdriver(log_file = self.log_file)
+        self.row_xpath   = f"//{self.row_type}[@class='{self.row_class}' and position()>last()-{self.n_last}]"
         self.elements    = []
 
     def __del__(self):
@@ -97,7 +106,7 @@ class Scraper(ABC):
                 self.webdriver.next_page(self.next_xpath)
                 e = 1
             except:
-                if e < 50:
+                if e < self.n_next:
                     self.logger.warning("no next page, trying again...")
                     e += 1
                 else:
@@ -118,7 +127,7 @@ class Scraper(ABC):
         """
         self.logger.debug("looping through elements...")
         for element in new_elements:
-            if element not in self.elements[-1000:]:
+            if element not in self.elements[-self.n_last:]:
                 self.elements.append(element)
                 self.get_info(element)
         self.database.commit()
@@ -132,8 +141,6 @@ class Scraper(ABC):
         :type element: selenium.webdriver.remote.webelement.WebElement
         """
         try:
-            #title = self.webdriver.get_inner(self.title_xpath, element).text
-            #date  = self.webdriver.get_inner(self.date_xpath, element).text
             soup = BeautifulSoup(element.get_attribute('innerHTML'), "html.parser")
             title = soup.select(self.title_xpath)[0].text
             date = soup.select(self.date_xpath)[0].text
