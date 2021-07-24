@@ -48,6 +48,9 @@ class Database:
         self.logger.debug(f"{self.name} connection closed")
 
     def commit(self):
+        """
+        Commits changes.
+        """
         self.conn.commit()
         self.logger.debug("changes commited")
 
@@ -82,6 +85,9 @@ class Database:
     def get_drop(self):
         """
         Returns scrip used to drop table.
+
+        :return: drop table script
+        :rtype: str
         """
         script = f"""
         DROP TABLE IF EXISTS {self.table};
@@ -91,6 +97,9 @@ class Database:
     def get_create(self):
         """
         Returns script used to create table.
+
+        :return: create table script
+        :rtype: str
         """
         script = f"""
         CREATE TABLE IF NOT EXISTS {self.table} (

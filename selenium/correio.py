@@ -11,9 +11,7 @@ class Correio(Scraper):
     row_xpath   = "//article[position()>last()-200]"
     title_xpath = ".//h2"
     date_xpath  = ".//small"
-    n_pages     = 10
     n_last      = 200
-    log_name    = "scraper"
     log_file    = "correio"
     db_name     = "news.db"
     db_table    = "correio"
