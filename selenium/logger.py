@@ -34,6 +34,7 @@ class Logger:
         self.logger  = self.config(name, file, level, mode, format)
         self.debug   = self.logger.debug
         self.warning = self.logger.warning
+        self.error   = self.logger.error
 
     def console_handler(self,
         level     : int,

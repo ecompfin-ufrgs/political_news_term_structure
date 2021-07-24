@@ -4,7 +4,6 @@ Description : Defines class Minas, child of Scraper, which scrapes the political
 Author      : Bernardo Paulsen
 Version     : 1.0.0
 """
-import os
 from   scraper import Scraper
 
 #import line_profiler
@@ -19,9 +18,9 @@ class Minas(Scraper):
     start_url   = "https://www.em.com.br/politica/"
     next_xpath  = "//*[@id='em-read-more']"
     row_xpath   = "//div[@class='news-box free pb-10 mb-20' and position()>last()-200]"
-    title_xpath = ".//a[@class='txt-gray']"
-    date_xpath  = ".//small"
-    n_last      = 200
+    title_xpath = "a[class='txt-gray']"
+    date_xpath  = "small"
+    n_last      = 500
     log_file    = "minas"
     db_name     = "news.db"
     db_table    = "minas"

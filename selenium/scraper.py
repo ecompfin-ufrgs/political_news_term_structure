@@ -5,6 +5,7 @@ Author      : Bernardo Paulsen
 Version     : 1.0.0
 """
 from   abc                                  import ABC, abstractmethod
+from   bs4                                  import BeautifulSoup
 from   database                             import Database
 from   logger                               import Logger
 import os
@@ -57,12 +58,11 @@ class Scraper(ABC):
     @abstractmethod
     def db_table(self):
         pass
-    
     def __init__(self):
         """
         Constructor method. Initiates Logger, Database and Webdriver.
         """
-        os.system(f"rm {self.log_file}.log")
+        os.system(f"rm logs/{self.log_file}.log")
         self.logger      = Logger(self.log_name, self.log_file)
         self.database    = Database(self.db_name, self.db_table, log_file = self.log_file)
         self.webdriver   = Webdriver(log_file = self.log_file)
@@ -81,16 +81,32 @@ class Scraper(ABC):
         """
         self.webdriver.get(self.start_url)
         i = 0
+        e = 0
         while True:
+            b = False
             i += 1
             self.logger.debug(f"page {i}")
+            #self.logger.debug("loading soup...")
+            #soup = BeautifulSoup(self.webdriver.driver.page_source, "html.parser")
+            #self.logger.debug("finding articles...")
+            #new_elements = soup.select(self.row_xpath)
             new_elements = self.webdriver.get_elements(self.row_xpath)
+            self.logger.debug(f"{len(new_elements)} elements found")
+            #new_elements = self.webdriver.get_elements(self.row_xpath)
             self.loop_elements(new_elements)
             try:
                 self.webdriver.next_page(self.next_xpath)
+                e = 0
             except:
-                self.logger.warning("no next page")
+                if e < 100:
+                    self.logger.warning("no next page, trying again...")
+                    e += 1
+                else:
+                    self.logger.error("no next page, finishing program...")
+                    b = True
+            if b:
                 break
+                        
         del self
 
     def loop_elements(self,
@@ -103,7 +119,7 @@ class Scraper(ABC):
         """
         self.logger.debug("looping through elements...")
         for element in new_elements:
-            if element not in self.elements[-self.n_last:]:
+            if element not in self.elements[:-200]:
                 self.elements.append(element)
                 self.get_info(element)
         self.database.commit()
@@ -117,8 +133,11 @@ class Scraper(ABC):
         :type element: selenium.webdriver.remote.webelement.WebElement
         """
         try:
-            title = self.webdriver.get_inner(self.title_xpath, element).text
-            date  = self.webdriver.get_inner(self.date_xpath, element).text
+            #title = self.webdriver.get_inner(self.title_xpath, element).text
+            #date  = self.webdriver.get_inner(self.date_xpath, element).text
+            soup = BeautifulSoup(element.get_attribute('innerHTML'), "html.parser")
+            title = soup.select(self.title_xpath)[0].text
+            date = soup.select(self.date_xpath)[0].text
             date = self.get_date(date)
             self.database.insert(date, title)
         except:

@@ -80,7 +80,7 @@ class Database:
         """
         values = (date, title)
         self.conn.execute(self.insert_scrpit,values)
-        self.logger.debug(f"({date}|{title[:20]}) inserted into table in database")
+        self.logger.debug(f"({date}|{title[:20]})")
 
     def get_drop(self):
         """
