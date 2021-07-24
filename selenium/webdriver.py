@@ -26,7 +26,8 @@ class Webdriver:
     :param log_file: Log file name, defaults to "log.log"
     :type log_file: str, optional
     """
-    path     = "./chromedriver"
+    #path     = "./chromedriver"
+    path     = "/usr/lib/chromium-browser/chromedriver"
     options  = "--headless"
     log_name = "webdriver"
     def __init__(self,
