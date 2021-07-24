@@ -17,7 +17,7 @@ class Minas(Scraper):
     """
     start_url   = "https://www.em.com.br/politica/"
     next_xpath  = "//*[@id='em-read-more']"
-    row_xpath   = "//div[@class='news-box free pb-10 mb-20' and position()>last()-200]"
+    row_xpath   = "//div[@class='news-box free pb-10 mb-20' and position()>last()-1000]"
     title_xpath = "a[class='txt-gray']"
     date_xpath  = "small"
     n_last      = 500

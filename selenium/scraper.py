@@ -96,9 +96,9 @@ class Scraper(ABC):
             self.loop_elements(new_elements)
             try:
                 self.webdriver.next_page(self.next_xpath)
-                e = 0
+                e = 1
             except:
-                if e < 100:
+                if e < 50:
                     self.logger.warning("no next page, trying again...")
                     e += 1
                 else:
@@ -119,7 +119,7 @@ class Scraper(ABC):
         """
         self.logger.debug("looping through elements...")
         for element in new_elements:
-            if element not in self.elements[:-500]:
+            if element not in self.elements[-1000:]:
                 self.elements.append(element)
                 self.get_info(element)
         self.database.commit()
