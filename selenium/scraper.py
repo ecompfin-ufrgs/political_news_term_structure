@@ -91,7 +91,6 @@ class Scraper(ABC):
             #self.logger.debug("finding articles...")
             #new_elements = soup.select(self.row_xpath)
             new_elements = self.webdriver.get_elements(self.row_xpath)
-            self.logger.debug(f"{len(new_elements)} elements found")
             #new_elements = self.webdriver.get_elements(self.row_xpath)
             self.loop_elements(new_elements)
             try:

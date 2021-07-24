@@ -58,9 +58,8 @@ class Database:
         """
         Connects to database, drops table if it exists and creates new table.
         """
-        self.logger.debug(f"{self.name} opening connection")
         conn = sqlite3.connect(self.name)
-        self.logger.debug(f"{self.name} connection open")
+        self.logger.debug(f"{self.name}.db connection open")
         conn.execute(self.get_drop())
         self.logger.debug(f"{self.table} table dropped")
         conn.execute(self.get_create())
@@ -80,7 +79,7 @@ class Database:
         """
         values = (date, title)
         self.conn.execute(self.insert_scrpit,values)
-        self.logger.debug(f"({date}|{title[:20]})")
+        self.logger.debug(f"({date}|{title[:50]})")
 
     def get_drop(self):
         """
