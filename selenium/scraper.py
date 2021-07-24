@@ -119,7 +119,7 @@ class Scraper(ABC):
         """
         self.logger.debug("looping through elements...")
         for element in new_elements:
-            if element not in self.elements[:-200]:
+            if element not in self.elements[:-500]:
                 self.elements.append(element)
                 self.get_info(element)
         self.database.commit()

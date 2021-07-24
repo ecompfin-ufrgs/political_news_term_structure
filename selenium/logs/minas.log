@@ -1,157 +1,93 @@
-2021-07-24 10:48:17,499::scraper::DEBUG::logger configured
-2021-07-24 10:48:17,499::database::DEBUG::logger configured
-2021-07-24 10:48:17,499::database::DEBUG::news.db opening connection
-2021-07-24 10:48:17,500::database::DEBUG::news.db connection open
-2021-07-24 10:48:17,502::database::DEBUG::minas table dropped
-2021-07-24 10:48:17,505::database::DEBUG::minas table created
-2021-07-24 10:48:17,506::webdriver::DEBUG::logger configured
-2021-07-24 10:48:17,506::webdriver::DEBUG::opening connection...
-2021-07-24 10:48:19,797::webdriver::DEBUG::connection open
-2021-07-24 10:48:19,797::webdriver::DEBUG::getting page https://www.em.com.br/politica/...
-2021-07-24 10:52:04,471::webdriver::DEBUG::page received
-2021-07-24 10:52:04,472::scraper::DEBUG::page 1
-2021-07-24 10:52:04,472::webdriver::DEBUG::findind elements...
-2021-07-24 10:52:04,509::webdriver::DEBUG::0 elements found
-2021-07-24 10:52:04,509::scraper::DEBUG::0 elements found
-2021-07-24 10:52:04,509::scraper::DEBUG::looping through elements...
-2021-07-24 10:52:04,509::database::DEBUG::changes commited
-2021-07-24 10:52:04,509::webdriver::DEBUG::clicking next page
-2021-07-24 10:52:14,756::scraper::WARNING::no next page, trying again...
-2021-07-24 10:52:14,757::scraper::DEBUG::page 2
-2021-07-24 10:52:14,757::webdriver::DEBUG::findind elements...
-2021-07-24 10:52:14,764::webdriver::DEBUG::0 elements found
-2021-07-24 10:52:14,764::scraper::DEBUG::0 elements found
-2021-07-24 10:52:14,765::scraper::DEBUG::looping through elements...
-2021-07-24 10:52:14,765::database::DEBUG::changes commited
-2021-07-24 10:52:14,765::webdriver::DEBUG::clicking next page
-2021-07-24 10:52:24,987::scraper::WARNING::no next page, trying again...
-2021-07-24 10:52:24,987::scraper::DEBUG::page 3
-2021-07-24 10:52:24,987::webdriver::DEBUG::findind elements...
-2021-07-24 10:52:24,998::webdriver::DEBUG::0 elements found
-2021-07-24 10:52:24,999::scraper::DEBUG::0 elements found
-2021-07-24 10:52:25,000::scraper::DEBUG::looping through elements...
-2021-07-24 10:52:25,001::database::DEBUG::changes commited
-2021-07-24 10:52:25,001::webdriver::DEBUG::clicking next page
-2021-07-24 10:52:35,220::scraper::WARNING::no next page, trying again...
-2021-07-24 10:52:35,221::scraper::DEBUG::page 4
-2021-07-24 10:52:35,221::webdriver::DEBUG::findind elements...
-2021-07-24 10:52:35,229::webdriver::DEBUG::0 elements found
-2021-07-24 10:52:35,230::scraper::DEBUG::0 elements found
-2021-07-24 10:52:35,230::scraper::DEBUG::looping through elements...
-2021-07-24 10:52:35,230::database::DEBUG::changes commited
-2021-07-24 10:52:35,230::webdriver::DEBUG::clicking next page
-2021-07-24 10:52:45,478::scraper::WARNING::no next page, trying again...
-2021-07-24 10:52:45,478::scraper::DEBUG::page 5
-2021-07-24 10:52:45,479::webdriver::DEBUG::findind elements...
-2021-07-24 10:52:45,487::webdriver::DEBUG::0 elements found
-2021-07-24 10:52:45,487::scraper::DEBUG::0 elements found
-2021-07-24 10:52:45,487::scraper::DEBUG::looping through elements...
-2021-07-24 10:52:45,487::database::DEBUG::changes commited
-2021-07-24 10:52:45,487::webdriver::DEBUG::clicking next page
-2021-07-24 10:52:55,709::scraper::WARNING::no next page, trying again...
-2021-07-24 10:52:55,709::scraper::DEBUG::page 6
-2021-07-24 10:52:55,710::webdriver::DEBUG::findind elements...
-2021-07-24 10:52:55,717::webdriver::DEBUG::0 elements found
-2021-07-24 10:52:55,717::scraper::DEBUG::0 elements found
-2021-07-24 10:52:55,717::scraper::DEBUG::looping through elements...
-2021-07-24 10:52:55,717::database::DEBUG::changes commited
-2021-07-24 10:52:55,718::webdriver::DEBUG::clicking next page
-2021-07-24 10:53:05,949::scraper::WARNING::no next page, trying again...
-2021-07-24 10:53:05,950::scraper::DEBUG::page 7
-2021-07-24 10:53:05,950::webdriver::DEBUG::findind elements...
-2021-07-24 10:53:05,958::webdriver::DEBUG::0 elements found
-2021-07-24 10:53:05,958::scraper::DEBUG::0 elements found
-2021-07-24 10:53:05,958::scraper::DEBUG::looping through elements...
-2021-07-24 10:53:05,959::database::DEBUG::changes commited
-2021-07-24 10:53:05,959::webdriver::DEBUG::clicking next page
-2021-07-24 10:53:16,162::scraper::WARNING::no next page, trying again...
-2021-07-24 10:53:16,162::scraper::DEBUG::page 8
-2021-07-24 10:53:16,163::webdriver::DEBUG::findind elements...
-2021-07-24 10:53:16,187::webdriver::DEBUG::0 elements found
-2021-07-24 10:53:16,188::scraper::DEBUG::0 elements found
-2021-07-24 10:53:16,188::scraper::DEBUG::looping through elements...
-2021-07-24 10:53:16,189::database::DEBUG::changes commited
-2021-07-24 10:53:16,190::webdriver::DEBUG::clicking next page
-2021-07-24 10:53:26,427::scraper::WARNING::no next page, trying again...
-2021-07-24 10:53:26,428::scraper::DEBUG::page 9
-2021-07-24 10:53:26,428::webdriver::DEBUG::findind elements...
-2021-07-24 10:53:26,446::webdriver::DEBUG::0 elements found
-2021-07-24 10:53:26,446::scraper::DEBUG::0 elements found
-2021-07-24 10:53:26,446::scraper::DEBUG::looping through elements...
-2021-07-24 10:53:26,446::database::DEBUG::changes commited
-2021-07-24 10:53:26,446::webdriver::DEBUG::clicking next page
-2021-07-24 10:53:36,664::scraper::WARNING::no next page, trying again...
-2021-07-24 10:53:36,664::scraper::DEBUG::page 10
-2021-07-24 10:53:36,664::webdriver::DEBUG::findind elements...
-2021-07-24 10:53:36,676::webdriver::DEBUG::0 elements found
-2021-07-24 10:53:36,676::scraper::DEBUG::0 elements found
-2021-07-24 10:53:36,677::scraper::DEBUG::looping through elements...
-2021-07-24 10:53:36,677::database::DEBUG::changes commited
-2021-07-24 10:53:36,677::webdriver::DEBUG::clicking next page
-2021-07-24 10:53:46,929::scraper::WARNING::no next page, trying again...
-2021-07-24 10:53:46,929::scraper::DEBUG::page 11
-2021-07-24 10:53:46,929::webdriver::DEBUG::findind elements...
-2021-07-24 10:53:46,949::webdriver::DEBUG::0 elements found
-2021-07-24 10:53:46,949::scraper::DEBUG::0 elements found
-2021-07-24 10:53:46,950::scraper::DEBUG::looping through elements...
-2021-07-24 10:53:46,950::database::DEBUG::changes commited
-2021-07-24 10:53:46,950::webdriver::DEBUG::clicking next page
-2021-07-24 10:53:57,195::scraper::WARNING::no next page, trying again...
-2021-07-24 10:53:57,195::scraper::DEBUG::page 12
-2021-07-24 10:53:57,196::webdriver::DEBUG::findind elements...
-2021-07-24 10:53:57,213::webdriver::DEBUG::0 elements found
-2021-07-24 10:53:57,213::scraper::DEBUG::0 elements found
-2021-07-24 10:53:57,213::scraper::DEBUG::looping through elements...
-2021-07-24 10:53:57,213::database::DEBUG::changes commited
-2021-07-24 10:53:57,213::webdriver::DEBUG::clicking next page
-2021-07-24 10:54:07,439::scraper::WARNING::no next page, trying again...
-2021-07-24 10:54:07,440::scraper::DEBUG::page 13
-2021-07-24 10:54:07,440::webdriver::DEBUG::findind elements...
-2021-07-24 10:54:07,460::webdriver::DEBUG::0 elements found
-2021-07-24 10:54:07,460::scraper::DEBUG::0 elements found
-2021-07-24 10:54:07,461::scraper::DEBUG::looping through elements...
-2021-07-24 10:54:07,461::database::DEBUG::changes commited
-2021-07-24 10:54:07,461::webdriver::DEBUG::clicking next page
-2021-07-24 10:54:17,693::scraper::WARNING::no next page, trying again...
-2021-07-24 10:54:17,693::scraper::DEBUG::page 14
-2021-07-24 10:54:17,693::webdriver::DEBUG::findind elements...
-2021-07-24 10:54:17,725::webdriver::DEBUG::0 elements found
-2021-07-24 10:54:17,726::scraper::DEBUG::0 elements found
-2021-07-24 10:54:17,726::scraper::DEBUG::looping through elements...
-2021-07-24 10:54:17,726::database::DEBUG::changes commited
-2021-07-24 10:54:17,726::webdriver::DEBUG::clicking next page
-2021-07-24 10:54:27,941::scraper::WARNING::no next page, trying again...
-2021-07-24 10:54:27,941::scraper::DEBUG::page 15
-2021-07-24 10:54:27,941::webdriver::DEBUG::findind elements...
-2021-07-24 10:54:27,958::webdriver::DEBUG::0 elements found
-2021-07-24 10:54:27,959::scraper::DEBUG::0 elements found
-2021-07-24 10:54:27,959::scraper::DEBUG::looping through elements...
-2021-07-24 10:54:27,959::database::DEBUG::changes commited
-2021-07-24 10:54:27,959::webdriver::DEBUG::clicking next page
-2021-07-24 10:54:38,165::scraper::WARNING::no next page, trying again...
-2021-07-24 10:54:38,165::scraper::DEBUG::page 16
-2021-07-24 10:54:38,165::webdriver::DEBUG::findind elements...
-2021-07-24 10:54:38,180::webdriver::DEBUG::0 elements found
-2021-07-24 10:54:38,180::scraper::DEBUG::0 elements found
-2021-07-24 10:54:38,180::scraper::DEBUG::looping through elements...
-2021-07-24 10:54:38,180::database::DEBUG::changes commited
-2021-07-24 10:54:38,180::webdriver::DEBUG::clicking next page
-2021-07-24 10:54:48,440::scraper::WARNING::no next page, trying again...
-2021-07-24 10:54:48,440::scraper::DEBUG::page 17
-2021-07-24 10:54:48,441::webdriver::DEBUG::findind elements...
-2021-07-24 10:54:48,455::webdriver::DEBUG::0 elements found
-2021-07-24 10:54:48,456::scraper::DEBUG::0 elements found
-2021-07-24 10:54:48,456::scraper::DEBUG::looping through elements...
-2021-07-24 10:54:48,456::database::DEBUG::changes commited
-2021-07-24 10:54:48,456::webdriver::DEBUG::clicking next page
-2021-07-24 10:54:58,687::scraper::WARNING::no next page, trying again...
-2021-07-24 10:54:58,687::scraper::DEBUG::page 18
-2021-07-24 10:54:58,687::webdriver::DEBUG::findind elements...
-2021-07-24 10:54:58,704::webdriver::DEBUG::0 elements found
-2021-07-24 10:54:58,705::scraper::DEBUG::0 elements found
-2021-07-24 10:54:58,705::scraper::DEBUG::looping through elements...
-2021-07-24 10:54:58,706::database::DEBUG::changes commited
-2021-07-24 10:54:58,706::webdriver::DEBUG::clicking next page
-2021-07-24 10:55:03,949::scraper::WARNING::no next page, trying again...
-2021-07-24 10:55:03,950::scraper::DEBUG::page 19
-2021-07-24 10:55:03,951::webdriver::DEBUG::findind elements...
+2021-07-24 14:47:53,469::scraper::DEBUG::logger configured
+2021-07-24 14:47:53,470::database::DEBUG::logger configured
+2021-07-24 14:47:53,470::database::DEBUG::news.db opening connection
+2021-07-24 14:47:53,470::database::DEBUG::news.db connection open
+2021-07-24 14:47:53,476::database::DEBUG::minas table dropped
+2021-07-24 14:47:53,482::database::DEBUG::minas table created
+2021-07-24 14:47:53,482::webdriver::DEBUG::logger configured
+2021-07-24 14:47:53,482::webdriver::DEBUG::opening connection...
+2021-07-24 14:47:54,609::webdriver::DEBUG::connection open
+2021-07-24 14:47:54,609::webdriver::DEBUG::getting page https://www.em.com.br/politica/...
+2021-07-24 14:47:59,331::webdriver::DEBUG::page received
+2021-07-24 14:47:59,331::scraper::DEBUG::page 1
+2021-07-24 14:47:59,331::webdriver::DEBUG::findind elements...
+2021-07-24 14:47:59,345::webdriver::DEBUG::22 elements found
+2021-07-24 14:47:59,345::scraper::DEBUG::22 elements found
+2021-07-24 14:47:59,346::scraper::DEBUG::looping through elements...
+2021-07-24 14:47:59,358::database::DEBUG::(2021-07-24 10:08:00|Várias cidades pelo )
+2021-07-24 14:47:59,367::database::DEBUG::(2021-07-24 08:03:00|Organizadores dizem )
+2021-07-24 14:47:59,373::database::DEBUG::(2021-07-23 22:04:00|Bia Kicis envia cart)
+2021-07-24 14:47:59,378::database::DEBUG::(2021-07-23 21:13:00|Vereador de Curitiba)
+2021-07-24 14:47:59,381::scraper::WARNING::inner elements not found
+2021-07-24 14:47:59,386::database::DEBUG::(2021-07-23 19:15:00|Justiça Eleitoral ca)
+2021-07-24 14:47:59,391::database::DEBUG::(2021-07-23 19:04:00|MPMG acusa ex-secret)
+2021-07-24 14:47:59,404::database::DEBUG::(2021-07-23 18:51:00|MPMG denuncia prefei)
+2021-07-24 14:47:59,432::database::DEBUG::(2021-07-23 18:35:00|Pazuello se reuniu c)
+2021-07-24 14:47:59,440::database::DEBUG::(2021-07-23 18:24:00|'Criatório de barata)
+2021-07-24 14:47:59,471::database::DEBUG::(2021-07-23 18:18:00|Joice nega ter sido )
+2021-07-24 14:47:59,486::database::DEBUG::(2021-07-23 18:01:00|FHC diz que é bem me)
+2021-07-24 14:47:59,496::database::DEBUG::(2021-07-23 17:10:00|Renan sobre Bolsonar)
+2021-07-24 14:47:59,499::scraper::WARNING::inner elements not found
+2021-07-24 14:47:59,515::database::DEBUG::(2021-07-23 17:00:00|MG: governo promete )
+2021-07-24 14:47:59,542::database::DEBUG::(2021-07-23 16:37:00|Vereadora sofre amea)
+2021-07-24 14:47:59,548::database::DEBUG::(2021-07-23 16:26:00|Quatro meses após de)
+2021-07-24 14:47:59,556::database::DEBUG::(2021-07-23 16:16:00|Randolfe confirma qu)
+2021-07-24 14:47:59,563::database::DEBUG::(2021-07-23 16:14:00|Joice Hasselmann pre)
+2021-07-24 14:47:59,569::database::DEBUG::(2021-07-23 15:38:00|Bolsonaro diz que a )
+2021-07-24 14:47:59,590::database::DEBUG::(2021-07-23 15:35:00|Bolsonaro volta a fa)
+2021-07-24 14:47:59,596::database::DEBUG::(2021-07-23 15:31:00|Bolsonaro deve inclu)
+2021-07-24 14:47:59,605::database::DEBUG::changes commited
+2021-07-24 14:47:59,605::webdriver::DEBUG::clicking next page
+2021-07-24 14:47:59,834::webdriver::DEBUG::next page clicked
+2021-07-24 14:48:00,035::scraper::DEBUG::page 2
+2021-07-24 14:48:00,035::webdriver::DEBUG::findind elements...
+2021-07-24 14:48:00,197::webdriver::DEBUG::42 elements found
+2021-07-24 14:48:00,197::scraper::DEBUG::42 elements found
+2021-07-24 14:48:00,197::scraper::DEBUG::looping through elements...
+2021-07-24 14:48:00,473::database::DEBUG::(2021-07-24 10:08:00|Várias cidades pelo )
+2021-07-24 14:48:00,819::database::DEBUG::(2021-07-24 08:03:00|Organizadores dizem )
+2021-07-24 14:48:01,259::database::DEBUG::(2021-07-23 22:04:00|Bia Kicis envia cart)
+2021-07-24 14:48:01,694::database::DEBUG::(2021-07-23 21:13:00|Vereador de Curitiba)
+2021-07-24 14:48:02,555::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,229::database::DEBUG::(2021-07-23 19:15:00|Justiça Eleitoral ca)
+2021-07-24 14:48:03,525::database::DEBUG::(2021-07-23 19:04:00|MPMG acusa ex-secret)
+2021-07-24 14:48:03,641::database::DEBUG::(2021-07-23 18:51:00|MPMG denuncia prefei)
+2021-07-24 14:48:03,658::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,660::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,663::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,665::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,668::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,671::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,673::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,676::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,678::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,680::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,682::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,684::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,687::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,688::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,689::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,691::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,692::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,694::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,695::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,697::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,698::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,700::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,701::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,703::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,704::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,705::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,707::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,709::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,710::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,711::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,713::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,715::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,716::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,718::scraper::WARNING::inner elements not found
+2021-07-24 14:48:03,722::database::DEBUG::changes commited
+2021-07-24 14:48:03,722::webdriver::DEBUG::clicking next page
+2021-07-24 14:48:03,724::scraper::WARNING::no next page, trying again...
+2021-07-24 14:48:03,724::scraper::DEBUG::page 3
+2021-07-24 14:48:03,724::webdriver::DEBUG::findind elements...
