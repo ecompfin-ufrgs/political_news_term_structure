@@ -23,9 +23,9 @@ class Minas(Scraper):
     date_xpath  = "small"
     n_last      = 500
     n_next      = 25
-    log_file    = "minas"
+    log_file    = "minas1"
     db_name     = "news.db"
-    db_table    = "minas"
+    db_table    = "minas1"
     
     @staticmethod
     def get_date(
