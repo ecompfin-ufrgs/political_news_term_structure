@@ -25,3 +25,8 @@ Minas
 #####
 .. automodule:: minas
     :members:
+
+Correio
+#######
+.. automodule:: correio
+    :members:
