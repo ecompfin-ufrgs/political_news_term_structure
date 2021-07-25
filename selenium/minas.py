@@ -23,9 +23,9 @@ class Minas(Scraper):
     date_xpath  = "small"
     n_last      = 100
     n_next      = 10
-    log_file    = "minas6"
+    log_file    = "minas7"
     db_name     = "news.db"
-    db_table    = "minas6"
+    db_table    = "minas7"
     
     def get_row_xpath(self):
         return f"//{self.row_type}[@class='{self.row_class}' and position()>last()-{self.n_last}]"
