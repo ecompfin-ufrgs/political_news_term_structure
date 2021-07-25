@@ -28,7 +28,7 @@ class Webdriver:
     """
     #path     = "./chromedriver"
     path     = "/usr/lib/chromium-browser/chromedriver"
-    options  = "--headless"
+    options  = ["--headless","--no-sandbox","--disable-dev-shm-usage"]
     log_name = "webdriver"
     def __init__(self,
         log_file : str = "log"):
@@ -52,7 +52,8 @@ class Webdriver:
         Configures Chrome webdriver.
         """
         driver_options = Options()
-        driver_options.add_argument(self.options)
+        for option in self.options:
+            driver_options.add_argument(option)
         self.logger.debug("opening connection...")
         driver = webdriver.Chrome(self.path, options=driver_options)
         self.logger.debug("connection open")
