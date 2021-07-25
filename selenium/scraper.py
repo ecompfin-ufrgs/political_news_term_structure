@@ -126,8 +126,9 @@ class Scraper(ABC):
         :type new_elements: list
         """
         self.logger.debug("looping through elements...")
+        self.elements = self.elements[-self.n_last:]
         for element in new_elements:
-            if element not in self.elements[-self.n_last:]:
+            if element not in self.elements:
                 self.elements.append(element)
                 self.get_info(element)
         self.database.commit()
