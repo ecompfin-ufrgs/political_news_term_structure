@@ -27,7 +27,8 @@ class Webdriver:
     :type log_file: str, optional
     """
     #path     = "./chromedriver"
-    path     = "/usr/lib/chromium-browser/chromedriver"
+    #path     = "/usr/lib/chromium-browser/chromedriver"
+    path     = "/usr/bin/geckodriver"
     options  = ["--headless"]#,"--no-sandbox","--disable-dev-shm-usage"]
     log_name = "webdriver"
     def __init__(self,
@@ -44,7 +45,7 @@ class Webdriver:
         """
         Destructor method. Closes webdriver.
         """
-        self.driver.close()
+        self.driver.quit()
         self.logger.debug("connection closed")
 
     def config(self) -> webdriver.Chrome:
@@ -55,7 +56,7 @@ class Webdriver:
         for option in self.options:
             driver_options.add_argument(option)
         self.logger.debug("opening connection...")
-        driver = webdriver.Chrome(self.path, options=driver_options)
+        driver = webdriver.Firefox(executable_path=self.path, options=driver_options)
         self.logger.debug("connection open")
         return driver
 
