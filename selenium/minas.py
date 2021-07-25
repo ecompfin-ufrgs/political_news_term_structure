@@ -27,6 +27,9 @@ class Minas(Scraper):
     db_name     = "news.db"
     db_table    = "minas5"
     
+    def get_row_xpath(self):
+        return f"//{self.row_type}[@class='{self.row_class}' and position()>last()-{self.n_last}]"
+    
     @staticmethod
     def get_date(
         date : str):

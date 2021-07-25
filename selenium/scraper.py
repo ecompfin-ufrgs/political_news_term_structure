@@ -74,7 +74,7 @@ class Scraper(ABC):
         self.logger      = Logger(self.log_name, self.log_file)
         self.database    = Database(self.db_name, self.db_table, log_file = self.log_file)
         self.webdriver   = Webdriver(log_file = self.log_file)
-        self.row_xpath   = f"//{self.row_type}[@class='{self.row_class}' and position()>last()-{self.n_last}]"
+        self.row_xpath   = self.get_row_xpath()
         self.elements    = []
 
     def __del__(self):
@@ -149,6 +149,10 @@ class Scraper(ABC):
             self.database.insert(date, title)
         except:
             self.logger.warning("inner elements not found")
+            
+    @abstractmethod
+    def get_row_xpath(self):
+        pass
 
     @staticmethod
     @abstractmethod

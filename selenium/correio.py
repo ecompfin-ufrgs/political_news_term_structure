@@ -9,12 +9,18 @@ class Correio(Scraper):
     start_url   = "https://www.correiobraziliense.com.br/politica"
     next_xpath  = "//*[@id='em-read-more']"
     row_xpath   = "//article[position()>last()-200]"
+    row_type    = "article"
+    row_class   = ""
     title_xpath = ".//h2"
     date_xpath  = ".//small"
     n_last      = 200
     log_file    = "correio"
     db_name     = "news.db"
     db_table    = "correio"
+    
+    def get_row_xpath(self):
+        return f"//{self.row_type}[position()>last()-{self.n_last}]"
+    
     @staticmethod
     def get_date(date):
         """
