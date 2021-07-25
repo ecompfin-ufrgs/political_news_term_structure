@@ -1,5 +1,5 @@
 """
-Title       : Scraper 
+Title       : Scraper
 Description : Defines abstract class Scraper, which scrapes news websites.
 Author      : Bernardo Paulsen
 Version     : 1.0.0
