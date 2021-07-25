@@ -21,8 +21,8 @@ class Minas(Scraper):
     row_class   = "news-box free pb-10 mb-20"
     title_xpath = "a[class='txt-gray']"
     date_xpath  = "small"
-    n_last      = 500
-    n_next      = 25
+    n_last      = 200
+    n_next      = 10
     log_file    = "minas3"
     db_name     = "news.db"
     db_table    = "minas3"
