@@ -1,0 +1,77 @@
+1627241558623	geckodriver	INFO	Listening on 127.0.0.1:37599
+1627241558628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0Ohls5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1627241558972	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0Ohls5/search.json.mozlz4", (void 0)))
+1627241560395	Marionette	INFO	Listening on port 42905
+1627241560453	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.em.com.br/em/139/others.139.min.js?v=2, line 10: unreachable code after return statement
+JavaScript warning: https://js.em.com.br/em/139/others.139.min.js?v=2 line 1 > eval, line 10: unreachable code after return statement
+JavaScript error: webpack:///./src/assets/javascripts/components/comment/comment.js?, line 6: uncaught exception: Deu problema ao pegar o ID da pagina para renderizar os comentarios. Problema do Roque Viana!
+JavaScript error: https://www.em.com.br/politica/, line 592: TypeError: placement is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 4136 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 4136 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://app.em.com.br/apps,62,38/em-read-more?conteudo=noticia&tags=&fields=id,ut_autores,tn_autores,ut_tags,sc_rotulo,us_acesso&portais=www.em.com.br&cidade=&url=*/app/noticia/politica/*&offset=200&callback=fnEmReadMore, line 1: ReferenceError: fnEmReadMore is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1627241656732	geckodriver	INFO	Listening on 127.0.0.1:34679
+1627241656736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT6Z4FR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1627241657058	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT6Z4FR/search.json.mozlz4", (void 0)))
+1627241658452	Marionette	INFO	Listening on port 39833
+1627241658559	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.em.com.br/em/139/others.139.min.js?v=2, line 10: unreachable code after return statement
+JavaScript warning: https://js.em.com.br/em/139/others.139.min.js?v=2 line 1 > eval, line 10: unreachable code after return statement
+JavaScript error: webpack:///./src/assets/javascripts/components/comment/comment.js?, line 6: uncaught exception: Deu problema ao pegar o ID da pagina para renderizar os comentarios. Problema do Roque Viana!
+JavaScript error: https://www.em.com.br/politica/, line 592: TypeError: placement is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 4777 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 4777 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 7405 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 7405 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 7431 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 7431 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 6218 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 6218 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 760 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 760 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://app.em.com.br/apps,62,38/em-read-more?conteudo=noticia&tags=&fields=id,ut_autores,tn_autores,ut_tags,sc_rotulo,us_acesso&portais=www.em.com.br&cidade=&url=*/app/noticia/politica/*&offset=1320&callback=fnEmReadMore, line 1: ReferenceError: fnEmReadMore is not defined
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

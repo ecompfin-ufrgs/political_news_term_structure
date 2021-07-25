@@ -6,7 +6,7 @@ Version     : 1.0.0
 """
 from   logger                               import Logger
 from   selenium                             import webdriver
-from   selenium.webdriver.chrome.options    import Options
+from   selenium.webdriver.firefox.options   import Options
 from   selenium.webdriver.common.by         import By
 from   selenium.webdriver.support.ui        import WebDriverWait
 from   selenium.webdriver.support           import expected_conditions as EC
@@ -121,7 +121,7 @@ class Webdriver:
         next.send_keys(enter)
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         self.logger.debug("next page clicked")
-        time.sleep(.2)
+        time.sleep(.5)
 
 
 
