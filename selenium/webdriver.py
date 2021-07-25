@@ -28,7 +28,7 @@ class Webdriver:
     """
     #path     = "./chromedriver"
     path     = "/usr/lib/chromium-browser/chromedriver"
-    options  = ["--headless"]#,"--no-sandbox","--disable-dev-shm-usage"]
+    options  = ["--headless","--no-sandbox","--disable-dev-shm-usage"]
     log_name = "webdriver"
     def __init__(self,
         log_file : str = "log"):
