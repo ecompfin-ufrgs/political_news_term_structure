@@ -19,7 +19,7 @@ class Correio(Scraper):
     db_table    = "correio2"
     
     def get_row_xpath(self):
-        return f"//{self.row_type}[position()>last()-{self.n_last}]"
+        return f"descendant-or-self::{self.row_type}[position()>last()-{self.n_last}]"
     
     @staticmethod
     def get_date(date):
