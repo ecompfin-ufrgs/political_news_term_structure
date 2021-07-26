@@ -8,7 +8,6 @@ class Correio(Scraper):
     """
     start_url   = "https://www.correiobraziliense.com.br/politica"
     next_xpath  = "//*[@id='em-read-more']"
-    row_xpath   = "//article[position()>last()-200]"
     row_type    = "article"
     row_class   = ""
     title_xpath = "h2"

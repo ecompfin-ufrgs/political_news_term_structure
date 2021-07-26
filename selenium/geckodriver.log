@@ -147,3 +147,20 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3N
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1627259538547	geckodriver	INFO	Listening on 127.0.0.1:59545
+1627259538552	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea8Udka"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1627259538870	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea8Udka/search.json.mozlz4", (void 0)))
+1627259540414	Marionette	INFO	Listening on port 42443
+1627259540482	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 2757 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 2757 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://v3.denakop.com/denakop.js, line 1: TypeError: (intermediate value)(...) is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
