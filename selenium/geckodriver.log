@@ -132,3 +132,18 @@ JavaScript error: https://cdn.onesignal.com/sdks/OneSignalSDK.js, line 1: Networ
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1627259454070	geckodriver	INFO	Listening on 127.0.0.1:47085
+1627259454075	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDMohdY"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1627259454395	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDMohdY/search.json.mozlz4", (void 0)))
+1627259455844	Marionette	INFO	Listening on port 42401
+1627259455898	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 4833 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 4833 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

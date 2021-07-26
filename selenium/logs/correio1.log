@@ -1,0 +1,490 @@
+2021-07-26 00:30:54,058::scraper::DEBUG::logger configured
+2021-07-26 00:30:54,059::database::DEBUG::logger configured
+2021-07-26 00:30:54,059::database::DEBUG::news.db.db connection open
+2021-07-26 00:30:54,059::database::DEBUG::correio1 table dropped
+2021-07-26 00:30:54,066::database::DEBUG::correio1 table created
+2021-07-26 00:30:54,066::webdriver::DEBUG::logger configured
+2021-07-26 00:30:54,066::webdriver::DEBUG::opening connection...
+2021-07-26 00:30:55,914::webdriver::DEBUG::connection open
+2021-07-26 00:30:55,914::webdriver::DEBUG::getting page https://www.correiobraziliense.com.br/politica...
+2021-07-26 00:31:00,672::webdriver::DEBUG::page received
+2021-07-26 00:31:00,673::scraper::DEBUG::page 1, 1 try
+2021-07-26 00:31:00,673::webdriver::DEBUG::findind elements...
+2021-07-26 00:31:00,733::webdriver::DEBUG::22 elements found
+2021-07-26 00:31:00,733::scraper::DEBUG::looping through elements...
+2021-07-26 00:31:00,756::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,768::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,776::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,783::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,791::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,799::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,806::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,813::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,821::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,828::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,838::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,845::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,852::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,858::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,866::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,876::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,886::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,894::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,901::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,908::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,915::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,926::scraper::WARNING::inner elements not found
+2021-07-26 00:31:00,926::database::DEBUG::changes commited
+2021-07-26 00:31:00,926::webdriver::DEBUG::clicking next page
+2021-07-26 00:31:01,057::webdriver::DEBUG::next page clicked
+2021-07-26 00:31:01,558::scraper::DEBUG::page 2, 1 try
+2021-07-26 00:31:01,558::webdriver::DEBUG::findind elements...
+2021-07-26 00:31:01,568::webdriver::DEBUG::42 elements found
+2021-07-26 00:31:01,568::scraper::DEBUG::looping through elements...
+2021-07-26 00:31:01,595::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,605::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,612::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,620::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,632::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,639::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,647::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,654::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,661::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,668::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,676::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,683::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,690::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,699::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,707::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,714::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,721::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,728::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,735::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,741::scraper::WARNING::inner elements not found
+2021-07-26 00:31:01,742::database::DEBUG::changes commited
+2021-07-26 00:31:01,742::webdriver::DEBUG::clicking next page
+2021-07-26 00:31:01,761::webdriver::DEBUG::next page clicked
+2021-07-26 00:31:02,262::scraper::DEBUG::page 3, 1 try
+2021-07-26 00:31:02,262::webdriver::DEBUG::findind elements...
+2021-07-26 00:31:02,305::webdriver::DEBUG::62 elements found
+2021-07-26 00:31:02,306::scraper::DEBUG::looping through elements...
+2021-07-26 00:31:02,330::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,341::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,349::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,359::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,389::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,414::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,424::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,433::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,450::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,468::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,508::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,521::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,536::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,554::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,562::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,569::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,576::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,583::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,590::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,597::scraper::WARNING::inner elements not found
+2021-07-26 00:31:02,597::database::DEBUG::changes commited
+2021-07-26 00:31:02,597::webdriver::DEBUG::clicking next page
+2021-07-26 00:31:02,616::webdriver::DEBUG::next page clicked
+2021-07-26 00:31:03,117::scraper::DEBUG::page 4, 1 try
+2021-07-26 00:31:03,117::webdriver::DEBUG::findind elements...
+2021-07-26 00:31:03,132::webdriver::DEBUG::82 elements found
+2021-07-26 00:31:03,132::scraper::DEBUG::looping through elements...
+2021-07-26 00:31:03,144::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,164::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,172::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,179::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,186::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,193::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,200::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,207::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,214::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,221::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,228::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,235::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,245::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,253::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,270::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,280::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,286::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,294::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,310::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,323::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,338::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,348::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,362::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,369::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,377::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,384::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,391::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,398::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,405::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,412::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,419::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,427::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,427::database::DEBUG::changes commited
+2021-07-26 00:31:03,427::webdriver::DEBUG::clicking next page
+2021-07-26 00:31:03,448::webdriver::DEBUG::next page clicked
+2021-07-26 00:31:03,949::scraper::DEBUG::page 5, 1 try
+2021-07-26 00:31:03,949::webdriver::DEBUG::findind elements...
+2021-07-26 00:31:03,966::webdriver::DEBUG::102 elements found
+2021-07-26 00:31:03,966::scraper::DEBUG::looping through elements...
+2021-07-26 00:31:03,973::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,980::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,987::scraper::WARNING::inner elements not found
+2021-07-26 00:31:03,994::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,001::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,007::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,014::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,021::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,028::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,035::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,042::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,049::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,055::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,062::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,071::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,078::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,085::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,092::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,100::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,107::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,113::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,120::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,127::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,134::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,141::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,148::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,155::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,162::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,169::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,179::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,187::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,274::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,286::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,297::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,304::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,312::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,319::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,327::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,334::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,341::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,348::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,355::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,362::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,369::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,376::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,385::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,391::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,398::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,405::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,412::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,419::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,426::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,426::database::DEBUG::changes commited
+2021-07-26 00:31:04,427::webdriver::DEBUG::clicking next page
+2021-07-26 00:31:04,450::webdriver::DEBUG::next page clicked
+2021-07-26 00:31:04,950::scraper::DEBUG::page 6, 1 try
+2021-07-26 00:31:04,951::webdriver::DEBUG::findind elements...
+2021-07-26 00:31:04,968::webdriver::DEBUG::122 elements found
+2021-07-26 00:31:04,969::scraper::DEBUG::looping through elements...
+2021-07-26 00:31:04,977::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,986::scraper::WARNING::inner elements not found
+2021-07-26 00:31:04,993::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,004::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,011::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,018::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,025::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,032::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,043::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,051::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,058::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,065::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,072::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,078::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,085::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,093::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,102::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,110::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,117::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,123::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,130::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,137::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,144::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,151::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,158::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,165::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,172::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,181::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,191::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,198::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,209::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,226::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,233::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,240::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,248::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,257::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,276::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,283::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,291::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,313::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,322::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,330::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,338::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,350::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,357::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,364::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,371::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,378::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,385::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,392::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,400::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,407::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,417::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,424::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,431::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,438::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,445::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,452::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,459::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,466::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,473::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,480::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,487::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,494::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,501::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,508::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,515::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,524::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,531::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,538::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,545::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,552::scraper::WARNING::inner elements not found
+2021-07-26 00:31:05,552::database::DEBUG::changes commited
+2021-07-26 00:31:05,552::webdriver::DEBUG::clicking next page
+2021-07-26 00:31:05,573::webdriver::DEBUG::next page clicked
+2021-07-26 00:31:06,074::scraper::DEBUG::page 7, 1 try
+2021-07-26 00:31:06,074::webdriver::DEBUG::findind elements...
+2021-07-26 00:31:06,092::webdriver::DEBUG::142 elements found
+2021-07-26 00:31:06,092::scraper::DEBUG::looping through elements...
+2021-07-26 00:31:06,101::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,109::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,116::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,123::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,130::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,139::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,146::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,153::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,160::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,167::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,175::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,182::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,189::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,195::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,202::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,209::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,216::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,223::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,230::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,239::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,246::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,253::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,260::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,267::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,274::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,281::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,288::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,295::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,302::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,309::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,315::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,323::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,329::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,336::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,346::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,353::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,360::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,367::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,374::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,381::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,387::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,395::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,402::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,408::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,415::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,422::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,431::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,438::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,448::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,455::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,462::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,469::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,477::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,484::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,490::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,500::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,517::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,524::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,531::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,538::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,547::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,554::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,561::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,568::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,575::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,582::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,589::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,596::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,603::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,610::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,617::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,624::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,632::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,638::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,646::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,654::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,661::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,668::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,675::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,682::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,702::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,709::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,716::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,723::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,730::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,737::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,744::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,801::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,818::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,831::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,839::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,846::scraper::WARNING::inner elements not found
+2021-07-26 00:31:06,846::database::DEBUG::changes commited
+2021-07-26 00:31:06,847::webdriver::DEBUG::clicking next page
+2021-07-26 00:31:06,874::webdriver::DEBUG::next page clicked
+2021-07-26 00:31:07,374::scraper::DEBUG::page 8, 1 try
+2021-07-26 00:31:07,375::webdriver::DEBUG::findind elements...
+2021-07-26 00:31:07,398::webdriver::DEBUG::162 elements found
+2021-07-26 00:31:07,398::scraper::DEBUG::looping through elements...
+2021-07-26 00:31:07,406::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,415::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,422::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,429::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,436::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,444::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,451::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,458::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,465::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,475::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,482::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,489::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,496::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,504::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,511::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,522::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,529::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,536::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,544::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,566::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,576::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,583::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,590::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,597::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,604::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,611::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,618::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,625::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,632::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,640::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,647::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,659::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,674::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,683::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,694::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,701::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,722::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,731::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,742::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,753::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,760::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,768::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,775::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,784::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,794::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,813::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,820::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,828::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,834::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,842::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,849::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,856::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,863::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,870::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,877::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,887::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,894::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,901::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,908::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,921::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,931::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,939::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,947::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,954::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,962::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,976::scraper::WARNING::inner elements not found
+2021-07-26 00:31:07,995::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,007::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,016::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,028::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,110::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,129::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,146::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,160::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,172::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,182::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,195::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,202::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,212::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,219::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,227::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,233::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,240::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,247::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,254::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,262::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,269::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,276::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,283::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,290::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,297::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,306::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,315::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,323::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,330::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,337::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,345::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,351::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,358::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,365::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,372::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,379::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,386::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,393::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,400::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,407::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,414::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,422::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,429::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,433::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,435::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,438::scraper::WARNING::inner elements not found
+2021-07-26 00:31:08,438::database::DEBUG::changes commited
+2021-07-26 00:31:08,438::webdriver::DEBUG::clicking next page
+2021-07-26 00:31:08,439::scraper::WARNING::no next page, trying again...
+2021-07-26 00:31:08,440::scraper::DEBUG::page 8, 2 try
+2021-07-26 00:31:08,440::webdriver::DEBUG::findind elements...

@@ -11,8 +11,8 @@ class Correio(Scraper):
     row_xpath   = "//article[position()>last()-200]"
     row_type    = "article"
     row_class   = ""
-    title_xpath = ".//h2"
-    date_xpath  = ".//small"
+    title_xpath = "h2"
+    date_xpath  = "small"
     n_last      = 50
     n_next      = 10
     log_file    = "correio1"
