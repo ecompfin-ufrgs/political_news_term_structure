@@ -75,3 +75,60 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1627243801849	geckodriver	INFO	Listening on 127.0.0.1:59251
+1627243801854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5I8JtQ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1627243802174	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5I8JtQ/search.json.mozlz4", (void 0)))
+1627243803573	Marionette	INFO	Listening on port 46525
+1627243803676	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.em.com.br/em/139/others.139.min.js?v=2, line 10: unreachable code after return statement
+JavaScript warning: https://js.em.com.br/em/139/others.139.min.js?v=2 line 1 > eval, line 10: unreachable code after return statement
+JavaScript error: webpack:///./src/assets/javascripts/components/comment/comment.js?, line 6: uncaught exception: Deu problema ao pegar o ID da pagina para renderizar os comentarios. Problema do Roque Viana!
+JavaScript error: https://www.em.com.br/politica/, line 592: TypeError: placement is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 3394 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 3394 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 2793 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 2793 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1627243868579	geckodriver	INFO	Listening on 127.0.0.1:44787
+1627243868583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOf2fhB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1627243868911	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOf2fhB/search.json.mozlz4", (void 0)))
+1627243870407	Marionette	INFO	Listening on port 34327
+1627243870506	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.em.com.br/em/139/others.139.min.js?v=2, line 10: unreachable code after return statement
+JavaScript warning: https://js.em.com.br/em/139/others.139.min.js?v=2 line 1 > eval, line 10: unreachable code after return statement
+JavaScript error: webpack:///./src/assets/javascripts/components/comment/comment.js?, line 6: uncaught exception: Deu problema ao pegar o ID da pagina para renderizar os comentarios. Problema do Roque Viana!
+JavaScript error: https://www.em.com.br/politica/, line 592: TypeError: placement is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 7205 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 7205 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 3973 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3NJFfCa68pF8Bp7Mwjsnyploxc.js line 1 > eval line 3973 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://cdn.onesignal.com/sdks/OneSignalSDK.js, line 1: NetworkError: WorkerGlobalScope.importScripts: Failed to load worker script at https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js?v=151506 (nsresult = 0x80004005)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
