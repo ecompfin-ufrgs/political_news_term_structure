@@ -7,7 +7,7 @@ class Correio(Scraper):
     Class, child of Scraper, which scrapes the political section of Correio Braziliense website.
     """
     start_url   = "https://www.correiobraziliense.com.br/politica"
-    next_xpath  = "*[@id='em-read-more']"
+    next_xpath  = "//*[@id='em-read-more']"
     row_type    = "article"
     row_class   = ""
     title_xpath = "h2"
@@ -19,7 +19,7 @@ class Correio(Scraper):
     db_table    = "correio2"
     
     def get_row_xpath(self):
-        return f"{self.row_type}[position()>last()-{self.n_last}]"
+        return f"//{self.row_type}[position()>last()-{self.n_last}]"
     
     @staticmethod
     def get_date(date):
