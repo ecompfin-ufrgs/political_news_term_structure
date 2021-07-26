@@ -91,11 +91,11 @@ class Scraper(ABC):
         """
         self.webdriver.get(self.start_url)
         i = 1
-        e = 0
+        e = 1
         l = None
         while True:
             b = False
-            self.logger.debug(f"page {i}")
+            self.logger.debug(f"page {i}, {e} try")
             #self.logger.debug("loading soup...")
             #soup = BeautifulSoup(self.webdriver.driver.page_source, "html.parser")
             #self.logger.debug("finding articles...")
