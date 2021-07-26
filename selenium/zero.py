@@ -5,7 +5,7 @@ class Zero(Scraper):
     start_url    = "https://gauchazh.clicrbs.com.br/politica/ultimas-noticias/"
     next_xpath   = "descendant-or-self::button[@class='btn-show-more']"
     row_type     = "div"
-    row_class    = "card article-card article"
+    row_class    = "article-card__summary"
     title_xpath  = "h2"
     date_xpath   = "*[class='m-crd-pt__publish-date']"
     n_last       = 50
