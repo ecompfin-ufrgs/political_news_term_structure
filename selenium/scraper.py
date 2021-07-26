@@ -96,13 +96,8 @@ class Scraper(ABC):
         while True:
             b = False
             self.logger.debug(f"page {i}, {e} try")
-            #self.logger.debug("loading soup...")
-            #soup = BeautifulSoup(self.webdriver.driver.page_source, "html.parser")
-            #self.logger.debug("finding articles...")
-            #new_elements = soup.select(self.row_xpath)
             new_elements = self.webdriver.get_elements(self.row_xpath)
             last_element_found = new_elements[-1]
-            #new_elements = self.webdriver.get_elements(self.row_xpath)
             if last_element_found != l:
                 l = last_element_found
                 self.loop_elements(new_elements)
