@@ -116,7 +116,6 @@ class Scraper(ABC):
                     break
             else:
                 time.sleep(.2)
-                            
         del self
 
     def loop_elements(self,
