@@ -179,3 +179,49 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/K69jH8UFrOCkOTHHl3N
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1627336612250	geckodriver	INFO	Listening on 127.0.0.1:54883
+1627336613249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEeyKLe"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1627336614186	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEeyKLe/search.json.mozlz4", (void 0)))
+1627336615736	Marionette	INFO	Listening on port 43399
+1627336615788	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627336619687	Marionette	INFO	Stopped listening on port 43399
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1627336672124	geckodriver	INFO	Listening on 127.0.0.1:34399
+1627336672129	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWmQZAp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1627336672396	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWmQZAp/search.json.mozlz4", (void 0)))
+1627336673906	Marionette	INFO	Listening on port 36049
+1627336673949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/c43eojKHTIIjnCN0mOBRrq3mBMCB_MRf6Ad2ET-MShQ.js line 1 > eval line 13 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/c43eojKHTIIjnCN0mOBRrq3mBMCB_MRf6Ad2ET-MShQ.js line 1 > eval line 13 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1627336788791	geckodriver	INFO	Listening on 127.0.0.1:47851
+1627336788796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemLE5lE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1627336789087	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemLE5lE/search.json.mozlz4", (void 0)))
+1627336790426	Marionette	INFO	Listening on port 38409
+1627336790518	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/c43eojKHTIIjnCN0mOBRrq3mBMCB_MRf6Ad2ET-MShQ.js line 1 > eval line 5056 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/c43eojKHTIIjnCN0mOBRrq3mBMCB_MRf6Ad2ET-MShQ.js line 1 > eval line 5056 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://pagead2.googlesyndication.com/bg/c43eojKHTIIjnCN0mOBRrq3mBMCB_MRf6Ad2ET-MShQ.js line 1 > eval line 3593 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/c43eojKHTIIjnCN0mOBRrq3mBMCB_MRf6Ad2ET-MShQ.js line 1 > eval line 3593 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
