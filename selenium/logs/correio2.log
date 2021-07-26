@@ -1,0 +1,8 @@
+2021-07-26 18:42:41,590::scraper::DEBUG::logger configured
+2021-07-26 18:42:41,591::database::DEBUG::logger configured
+2021-07-26 18:42:41,593::database::DEBUG::news.db.db connection open
+2021-07-26 18:42:41,595::database::DEBUG::correio2 table dropped
+2021-07-26 18:42:41,598::database::DEBUG::correio2 table created
+2021-07-26 18:42:41,598::webdriver::DEBUG::logger configured
+2021-07-26 18:42:41,599::webdriver::DEBUG::opening connection...
+2021-07-26 18:42:41,643::database::DEBUG::news.db connection closed
