@@ -14,9 +14,9 @@ class Correio(Scraper):
     date_xpath  = "small"
     n_last      = 50
     n_next      = 10
-    log_file    = "correio1"
+    log_file    = "correio2"
     db_name     = "news.db"
-    db_table    = "correio1"
+    db_table    = "correio2"
     
     def get_row_xpath(self):
         return f"//{self.row_type}[position()>last()-{self.n_last}]"
