@@ -10,6 +10,7 @@ from   database                             import Database
 from   logger                               import Logger
 import os
 from   selenium.webdriver.remote.webelement import WebElement
+import time
 from   webdriver                            import Webdriver
 
 #import line_profiler
@@ -89,32 +90,38 @@ class Scraper(ABC):
         Runs web scrapping.
         """
         self.webdriver.get(self.start_url)
-        i = 0
+        i = 1
         e = 0
+        l = None
         while True:
             b = False
-            i += 1
             self.logger.debug(f"page {i}")
             #self.logger.debug("loading soup...")
             #soup = BeautifulSoup(self.webdriver.driver.page_source, "html.parser")
             #self.logger.debug("finding articles...")
             #new_elements = soup.select(self.row_xpath)
             new_elements = self.webdriver.get_elements(self.row_xpath)
+            last_element_found = new_elements[-1]
             #new_elements = self.webdriver.get_elements(self.row_xpath)
-            self.loop_elements(new_elements)
-            try:
-                self.webdriver.next_page(self.next_xpath)
-                e = 1
-            except:
-                if e < self.n_next:
-                    self.logger.warning("no next page, trying again...")
-                    e += 1
-                else:
-                    self.logger.error("no next page, finishing program...")
-                    b = True
-            if b:
-                break
-                        
+            if last_element_found != l:
+                l = last_element_found
+                self.loop_elements(new_elements)
+                try:
+                    self.webdriver.next_page(self.next_xpath)
+                    e = 1
+                    i += 1
+                except:
+                    if e < self.n_next:
+                        self.logger.warning("no next page, trying again...")
+                        e += 1
+                    else:
+                        self.logger.error("no next page, finishing program...")
+                        b = True
+                if b:
+                    break
+            else:
+                time.sleep(.2)
+                            
         del self
 
     def loop_elements(self,
