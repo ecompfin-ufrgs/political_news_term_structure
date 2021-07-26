@@ -1,0 +1,145 @@
+2021-07-26 22:27:31,649::scraper::DEBUG::logger configured
+2021-07-26 22:27:31,649::database::DEBUG::logger configured
+2021-07-26 22:27:31,649::database::DEBUG::news.db.db connection open
+2021-07-26 22:27:31,654::database::DEBUG::zero table dropped
+2021-07-26 22:27:31,661::database::DEBUG::zero table created
+2021-07-26 22:27:31,661::webdriver::DEBUG::logger configured
+2021-07-26 22:27:31,662::webdriver::DEBUG::opening connection...
+2021-07-26 22:27:33,207::webdriver::DEBUG::connection open
+2021-07-26 22:27:33,207::webdriver::DEBUG::getting page https://gauchazh.clicrbs.com.br/politica/ultimas-noticias/...
+2021-07-26 22:27:42,575::webdriver::DEBUG::page received
+2021-07-26 22:27:42,575::scraper::DEBUG::page 1, 1 try
+2021-07-26 22:27:42,575::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:42,601::webdriver::DEBUG::15 elements found
+2021-07-26 22:27:42,601::scraper::DEBUG::looping through elements...
+2021-07-26 22:27:42,619::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,625::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,632::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,639::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,645::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,651::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,657::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,663::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,668::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,674::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,680::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,685::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,690::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,695::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,700::scraper::WARNING::inner elements not found
+2021-07-26 22:27:42,700::database::DEBUG::changes commited
+2021-07-26 22:27:42,700::webdriver::DEBUG::clicking next page
+2021-07-26 22:27:42,911::webdriver::DEBUG::next page clicked
+2021-07-26 22:27:43,412::scraper::DEBUG::page 2, 1 try
+2021-07-26 22:27:43,412::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:43,492::webdriver::DEBUG::19 elements found
+2021-07-26 22:27:43,493::scraper::DEBUG::looping through elements...
+2021-07-26 22:27:43,503::scraper::WARNING::inner elements not found
+2021-07-26 22:27:43,509::scraper::WARNING::inner elements not found
+2021-07-26 22:27:43,547::scraper::WARNING::inner elements not found
+2021-07-26 22:27:43,562::scraper::WARNING::inner elements not found
+2021-07-26 22:27:43,562::database::DEBUG::changes commited
+2021-07-26 22:27:43,562::webdriver::DEBUG::clicking next page
+2021-07-26 22:27:43,622::webdriver::DEBUG::next page clicked
+2021-07-26 22:27:44,123::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:44,123::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:44,164::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:44,364::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:44,365::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:44,380::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:44,581::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:44,581::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:44,596::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:44,797::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:44,797::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:44,812::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:45,012::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:45,012::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:45,018::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:45,218::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:45,218::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:45,224::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:45,424::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:45,424::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:45,430::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:45,631::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:45,631::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:45,636::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:45,837::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:45,837::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:45,842::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:46,043::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:46,043::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:46,052::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:46,253::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:46,253::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:46,258::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:46,458::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:46,459::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:46,464::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:46,665::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:46,665::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:46,669::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:46,870::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:46,870::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:46,875::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:47,076::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:47,076::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:47,081::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:47,281::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:47,282::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:47,286::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:47,487::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:47,487::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:47,492::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:47,693::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:47,693::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:47,699::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:47,900::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:47,900::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:47,904::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:48,105::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:48,105::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:48,110::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:48,311::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:48,311::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:48,319::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:48,520::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:48,520::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:48,526::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:48,726::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:48,726::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:48,768::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:48,968::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:48,968::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:48,974::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:49,175::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:49,175::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:49,180::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:49,381::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:49,381::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:49,386::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:49,587::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:49,587::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:49,592::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:49,793::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:49,793::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:49,798::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:49,999::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:49,999::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:50,004::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:50,204::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:50,204::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:50,210::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:50,410::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:50,411::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:50,417::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:50,618::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:50,618::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:50,624::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:50,824::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:50,825::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:50,830::webdriver::DEBUG::4 elements found
+2021-07-26 22:27:51,030::scraper::DEBUG::page 3, 1 try
+2021-07-26 22:27:51,031::webdriver::DEBUG::findind elements...
+2021-07-26 22:27:51,035::webdriver::DEBUG::4 elements found
