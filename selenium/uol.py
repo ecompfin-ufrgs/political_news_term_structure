@@ -42,10 +42,11 @@ class Minas(Scraper):
         :return: Formatted date
         :rtype: str
         """
-        lst  = date.split()
-        day  = lst[2]
-        time = lst[0]
-        return f"{day[6:]}-{day[3:5]}-{day[:2]} {time}:00"
+        #lst  = date.split()
+        #day  = lst[2]
+        #time = lst[0]
+        #return f"{day[6:]}-{day[3:5]}-{day[:2]} {time}:00"
+        return date
 
 
 if __name__ == "__main__":
