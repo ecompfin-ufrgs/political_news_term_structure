@@ -5,6 +5,7 @@ Author      : Bernardo Paulsen
 Version     : 1.0.0
 """
 from   logger                               import Logger
+import os
 from   selenium                             import webdriver
 from   selenium.webdriver.firefox.options   import Options
 from   selenium.webdriver.common.by         import By
@@ -56,7 +57,7 @@ class Webdriver:
         for option in self.options:
             driver_options.add_argument(option)
         self.logger.debug("opening connection...")
-        driver = webdriver.Firefox(executable_path=self.path, options=driver_options)
+        driver = webdriver.Firefox(executable_path=self.path, service_log_path=os.path.devnull,options=driver_options)
         self.logger.debug("connection open")
         return driver
 
