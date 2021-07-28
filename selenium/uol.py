@@ -21,13 +21,13 @@ class Uol(Scraper):
     row_class   = "thumbnails-item align-horizontal list col-xs-8 col-sm-12 small col-sm-24 small"
     title_xpath = "h3"
     date_xpath  = "time"
-    n_last      = 100
+    n_last      = 200
     n_next      = 10
     n_load      = 50
     n_error     = 20
-    log_file    = "uol4"
+    log_file    = "uol5"
     db_name     = "news.db"
-    db_table    = "uol4"
+    db_table    = "uol5"
     
     def get_row_xpath(self):
         return f"descendant-or-self::{self.row_type}[@class='{self.row_class}' and position()>last()-{self.n_last}]"
