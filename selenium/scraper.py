@@ -61,6 +61,10 @@ class Scraper(ABC):
         pass
     @property
     @abstractmethod
+    def n_error(self):
+        pass
+    @property
+    @abstractmethod
     def log_file(self):
         pass
     @property
@@ -97,6 +101,7 @@ class Scraper(ABC):
         n_page = 1
         n_next = 1
         n_load = 1
+        n_error = 1
         l = None
         while True:
             b = False
@@ -109,9 +114,14 @@ class Scraper(ABC):
                 try:
                     self.webdriver.next_page(self.next_xpath)
                     n_page += 1
+                    n_error = 1
                 except:
-                    self.logger.error("no next page, finishing program...")
-                    break
+                    if n_error < self.n_error:
+                        self.logger.error("no next page, trying again...")
+                        n_error += 1
+                    else:
+                        self.logger.error("no next page, finishing program...")
+                        break
                 n_load = 1
                 n_next = 1
             elif n_load < self.n_load:
