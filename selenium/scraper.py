@@ -111,17 +111,9 @@ class Scraper(ABC):
             if last_element_found != l:
                 l = last_element_found
                 self.loop_elements(new_elements)
-                try:
-                    self.webdriver.next_page(self.next_xpath)
-                    n_page += 1
-                    n_error = 1
-                except:
-                    if n_error < self.n_error:
-                        self.logger.error("no next page, trying again...")
-                        n_error += 1
-                    else:
-                        self.logger.error("no next page, finishing program...")
-                        break
+                finish, n_page, n_error = self.next_page(n_page, n_error)
+                if finish:
+                    break
                 n_load = 1
                 n_next = 1
             elif n_load < self.n_load:
@@ -129,12 +121,29 @@ class Scraper(ABC):
                 time.sleep(.2)
             elif n_next < self.n_next:
                 n_Load = 1
-                self.webdriver.next_page()
+                self.webdriver.next_page(self.next_xpath)
                 n_next += 1
             else:
                 self.logger.error("new elements not loading, finishing program...")
                 break
         del self
+        
+    def next_page(self,
+        n_page  : int,
+        n_error : int):
+        finisnh = False
+        try:
+            self.webdriver.next_page(self.next_xpath)
+            n_page += 1
+            n_error = 1
+        except:
+            if n_error < self.n_error:
+                self.logger.warning(f"no next page for the {n_error} time, trying again...")
+                n_error += 1
+            else:
+                self.logger.error(f"no next page for the {n_error} time, finishing program...")
+                finish = True
+        return finish, n_page, n_error
 
     def loop_elements(self,
         new_elements : list):
