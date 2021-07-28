@@ -21,14 +21,14 @@ class Minas(Scraper):
     row_class   = "thumbnails-item align-horizontal list col-xs-8 col-sm-12 small col-sm-24 small"
     title_xpath = "h3"
     date_xpath  = "time"
-    n_last      = 50
+    n_last      = 100
     n_next      = 10
     log_file    = "uol"
     db_name     = "news.db"
     db_table    = "uol"
     
     def get_row_xpath(self):
-        return f"//{self.row_type}[@class='{self.row_class}' and position()>last()-{self.n_last}]"
+        return f"descendant-or-self::{self.row_type}[@class='{self.row_class}' and position()>last()-{self.n_last}]"
     
     @staticmethod
     def get_date(
@@ -42,7 +42,10 @@ class Minas(Scraper):
         :return: Formatted date
         :rtype: str
         """
-        return f"{date[6:10]}-{day[3:5]}-{date[:2]} {date[11:13]}:{date[14:]}:00"
+        if len(date) == 16:
+            return f"{date[6:10]}-{date[3:5]}-{date[:2]} {date[11:13]}:{date[14:]}:00"
+        else:
+            raise NameError
 
 
 if __name__ == "__main__":
