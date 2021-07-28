@@ -131,7 +131,7 @@ class Scraper(ABC):
     def next_page(self,
         n_page  : int,
         n_error : int):
-        finisnh = False
+        finish = False
         try:
             self.webdriver.next_page(self.next_xpath)
             n_page += 1
