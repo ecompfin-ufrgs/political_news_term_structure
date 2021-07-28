@@ -11,7 +11,7 @@ from   scraper import Scraper
 #profile = line_profiler.LineProfiler()
 #atexit.register(profile.print_stats)
 
-class Minas(Scraper):
+class Uol(Scraper):
     """
     Class, child of Scraper, which scrapes the political section of Estado de Minas website.
     """
@@ -49,5 +49,5 @@ class Minas(Scraper):
 
 
 if __name__ == "__main__":
-    c = Minas()
+    c = Uol()
     c.run()
