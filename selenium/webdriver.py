@@ -132,9 +132,9 @@ class Webdriver:
         next     = WebDriverWait(self.driver, 10).until(presence)
         enter    = "webdriver" + Keys.ENTER
         next.send_keys(enter)
-        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        #self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         self.logger.debug("next page clicked")
-        time.sleep(.5)
+        time.sleep(.2)
 
 
 
