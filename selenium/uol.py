@@ -23,6 +23,7 @@ class Uol(Scraper):
     date_xpath  = "time"
     n_last      = 100
     n_next      = 10
+    n_load      = 100
     log_file    = "uol3"
     db_name     = "news.db"
     db_table    = "uol3"
