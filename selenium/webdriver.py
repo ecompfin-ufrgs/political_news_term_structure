@@ -61,7 +61,7 @@ class Webdriver:
         Configures Chrome webdriver.
         """
         driver_profile = webdriver.FirefoxProfile()
-        profile.set_preference("permissions.default.image", 2)
+        driver_profile.set_preference("permissions.default.image", 2)
         driver_options = Options()
         for option in self.options:
             driver_options.add_argument(option)
