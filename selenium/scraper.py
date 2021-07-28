@@ -57,6 +57,10 @@ class Scraper(ABC):
         pass
     @property
     @abstractmethod
+    def n_load(self):
+        pass
+    @property
+    @abstractmethod
     def log_file(self):
         pass
     @property
@@ -90,12 +94,13 @@ class Scraper(ABC):
         Runs web scrapping.
         """
         self.webdriver.get(self.start_url)
-        i = 1
-        e = 1
+        n_page = 1
+        n_next = 1
+        n_load = 1
         l = None
         while True:
             b = False
-            self.logger.debug(f"page {i}, {e} try")
+            self.logger.debug(f"page {n_page}, {n_next} try to click next, {n_load} try to load elements")
             new_elements = self.webdriver.get_elements(self.row_xpath)
             last_element_found = new_elements[-1]
             if last_element_found != l:
@@ -103,19 +108,22 @@ class Scraper(ABC):
                 self.loop_elements(new_elements)
                 try:
                     self.webdriver.next_page(self.next_xpath)
-                    e = 1
-                    i += 1
+                    n_page += 1
                 except:
-                    if e < self.n_next:
-                        self.logger.warning("no next page, trying again...")
-                        e += 1
-                    else:
-                        self.logger.error("no next page, finishing program...")
-                        b = True
-                if b:
+                    self.logger.error("no next page, finishing program...")
                     break
-            else:
+                n_load = 1
+                n_next = 1
+            elif n_load < self.n_load:
+                n_load += 1
                 time.sleep(.2)
+            elif n_next < self.n_next:
+                n_Load = 1
+                self.webdriver.next_page()
+                n_next += 1
+            else:
+                self.logger.error("new elements not loading, finishing program...")
+                break
         del self
 
     def loop_elements(self,
