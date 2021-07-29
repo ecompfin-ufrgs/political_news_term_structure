@@ -25,9 +25,9 @@ class Uol(Scraper):
     n_next      = 10
     n_load      = 50
     n_error     = 20
-    log_file    = "uol5"
+    log_file    = "uol6"
     db_name     = "news.db"
-    db_table    = "uol5"
+    db_table    = "uol6"
     
     def get_row_xpath(self):
         return f"descendant-or-self::{self.row_type}[@class='{self.row_class}' and position()>last()-{self.n_last}]"
