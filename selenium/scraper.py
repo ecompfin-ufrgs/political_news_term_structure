@@ -98,6 +98,7 @@ class Scraper(ABC):
         Runs web scrapping.
         """
         self.webdriver.get(self.start_url)
+        time.sleep(1)
         n_page = 1
         n_next = 1
         n_load = 1
@@ -120,7 +121,7 @@ class Scraper(ABC):
                 n_load += 1
                 time.sleep(.2)
             elif n_next < self.n_next:
-                n_Load = 1
+                n_load = 1
                 self.webdriver.next_page(self.next_xpath)
                 n_next += 1
             else:

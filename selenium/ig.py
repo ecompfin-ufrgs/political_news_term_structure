@@ -23,9 +23,11 @@ class Ig(Scraper):
     date_xpath  = "cite"
     n_last      = 100
     n_next      = 10
-    log_file    = "uol"
+    n_load      = 50
+    n_error     = 20
+    log_file    = "ig"
     db_name     = "news.db"
-    db_table    = "uol"
+    db_table    = "ig"
     
     def get_row_xpath(self):
         return f"descendant-or-self::{self.row_type}[@class='{self.row_class}' and position()>last()-{self.n_last}]"
