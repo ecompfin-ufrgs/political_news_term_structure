@@ -1,0 +1,39 @@
+2021-07-30 18:51:04,779::scraper::DEBUG::logger configured
+2021-07-30 18:51:04,779::database::DEBUG::logger configured
+2021-07-30 18:51:04,780::database::DEBUG::news.db.db connection open
+2021-07-30 18:51:04,781::database::DEBUG::senado table dropped
+2021-07-30 18:51:04,786::database::DEBUG::senado table created
+2021-07-30 18:51:04,786::webdriver::DEBUG::logger configured
+2021-07-30 18:51:04,786::webdriver::DEBUG::opening connection...
+2021-07-30 18:51:06,719::webdriver::DEBUG::connection open
+2021-07-30 18:51:06,719::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/...
+2021-07-30 18:51:08,055::webdriver::DEBUG::page received
+2021-07-30 18:51:09,056::scraper::DEBUG::page 1, 1 try to click next, 1 try to load elements
+2021-07-30 18:51:09,056::webdriver::DEBUG::findind elements...
+2021-07-30 18:51:09,068::webdriver::DEBUG::20 elements found
+2021-07-30 18:51:09,068::scraper::DEBUG::looping through elements...
+2021-07-30 18:51:09,074::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,080::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,085::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,089::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,094::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,099::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,104::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,109::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,114::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,118::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,123::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,128::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,133::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,138::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,142::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,147::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,152::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,157::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,162::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,167::scraper::WARNING::inner elements not found
+2021-07-30 18:51:09,167::database::DEBUG::changes commited
+2021-07-30 18:51:09,167::webdriver::DEBUG::clicking next page
+2021-07-30 18:51:16,686::scraper::WARNING::no next page for the 1 time, trying again...
+2021-07-30 18:51:16,686::scraper::DEBUG::page 1, 1 try to click next, 1 try to load elements
+2021-07-30 18:51:16,686::webdriver::DEBUG::findind elements...
