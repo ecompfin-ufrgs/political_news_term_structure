@@ -60,16 +60,17 @@ class Webdriver:
         """
         Configures Chrome webdriver.
         """
-        #driver_profile = webdriver.FirefoxProfile()
-        #driver_profile.set_preference("permissions.default.image", 2)
+        driver_profile = webdriver.FirefoxProfile()
+        driver_profile.set_preference("permissions.default.image", 2)
+        driver_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', False)
         driver_options = Options()
         for option in self.options:
             driver_options.add_argument(option)
         self.logger.debug("opening connection...")
         driver = webdriver.Firefox(executable_path=self.path,
             service_log_path=os.path.devnull,
-            options=driver_options)#,
-        #firefox_profile=driver_profile)
+            options=driver_options,
+            firefox_profile=driver_profile)
         self.logger.debug("connection open")
         return driver
 
