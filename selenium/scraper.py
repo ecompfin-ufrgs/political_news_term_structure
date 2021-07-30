@@ -8,6 +8,7 @@ from   abc                                  import ABC, abstractmethod
 from   bs4                                  import BeautifulSoup
 from   database                             import Database
 from   logger                               import Logger
+import lxml
 import os
 from   selenium.webdriver.remote.webelement import WebElement
 import time
@@ -174,7 +175,7 @@ class Scraper(ABC):
         :type element: selenium.webdriver.remote.webelement.WebElement
         """
         try:
-            soup = BeautifulSoup(element.get_attribute('innerHTML'), "html.parser")
+            soup = BeautifulSoup(element.get_attribute('innerHTML'), "lxml")
             title = soup.select(self.title_xpath)[0].text
             date = soup.select(self.date_xpath)[0].text
             date = self.get_date(date)
