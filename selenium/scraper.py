@@ -13,10 +13,10 @@ from   selenium.webdriver.remote.webelement import WebElement
 import time
 from   webdriver                            import Webdriver
 
-#import line_profiler
-#import atexit
-#profile = line_profiler.LineProfiler()
-#atexit.register(profile.print_stats)
+import line_profiler
+import atexit
+profile = line_profiler.LineProfiler()
+atexit.register(profile.print_stats)
 
 class Scraper(ABC):
     """
@@ -97,6 +97,7 @@ class Scraper(ABC):
         del self.database
         del self.webdriver
 
+    @profile
     def run(self):
         """
         Runs web scrapping.
@@ -105,6 +106,8 @@ class Scraper(ABC):
         time.sleep(1)
         l = None
         while True:
+            if self.n_page > 100: # PROFILING
+                break             # PROFILING
             self.logger.debug(f"page {self.n_page}, {self.n_next} try to click next, {self.n_load} try to load elements")
             new_elements = self.webdriver.get_elements(self.row_xpath)
             last_element_found = new_elements[-1]
@@ -127,7 +130,8 @@ class Scraper(ABC):
                 self.logger.error("new elements not loading, finishing program...")
                 break
         del self
-        
+    
+    @profile
     def next_page(self):
         finish = False
         try:
@@ -143,6 +147,7 @@ class Scraper(ABC):
                 finish = True
         return finish
 
+    @profile
     def loop_elements(self,
         new_elements : list):
         """
@@ -159,6 +164,7 @@ class Scraper(ABC):
                 self.get_info(element)
         self.database.commit()
 
+    @profile
     def get_info(self,
         element : WebElement):
         """
