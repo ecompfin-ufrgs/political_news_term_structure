@@ -8,6 +8,7 @@ from   abc                                  import ABC, abstractmethod
 from   bs4                                  import BeautifulSoup
 from   database                             import Database
 from   logger                               import Logger
+import lxml
 import os
 from   selenium.webdriver.remote.webelement import WebElement
 import time
@@ -105,6 +106,8 @@ class Scraper(ABC):
         time.sleep(1)
         l = None
         while True:
+            if self.n_page > 100: # PROFILING
+                break             # PROFILING
             self.logger.debug(f"page {self.n_page}, {self.n_next} try to click next, {self.n_load} try to load elements")
             new_elements = self.webdriver.get_elements(self.row_xpath)
             last_element_found = new_elements[-1]
@@ -127,7 +130,7 @@ class Scraper(ABC):
                 self.logger.error("new elements not loading, finishing program...")
                 break
         del self
-        
+    
     def next_page(self):
         finish = False
         try:

@@ -7,7 +7,8 @@ Version     : 1.0.0
 from   logger                               import Logger
 import os
 from   selenium                             import webdriver
-from   selenium.webdriver.firefox.options   import Options
+from   selenium.webdriver.chrome.options    import Options
+#from   selenium.webdriver.firefox.options   import Options
 from   selenium.webdriver.common.by         import By
 from   selenium.webdriver.support.ui        import WebDriverWait
 from   selenium.webdriver.support           import expected_conditions as EC
@@ -28,8 +29,8 @@ class Webdriver:
     :type log_file: str, optional
     """
     #path     = "./chromedriver"
-    #path     = "/usr/lib/chromium-browser/chromedriver"
-    path     = "/usr/bin/geckodriver"
+    path     = "/usr/lib/chromium-browser/chromedriver"
+    #path     = "/usr/bin/geckodriver"
     options  = ["--headless"]#,
     #    "start-maximized",
     #    "disable-infobars",
@@ -62,14 +63,18 @@ class Webdriver:
         """
         #driver_profile = webdriver.FirefoxProfile()
         #driver_profile.set_preference("permissions.default.image", 2)
+        #driver_profile.set_preference("browser.cache.disk.enable", False)
+        #driver_profile.set_preference("browser.cache.memory.enable", False)
+        #driver_profile.set_preference("browser.cache.offline.enable", False)
+        #driver_profile.set_preference("network.http.use-cache", False) 
         driver_options = Options()
         for option in self.options:
             driver_options.add_argument(option)
         self.logger.debug("opening connection...")
-        driver = webdriver.Firefox(executable_path=self.path,
+        driver = webdriver.Chrome(executable_path=self.path,
             service_log_path=os.path.devnull,
             options=driver_options)#,
-        #firefox_profile=driver_profile)
+        #    firefox_profile=driver_profile)
         self.logger.debug("connection open")
         return driver
 
