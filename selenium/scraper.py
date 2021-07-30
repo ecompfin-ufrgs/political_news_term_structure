@@ -53,15 +53,15 @@ class Scraper(ABC):
         pass
     @property
     @abstractmethod
-    def n_next(self):
+    def n_next_max(self):
         pass
     @property
     @abstractmethod
-    def n_load(self):
+    def n_load_max(self):
         pass
     @property
     @abstractmethod
-    def n_error(self):
+    def n_error_max(self):
         pass
     @property
     @abstractmethod
@@ -85,6 +85,10 @@ class Scraper(ABC):
         self.webdriver   = Webdriver(log_file = self.log_file)
         self.row_xpath   = self.get_row_xpath()
         self.elements    = []
+        self.n_page      = 1
+        self.n_load      = 1
+        self.n_next      = 1
+        self.n_error     = 0
 
     def __del__(self):
         """
@@ -99,52 +103,45 @@ class Scraper(ABC):
         """
         self.webdriver.get(self.start_url)
         time.sleep(1)
-        n_page = 1
-        n_next = 1
-        n_load = 1
-        n_error = 1
         l = None
         while True:
-            b = False
-            self.logger.debug(f"page {n_page}, {n_next} try to click next, {n_load} try to load elements")
+            self.logger.debug(f"page {self.n_page}, {self.n_next} try to click next, {self.n_load} try to load elements")
             new_elements = self.webdriver.get_elements(self.row_xpath)
             last_element_found = new_elements[-1]
             if last_element_found != l:
                 l = last_element_found
                 self.loop_elements(new_elements)
-                finish, n_page, n_error = self.next_page(n_page, n_error)
+                finish = self.next_page()
                 if finish:
                     break
-                n_load = 1
-                n_next = 1
-            elif n_load < self.n_load:
-                n_load += 1
+                self.n_load = 1
+                self.n_next = 1
+            elif self.n_load < self.n_load_max:
                 time.sleep(.2)
-            elif n_next < self.n_next:
-                n_load = 1
+                self.n_load += 1
+            elif self.n_next < self.n_next_max:
                 self.webdriver.next_page(self.next_xpath)
-                n_next += 1
+                self.n_load = 1
+                self.n_next += 1
             else:
                 self.logger.error("new elements not loading, finishing program...")
                 break
         del self
         
-    def next_page(self,
-        n_page  : int,
-        n_error : int):
+    def next_page(self):
         finish = False
         try:
             self.webdriver.next_page(self.next_xpath)
-            n_page += 1
-            n_error = 1
+            self.n_page += 1
+            self.n_error = 0
         except:
-            if n_error < self.n_error:
-                self.logger.warning(f"no next page for the {n_error} time, trying again...")
-                n_error += 1
+            self.n_error += 1
+            if self.n_error < self.n_error_max:
+                self.logger.warning(f"no next page for the {self.n_error} time, trying again...")
             else:
-                self.logger.error(f"no next page for the {n_error} time, finishing program...")
+                self.logger.error(f"no next page for the {self.n_error} time, finishing program...")
                 finish = True
-        return finish, n_page, n_error
+        return finish
 
     def loop_elements(self,
         new_elements : list):
