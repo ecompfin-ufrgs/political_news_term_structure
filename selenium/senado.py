@@ -4,18 +4,15 @@ from   logger   import Logger
 import os
 from   webdriver import Webdriver
 
-class Senado:
+class Senado():
     start_url   = "https://www12.senado.leg.br/noticias/ultimas/"
-    row_xpath   = "div[@class='clearfix']"
+    row_xpath   = "descendant-or-self::div[@class='clearfix']"
     date_css    = "a"
     title_css   = "span[class='text-muted milli']"
     n_pages_max = 1700
     log_file    = "senado"
     
-    def __init__(self,
-        log_file : str,
-        db_name  : str,
-        db_table : str):
+    def __init__(self):
         self.logger    = Logger(name="senado",file=self.log_file)
         self.database  = Database(name="test.db",table="senado",log_file=self.log_file)
         self.webdriver = Webdriver(log_file=self.log_file)
@@ -29,7 +26,6 @@ class Senado:
             self.webdriver.get(url)
             self.elements = self.webdriver.get_elements(self.row_xpath)
             self.loop_elements()
-            del self
             
     def loop_elements(self):
         for element in self.elements:
@@ -43,6 +39,7 @@ class Senado:
     def get_date(date):
         return date
             
-    if __name__ == "__main__":
-        s = Senado()
-        s.run()
+if __name__ =="__main__":
+    s = Senado()
+    s.run()
+    del s
