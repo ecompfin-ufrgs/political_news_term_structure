@@ -29,6 +29,7 @@ class Senado:
             self.webdriver.get(url)
             self.elements = self.webdriver.get_elements(self.row_xpath)
             self.loop_elements()
+            del self
             
     def loop_elements(self):
         for element in self.elements:
@@ -42,4 +43,6 @@ class Senado:
     def get_date(date):
         return date
             
-    
+    if __name__ == "__main__":
+        s = Senado()
+        s.run()
