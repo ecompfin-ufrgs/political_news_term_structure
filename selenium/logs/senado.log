@@ -37,3 +37,1202 @@
 2021-07-30 18:51:16,686::scraper::WARNING::no next page for the 1 time, trying again...
 2021-07-30 18:51:16,686::scraper::DEBUG::page 1, 1 try to click next, 1 try to load elements
 2021-07-30 18:51:16,686::webdriver::DEBUG::findind elements...
+2021-07-31 18:36:02,739::senado::DEBUG::logger configured
+2021-07-31 18:36:02,740::database::DEBUG::logger configured
+2021-07-31 18:36:02,741::database::DEBUG::test.db.db connection open
+2021-07-31 18:36:02,742::database::DEBUG::senado table dropped
+2021-07-31 18:36:02,748::database::DEBUG::senado table created
+2021-07-31 18:36:02,748::webdriver::DEBUG::logger configured
+2021-07-31 18:36:02,748::webdriver::DEBUG::opening connection...
+2021-07-31 18:36:04,853::webdriver::DEBUG::connection open
+2021-07-31 18:36:04,853::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/1...
+2021-07-31 18:36:13,049::webdriver::DEBUG::page received
+2021-07-31 18:36:13,049::webdriver::DEBUG::findind elements...
+2021-07-31 18:36:13,067::webdriver::DEBUG::0 elements found
+2021-07-31 18:37:21,248::senado::DEBUG::logger configured
+2021-07-31 18:37:21,248::database::DEBUG::logger configured
+2021-07-31 18:37:21,249::database::DEBUG::test.db.db connection open
+2021-07-31 18:37:21,255::database::DEBUG::senado table dropped
+2021-07-31 18:37:21,260::database::DEBUG::senado table created
+2021-07-31 18:37:21,260::webdriver::DEBUG::logger configured
+2021-07-31 18:37:21,260::webdriver::DEBUG::opening connection...
+2021-07-31 18:37:22,472::webdriver::DEBUG::connection open
+2021-07-31 18:37:22,472::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/1...
+2021-07-31 18:37:23,634::webdriver::DEBUG::page received
+2021-07-31 18:37:23,635::webdriver::DEBUG::findind elements...
+2021-07-31 18:37:23,652::webdriver::DEBUG::0 elements found
+2021-07-31 18:38:43,893::senado::DEBUG::logger configured
+2021-07-31 18:38:43,894::database::DEBUG::logger configured
+2021-07-31 18:38:43,894::database::DEBUG::test.db.db connection open
+2021-07-31 18:38:43,901::database::DEBUG::senado table dropped
+2021-07-31 18:38:43,906::database::DEBUG::senado table created
+2021-07-31 18:38:43,906::webdriver::DEBUG::logger configured
+2021-07-31 18:38:43,907::webdriver::DEBUG::opening connection...
+2021-07-31 18:38:45,124::webdriver::DEBUG::connection open
+2021-07-31 18:38:45,124::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/1...
+2021-07-31 18:38:46,234::webdriver::DEBUG::page received
+2021-07-31 18:38:46,235::webdriver::DEBUG::findind elements...
+2021-07-31 18:38:46,251::webdriver::DEBUG::0 elements found
+2021-07-31 18:38:46,252::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/2...
+2021-07-31 18:38:46,788::webdriver::DEBUG::page received
+2021-07-31 18:38:46,789::webdriver::DEBUG::findind elements...
+2021-07-31 18:38:46,797::webdriver::DEBUG::0 elements found
+2021-07-31 18:38:46,798::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/3...
+2021-07-31 18:38:47,222::webdriver::DEBUG::page received
+2021-07-31 18:38:47,223::webdriver::DEBUG::findind elements...
+2021-07-31 18:38:47,233::webdriver::DEBUG::0 elements found
+2021-07-31 18:38:47,233::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/4...
+2021-07-31 18:38:47,686::webdriver::DEBUG::page received
+2021-07-31 18:38:47,687::webdriver::DEBUG::findind elements...
+2021-07-31 18:38:47,697::webdriver::DEBUG::0 elements found
+2021-07-31 18:38:47,697::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/5...
+2021-07-31 18:38:48,136::webdriver::DEBUG::page received
+2021-07-31 18:38:48,136::webdriver::DEBUG::findind elements...
+2021-07-31 18:38:48,152::webdriver::DEBUG::0 elements found
+2021-07-31 18:38:48,152::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/6...
+2021-07-31 18:38:48,549::webdriver::DEBUG::page received
+2021-07-31 18:38:48,549::webdriver::DEBUG::findind elements...
+2021-07-31 18:38:48,559::webdriver::DEBUG::0 elements found
+2021-07-31 18:38:48,559::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/7...
+2021-07-31 18:38:48,979::webdriver::DEBUG::page received
+2021-07-31 18:38:48,980::webdriver::DEBUG::findind elements...
+2021-07-31 18:38:49,001::webdriver::DEBUG::0 elements found
+2021-07-31 18:38:49,002::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/8...
+2021-07-31 18:39:44,797::senado::DEBUG::logger configured
+2021-07-31 18:39:44,798::database::DEBUG::logger configured
+2021-07-31 18:39:44,798::database::DEBUG::test.db.db connection open
+2021-07-31 18:39:44,804::database::DEBUG::senado table dropped
+2021-07-31 18:39:44,809::database::DEBUG::senado table created
+2021-07-31 18:39:44,809::webdriver::DEBUG::logger configured
+2021-07-31 18:39:44,810::webdriver::DEBUG::opening connection...
+2021-07-31 18:39:46,001::webdriver::DEBUG::connection open
+2021-07-31 18:39:46,002::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/1...
+2021-07-31 18:39:46,968::webdriver::DEBUG::page received
+2021-07-31 18:39:46,968::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:46,989::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:46,998::database::DEBUG::(Congresso fica laranja na Semana Mundial de Amamentação|
+                                
+                )
+2021-07-31 18:39:47,007::database::DEBUG::(Senadores classificam live de Bolsonaro sobre urna eletrônica como ataque à democracia|
+                                
+                )
+2021-07-31 18:39:47,015::database::DEBUG::(Comissão Temporária Covid-19 ouve ministro das Comunicações|
+                                
+                )
+2021-07-31 18:39:47,022::database::DEBUG::(Projeto cria imposto sobre grandes fortunas para auxiliar combate à pandemia|
+                                
+                )
+2021-07-31 18:39:47,028::database::DEBUG::(Semana do Aleitamento: Pediatra destaca benefícios da amamentação|
+                                
+                )
+2021-07-31 18:39:47,034::database::DEBUG::(Lei prioriza gestantes, lactantes, crianças e adolescentes na vacinação contra covid|
+                                
+                )
+2021-07-31 18:39:47,040::database::DEBUG::(Senado vai debater revisão na Lei de Improbidade Administrativa|
+                                
+                )
+2021-07-31 18:39:47,047::database::DEBUG::(Incêndio na Cinemateca é resultado de descaso do governo, apontam senadores|
+                                
+                )
+2021-07-31 18:39:47,054::database::DEBUG::(Senado vai analisar projeto que cria Lei Henry Borel|
+                                
+                )
+2021-07-31 18:39:47,060::database::DEBUG::(Senadores pedem mais debate sobre reforma administrativa|
+                                
+                )
+2021-07-31 18:39:47,067::database::DEBUG::(Senado pode votar na quarta-feira revogação da Lei de Segurança Nacional|
+                                
+                )
+2021-07-31 18:39:47,073::database::DEBUG::(Projeto simplifica divórcio, separação e extinção de união estável consensuais|
+                                
+                )
+2021-07-31 18:39:47,079::database::DEBUG::(Reunião planeja passos da CPI da Pandemia a partir de agosto|
+                                
+                )
+2021-07-31 18:39:47,086::database::DEBUG::(Vacinação lenta aumenta riscos de disseminação da variante delta do coronavírus, alertam especialistas|
+                                
+                )
+2021-07-31 18:39:47,092::database::DEBUG::(Sancionada lei que cria Programa Sinal Vermelho contra a violência doméstica|
+                                
+                )
+2021-07-31 18:39:47,098::database::DEBUG::(Punição para uso indevido de dados pessoais começa a ser aplicada no domingo|
+                                
+                )
+2021-07-31 18:39:47,105::database::DEBUG::(Punições pelo uso indevido de dados pessoais começam a valer no domingo|
+                                
+                )
+2021-07-31 18:39:47,112::database::DEBUG::(Projeto suspende reajuste dos planos de saúde durante a pandemia|
+                                
+                )
+2021-07-31 18:39:47,118::database::DEBUG::(Governo recria Ministério do Trabalho em momento de recorde no desemprego|
+                                
+                )
+2021-07-31 18:39:47,124::database::DEBUG::(CPI retorna com depoimento do reverendo Amilton e espera dono da Precisa|
+                                
+                )
+2021-07-31 18:39:47,125::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/2...
+2021-07-31 18:39:47,521::webdriver::DEBUG::page received
+2021-07-31 18:39:47,521::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:47,548::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:47,556::database::DEBUG::(Lei suspende até dezembro cumprimento de meta por prestador de serviço ao SUS|
+                                
+                )
+2021-07-31 18:39:47,564::database::DEBUG::(Lei cria programa Sinal Vermelho e institui crime de violência psicológica contra mulher|
+                                
+                )
+2021-07-31 18:39:47,575::database::DEBUG::(CPI volta na próxima semana com quase 400 requerimentos pendentes|
+                                
+                )
+2021-07-31 18:39:47,582::database::DEBUG::(O que é pobreza menstrual e por que ela afasta estudantes das escolas|
+                                
+                )
+2021-07-31 18:39:47,588::database::DEBUG::(Eliane Nogueira toma posse como senadora na vaga de Ciro Nogueira|
+                                
+                )
+2021-07-31 18:39:47,595::database::DEBUG::(Ouvidoria do Senado quer ampliar participação popular|
+                                
+                )
+2021-07-31 18:39:47,602::database::DEBUG::(Ida de Ciro Nogueira para a Casa Civil muda composição da CPI da Pandemia|
+                                
+                )
+2021-07-31 18:39:47,608::database::DEBUG::(Eliane Nogueira assume mandato no lugar do filho Ciro Nogueira|
+                                
+                )
+2021-07-31 18:39:47,614::database::DEBUG::(Senado analisa benefício de até R$ 3,5 mil pra agricultor durante pandemia|
+                                
+                )
+2021-07-31 18:39:47,620::database::DEBUG::(Especialista alerta para os riscos à saúde causados pelo microplástico|
+                                
+                )
+2021-07-31 18:39:47,627::database::DEBUG::(Estudo do Senado aponta necessidade de leis para deter poluição por plásticos|
+                                
+                )
+2021-07-31 18:39:47,633::database::DEBUG::(Reforma administrativa pode atingir atuais servidores públicos, afirma consultor|
+                                
+                )
+2021-07-31 18:39:47,639::database::DEBUG::(Bolsonaro edita MP que recria Ministério do Trabalho|
+                                
+                )
+2021-07-31 18:39:47,646::database::DEBUG::(Projeto inclui beneficiários do Bolsa Família nos grupos prioritários de vacinação|
+                                
+                )
+2021-07-31 18:39:47,652::database::DEBUG::(Para Alessandro, há corrupção no governo; Marcos Rogério discorda|
+                                
+                )
+2021-07-31 18:39:47,658::database::DEBUG::(Projeção de imagens homenageia bicentenário de independência do Peru|
+                                
+                )
+2021-07-31 18:39:47,665::database::DEBUG::(Potência agrícola, Brasil convive com fome; senadores tentam reverter quadro|
+                                
+                )
+2021-07-31 18:39:47,676::database::DEBUG::(Congresso Nacional tem 25 vetos em pauta|
+                                
+                )
+2021-07-31 18:39:47,707::database::DEBUG::(Quebra de patentes de remédios e vacinas contra a covid-19 volta ao Senado|
+                                
+                )
+2021-07-31 18:39:47,719::database::DEBUG::(Vetado projeto que obrigava planos de saúde a oferecer quimioterapia oral|
+                                
+                )
+2021-07-31 18:39:47,719::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/3...
+2021-07-31 18:39:48,098::webdriver::DEBUG::page received
+2021-07-31 18:39:48,098::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:48,109::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:48,124::database::DEBUG::(Governo tem até quinta para sancionar 3 projetos aprovados pelo Congresso|
+                                
+                )
+2021-07-31 18:39:48,131::database::DEBUG::(Senador Ciro Nogueira aceita convite para ser ministro da Casa Civil|
+                                
+                )
+2021-07-31 18:39:48,138::database::DEBUG::(Ciro Nogueira aceita convite para Casa Civil; Eliane Nogueira é a primeira suplente|
+                                
+                )
+2021-07-31 18:39:48,148::database::DEBUG::(Rodrigo Cunha explica lei de combate ao superendividamento de consumidores|
+                                
+                )
+2021-07-31 18:39:48,155::database::DEBUG::(Projeto do Primeiro Emprego aguarda votação na Câmara|
+                                
+                )
+2021-07-31 18:39:48,163::database::DEBUG::(Mudanças na Lei Eleitoral aprovadas no Senado dependem de aval da Câmara|
+                                
+                )
+2021-07-31 18:39:48,169::database::DEBUG::(Bolsonaro veta projeto que facilitaria tratamento oral contra câncer|
+                                
+                )
+2021-07-31 18:39:48,176::database::DEBUG::(Bancada Feminina repudia declarações do senador Styvenson, que pede desculpas|
+                                
+                )
+2021-07-31 18:39:48,182::database::DEBUG::(Ex-senador João Rocha morre de covid-19 aos 80 anos|
+                                
+                )
+2021-07-31 18:39:48,189::database::DEBUG::(Consultor do Senado explica aumento na conta de luz e fala do risco de apagão|
+                                
+                )
+2021-07-31 18:39:48,195::database::DEBUG::(Fávaro pede que Câmara aprove o uso de aviões agrícolas no combate a incêndios florestais|
+                                
+                )
+2021-07-31 18:39:48,201::database::DEBUG::(Projeto de lei prevê piso especial da Previdência para 'super idosos'|
+                                
+                )
+2021-07-31 18:39:48,208::database::DEBUG::(Projeto propõe desconto no IR pra quem fizer pagamentos a asilos de idosos|
+                                
+                )
+2021-07-31 18:39:48,214::database::DEBUG::(Avós poderão ter licença de cinco dias após nascimento de netos|
+                                
+                )
+2021-07-31 18:39:48,223::database::DEBUG::(Esta segunda é o Dia dos Avós; conheça propostas que beneficiam os idosos|
+                                
+                )
+2021-07-31 18:39:48,231::database::DEBUG::(Laboratório de vacina indiana cancela vínculo com a Precisa, empresa investigada na CPI da Pandemia|
+                                
+                )
+2021-07-31 18:39:48,237::database::DEBUG::(Crédito e medidas trabalhistas são destaque em votações de MPs no 2º semestre|
+                                
+                )
+2021-07-31 18:39:48,243::database::DEBUG::(CPI provocou fim de contrato de laboratório indiano com a Precisa, dizem senadores|
+                                
+                )
+2021-07-31 18:39:48,250::database::DEBUG::(Câncer de pele, hanseníase e sífilis atingem mais os homens, explica dermatologista à Rádio Senado|
+                                
+                )
+2021-07-31 18:39:48,256::database::DEBUG::(Senadores desejam sorte a atletas brasileiros nos Jogos Olímpicos de Tóquio|
+                                
+                )
+2021-07-31 18:39:48,256::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/4...
+2021-07-31 18:39:48,662::webdriver::DEBUG::page received
+2021-07-31 18:39:48,662::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:48,673::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:48,693::database::DEBUG::(Arquitetura hostil: anatomia da cidade proibida|
+                                
+                )
+2021-07-31 18:39:48,701::database::DEBUG::(Senadores comentam rescisão de contrato da Bharat Bioetech com a Precisa Medicamentos|
+                                
+                )
+2021-07-31 18:39:48,708::database::DEBUG::(Taxação de grandes fortunas é tema de vários projetos em tramitação no Senado|
+                                
+                )
+2021-07-31 18:39:48,716::database::DEBUG::(A Voz do Brasil, programa de rádio mais antigo do país, completa 86 anos|
+                                
+                )
+2021-07-31 18:39:48,724::database::DEBUG::(CPI da Pandemia e CPMI das Fake News darão início a cooperação técnica|
+                                
+                )
+2021-07-31 18:39:48,730::database::DEBUG::(Decretos pró-armas de Bolsonaro enfrentam resistência no Senado|
+                                
+                )
+2021-07-31 18:39:48,736::database::DEBUG::(Contarato quer campanhas para evitar 'sommeliers de vacina'|
+                                
+                )
+2021-07-31 18:39:48,743::database::DEBUG::(Projeto que suspende despejos vai para sanção presidencial|
+                                
+                )
+2021-07-31 18:39:48,750::database::DEBUG::(Confúcio vê sucesso da Comissão da Covid-19 no primeiro semestre|
+                                
+                )
+2021-07-31 18:39:48,756::database::DEBUG::(Governo veta projeto que assegurava repasses ao terceiro setor na pandemia|
+                                
+                )
+2021-07-31 18:39:48,763::database::DEBUG::(Senadores querem retomar análise sobre forma de indicação de ministros do STF|
+                                
+                )
+2021-07-31 18:39:48,770::database::DEBUG::(Projeto prevê instalação gratuita de medidores de energia para famílias de baixa renda|
+                                
+                )
+2021-07-31 18:39:48,777::database::DEBUG::(Fim de cobrança do INSS: ideia enviada à Ouvidoria chega a 20 mil apoios|
+                                
+                )
+2021-07-31 18:39:48,784::database::DEBUG::(Presidente do Senado afirma que, seja qual for o modelo, as eleições de 2022 irão acontecer|
+                                
+                )
+2021-07-31 18:39:48,790::database::DEBUG::(Eleições são inegociáveis, diz Pacheco; senadores reagem a Braga Netto|
+                                
+                )
+2021-07-31 18:39:48,797::database::DEBUG::(Documentos revelados pela CPI sobre 'kit covid' no Amazonas provocam críticas de senadores|
+                                
+                )
+2021-07-31 18:39:48,803::database::DEBUG::(Projeto que cria Lei Henry Borel será analisado pelo Senado|
+                                
+                )
+2021-07-31 18:39:48,810::database::DEBUG::(Projeto cria linha de crédito para agricultores familiares na pandemia|
+                                
+                )
+2021-07-31 18:39:48,816::database::DEBUG::(CPI da Pandemia e CPMI das Fake News dão início a cooperação técnica em agosto|
+                                
+                )
+2021-07-31 18:39:48,823::database::DEBUG::(Senadoras aplaudem aprovação de normas para combater a violência política contra mulher|
+                                
+                )
+2021-07-31 18:39:48,823::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/5...
+2021-07-31 18:39:49,243::webdriver::DEBUG::page received
+2021-07-31 18:39:49,243::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:49,259::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:49,269::database::DEBUG::(Oficializada indicação de Augusto Aras para novo mandato na PGR|
+                                
+                )
+2021-07-31 18:39:49,277::database::DEBUG::(Na volta do recesso, Senado deve votar indicação de André Mendonça ao STF|
+                                
+                )
+2021-07-31 18:39:49,283::database::DEBUG::(Projeto regulamenta visitas virtuais de familiares a pacientes em UTIs|
+                                
+                )
+2021-07-31 18:39:49,289::database::DEBUG::(Senadores defendem veto ao Fundo Eleitoral de R$ 5,7 bilhões|
+                                
+                )
+2021-07-31 18:39:49,298::database::DEBUG::(Senadores comentam nova indicação de Aras para a PGR|
+                                
+                )
+2021-07-31 18:39:49,304::database::DEBUG::(Paulo Paim e Marcos Rogério divergem sobre proposta de voto impresso|
+                                
+                )
+2021-07-31 18:39:49,310::database::DEBUG::(Proposta isenta agricultores familiares da Guia de Trânsito Animal|
+                                
+                )
+2021-07-31 18:39:49,318::database::DEBUG::(Começam os Jogos Olímpicos de Tóquio|
+                                
+                )
+2021-07-31 18:39:49,324::database::DEBUG::(Randolfe apresenta queixa-crime contra Bolsonaro por difamação|
+                                
+                )
+2021-07-31 18:39:49,331::database::DEBUG::(Bolsonaro anuncia recondução de Aras à Procuradoria-Geral da República|
+                                
+                )
+2021-07-31 18:39:49,338::database::DEBUG::(Ritmo da vacinação e crise hídrica são desafios para economia brasileira, aponta relatório da IFI|
+                                
+                )
+2021-07-31 18:39:49,351::database::DEBUG::(Participação popular no Senado aumenta com a CPI da Pandemia|
+                                
+                )
+2021-07-31 18:39:49,360::database::DEBUG::(Julho Amarelo: mês marca luta contra hepatite viral|
+                                
+                )
+2021-07-31 18:39:49,369::database::DEBUG::(Prorrogada, CPI da Pandemia já ouviu 33 depoimentos e quebrou 62 sigilos|
+                                
+                )
+2021-07-31 18:39:49,376::database::DEBUG::(Projeto prevê imposto sobre grandes fortunas para ajudar no combate à pandemia|
+                                
+                )
+2021-07-31 18:39:49,383::database::DEBUG::(Audiência da TV Senado no YouTube aumenta com CPI da Pandemia|
+                                
+                )
+2021-07-31 18:39:49,390::database::DEBUG::(Projeto permite dedução de gasto com aparelho auditivo no Imposto de Renda|
+                                
+                )
+2021-07-31 18:39:49,397::database::DEBUG::(Senado aprovou diminuição no número de registros de candidaturas pelos partidos|
+                                
+                )
+2021-07-31 18:39:49,404::database::DEBUG::(Prazo maior para remarcação e reembolso de eventos durante pandemia já é lei|
+                                
+                )
+2021-07-31 18:39:49,412::database::DEBUG::(Cor amarela na fachada do Congresso lembra campanha contra  hepatites virais|
+                                
+                )
+2021-07-31 18:39:49,412::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/6...
+2021-07-31 18:39:49,785::webdriver::DEBUG::page received
+2021-07-31 18:39:49,786::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:49,796::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:49,811::database::DEBUG::(Parlamentares entram com ação no STF para barrar aumento do fundo eleitoral|
+                                
+                )
+2021-07-31 18:39:49,818::database::DEBUG::(Proposta normatiza medidas contra a covid-19 no trabalho presencial|
+                                
+                )
+2021-07-31 18:39:49,825::database::DEBUG::(Senadora quer impedir taxação de doações feitas via Pix|
+                                
+                )
+2021-07-31 18:39:49,832::database::DEBUG::(Senado pode votar medidas de proteção ao trabalhador na pandemia|
+                                
+                )
+2021-07-31 18:39:49,840::database::DEBUG::(Maioria da população sabe da existência da CPI da Pandemia, mostra DataSenado|
+                                
+                )
+2021-07-31 18:39:49,847::database::DEBUG::(Doações por Pix poderão ser isentas de cobrança de tarifas|
+                                
+                )
+2021-07-31 18:39:49,855::database::DEBUG::(Projeto dá título de patrimônio histórico-cultural afro-brasileiro ao Cais do Valongo|
+                                
+                )
+2021-07-31 18:39:49,861::database::DEBUG::(DataSenado: 73% dos brasileiros conhecem a CPI da Pandemia|
+                                
+                )
+2021-07-31 18:39:49,868::database::DEBUG::(CPI da Pandemia cria núcleos de investigação e planeja reunião com juristas|
+                                
+                )
+2021-07-31 18:39:49,875::database::DEBUG::(MPs aprovadas no Senado no 1º semestre trataram de vacinas, crédito e Eletrobras|
+                                
+                )
+2021-07-31 18:39:49,885::database::DEBUG::(Integrantes da CPI respondem a xingamentos e acusações de Bolsonaro|
+                                
+                )
+2021-07-31 18:39:49,893::database::DEBUG::(CPI da Pandemia cria núcleos de investigação para analisar documentos|
+                                
+                )
+2021-07-31 18:39:49,904::database::DEBUG::(Projeto que facilita prova de vida de beneficiários do INSS volta ao Senado|
+                                
+                )
+2021-07-31 18:39:49,912::database::DEBUG::(Lei autoriza produção de vacina anticovid em fábrica de imunizante veterinário|
+                                
+                )
+2021-07-31 18:39:49,918::database::DEBUG::(Projeto que combate supersalários volta para o Senado|
+                                
+                )
+2021-07-31 18:39:49,926::database::DEBUG::(Proposta que permite clubes-empresas no futebol aguarda sanção|
+                                
+                )
+2021-07-31 18:39:49,933::database::DEBUG::(Senado vai avaliar MP que cria documento eletrônico para transporte de carga|
+                                
+                )
+2021-07-31 18:39:49,939::database::DEBUG::(Omar Aziz e Randolfe Rodrigues definem próximos passos da CPI da Pandemia|
+                                
+                )
+2021-07-31 18:39:49,946::database::DEBUG::(Projeto prevê criação de memorial em homenagem às vítimas da covid-19|
+                                
+                )
+2021-07-31 18:39:49,952::database::DEBUG::(Plenário homenageia Dia do Bombeiro Militar|
+                                
+                )
+2021-07-31 18:39:49,952::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/7...
+2021-07-31 18:39:50,332::webdriver::DEBUG::page received
+2021-07-31 18:39:50,332::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:50,348::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:50,359::database::DEBUG::(Senado celebra o Dia Nacional do Bombeiro Militar|
+                                
+                )
+2021-07-31 18:39:50,366::database::DEBUG::(Senado tem comissão para manter funcionamento durante recesso|
+                                
+                )
+2021-07-31 18:39:50,374::database::DEBUG::(Estatísticas mostram redução no número de casos de covid-19 nas últimas semanas|
+                                
+                )
+2021-07-31 18:39:50,382::database::DEBUG::(Projeto inclui novas categorias nos grupos prioritários para vacinação contra covid-19|
+                                
+                )
+2021-07-31 18:39:50,392::database::DEBUG::(Pandemia acentua deficit educacional e exige ações do poder público|
+                                
+                )
+2021-07-31 18:39:50,399::database::DEBUG::(Mulheres na política: uma história de lutas|
+                                
+                )
+2021-07-31 18:39:50,407::database::DEBUG::(Clube de futebol poderá virar empresa sob fiscalização da CVM; texto vai a sanção|
+                                
+                )
+2021-07-31 18:39:50,413::database::DEBUG::(É falsa a legenda de vídeo da CPI da Pandemia que circula nas redes sociais|
+                                
+                )
+2021-07-31 18:39:50,419::database::DEBUG::(Confira as principais decisões do Senado na semana|
+                                
+                )
+2021-07-31 18:39:50,425::database::DEBUG::(Inteligência artificial gera economia e reduz burocracia, dizem especialistas|
+                                
+                )
+2021-07-31 18:39:50,431::database::DEBUG::(Laboratórios de saúde animal poderão produzir vacinas contra a covid-19|
+                                
+                )
+2021-07-31 18:39:50,438::database::DEBUG::(Chega ao Senado proposta que muda comercialização dos direitos de transmissão no futebol|
+                                
+                )
+2021-07-31 18:39:50,444::database::DEBUG::(Para especialistas, PL sobre Inteligência Artificial precisa de mais debates|
+                                
+                )
+2021-07-31 18:39:50,451::database::DEBUG::(Confira o trabalho da CPI da Pandemia desde o primeiro dia numa linha do tempo|
+                                
+                )
+2021-07-31 18:39:50,457::database::DEBUG::(Projeto sobre uso da inteligência artificial pode ser aperfeiçoado, indica debate|
+                                
+                )
+2021-07-31 18:39:50,463::database::DEBUG::(CPI vai analisar documentos durante recesso|
+                                
+                )
+2021-07-31 18:39:50,470::database::DEBUG::(Congresso Nacional aprova Lei de Diretrizes Orçamentárias para 2022|
+                                
+                )
+2021-07-31 18:39:50,476::database::DEBUG::(Lei permite que indústria veterinária produza vacina contra covid|
+                                
+                )
+2021-07-31 18:39:50,483::database::DEBUG::(Lei amplia prazo para remarcação e reembolso durante pandemia|
+                                
+                )
+2021-07-31 18:39:50,489::database::DEBUG::(Especialista fala sobre Julho Verde, campanha de prevenção ao câncer de cabeça e pescoço|
+                                
+                )
+2021-07-31 18:39:50,489::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/8...
+2021-07-31 18:39:50,879::webdriver::DEBUG::page received
+2021-07-31 18:39:50,879::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:50,890::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:50,906::database::DEBUG::(Crianças e jovens com deficiência poderão ter prioridade em matrícula escolar|
+                                
+                )
+2021-07-31 18:39:50,912::database::DEBUG::(Senado aprova volta de propaganda partidária em rádio e TV|
+                                
+                )
+2021-07-31 18:39:50,920::database::DEBUG::(Representante da Davati fala na CPI que mais gente negociava vacinas com o governo|
+                                
+                )
+2021-07-31 18:39:50,928::database::DEBUG::(Senado conquista pela 3ª vez o Selo Pró-Equidade de Gênero e Raça|
+                                
+                )
+2021-07-31 18:39:50,936::database::DEBUG::(Vendedor de vacinas diz que foi procurado por ex-diretor do Ministério da Saúde|
+                                
+                )
+2021-07-31 18:39:50,943::database::DEBUG::(Congresso aprova LDO, com salário mínimo de 1.147 e verbas para partidos|
+                                
+                )
+2021-07-31 18:39:50,949::database::DEBUG::(Com retorno em agosto, CPI da Pandemia tem número recorde de documentos para analisar|
+                                
+                )
+2021-07-31 18:39:50,956::database::DEBUG::(Congresso aprova diretrizes para o Orçamento 2022|
+                                
+                )
+2021-07-31 18:39:50,962::database::DEBUG::(Senado indica escolhidos para comissão representativa do Congresso|
+                                
+                )
+2021-07-31 18:39:50,969::database::DEBUG::(Aumento no valor destinado ao fundo eleitoral gera polêmica na votação da LDO|
+                                
+                )
+2021-07-31 18:39:50,975::database::DEBUG::(
+Comissão Representativa: 
+Escolhidos os integrantes da Comissão Representativa do Congresso Nacional, que atuará durante o recesso parlamentar (20 de julho a 1º de agosto), segundo as atribuições determinadas pelo Regimento do Parlamento.
+|
+                                
+                )
+2021-07-31 18:39:50,988::database::DEBUG::(Randolfe cita Maximiano e Barros como primeiras audiências da CPI em agosto|
+                                
+                )
+2021-07-31 18:39:50,995::database::DEBUG::(
+Congresso aprova LDO: 
+Em sessão do Congresso, os senadores aprovaram, com 40 votos a favor e 33 contrários, projeto da Lei de Diretrizes Orçamentárias de 2022 (PLN 3/2021), segundo o parecer do deputado Juscelino Filho (DEM-MA). Texto vai a sanção.
+|
+                                
+                )
+2021-07-31 18:39:51,002::database::DEBUG::(Girão diz que CPI da Pandemia atua como 'tribunal da inquisição'|
+                                
+                )
+2021-07-31 18:39:51,009::database::DEBUG::(CPI da Pandemia: representante da Davati dá nova versão sobre pedido de propina|
+                                
+                )
+2021-07-31 18:39:51,017::database::DEBUG::(Cristiano Carvalho, da Davati, entrega à CPI conversas com servidores da Saúde e vendedores de vacina|
+                                
+                )
+2021-07-31 18:39:51,023::database::DEBUG::(Paim defende continuidade de urnas eletrônicas e se diz contra voto impresso|
+                                
+                )
+2021-07-31 18:39:51,030::database::DEBUG::(Deputados aprovam LDO 2022; senadores votam em seguida|
+                                
+                )
+2021-07-31 18:39:51,036::database::DEBUG::(
+Deputados aprovam LDO: 
+Em sessão do Congresso Nacional, os deputados aprovaram o projeto da Lei de Diretrizes Orçamentárias para 2022 (PLN 3/2021). O texto será votado pelos senadores em sessão marcada para as 16h desta tarde (15).
+|
+                                
+                )
+2021-07-31 18:39:51,043::database::DEBUG::(Marcos Rogério diz que oposição tenta desestabilizar governo Bolsonaro|
+                                
+                )
+2021-07-31 18:39:51,043::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/9...
+2021-07-31 18:39:51,440::webdriver::DEBUG::page received
+2021-07-31 18:39:51,440::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:51,460::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:51,474::database::DEBUG::(
+Texto principal da LDO: 
+Os deputados aprovaram o texto principal do projeto da Lei de Diretrizes Orçamentárias para 2022 (PLN 3/2021), de acordo com o parecer do relator, deputado Juscelino Filho (DEM-MA). Passam à votação de destaques.
+|
+                                
+                )
+2021-07-31 18:39:51,481::database::DEBUG::(Lei que aumenta tributação de instituições financeiras é sancionada|
+                                
+                )
+2021-07-31 18:39:51,489::database::DEBUG::(Comissão aprova LDO para 2022 com prioridade a vacinas, creches e habitação|
+                                
+                )
+2021-07-31 18:39:51,496::database::DEBUG::(Senado recebe pela terceira vez o Selo Pró-Equidade de Gênero e Raça|
+                                
+                )
+2021-07-31 18:39:51,508::database::DEBUG::(
+LDO 2022: 
+CMO aprova relatório ao projeto da Lei Orçamentária de 2022. Entre as prioridades estão atenção à saúde, manutenção dos programas emergenciais, reforço para a educação, projetos de infraestrutura e políticas habitacionais.
+|
+                                
+                )
+2021-07-31 18:39:51,531::database::DEBUG::(CPI estende quebras de sigilo fiscal até 2018|
+                                
+                )
+2021-07-31 18:39:51,547::database::DEBUG::(Vendedor da Davati detalha à CPI sua ida ao Ministério da Saúde|
+                                
+                )
+2021-07-31 18:39:51,555::database::DEBUG::(Cristiano Carvalho diz que é vendedor da Davati, e não CEO da empresa no Brasil|
+                                
+                )
+2021-07-31 18:39:51,563::database::DEBUG::(CPI solicita contrato entre Precisa e Bharat Biotech|
+                                
+                )
+2021-07-31 18:39:51,570::database::DEBUG::(Lei que moderniza marco legal das ZPEs é sancionada|
+                                
+                )
+2021-07-31 18:39:51,576::database::DEBUG::(CPI da Pandemia vota 40 requerimentos e ouve representante da empresa Davati|
+                                
+                )
+2021-07-31 18:39:51,589::database::DEBUG::(Sancionada lei que autoriza Banco Central a receber depósito voluntário remunerado|
+                                
+                )
+2021-07-31 18:39:51,596::database::DEBUG::(Estudo aponta impactos do fim das coligações para as eleições proporcionais|
+                                
+                )
+2021-07-31 18:39:51,602::database::DEBUG::(Senado aprova mais mudanças nas regras eleitorais a partir do ano que vem|
+                                
+                )
+2021-07-31 18:39:51,608::database::DEBUG::(Aprovada PEC que garante recursos mínimos para candidaturas femininas|
+                                
+                )
+2021-07-31 18:39:51,615::database::DEBUG::(Senado aprova mínimo de 15% das cadeiras às mulheres nas eleições proporcionais|
+                                
+                )
+2021-07-31 18:39:51,621::database::DEBUG::(CPI ouve Cristiano Carvalho, da empresa Davati|
+                                
+                )
+2021-07-31 18:39:51,628::database::DEBUG::(Captação de imagem e som como prova pode dispensar ordem judicial, prevê projeto|
+                                
+                )
+2021-07-31 18:39:51,634::database::DEBUG::(Aprovado projeto que estabelece cota para mulheres em eleições proporcionais|
+                                
+                )
+2021-07-31 18:39:51,643::database::DEBUG::(Senado aprova retorno de propagandas partidárias em emissoras de rádio e TV|
+                                
+                )
+2021-07-31 18:39:51,643::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/10...
+2021-07-31 18:39:52,045::webdriver::DEBUG::page received
+2021-07-31 18:39:52,045::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:52,062::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:52,073::database::DEBUG::(Senado recebe o 3º Selo Pró-Equidade de Gênero e Raça do Ministério dos Direitos Humanos|
+                                
+                )
+2021-07-31 18:39:52,080::database::DEBUG::(
+Mulheres nos Legislativos: 
+Aprovada reserva de vagas para mulheres nos poderes legislativos federal, estadual e municipal, a partir de 15% (PL 1.951/2021). O texto dá destinação proporcional a recursos do Fundo Eleitoral. Texto segue para a Câmara.
+|
+                                
+                )
+2021-07-31 18:39:52,087::database::DEBUG::(Senado recebe pela terceira vez o Selo Pró-Equidade de Gênero e Raça|
+                                
+                )
+2021-07-31 18:39:52,096::database::DEBUG::(
+Crimes contra a honra: 
+Foi retirado de pauta o PL 675/2021, que altera penas nos crimes contra a honra, incluindo os cometidos por meios de comunicação e ampliando multas para o infrator reincidente.
+|
+                                
+                )
+2021-07-31 18:39:52,104::database::DEBUG::(
+Propaganda eleitoral: 
+Aprovada a regulamentação do uso da propaganda eleitoral de rádio e televisão aos partidos políticos, em âmbito nacional e estadual (PL 4.572/2019). Texto segue para votação na Câmara dos Deputados.
+|
+                                
+                )
+2021-07-31 18:39:52,110::database::DEBUG::(CPI da Pandemia é prorrogada por mais 90 dias|
+                                
+                )
+2021-07-31 18:39:52,118::database::DEBUG::(CPI da Pandemia é prorrogada por mais 90 dias|
+                                
+                )
+2021-07-31 18:39:52,124::database::DEBUG::(Aprovada cota de 30% do fundo partidário para candidaturas femininas|
+                                
+                )
+2021-07-31 18:39:52,131::database::DEBUG::(
+Prorrogada a CPI da Pandemia: 
+O presidente do Senado, Rodrigo Pacheco, anunciou a prorrogação do prazo de funcionamento da CPI da Pandemia por mais 90 dias a partir de 7 de agosto. Ele acolheu requerimento apresentado nesse sentido.
+|
+                                
+                )
+2021-07-31 18:39:52,138::database::DEBUG::(
+Recursos eleitorais: 
+Os senadores aprovaram a PEC 18/2021, que altera regras sobre divisão de recursos para campanhas eleitorais, ampliando a destinação de recursos para as mulheres candidatas. Proposta vai à Câmara dos Deputados.
+|
+                                
+                )
+2021-07-31 18:39:52,146::database::DEBUG::(CPI da Pandemia: diretora da Precisa Medicamentos contradiz Ministério da Saúde|
+                                
+                )
+2021-07-31 18:39:52,153::database::DEBUG::(Acareação não é importante para provar prevaricação do presidente, dizem senadores|
+                                
+                )
+2021-07-31 18:39:52,160::database::DEBUG::(
+Candidaturas de mulheres: 
+Os senadores aprovaram em primeiro turno a PEC 18/2021, que altera regras sobre destinação de recursos para campanhas eleitorais, com mais oportunidades a candidaturas de mulheres. Proposta passa à votação em segundo turno.
+|
+                                
+                )
+2021-07-31 18:39:52,167::database::DEBUG::(Pacheco manifesta desejo de rápida recuperação da saúde do presidente Jair Bolsonaro|
+                                
+                )
+2021-07-31 18:39:52,174::database::DEBUG::(Aprovada definição de critérios para uso de sobras em eleições proporcionais|
+                                
+                )
+2021-07-31 18:39:52,181::database::DEBUG::(Vai à Câmara projeto que muda regras na distribuição de vagas em eleições proporcionais|
+                                
+                )
+2021-07-31 18:39:52,188::database::DEBUG::(Congresso aguarda CMO para votar diretrizes orçamentárias antes do recesso|
+                                
+                )
+2021-07-31 18:39:52,194::database::DEBUG::(Girão pede pressão popular para que a Câmara vote o fim do foro privilegiado|
+                                
+                )
+2021-07-31 18:39:52,202::database::DEBUG::(
+Legislação eleitoral: 
+Os senadores aprovaram projeto que atualiza o Código Eleitoral (Lei 4.737, de 1965) com regras da EC 97/2017 relativas a coligações partidárias e sobras eleitorais (PL 783/2021). Segue para votação na Câmara dos Deputados.
+|
+                                
+                )
+2021-07-31 18:39:52,208::database::DEBUG::(Inflação de junho ajuda teto, mas a de dezembro traz riscos, aponta IFI|
+                                
+                )
+2021-07-31 18:39:52,208::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/11...
+2021-07-31 18:39:52,582::webdriver::DEBUG::page received
+2021-07-31 18:39:52,582::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:52,597::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:52,612::database::DEBUG::(CPI da Pandemia: ministro da Defesa, Braga Netto, pode ser convocado|
+                                
+                )
+2021-07-31 18:39:52,620::database::DEBUG::(Diretora da Precisa contradiz outros depoentes sobre data de fatura da Covaxin|
+                                
+                )
+2021-07-31 18:39:52,628::database::DEBUG::(Pacheco deseja pronta recuperação ao presidente Jair Bolsonaro|
+                                
+                )
+2021-07-31 18:39:52,637::database::DEBUG::(Paim defende o fortalecimento do Mercosul|
+                                
+                )
+2021-07-31 18:39:52,644::database::DEBUG::(Representante da Davati no Brasil fala a CPI nesta quinta|
+                                
+                )
+2021-07-31 18:39:52,651::database::DEBUG::(CPI ouve procurador da empresa Davati nesta quinta-feira|
+                                
+                )
+2021-07-31 18:39:52,658::database::DEBUG::(Cinco comissões aprovam emendas ao projeto da LDO para 2022|
+                                
+                )
+2021-07-31 18:39:52,664::database::DEBUG::(Emanuela diz que 1º 'invoice' foi enviado em 22 de março, mas CPI vê contradição|
+                                
+                )
+2021-07-31 18:39:52,678::database::DEBUG::(Podemos vai ao STF contra lei que viabiliza privatização da Eletrobrás|
+                                
+                )
+2021-07-31 18:39:52,685::database::DEBUG::(CPI deve fazer acareação entre Emanuela Medrades e Luis Ricardo Miranda|
+                                
+                )
+2021-07-31 18:39:52,692::database::DEBUG::(Comissão temporária vai averiguar a crise hidroenergética do Brasil|
+                                
+                )
+2021-07-31 18:39:52,699::database::DEBUG::(
+Emendas à LDO: 
+A Comissão de Relações Exteriores e Defesa Nacional (CRE) aprovou 3 emendas ao projeto da LDO 2022 (PLN 3/2021), com recursos para aquisição de cargueiro tático militar, construção de submarino e negociações no âmbito da OMC.
+|
+                                
+                )
+2021-07-31 18:39:52,707::database::DEBUG::(
+Emendas à LDO: 
+A Comissão de Infraestrutura (CI) aprovou três emendas ao projeto da LDO 2022 (PLN 3/2021). Uma delas destina recursos para construção, reforma e reaparelhamento de aeroportos de interesse regional.
+|
+                                
+                )
+2021-07-31 18:39:52,715::database::DEBUG::(Senado pode votar penas mais rigorosas para crimes contra a honra|
+                                
+                )
+2021-07-31 18:39:52,722::database::DEBUG::(Dia da Liberdade de Pensamento é celebrado nesta quarta|
+                                
+                )
+2021-07-31 18:39:52,730::database::DEBUG::(
+Emendas à LDO: 
+A Comissão de Ciência e Tecnologia (CCT) aprovou 3 emendas ao projeto da LDO 2022 (PLN 3/2021). Entre elas, estão as que destinam recursos ao Programa Estratégico de Sistemas Espaciais (Pese) e à estruturação do governo digital.
+|
+                                
+                )
+2021-07-31 18:39:52,738::database::DEBUG::(CPI pode convocar diretor da Abin e ajudante de ordens de Bolsonaro|
+                                
+                )
+2021-07-31 18:39:52,744::database::DEBUG::(Uso de inteligência artificial será debatido no Senado nesta sexta-feira|
+                                
+                )
+2021-07-31 18:39:52,751::database::DEBUG::(Senado homenageia bombeiros em sessão especial na sexta-feira|
+                                
+                )
+2021-07-31 18:39:52,758::database::DEBUG::(
+Emendas à LDO: 
+A Comissão de Meio Ambiente (CMA) aprovou suas emendas ao projeto da LDO 2022 (PLN 3/2021), com recursos para ações de educação ambiental, política nacional sobre mudança do clima e gestão do uso sustentável da biodiversidade.
+|
+                                
+                )
+2021-07-31 18:39:52,758::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/12...
+2021-07-31 18:39:53,157::webdriver::DEBUG::page received
+2021-07-31 18:39:53,157::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:53,167::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:53,182::database::DEBUG::(Depoimento de Emanuela Medrades à CPI da Pandemia será retomado nesta quarta-feira|
+                                
+                )
+2021-07-31 18:39:53,195::database::DEBUG::(CPI vai retomar nesta quarta depoimento de diretora da Precisa|
+                                
+                )
+2021-07-31 18:39:53,202::database::DEBUG::(Senado aprova nota de repúdio ao DJ Ivis|
+                                
+                )
+2021-07-31 18:39:53,212::database::DEBUG::(Senado aprova proteção para candidatas e redução do número de candidaturas por partido para o Legislativo|
+                                
+                )
+2021-07-31 18:39:53,220::database::DEBUG::(Caso DJ Ivis: Senado aprova voto de repúdio pelas agressões reveladas em vídeos pela ex-mulher|
+                                
+                )
+2021-07-31 18:39:53,228::database::DEBUG::(Na CPI, Omar Aziz critica condução de Bolsonaro no enfrentamento da pandemia|
+                                
+                )
+2021-07-31 18:39:53,237::database::DEBUG::(Senado aprova mudança no percentual de vagas para candidaturas nas eleições proporcionais|
+                                
+                )
+2021-07-31 18:39:53,244::database::DEBUG::(CPI da Pandemia marcará nova data para depoimento do reverendo que intermediou compra de vacinas|
+                                
+                )
+2021-07-31 18:39:53,251::database::DEBUG::(Aprovada a criação de comissão para averiguar crise hidroenergética|
+                                
+                )
+2021-07-31 18:39:53,258::database::DEBUG::(Plenáro aprova  projeto para combater a violência política contra mulher|
+                                
+                )
+2021-07-31 18:39:53,264::database::DEBUG::(CMO pode votar LDO 2022 nesta quinta-feira|
+                                
+                )
+2021-07-31 18:39:53,272::database::DEBUG::(Em balanço da CPI, senadores comemoram decisão de Fux|
+                                
+                )
+2021-07-31 18:39:53,279::database::DEBUG::(Senado derruba portaria do Ministério da Saúde que limitava recursos para combate à covid-19|
+                                
+                )
+2021-07-31 18:39:53,286::database::DEBUG::(CPI da Pandemia antecipa para esta quarta o depoimento de Francisco Maximiano|
+                                
+                )
+2021-07-31 18:39:53,293::database::DEBUG::(Testemunho de diretora da Precisa é adiado após depoente alegar 'exaustão'|
+                                
+                )
+2021-07-31 18:39:53,300::database::DEBUG::(Cláusula de desempenho: adiada votação de novos critérios para eleição de deputado|
+                                
+                )
+2021-07-31 18:39:53,308::database::DEBUG::(Senado aprova regras para coibir violência política contra a mulher|
+                                
+                )
+2021-07-31 18:39:53,320::database::DEBUG::(
+Sessão de debates: 
+Aprovada a realização de sessão de debates temáticos para a discussão do PL 2.505/2021, que dispõe sobre improbidade administrativa. A sessão ainda será agendada.
+|
+                                
+                )
+2021-07-31 18:39:53,328::database::DEBUG::(
+Crise energética: 
+Foi aprovada a criação de comissão temporária externa para averiguar as causas e os efeitos da crise hidroenergética registrada no país (RQS 1.749/2021) e acompanhar ações e propor soluções para a segurança energética.
+|
+                                
+                )
+2021-07-31 18:39:53,335::database::DEBUG::(Incentivos à participação das mulheres na política estão na pauta desta quarta-feira|
+                                
+                )
+2021-07-31 18:39:53,335::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/13...
+2021-07-31 18:39:53,849::webdriver::DEBUG::page received
+2021-07-31 18:39:53,850::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:53,869::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:53,876::database::DEBUG::(Aprovado projeto que reduz candidaturas por partido ao Legislativo; texto vai à Câmara|
+                                
+                )
+2021-07-31 18:39:53,884::database::DEBUG::(CPI da Pandemia ouve diretora e dono da Precisa Medicamentos nesta quarta|
+                                
+                )
+2021-07-31 18:39:53,893::database::DEBUG::(Perícia confirma atestado médico e CPI muda agenda de depoimentos|
+                                
+                )
+2021-07-31 18:39:53,901::database::DEBUG::(
+Vagas nas eleições: 
+Aprovado projeto que modifica percentual de preenchimento mínimo de vagas nas eleições proporcionais para deputados federal e estadual e vereadores (PL 1.086/2021). Texto segue para votação na Câmara dos Deputados.
+|
+                                
+                )
+2021-07-31 18:39:53,915::database::DEBUG::(
+Legislação eleitoral: 
+Adiada a votação do PL 783/2021, que muda o Código Eleitoral (Lei 4.737/1965), de acordo com a Emenda Constitucional 97, relativa a coligações partidárias e sobras eleitorais. O texto será incluído na pauta desta quarta (14).
+|
+                                
+                )
+2021-07-31 18:39:53,923::database::DEBUG::(Senado aprova voto de repúdio a agressões de DJ Ivis contra ex-esposa|
+                                
+                )
+2021-07-31 18:39:53,930::database::DEBUG::(
+Defesa de candidatas: 
+Aprovadas normas para prevenir, punir e combater a violência política contra a mulher e a previsão de crime de assédio à candidata mediante discriminação (PL 5.613/2020). Segue para sanção.
+|
+                                
+                )
+2021-07-31 18:39:53,937::database::DEBUG::(Paim denuncia drástica redução do financiamento de programas habitacionais|
+                                
+                )
+2021-07-31 18:39:53,944::database::DEBUG::(Perícia confirma atestado médico de convocado a depor à CPI da Pandemia|
+                                
+                )
+2021-07-31 18:39:53,950::database::DEBUG::(Senado derruba limite para emendas parlamentares para o combate à covid-19|
+                                
+                )
+2021-07-31 18:39:53,957::database::DEBUG::(Senadores fazem um minuto de silêncio por mortes de servidora e de diplomata|
+                                
+                )
+2021-07-31 18:39:53,963::database::DEBUG::(Projeto visa impedir constrangimento da vítima na investigação de violência sexual|
+                                
+                )
+2021-07-31 18:39:53,972::database::DEBUG::(
+Voto de repúdio: 
+O Senado aprovou voto de repúdio ao DJ Ivis (Iverson de Souza Araújo), pelas agressões praticadas contra a ex-mulher Pamella Holanda (RQS 1.756/2021) e reveladas em vídeos pela vítima.
+|
+                                
+                )
+2021-07-31 18:39:53,978::database::DEBUG::(
+Emendas parlamentares: 
+Aprovado o projeto de decreto legislativo (PDL) 292/2021, que suspende trecho da Portaria 1.263/2021, do Ministério da Saúde, e dá fim à restrição ao valor de emenda parlamentar para combater a covid-19. Texto vai à promulgação.
+|
+                                
+                )
+2021-07-31 18:39:53,985::database::DEBUG::(Fávaro apresenta PEC para garantir recursos partidários às candidaturas femininas|
+                                
+                )
+2021-07-31 18:39:53,991::database::DEBUG::(Comissões permanentes aprovam emendas ao projeto da LDO 2022|
+                                
+                )
+2021-07-31 18:39:53,997::database::DEBUG::(Girão cobra definição de data para depoimento do chefe da CGU, ministro Wagner Rosário|
+                                
+                )
+2021-07-31 18:39:54,004::database::DEBUG::(Marcos Rogério defende análise da PEC do voto impresso|
+                                
+                )
+2021-07-31 18:39:54,010::database::DEBUG::(Para debatedores, Brasil pode ter mais áreas irrigadas e aumentar a produção agrícola|
+                                
+                )
+2021-07-31 18:39:54,017::database::DEBUG::(
+Emendas à LDO: 
+A Comissão de Constituição e Justiça (CCJ) aprovou três emendas ao projeto da LDO 2022 (PLN 3/2021), destinadas a políticas públicas sobre drogas, de igualdade e enfrentamento da violência contra a mulher e de segurança pública.
+|
+                                
+                )
+2021-07-31 18:39:54,017::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/14...
+2021-07-31 18:39:54,420::webdriver::DEBUG::page received
+2021-07-31 18:39:54,421::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:54,435::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:54,450::database::DEBUG::(
+Emendas da CMO à LDO: 
+A Comissão Mista de Orçamento (CMO) aprovou emendas da comissão ao projeto da LDO 2022 (PLN 3/2021), com propostas sobre saúde, educação e infraestrutura hídrica.
+|
+                                
+                )
+2021-07-31 18:39:54,458::database::DEBUG::(
+Recursos do FAT: 
+A Comissão Mista de Orçamento (CMO) aprovou pedido ao BNDES de compartilhamento de informações referentes à aplicação dos recursos do Fundo de Amparo ao Trabalhador (FAT) dos últimos cinco anos (REQ 12/2021).
+|
+                                
+                )
+2021-07-31 18:39:54,465::database::DEBUG::(
+LDO 2022: 
+A Comissão Mista de Orçamento (CMO) aprovou a realização de audiência pública para discutir a LDO 2022 com os ministros da Saúde, da Cidadania, da Economia e da Educação (REQ 11/2021).
+|
+                                
+                )
+2021-07-31 18:39:54,474::database::DEBUG::(
+Emendas da CDR à LDO: 
+A Comissão de Desenvolvimento Regional (CDR) aprovou emendas ao projeto da LDO 2022 (PLN 3/2021), com propostas sobre rotas de integração nacional, apoio à produção de interesse social e a projetos de infraestrutura.
+|
+                                
+                )
+2021-07-31 18:39:54,481::database::DEBUG::(
+Emendas à LDO 2022: 
+A Comissão de Direitos Humanos e Legislação Participativa (CDH) aprovou suas emendas ao projeto da LDO 2022 (PLN 3/2021). Dentre as emendas destaca-se a que se destina às políticas de igualdade para as mulheres.
+|
+                                
+                )
+2021-07-31 18:39:54,489::database::DEBUG::(
+Sessão deliberativa às 16h30: 
+A Secretaria-Geral da Mesa informa que o início da sessão deliberativa da tarde de hoje, marcada para as 16h, teve seu início adiado para as 16h30.
+|
+                                
+                )
+2021-07-31 18:39:54,496::database::DEBUG::(
+Emendas à LDO: 
+A Comissão de Educação (CE) aprovou três emendas da comissão ao projeto da LDO 2022 (PLN 3/2021), destinadas a educação, cultura e esporte. As emendas serão encaminhadas à Comissão Mista de Orçamento (CMO).
+|
+                                
+                )
+2021-07-31 18:39:54,503::database::DEBUG::(
+Emendas à LDO: 
+A Comissão de Fiscalização e Controle (CTFC) aprovou emendas ao projeto da Lei de Diretrizes Orçamentárias 2022 (PLN 3/2021). Dentre as emendas destacam-se as voltadas à defesa do consumidor e ao combate à corrupção.
+|
+                                
+                )
+2021-07-31 18:39:54,512::database::DEBUG::(CPI aguarda resposta do STF sobre limites do silêncio de Emanuela Medrades|
+                                
+                )
+2021-07-31 18:39:54,518::database::DEBUG::(Omar procura STF para esclarecer limite de silêncio de diretora da Precisa|
+                                
+                )
+2021-07-31 18:39:54,525::database::DEBUG::(Entidades denunciam desmonte de políticas para população negra|
+                                
+                )
+2021-07-31 18:39:54,534::database::DEBUG::(Comissões votam emendas à LDO de 2022|
+                                
+                )
+2021-07-31 18:39:54,541::database::DEBUG::(Publicada lei que viabiliza a privatização da Eletrobras|
+                                
+                )
+2021-07-31 18:39:54,548::database::DEBUG::(Emendas ao projeto da LDO podem ser apresentadas até esta quarta|
+                                
+                )
+2021-07-31 18:39:54,554::database::DEBUG::(CPI da Pandemia pode ouvir Cristiano Carvalho na quinta-feira|
+                                
+                )
+2021-07-31 18:39:54,561::database::DEBUG::(CPI da Pandemia aguarda perícia em atestado médico de reverendo, diz Omar Aziz|
+                                
+                )
+2021-07-31 18:39:54,567::database::DEBUG::(Retomada de depoimento de diretora da Precisa depende de consulta ao STF|
+                                
+                )
+2021-07-31 18:39:54,574::database::DEBUG::(Senado analisa nesta terça projetos que alteram a legislação eleitoral|
+                                
+                )
+2021-07-31 18:39:54,580::database::DEBUG::(Sessão da CPI é suspensa após silêncio de diretora da Precisa|
+                                
+                )
+2021-07-31 18:39:54,587::database::DEBUG::(Diretora de empresa de medicamentos decide ficar em silêncio na CPI|
+                                
+                )
+2021-07-31 18:39:54,587::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/15...
+2021-07-31 18:39:54,961::webdriver::DEBUG::page received
+2021-07-31 18:39:54,961::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:54,976::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:54,992::database::DEBUG::(
+Emendas à LDO: 
+A Comissão de Assuntos Sociais (CAS) aprovou suas emendas ao projeto da LDO para 2022 (PLN 3/2021). As emendas, que destinam recursos ao SUS e a ações de segurança nutricional, serão analisadas pela Comissão Mista de Orçamento.
+|
+                                
+                )
+2021-07-31 18:39:55,000::database::DEBUG::(
+Emendas à LDO: 
+A Comissão de Assuntos Econômicos (CAE) aprovou emendas ao projeto da Lei de Diretrizes Orçamentárias para 2022 (PLN 3/2021). As emendas serão encaminhadas à Comissão Mista de Orçamento (CMO).
+|
+                                
+                )
+2021-07-31 18:39:55,009::database::DEBUG::(Promulgada emenda que valida atos dos 'Pioneiros do Tocantins' de 1989 a 1994|
+                                
+                )
+2021-07-31 18:39:55,018::database::DEBUG::(Mudança na gestão ambiental é urgente no combate a pandemias, diz Confúcio|
+                                
+                )
+2021-07-31 18:39:55,026::database::DEBUG::(Agricultura irrigada no Brasil precisa receber mais atenção, dizem especialistas|
+                                
+                )
+2021-07-31 18:39:55,044::database::DEBUG::(CPI ouve Emanuela Medrades, da Precisa Medicamentos|
+                                
+                )
+2021-07-31 18:39:55,053::database::DEBUG::(Gestão da agricultura irrigada é essencial, dizem especialistas em audiência da CDR|
+                                
+                )
+2021-07-31 18:39:55,062::database::DEBUG::(Comissão Mista de Orçamento aprova relatório preliminar da LDO de 2022|
+                                
+                )
+2021-07-31 18:39:55,071::database::DEBUG::(Em Plenário, especialistas defendem ensino integral e prova no pós-pandemia|
+                                
+                )
+2021-07-31 18:39:55,082::database::DEBUG::(Comissões permanentes votam emendas para a LDO 2022|
+                                
+                )
+2021-07-31 18:39:55,089::database::DEBUG::(Projeto permite a formalização do casamento civil por meio eletrônico|
+                                
+                )
+2021-07-31 18:39:55,096::database::DEBUG::(Senado debateu a perda na aprendizagem e outros efeitos da pandemia sobre alunos e professores|
+                                
+                )
+2021-07-31 18:39:55,103::database::DEBUG::(Sessão de debates temáticos vai discutir Inteligência Artificial|
+                                
+                )
+2021-07-31 18:39:55,110::database::DEBUG::(Carta do movimento negro sobre impactos da pandemia é lida na Comissão de Direitos Humanos|
+                                
+                )
+2021-07-31 18:39:55,116::database::DEBUG::(CPI da Pandemia ouve nesta terça diretora da Precisa, que intermediou compra da Covaxin|
+                                
+                )
+2021-07-31 18:39:55,123::database::DEBUG::(Comissão aprova relatório preliminar da LDO, mas deficit preocupa parlamentares|
+                                
+                )
+2021-07-31 18:39:55,130::database::DEBUG::(Congresso pode votar Lei de Diretrizes Orçamentárias na quinta-feira|
+                                
+                )
+2021-07-31 18:39:55,137::database::DEBUG::(Com quadro preocupante, senadores ouvem ideias para educação pós-pandemia|
+                                
+                )
+2021-07-31 18:39:55,144::database::DEBUG::(
+PLDO 2022: 
+Senadores e deputados da Comissão Mista do Orçamento (CMO) aprovaram o relatório preliminar do deputado Juscelino Filho (DEM-MA) sobre o projeto da LDO 2022 (PLN 3/2021). O prazo de emendas ao projeto vai até quarta (14).
+|
+                                
+                )
+2021-07-31 18:39:55,150::database::DEBUG::(Políticas para negros 'sofrem asfixia' desde antes da covid-19, aponta debate|
+                                
+                )
+2021-07-31 18:39:55,150::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/16...
+2021-07-31 18:39:55,570::webdriver::DEBUG::page received
+2021-07-31 18:39:55,571::webdriver::DEBUG::findind elements...
+2021-07-31 18:39:55,581::webdriver::DEBUG::20 elements found
+2021-07-31 18:39:55,601::database::DEBUG::(Senado pode derrubar portaria que limita emendas de combate à covid-19|
+                                
+                )
+2021-07-31 18:39:55,608::database::DEBUG::(CPI ouve na quinta coronel Blanco, citado em pedido de propina por vacina|
+                                
+                )
+2021-07-31 18:39:55,615::database::DEBUG::(CPI ouvirá na quarta-feira religioso que negociou vacinas em nome do Ministério da Saúde|
+                                
+                )
+2021-07-31 18:39:55,624::database::DEBUG::(Renan afirma que CPI não teme quarteladas|
+                                
+                )
+2021-07-31 18:39:55,631::database::DEBUG::(Presidente do Congresso diz que ato contra democracia e eleições não será admitido|
+                                
+                )
+2021-07-31 18:39:55,639::database::DEBUG::(Órfãos da covid-19 podem ter direito a auxilio assistencial|
+                                
+                )
+2021-07-31 18:39:55,647::database::DEBUG::(Consultor diz que Luis Ricardo Miranda sofreu pressão para importar Covaxin|
+                                
+                )
+2021-07-31 18:39:55,654::database::DEBUG::(Nilda Gondim diz ser fundamental prioridade na matrícula em creches durante a pandemia|
+                                
+                )
+2021-07-31 18:39:55,661::database::DEBUG::(Projeto prevê transparência nos descontos das tarifas de água e luz|
+                                
+                )
+2021-07-31 18:39:55,668::database::DEBUG::(CPI da Pandemia: Onyx pode ser convocado|
+                                
+                )
+2021-07-31 18:39:55,675::database::DEBUG::(CPI da Pandemia quer convocar ministro Onyx Lorenzoni|
+                                
+                )
+2021-07-31 18:39:55,686::database::DEBUG::(Projeto pune condutas homofóbicas e transfóbicas em eventos esportivos|
+                                
+                )
+2021-07-31 18:39:55,693::database::DEBUG::(Especialistas criticam política ambiental e vinculam mudanças no clima ao crescente risco de pandemias|
+                                
+                )
+2021-07-31 18:39:55,700::database::DEBUG::(Senado debate educação no pós-pandemia|
+                                
+                )
+2021-07-31 18:39:55,708::database::DEBUG::(Presidente do Senado defende eleições de 2022 e independência entre os Poderes|
+                                
+                )
+2021-07-31 18:39:55,715::database::DEBUG::(Projeto aumenta pena para quem descumprir medidas protetivas à mulher|
+                                
+                )
+2021-07-31 18:39:55,721::database::DEBUG::(Veja como ficou mais fácil acompanhar o andamento de projetos no Congresso|
+                                
+                )
+2021-07-31 18:39:55,735::database::DEBUG::(Pacheco diz que eleições de 2022 são 'inegociáveis' e defende prerrogativas dos senadores|
+                                
+                )
+2021-07-31 18:39:55,742::database::DEBUG::(Pacheco: Parlamento não admitirá qualquer atentado a sua independência|
+                                
+                )
+2021-07-31 18:39:55,749::database::DEBUG::(Senadores debatem na segunda-feira a situação da educação com a pandemia|
+                                
+                )
+2021-07-31 18:39:55,749::webdriver::DEBUG::getting page https://www12.senado.leg.br/noticias/ultimas/17...
