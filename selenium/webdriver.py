@@ -48,7 +48,8 @@ class Webdriver:
         self.logger = Logger(
             self.log_name,
             log_file)
-        self.driver = self.config()
+        self.driver = None
+        self.config()
 
     def __del__(self):
         """
@@ -76,7 +77,7 @@ class Webdriver:
             options=driver_options)#,
         #    firefox_profile=driver_profile)
         self.logger.debug("connection open")
-        return driver
+        self.driver = driver
 
     def get(self,
         url : str):
