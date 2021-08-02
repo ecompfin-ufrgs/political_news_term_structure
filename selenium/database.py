@@ -59,7 +59,7 @@ class Database:
         Connects to database, drops table if it exists and creates new table.
         """
         conn = sqlite3.connect(self.name)
-        self.logger.debug(f"{self.name}.db connection open")
+        self.logger.debug(f"{self.name} connection open")
         conn.execute(self.get_drop())
         self.logger.debug(f"{self.table} table dropped")
         conn.execute(self.get_create())
