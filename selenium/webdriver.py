@@ -132,11 +132,9 @@ class Webdriver:
         :param xpath: Xpath expression for next page element
         :type xpath: str
         """
-        find     = (By.XPATH, xpath)
-        self.logger.debug("clicking next page")
-        presence = EC.presence_of_element_located(find)
-        next     = WebDriverWait(self.driver, 10).until(presence)
-        enter    = "webdriver" + Keys.ENTER
+        wait  = WebDriverWait(self.driver, 10)
+        next  = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, xpath)))
+        enter = "webdriver" + Keys.ENTER
         next.send_keys(enter)
         #self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         self.logger.debug("next page clicked")
