@@ -8,7 +8,7 @@ Author: Bernardo Paulsen
 
 import sqlite3
 
-from logger 
+import logger
 
 
 class Database:
@@ -16,6 +16,9 @@ class Database:
     Connects to database and executes commands.
     """
     DB_NAME = "data.db"
+    INSERT_WEBSITE = "INSERT INTO websites (name, short_name, url) VALUEs (?, ?, ?);"
+    INSERT_ARTICLE = "INSERT INTO articles (website_id, date, title, link) VALUES (?, ?, ?, ?);"
+    INSERT_TEXTS = "INSERT INTO texts (article_id, text) VALUES (?, ?);"
     
     def __init__(self,
         log_filename : str):
