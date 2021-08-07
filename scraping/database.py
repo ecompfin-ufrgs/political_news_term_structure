@@ -8,20 +8,22 @@ Author: Bernardo Paulsen
 
 import sqlite3
 
-from logger import Logger
+from logger 
 
 
 class Database:
     """
     Connects to database and executes commands.
     """
+    DB_NAME = "data.db"
+    
     def __init__(self,
-        log_filename : str,
-        db_name : str = "data.db"):
+        log_filename : str):
         
-        self.logger = Logger("database", log_filename)
-        self.db_name = db_name
-        self.conn = sqlite3.connect(self.db_name)
+        self.logger = logger.Logger("database", log_filename)
+        
+        self.conn = sqlite3.connect(self.DB_NAME)
+        
         self.commit = self.conn.commit
         self.execute = self.conn.execute
         

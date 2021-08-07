@@ -11,15 +11,16 @@ import logging
 
 class Logger:
     
+    MODE = "a"
+    LEVEL = logging.DEBUG
+    FORMAT = "%(asctime)s::%(name)s::%(levelname)s::%(message)s"
+    
     def __init__(self,
         name,
         filename):
             
         self.name = name
         self.filename = filename
-        self.mode = "a"
-        self.level = logging.DEBUG
-        self.format = "%(asctime)s::%(name)s::%(levelname)s::%(message)s"
         
         self.logger = self.get_logger()
         
@@ -29,13 +30,13 @@ class Logger:
         
     def get_logger(self):
         
-        formatter = logging.Formatter(self.format)
+        formatter = logging.Formatter(self.FORMAT)
         logger = logging.getLogger(self.name)
-        logger.setLevel(self.level)
+        logger.setLevel(self.LEVEL)
         
         for h_class in [logging.StreamHandler, logging.FileHandler]:
-            handler = h_class(self.filename, self.mode)
-            handler.setLevel(self.level)
+            handler = h_class(self.filename, self.NODE)
+            handler.setLevel(self.LEVEL)
             handler.setFormatter(formatter)
             logger.addHandler(handler)
             
