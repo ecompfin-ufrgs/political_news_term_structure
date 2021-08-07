@@ -8,6 +8,7 @@ import js_scraper
 class EstaddoDeMinasScraper(js_scraper.JSScraper):
     
     NAME = "estado_de_minas"
+    N_LAST_ARTICLES = 200
     START_URL = "https://www.em.com.br/politica/"
     SELECTORS = {
         "next_page": (
@@ -22,4 +23,14 @@ class EstaddoDeMinasScraper(js_scraper.JSScraper):
         "article_title": "a[class='txt-gray']",
         "article_link": "href"
         }
+       
+    @staticmethod 
+    def get_date(date):
+        try:
+            lst  = date.split()
+            day  = lst[2]
+            time = lst[0]
+            return f"{day[6:]}-{day[3:5]}-{day[:2]} {time}:00"
+        except:
+            raise js_scraper.DateError("date does not contain day data")
     

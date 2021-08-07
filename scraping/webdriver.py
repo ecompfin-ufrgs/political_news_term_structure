@@ -60,10 +60,10 @@ class Webdriver:
         time.sleep(sleep_time)
         
     def get_elements(self,
-        selector : selenium.webdriver.common.by,
-        path : str):
+        selector_and_path : tuple):
         
+        path = selector_and_path[1]
         self.logger.debug(f"{path}: findind elements...")
-        elements = self.driver.find_elements(selector, path)
+        elements = self.driver.find_elements(selector_and_path)
         self.logger.debug(f"{path}: {len(elements)} elements found")
         return elements
