@@ -16,6 +16,14 @@ class Database:
     Connects to database and executes commands.
     """
     DB_NAME = "data.db"
+    CREATE_WEBSITE = """
+        CREATE TABLE IF NOT EXISTS websites (
+        id    INT AUTO INCREMENT PRIMARY KEY,
+        date  DATETIME,
+        title VARCHAR(255),
+        link  VARCHAR(255)
+        );
+        """ 
     INSERT_WEBSITE = "INSERT INTO websites (name, short_name, url) VALUEs (?, ?, ?);"
     INSERT_ARTICLE = "INSERT INTO articles (website_id, date, title, link) VALUES (?, ?, ?, ?);"
     INSERT_TEXTS = "INSERT INTO texts (article_id, text) VALUES (?, ?);"

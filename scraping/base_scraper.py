@@ -4,11 +4,15 @@ import database
 import logger
 import webdriver
 
+
 class BaseScraper:
-    def __init__(self,
-        log_filename : str,
-        db_tablename : str):
+    
+    @property
+    def LOG_FILENAME(self): pass
+    
+    def __init__(self):
             
-        self.logger = logger.Logger("scraper", log_filename)
-        self.database = database.Database(log_filename)
-        self.webdriver = webdriver.Webdriver(log_filename)
+        self.logger = logger.Logger("scraper", self.LOG_FILENAME)
+        self.database = database.Database(self.LOG_FILENAME)
+        self.webdriver = webdriver.Webdriver(self.LOG_FILENAME)
+        
