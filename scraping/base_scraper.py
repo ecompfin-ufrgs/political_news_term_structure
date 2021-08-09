@@ -7,9 +7,6 @@ import webdriver
 
 class BaseScraper:
     
-    @property
-    def LOG_FILENAME(self): pass
-    
     def __init__(self):
             
         self.logger = logger.Logger("scraper", self.LOG_FILENAME)

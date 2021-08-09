@@ -17,12 +17,13 @@ class EstaddoDeMinasScraper(js_scraper.JSScraper):
             ),
         "article": (
             selenium.webdriver.common.by.By.XPATH,
-            "//div{self.row_type}[@class='news-box free pb-10 mb-20' and position()>last()-200]"
+            "//div[@class='news-box free pb-10 mb-20' and position()>last()-200]"
             ),
         "article_datetime": "small",
         "article_title": "a[class='txt-gray']",
         "article_link": "href"
         }
+    LOG_FILENAME = "estado_de_minas"
        
     @staticmethod 
     def get_date(date):
@@ -34,3 +35,6 @@ class EstaddoDeMinasScraper(js_scraper.JSScraper):
         except:
             raise js_scraper.DateError("date does not contain day data")
     
+if __name__ == "__main__":
+    em = EstaddoDeMinasScraper()
+    em.scrape()

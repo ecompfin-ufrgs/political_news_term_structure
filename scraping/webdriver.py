@@ -64,6 +64,6 @@ class Webdriver:
         
         path = selector_and_path[1]
         self.logger.debug(f"{path}: findind elements...")
-        elements = self.driver.find_elements(selector_and_path)
+        elements = self.driver.find_elements(*selector_and_path)
         self.logger.debug(f"{path}: {len(elements)} elements found")
         return elements

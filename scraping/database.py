@@ -15,21 +15,20 @@ class Database:
     """
     Connects to database and executes commands.
     """
-    DB_NAME = "data.db"
+    USE_DB = "USE news;"
     CREATE_WEBSITE = """
         CREATE TABLE IF NOT EXISTS websites (
         id INT AUTO_INCREMENT PRIMARY KEY,
         name VARCHAR(255)
-        url VARCHAR(255)
         );
         """ 
     CREATE_ARTICLES = """
-        CREATE TABLE IT NOT EXISTS articles (
+        CREATE TABLE IF NOT EXISTS articles (
         id INT AUTO_INCREMENT PRIMARY KEY,
-        website_id INT
-        date DATETIME
-        title VARCHAR(255)
-        link VARCHAR(255)
+        website_id INT,
+        date DATETIME,
+        title VARCHAR(255),
+        link VARCHAR(255),
         FOREIGN KEY (website_id) REFERENCES websites(id)
         );
         """
@@ -47,6 +46,7 @@ class Database:
             user="ubuntu",
             password="Ber8822?"
             )
+        self.logger.debug("connected")
         self.cursor = self.conn.cursor()
         
         self.execute = self.cursor.execute

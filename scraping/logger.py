@@ -34,8 +34,10 @@ class Logger:
         logger = logging.getLogger(self.name)
         logger.setLevel(self.LEVEL)
         
-        for h_class, args in [(logging.StreamHandler, tuple()), (logging.FileHandler, (self.filename, self.MODE))]:
-            handler = h_class(*args)
+        stream_handler = logging.StreamHandler()
+        file_handler = logging.FileHandler(self.filename, self.MODE)
+        
+        for handler in [stream_handler, file_handler]:
             handler.setLevel(self.LEVEL)
             handler.setFormatter(formatter)
             logger.addHandler(handler)
