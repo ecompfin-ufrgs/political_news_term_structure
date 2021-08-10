@@ -9,7 +9,6 @@ class EstaddoDeMinasScraper(js_scraper.JSScraper):
     
     NAME = "Estado de Minas"
     SHORT_NAME = "minas"
-    INSERT_ARTICLE = "INSERT INTO minas (date, title, link) VALUES (%s, %s, %s)"
     N_LAST_ARTICLES = 200
     START_URL = "https://www.em.com.br/politica/"
     SELECTORS = {

@@ -41,14 +41,7 @@ class JSScraper(base_scraper.BaseScraper):
         self.run = True
         
     def scrape(self):
-        self.database.execute(self.database.USE_DB)
-        self.database.execute(f"DROP TABLE IF EXISTS {self.SHORT_NAME}")
-        self.database.execute(f"""CREATE TABLE {self.SHORT_NAME}(
-            id INT AUTO_INCREMENT PRIMARY KEY,
-            date DATETIME,
-            title VARCHAR(255),
-            link VARCHAR(255)
-            );""")
+        self.config_db()
         self.webdriver.get(self.START_URL)
         while self.run:
             self.logger.debug(f"page {self.n_page};  load attempts {self.n_load_attempt}; click attempts {self.n_click_attempt}...")
@@ -76,6 +69,12 @@ class JSScraper(base_scraper.BaseScraper):
             else:
                 self.logger.warning("maximum number of load and click attempts reached, finishing scrape...")
                 break
+            
+    def config_db(self):
+        self.database.execute(self.database.USE_DB)
+        self.database.execute(f"SELECT id FROM websites WHERE name = '{self.NAME}'")
+        results = self.database.cursor.fetchall()
+        self.ID = results[0]
                 
     def click_next(self):
         
@@ -111,8 +110,8 @@ class JSScraper(base_scraper.BaseScraper):
             title = soup.select(self.SELECTORS["article_title"])[0].text
             link = soup.select(self.SELECTORS["article_link"])[0]['href']
             date = self.get_date(date)
-            values = (date, title, link)
-            self.database.execute(self.INSERT_ARTICLE, values)
+            values = (self.ID, date, title, link)
+            self.database.execute(self.database.INSERT_ARTICLE, values)
             self.logger.debug(f"inserted: {date}|{title[:20]}|{link[:20]}")
         except:
             self.logger.warning("article data not available")
