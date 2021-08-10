@@ -16,14 +16,17 @@ class Database:
     Connects to database and executes commands.
     """
     USE_DB = "USE news;"
+    DROP_WEBSITE = "DROP TABLE websites;"
+    DROP_ARTICLE = "DROP TABLE articles;"
     CREATE_WEBSITE = """
-        CREATE TABLE IF NOT EXISTS websites (
+        CREATE TABLE websites (
         id INT AUTO_INCREMENT PRIMARY KEY,
-        name VARCHAR(255)
+        name VARCHAR(50),
+        short_name VARCHAR(20)
         );
         """ 
-    CREATE_ARTICLES = """
-        CREATE TABLE IF NOT EXISTS articles (
+    CREATE_ARTICLE = """
+        CREATE TABLE articles (
         id INT AUTO_INCREMENT PRIMARY KEY,
         website_id INT,
         date DATETIME,
@@ -32,9 +35,9 @@ class Database:
         FOREIGN KEY (website_id) REFERENCES websites(id)
         );
         """
-    INSERT_WEBSITE = "INSERT INTO websites (name, short_name, url) VALUEs (?, ?, ?);"
-    INSERT_ARTICLE = "INSERT INTO articles (website_id, date, title, link) VALUES (?, ?, ?, ?);"
-    INSERT_TEXTS = "INSERT INTO texts (article_id, text) VALUES (?, ?);"
+    INSERT_WEBSITE = "INSERT INTO websites (name, short_name) VALUES (%s, %s);"
+    INSERT_ARTICLE = "INSERT INTO articles (website_id, date, title, link) VALUES (%s, %s, %s, %s);"
+    INSERT_TEXTS = "INSERT INTO texts (article_id, text) VALUES (%s, %s);"
     
     def __init__(self,
         log_filename : str):

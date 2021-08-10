@@ -7,7 +7,7 @@ import js_scraper
 
 class EstaddoDeMinasScraper(js_scraper.JSScraper):
     
-    NAME = "estado_de_minas"
+    NAME = "Estado de Minas"
     N_LAST_ARTICLES = 200
     START_URL = "https://www.em.com.br/politica/"
     SELECTORS = {
@@ -20,8 +20,8 @@ class EstaddoDeMinasScraper(js_scraper.JSScraper):
             "//div[@class='news-box free pb-10 mb-20' and position()>last()-200]"
             ),
         "article_datetime": "small",
-        "article_title": "a[class='txt-gray']",
-        "article_link": "href"
+        "article_title": ".txt-gray",
+        "article_link": ".txt-gray"
         }
     LOG_FILENAME = "estado_de_minas"
        
