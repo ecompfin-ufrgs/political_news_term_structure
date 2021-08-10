@@ -59,8 +59,22 @@ class Database:
         
     def commit(self):
         self.conn.commit()
-        self.logger.debug("commit")
+        self.logger.debug("commited")
         
+    def query_website_id(self, name : str):
+        self.execute(f"SELECT id FROM websites WHERE name = '{name}'")
+        result = self.cursor.fetchall()
+        website_id = result[0][0]
+        self.logger.debug(f"website_id {website_id} from website {name} collected")
+        return website_id
+        
+    def delete_articles(self, website_id : int):
+        self.execute(f"DELETE FROM articles WHERE website_id = {website_id}")
+        self.logger.debug(f"deleted all articles with website_id = {website_id}")
+        
+    def insert_article(self, values : tuple):
+        self.execute(self.INSERT_ARTICLE, values)
+        self.logger.debug(f"values ({values[0]}|{values[1]}|{values[2][-25:]}|{values[3][-25:]}) inserted")
 
 if __name__ == "__main__":
     db = Database("log.log")

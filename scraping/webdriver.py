@@ -5,6 +5,7 @@ import time
 
 import selenium
 from selenium import webdriver
+from   selenium.webdriver.support import expected_conditions
 
 import logger
 
@@ -40,9 +41,9 @@ class Webdriver:
     def get(self,
         url : str):
         
-        self.logger.debug(f"{url}: getting page...")
+        self.logger.debug(f"getting page {url}...")
         self.driver.get(url)
-        self.logger.debug(f"{url}: page received")
+        self.logger.debug("page received")
         
     def click_element(self,
         selector : selenium.webdriver.common.by.By,
@@ -51,7 +52,7 @@ class Webdriver:
         
         wait = selenium.webdriver.support.ui.WebDriverWait(self.driver, 10)
         c_values = (selector, path)
-        condition = selenium.webdriver.support.expected_conditions.visibility_of_element_located(c_values)
+        condition = expected_conditions.visibility_of_element_located(c_values)
         button = wait.until(condition)
         enter = "webdriver" + selenium.webdriver.common.keys.Keys.ENTER
         self.logger.debug(f"{path}: clicking...")

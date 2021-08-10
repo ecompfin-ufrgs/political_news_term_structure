@@ -58,30 +58,22 @@ class JSScraper(base_scraper.BaseScraper):
                 self.n_load_attempt += 1
                 self.logger.warning("no new article visible")
             elif self.n_click_attempt < self.N_MAX_CLICK:
-                try:
-                    self.click_next()
-                    self.n_click_attempt = 1
-                    self.n_load_attempt = 1
-                    self.logger.debug("clicked")
-                except:
-                    self.n_click_attempt += 1
-                    self.logger.warning("unable to click")
+                self.click_next()
             else:
                 self.logger.warning("maximum number of load and click attempts reached, finishing scrape...")
                 break
             
     def config_db(self):
         self.database.execute(self.database.USE_DB)
-        self.database.execute(f"SELECT id FROM websites WHERE name = '{self.NAME}'")
-        results = self.database.cursor.fetchall()
-        self.ID = results[0]
+        self.ID = self.database.query_website_id(self.NAME)
+        self.database.delete_articles(self.ID)
                 
     def click_next(self):
         
         try:
             self.webdriver.click_element(
-                *self.SELECTORS["next_page"],
-                sleep_time=0.2)
+                    *self.SELECTORS["next_page"],
+                    sleep_time=0.2)
             self.n_page += 1
             self.n_click_attempt = 1
             self.n_load_attempt = 1
@@ -93,29 +85,18 @@ class JSScraper(base_scraper.BaseScraper):
                     
     def loop_articles(self, visible_articles : list):
         
+        self.logger.debug("        id|date               |title                    |title                           ")
+        self.logger.debug("        --+-------------------+-------------------------+-------------------------       ")
         self.previous_articles = self.previous_articles[-self.N_LAST_ARTICLES:]
         for v_article in visible_articles:
-            if v_article in self.previous_articles:
-                self.logger.debug("article previously visible")
-            else:
+            if not v_article in self.previous_articles:
                 self.previous_articles.append(v_article)
                 self.get_info(v_article)
         self.database.commit()
-                
+
     def get_info(self, v_article):
-        
-        try:
-            soup = bs4.BeautifulSoup(v_article.get_attribute('innerHTML'), "html.parser")
-            date = soup.select(self.SELECTORS["article_datetime"])[0].text
-            title = soup.select(self.SELECTORS["article_title"])[0].text
-            link = soup.select(self.SELECTORS["article_link"])[0]['href']
-            date = self.get_date(date)
-            values = (self.ID, date, title, link)
-            self.database.execute(self.database.INSERT_ARTICLE, values)
-            self.logger.debug(f"inserted: {date}|{title[:20]}|{link[:20]}")
-        except:
-            self.logger.warning("article data not available")
-    
+        pass
+            
     @staticmethod
     def get_date(date : str):
         pass
