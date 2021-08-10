@@ -44,10 +44,12 @@ class Database:
         
         self.logger = logger.Logger("database", log_filename)
         
+        with open("password.txt") as file:
+            password = file.read()
         self.conn = mysql.connector.connect(
             host="localhost",
             user="ubuntu",
-            password="Ber8822?"
+            password=password
             )
         self.logger.debug("connected")
         self.cursor = self.conn.cursor()
