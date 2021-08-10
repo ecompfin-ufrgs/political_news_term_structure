@@ -41,11 +41,16 @@ class JSScraper(base_scraper.BaseScraper):
         self.run = True
         
     def scrape(self):
-        
-        self.get_website_id()
+        self.database.execute(self.database.USE_DB)
+        self.database.execute(f"DROP TABLE IF EXISTS {self.SHORT_NAME}")
+        self.database.execute(f"""CREATE TABLE {self.SHORT_NAME}(
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            date DATETIME,
+            title VARCHAR(255),
+            link VARCHAR(255)
+            );""")
         self.webdriver.get(self.START_URL)
         while self.run:
-            self.n_page += 1
             self.logger.debug(f"page {self.n_page};  load attempts {self.n_load_attempt}; click attempts {self.n_click_attempt}...")
             visible_articles = self.webdriver.get_elements(self.SELECTORS["article"])
             last_visible_article = visible_articles[-1]
@@ -71,15 +76,6 @@ class JSScraper(base_scraper.BaseScraper):
             else:
                 self.logger.warning("maximum number of load and click attempts reached, finishing scrape...")
                 break
-            
-    def get_website_id(self):
-        self.database.execute(self.database.USE_DB)
-        self.database.commit()
-        script = f"SELECT id FROM websites WHERE name = '{self.NAME}';"
-        self.database.execute(script)
-        myresult = self.database.cursor.fetchall()
-        myresult = myresult[0]
-        self.ID = myresult[0]
                 
     def click_next(self):
         
@@ -87,6 +83,7 @@ class JSScraper(base_scraper.BaseScraper):
             self.webdriver.click_element(
                 *self.SELECTORS["next_page"],
                 sleep_time=0.2)
+            self.n_page += 1
             self.n_click_attempt = 1
             self.n_load_attempt = 1
             self.webdriver.debug("clicked")
@@ -114,8 +111,8 @@ class JSScraper(base_scraper.BaseScraper):
             title = soup.select(self.SELECTORS["article_title"])[0].text
             link = soup.select(self.SELECTORS["article_link"])[0]['href']
             date = self.get_date(date)
-            values = (self.ID, date, title, link)
-            self.database.execute(self.database.INSERT_ARTICLE, values)
+            values = (date, title, link)
+            self.database.execute(self.INSERT_ARTICLE, values)
             self.logger.debug(f"inserted: {date}|{title[:20]}|{link[:20]}")
         except:
             self.logger.warning("article data not available")
