@@ -76,7 +76,7 @@ class Database:
         
     def insert_article(self, values : tuple):
         self.execute(self.INSERT_ARTICLE, values)
-        self.logger.debug(f"values ({values[0]}|{values[1]}|{values[2][-25:]}|{values[3][-25:]}) inserted")
+        self.logger.debug(f"values |{values[0]}|{values[1]}|{values[2][:25]}|{values[3][:25]}| inserted")
 
 if __name__ == "__main__":
     db = Database("log.log")

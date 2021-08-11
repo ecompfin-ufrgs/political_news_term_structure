@@ -1,6 +1,7 @@
 
 
 import bs4
+import time
 
 import base_scraper
 
@@ -39,7 +40,7 @@ class JSScraper(base_scraper.BaseScraper):
         self.n_load_attempt = 1
         self.n_click_attempt = 1
         self.run = True
-        
+    
     def scrape(self):
         self.config_db()
         self.webdriver.get(self.START_URL)
@@ -57,6 +58,7 @@ class JSScraper(base_scraper.BaseScraper):
             elif self.n_load_attempt < self.N_MAX_LOAD:
                 self.n_load_attempt += 1
                 self.logger.warning("no new article visible")
+                time.sleep(.2)
             elif self.n_click_attempt < self.N_MAX_CLICK:
                 self.click_next()
             else:
@@ -85,13 +87,14 @@ class JSScraper(base_scraper.BaseScraper):
                     
     def loop_articles(self, visible_articles : list):
         
-        self.logger.debug("        id|date               |title                    |title                           ")
-        self.logger.debug("        --+-------------------+-------------------------+-------------------------       ")
+        self.logger.debug("        id|date               |title                    |link                            ")
+        self.logger.debug("        +-+-------------------+-------------------------+-------------------------+      ")
         self.previous_articles = self.previous_articles[-self.N_LAST_ARTICLES:]
         for v_article in visible_articles:
             if not v_article in self.previous_articles:
                 self.previous_articles.append(v_article)
                 self.get_info(v_article)
+        self.logger.debug("        +-+-------------------+-------------------------+-------------------------+      ")
         self.database.commit()
 
     def get_info(self, v_article):
