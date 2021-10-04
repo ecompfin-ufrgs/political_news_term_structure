@@ -4,6 +4,7 @@ with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
 requirements = [
+    "beautifulsoup4",
     "matplotlib",
     "numpy",
     "pandas",
