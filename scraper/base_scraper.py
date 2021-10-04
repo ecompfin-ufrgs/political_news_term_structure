@@ -1,15 +1,19 @@
-
-
-import database
-import logger
-import webdriver
+from database import Database
+from logger import Logger
+from webdriver import Webdriver
 
 
 class BaseScraper:
+    """
+    Basic scraper.
+    """
+    LOG_FILENAME: str
     
     def __init__(self):
-            
-        self.logger = logger.Logger("scraper", self.LOG_FILENAME)
-        self.database = database.Database(self.LOG_FILENAME)
-        self.webdriver = webdriver.Webdriver(self.LOG_FILENAME)
+        """
+        Initiator method.
+        """
+        self.logger: Logger = Logger("scraper", self.LOG_FILENAME)
+        self.database: Database = Database(self.LOG_FILENAME)
+        self.webdriver: Webdriver = Webdriver(self.LOG_FILENAME)
         

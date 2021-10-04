@@ -1,32 +1,20 @@
-
-
-import bs4
 import time
+from typing import Dict, Tuple
 
-import base_scraper
-
-
-class DateError(Exception):
-    def __init__(self,
-        msg : str):
-    
-        self.msg = msg
+from .base_scraper import BaseScraper
 
 
-class JSScraper(base_scraper.BaseScraper):
-    
-    @property
-    def NAME(self): pass
-    @property
-    def N_LAST_ARTICLES(self): pass
-    @property
-    def SELECTORS(self): pass
-    @property
-    def LOG_FILENAME(self): pass
-    @property
-    def START_URL(self): pass
-    N_MAX_LOAD = 50
-    N_MAX_CLICK = 10
+class JSScraper(BaseScraper):
+
+    id: int
+    NAME: str
+    N_LAST_ARTICLES: int
+    SELECTORS: Dict[str, Tuple[str, str]]
+    LOG_FILENAME: str
+    START_URL: str
+
+    N_MAX_LOAD: int = 50
+    N_MAX_CLICK: int = 10
     ID = None
     SHORT_NAME = None
     
@@ -39,12 +27,11 @@ class JSScraper(base_scraper.BaseScraper):
         self.n_page = 0
         self.n_load_attempt = 1
         self.n_click_attempt = 1
-        self.run = True
     
     def scrape(self):
         self.config_db()
         self.webdriver.get(self.START_URL)
-        while self.run:
+        while True:
             self.logger.debug(f"page {self.n_page};  load attempts {self.n_load_attempt}; click attempts {self.n_click_attempt}...")
             visible_articles = self.webdriver.get_elements(self.SELECTORS["article"])
             last_visible_article = visible_articles[-1]
@@ -67,7 +54,7 @@ class JSScraper(base_scraper.BaseScraper):
             
     def config_db(self):
         self.database.execute(self.database.USE_DB)
-        self.ID = self.database.query_website_id(self.NAME)
+        self.id = self.database.query_website_id(self.NAME)
         self.database.delete_articles(self.ID)
                 
     def click_next(self):
@@ -79,7 +66,7 @@ class JSScraper(base_scraper.BaseScraper):
             self.n_page += 1
             self.n_click_attempt = 1
             self.n_load_attempt = 1
-            self.webdriver.debug("clicked")
+            self.logger.debug("clicked")
         except:
             self.n_click_attempt += 1
             self.n_load_attempt = 1
@@ -91,7 +78,7 @@ class JSScraper(base_scraper.BaseScraper):
         self.logger.debug("        +-+-------------------+-------------------------+-------------------------+      ")
         self.previous_articles = self.previous_articles[-self.N_LAST_ARTICLES:]
         for v_article in visible_articles:
-            if not v_article in self.previous_articles:
+            if v_article not in self.previous_articles:
                 self.previous_articles.append(v_article)
                 self.get_info(v_article)
         self.logger.debug("        +-+-------------------+-------------------------+-------------------------+      ")
