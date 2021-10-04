@@ -1,16 +1,14 @@
-.. news-brazil documentation master file, created by
-   sphinx-quickstart on Wed Jul 21 19:10:32 2021.
+.. Politics and Efficiency: Brazilian Term Structure documentation master file, created by
+   sphinx-quickstart on Sun Oct  3 21:16:37 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to news-brazil's documentation!
-=======================================
+Welcome to Politics and Efficiency: Brazilian Term Structure's documentation!
+=============================================================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-   api
 
 
 
