@@ -24,3 +24,6 @@ Following:
 * Implement the vasicek package.
 
 * Add dissertation LaTeX files now at Overleaf to a directory.
+
+.. bibliography::
+   :all:
