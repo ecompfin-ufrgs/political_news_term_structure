@@ -6,19 +6,30 @@
 Welcome to Politics and Efficiency: Brazilian Term Structure's documentation!
 =============================================================================
 
-Introduction
-------------
+.. toctree::
+   :maxdepth: 1
+   :caption: First Steps
 
-Everything from the dissertation project titled 'Politics and Efficiency: Brazilian Term Structure', develop as a
-partial requirement to obtain a Professional Master's in Economics degree from Universidade Federal do Rio Grande do
-Sul.
+   getting_started
+   structure
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Paper
 
+   abstract
+   introduction
+   institutional_environment
+   literature_review
+   empirical_strategy
+   results
+   conclusion
+   references
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Development
 
    meetings
 
