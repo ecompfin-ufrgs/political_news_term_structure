@@ -1,5 +1,5 @@
-Tasks
-=====
+Weekly Meetings
+===============
 
 30/09/2021
 ----------
@@ -8,6 +8,9 @@ To do:
 
 * Read references on econometrics and causality.
 * Complement the Methods section of the dissertation, defending the use of GARCH and Granger models.
+
+Suggested references: :cite:p:`1954:wold`, :cite:p:`1983:leamer`, :cite:p:`2005:hoover`, :cite:p:`2008:hoover`,
+:cite:p:`2008:heckman` and :cite:p:`2010:zaman`.
 
 Following:
 

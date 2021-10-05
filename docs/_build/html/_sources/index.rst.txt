@@ -20,7 +20,7 @@ Sul.
    :maxdepth: 2
    :caption: Contents:
 
-   tasks
+   meetings
 
 
 
