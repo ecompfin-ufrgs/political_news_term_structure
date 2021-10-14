@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: politics
+Version: 0.0.0
+Summary: Package that contains all custom packages needed for the dissertation project, including web-scraping modules, vasicek module, etc.
+Home-page: https://github.com/ecompfin-ufrgs/political_news_term_structure/tree/high-frequency
+Author: Bernardo Paulsen
+Author-email: bernardopaulsen@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+beautifulsoup4
+matplotlib
+mysql
+numpy
+pandas
+selenium
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-bibtex
+statsmodels
+typing-extensions

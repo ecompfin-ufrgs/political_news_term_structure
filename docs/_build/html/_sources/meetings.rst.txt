@@ -1,6 +1,23 @@
 Weekly Meetings
 ===============
 
+14/10/2021
+----------
+
+I suggested we use high frequency data. Is was decided that this will be made after the first project is completed.
+
+07/10/2021
+----------
+
+Done:
+
+* Read suggested references from last meeting.
+
+To do:
+
+* Update methods section given new literature which was read.
+
+
 30/09/2021
 ----------
 
