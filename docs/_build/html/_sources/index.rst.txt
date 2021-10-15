@@ -31,6 +31,7 @@ Welcome to Politics and Efficiency: Brazilian Term Structure's documentation!
    :maxdepth: 2
    :caption: Development
 
+   planning
    meetings
 
 
