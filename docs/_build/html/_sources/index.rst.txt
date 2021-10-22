@@ -17,22 +17,23 @@ Welcome to Politics and Efficiency: Brazilian Term Structure's documentation!
    :maxdepth: 2
    :caption: Paper
 
-   abstract
-   introduction
-   institutional_environment
-   literature_review
-   empirical_strategy
-   results
-   conclusion
-   references
+   paper/abstract
+   paper/introduction
+   paper/institutional_environment
+   paper/literature_review
+   paper/empirical_strategy
+   paper/results
+   paper/conclusion
+   paper/references
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Development
 
-   planning
-   meetings
+   development/diary
+   development/meetings
+   development/planning
 
 
 
