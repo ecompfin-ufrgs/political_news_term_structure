@@ -4,6 +4,14 @@ Diary
 October 2021
 ------------
 
+
+26/10/2021 - Tue
+^^^^^^^^^^^^^^^^
+
+To do:
+
+* Read references on Vasicek estimation with panel data: :cite:`nowman2010`, :cite:`nowman2011` and :cite:`nowman1998`.
+
 22/10/2021
 ^^^^^^^^^^
 
