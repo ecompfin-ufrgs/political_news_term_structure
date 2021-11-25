@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empirical Strategy &mdash; Politics and Efficiency: Brazilian Term Structure 0.1.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Expected Results" href="expected_results.html" />
+    <link rel="prev" title="Literature Review" href="literature_review.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Politics and Efficiency: Brazilian Term Structure
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">First Steps</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../structure.html">Structure</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Project</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="literature_review.html">Literature Review</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Empirical Strategy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#data">Data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#preliminary-data">Preliminary Data</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#methods">Methods</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#a-model-of-the-term-structure">A Model of the Term Structure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#a-model-of-volatility">A Model of Volatility</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#a-model-of-causal-relations">A Model of Causal Relations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="expected_results.html">Expected Results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conclusion.html">Conclusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Paper</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../paper/abstract.html">Abstract</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../paper/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../paper/institutional_environment.html">Institutional Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../paper/literature_review.html">Literature Review</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../paper/empirical_strategy.html">Empirical Strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../paper/results.html">Results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../paper/conclusion.html">Conclusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../paper/references.html">References</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Development</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../development/diary.html">Diary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../development/meetings.html">Weekly Meetings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../development/planning.html">Planning</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Politics and Efficiency: Brazilian Term Structure</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Empirical Strategy</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/project/empirical_strategy.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="empirical-strategy">
+<h1>Empirical Strategy<a class="headerlink" href="#empirical-strategy" title="Permalink to this headline">¶</a></h1>
+<section id="data">
+<h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
+<p>First, we measure the phenomena we want to observe. In our case, this means collecting data on the term structure
+and on political events. The interest rate from which the term structure we will consider is the one day inter-bank
+deposits rate (DI rate). From the DI rate we will collect both the one-day rate and its futures. We choose this
+specific interest rate as it is backed by public titles and defined by competition across banks as they lend from
+and borrow to each other with the intention of not closing with negative cash. This rate also is the asset behind a
+lot of post-fixed income contracts.</p>
+<p>In order to measure political events we collect political news data from Brazilian news portals,
+so we can calculate the volume of political news and use it as a proxy for political events.
+We will collect only the main information about each article (date and time, title and link).
+The news portals will be chosen considering their importance and the availability of data on each
+one (which will be evaluated at the next step).</p>
+<p>Second, we will explore the collected data. In this step we will mainly analyze the news data in order to find which
+news portals to consider.</p>
+<p>Finally, we will process the data. We first estimate the risk factor process given the term structure data
+(<a class="reference internal" href="#model-term-structure"><span class="std std-ref">A Model of the Term Structure</span></a>). Then we measure the volatility of the risk factor process
+(<a class="reference internal" href="#model-volatility"><span class="std std-ref">A Model of Volatility</span></a>). After we calculate the total political news volume after the
+news portals selected in the previous step, we will be able to test the causality between the news volume
+and the spot rate volatility (<a class="reference internal" href="#model-causal-relations"><span class="std std-ref">A Model of Causal Relations</span></a>).</p>
+<section id="preliminary-data">
+<h3>Preliminary Data<a class="headerlink" href="#preliminary-data" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="methods">
+<h2>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<p>First, we will analyze the risk of the term structure with the Vasicek model :cite:vasicek1977. The model has one state factor, therefore we can represent all the risk of the term structure with a single stochastic process. After we estimate this stochastic process, we calculate its volatility with a GARCH model :cite:{bollerslev1986. The GARCH model has conditional volatility, generating from its estimation a stochastic process of the volatility. Finally, we estimate the Granger causality :cite:{granger1969 between the political news volume process and the volatility process. The results from this estimation will answer the research problem, showing whether political events affect the term structure of interest rates.</p>
+<section id="a-model-of-the-term-structure">
+<span id="model-term-structure"></span><h3>A Model of the Term Structure<a class="headerlink" href="#a-model-of-the-term-structure" title="Permalink to this headline">¶</a></h3>
+<p>In order to estimate the risk factor process we will use the <span id="id1">[<a class="reference internal" href="references.html#id18" title="Oldrich Vasicek. An equilibrium characterization of the term structure. Journal of Financial Economics, 5(2):177-188, 1977. URL: https://EconPapers.repec.org/RePEc:eee:jfinec:v:5:y:1977:i:2:p:177-188.">Vas77</a>]</span> model of the term structure. This is a
+one factor continuous affine model, based on an arbitrage argument. Three assumptions are made:</p>
+<ol class="arabic simple">
+<li><p>the spot rate follows a diffusion process,</p></li>
+<li><p>the price of a discount bond depends only on the spot rate over its term,</p></li>
+<li><p>the market is efficient.</p></li>
+</ol>
+<p>From these assumptions it follows that the spot rate is the only state variable of the term structure, and the only
+source of risk. Adding two more assumptions - the market price of risk is a constant and the spot rate follows a
+Ornstein-Uhlenbeck process - we arrive at a specific case of the model, which will be the one considered in this
+research, and which main results are the following:</p>
+<p>the spot rate follows the process</p>
+<p><div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">\mathrm{dr = \alpha(\gamma-r)\mathrm{dt + \rho \mathrm{dz</span>)</p>
+<p>latex exited with error
+[stdout]
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex)
+ restricted \write18 enabled.
+entering extended mode
+(./math.tex
+LaTeX2e &lt;2020-02-02&gt; patch level 2
+L3 programming layer &lt;2020-02-14&gt;
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def)
+No file math.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd))
+Runaway argument?
+{dr = \alpha (\gamma -r)\mathrm {dt + \rho \mathrm {dz$ \end {documen\ETC.
+! File ended while scanning use of \math&#64;egroup.
+&lt;inserted text&gt; 
+                \par 
+&lt;*&gt; math.tex
+            
+! Emergency stop.
+&lt;*&gt; math.tex
+            
+No pages of output.
+Transcript written on math.log.
+</p>
+</div>
+</p>
+<p>and the term structure takes the form</p>
+<p><div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">R(t,T) = R(\infty) + (r(r)-R(\infty))\frac{1{\alpha T (1 - e^{-\alpha T) + \frac{\rho^2{4\alpha^3 T(1 - e^{-\alpha T)^2</span>)</p>
+<p>latex exited with error
+[stdout]
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex)
+ restricted \write18 enabled.
+entering extended mode
+(./math.tex
+LaTeX2e &lt;2020-02-02&gt; patch level 2
+L3 programming layer &lt;2020-02-14&gt;
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def)
+(./math.aux) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd))
+Runaway argument?
+{1{\alpha T (1 - e^{-\alpha T) + \frac {\rho ^2{4\alpha ^3 T(1 - e^{-\ETC.
+! File ended while scanning use of \frac .
+&lt;inserted text&gt; 
+                \par 
+&lt;*&gt; math.tex
+            
+! Emergency stop.
+&lt;*&gt; math.tex
+            
+No pages of output.
+Transcript written on math.log.
+</p>
+</div>
+</p>
+<p>where</p>
+<p><div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">R(\infty) = \gamma + \frac{p\rho{\alpha - \frac{1{2 \frac{p^2{\alpha^2</span>)</p>
+<p>latex exited with error
+[stdout]
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex)
+ restricted \write18 enabled.
+entering extended mode
+(./math.tex
+LaTeX2e &lt;2020-02-02&gt; patch level 2
+L3 programming layer &lt;2020-02-14&gt;
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def)
+(./math.aux) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd))
+Runaway argument?
+{p\rho {\alpha - \frac {1{2 \frac {p^2{\alpha ^2$ \end {document} 
+! File ended while scanning use of \frac .
+&lt;inserted text&gt; 
+                \par 
+&lt;*&gt; math.tex
+            
+! Emergency stop.
+&lt;*&gt; math.tex
+            
+No pages of output.
+Transcript written on math.log.
+</p>
+</div>
+</p>
+</section>
+<section id="a-model-of-volatility">
+<span id="model-volatility"></span><h3>A Model of Volatility<a class="headerlink" href="#a-model-of-volatility" title="Permalink to this headline">¶</a></h3>
+<p>We will measure the spot rate volatility with the :cite:{bollerslev1986 model, namely the Generalized Auto Regressive
+Conditional Heteroskedasticity (GARCH) model. This is a parametric model, where the conditional variance is specified
+as a linear function of lagged sample and conditional variances.</p>
+<p>The model is given by the following equations:</p>
+<p><div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">\varepsilon_t | \psi_{t-1 ~ N(0, h_t)</span>)</p>
+<p>latex exited with error
+[stdout]
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex)
+ restricted \write18 enabled.
+entering extended mode
+(./math.tex
+LaTeX2e &lt;2020-02-02&gt; patch level 2
+L3 programming layer &lt;2020-02-14&gt;
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def)
+(./math.aux) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+! Missing } inserted.
+&lt;inserted text&gt; 
+                }
+l.13 ...nt $\varepsilon_t | \psi_{t-1 ~ N(0, h_t)$
+                                                  
+[1] (./math.aux) )
+(see the transcript file for additional information)
+Output written on math.dvi (1 page, 508 bytes).
+Transcript written on math.log.
+</p>
+</div>
+</p>
+<p><div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">h_t = \alpha_0 + \sum^q_{i=1 \alpha_i \varepsilon^2_{t-i + \sum^p_{i=1 \beta_i h_{t-1</span>)</p>
+<p>latex exited with error
+[stdout]
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex)
+ restricted \write18 enabled.
+entering extended mode
+(./math.tex
+LaTeX2e &lt;2020-02-02&gt; patch level 2
+L3 programming layer &lt;2020-02-14&gt;
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def)
+(./math.aux) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+! Missing } inserted.
+&lt;inserted text&gt; 
+                }
+l.13 ...silon^2_{t-i + \sum^p_{i=1 \beta_i h_{t-1$
+                                                  
+! Missing } inserted.
+&lt;inserted text&gt; 
+                }
+l.13 ...silon^2_{t-i + \sum^p_{i=1 \beta_i h_{t-1$
+                                                  
+! Missing } inserted.
+&lt;inserted text&gt; 
+                }
+l.13 ...silon^2_{t-i + \sum^p_{i=1 \beta_i h_{t-1$
+                                                  
+! Missing } inserted.
+&lt;inserted text&gt; 
+                }
+l.13 ...silon^2_{t-i + \sum^p_{i=1 \beta_i h_{t-1$
+                                                  
+[1] (./math.aux) )
+(see the transcript file for additional information)
+Output written on math.dvi (1 page, 748 bytes).
+Transcript written on math.log.
+</p>
+</div>
+</p>
+</section>
+<section id="a-model-of-causal-relations">
+<span id="model-causal-relations"></span><h3>A Model of Causal Relations<a class="headerlink" href="#a-model-of-causal-relations" title="Permalink to this headline">¶</a></h3>
+<p>Causality will be measured using the Granger model :cite:{granger1969. In this model, causality means predictive
+causality: a variable causes the other if predictions made with information on the first and the latter are better
+than predictions made with information only on the latter.</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="literature_review.html" class="btn btn-neutral float-left" title="Literature Review" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="expected_results.html" class="btn btn-neutral float-right" title="Expected Results" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Bernardo Paulsen.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

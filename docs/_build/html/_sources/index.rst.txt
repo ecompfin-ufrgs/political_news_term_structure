@@ -15,6 +15,17 @@ Welcome to Politics and Efficiency: Brazilian Term Structure's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :caption: Project
+
+   project/introduction
+   project/literature_review
+   project/empirical_strategy
+   project/expected_results
+   project/conclusion
+   project/references
+
+.. toctree::
+   :maxdepth: 2
    :caption: Paper
 
    paper/abstract
