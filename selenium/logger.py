@@ -6,6 +6,7 @@ Version     : 1.0.0
 """
 import logging
 
+
 class Logger:
     """
     Class which implements a custom logger.
@@ -18,27 +19,27 @@ class Logger:
     :type level: int, optional
     :param mode: Log file mode, defaults to "a"
     :type mode: str, optional
-    :param format: Log format, defaults to "%(asctime)s:%(name)s:%(levelname)s:%(message)s"
-    :type format: str, optional
+    :param format_: Log format, defaults to "%(asctime)s:%(name)s:%(levelname)s:%(message)s"
+    :type format_: str, optional
     """
-    def __init__(
-        self,
-        name   : str,
-        file   : str = "log",
-        level  : int = logging.DEBUG,
-        mode   : str = "a",
-        format : str = "%(asctime)s::%(name)s::%(levelname)s::%(message)s"):
+
+    def __init__(self,
+                 name: str,
+                 file: str = "log",
+                 level: int = logging.DEBUG,
+                 mode: str = "a",
+                 format_: str = "%(asctime)s::%(name)s::%(levelname)s::%(message)s"):
         """
         Constructor method.
         """
-        self.logger  = self.config(name, file, level, mode, format)
-        self.debug   = self.logger.debug
+        self.logger = self.config(name, file, level, mode, format_)
+        self.debug = self.logger.debug
         self.warning = self.logger.warning
-        self.error   = self.logger.error
+        self.error = self.logger.error
 
-    def console_handler(self,
-        level     : int,
-        formatter : logging.Formatter):
+    @staticmethod
+    def console_handler(level: int,
+                        formatter: logging.Formatter):
         """
         Configures console handler.
 
@@ -55,11 +56,11 @@ class Logger:
         handler.setFormatter(formatter)
         return handler
 
-    def file_handler(self,
-        file      : str,
-        mode      : str,
-        level     : int,
-        formatter : logging.Formatter):
+    @staticmethod
+    def file_handler(file: str,
+                     mode: str,
+                     level: int,
+                     formatter: logging.Formatter):
         """
         Configures file handler.
 
@@ -76,29 +77,29 @@ class Logger:
         :rtype: logging.FileHandler
         """
         handler = logging.FileHandler(
-            filename = file,
-            mode     = mode)
+            filename=file,
+            mode=mode)
         handler.setLevel(level)
         handler.setFormatter(formatter)
         return handler
 
-    def formatter(self,
-        format : str):
+    @staticmethod
+    def formatter(format_: str):
         """
         Configures formatter.
 
-        :param format: Log format
-        :type format: str
+        :param format_: Log format
+        :type format_: str
         """
-        formatter = logging.Formatter(format)
+        formatter = logging.Formatter(format_)
         return formatter
 
     def config(self,
-        name   : str,
-        file   : str,
-        level  : int,
-        mode   : str,
-        format : str):
+               name: str,
+               file: str,
+               level: int,
+               mode: str,
+               format_: str):
         """
         Configures logger.
 
@@ -110,22 +111,23 @@ class Logger:
         :type level: int
         :param mode: Log file mode
         :type mode: str
-        :param format: Log format
-        :type format: str
+        :param format_: Log format
+        :type format_: str
         
         :return: Logger
         :rtype: logging.Logger
         """
 
-        formatter       = self.formatter(format)
-        logger          = logging.getLogger(name)
-        console_handler = self.console_handler(level,formatter)
-        file_handler    = self.file_handler(f"logs/{file}.log",mode,level,formatter)
+        formatter = self.formatter(format_)
+        logger = logging.getLogger(name)
+        console_handler = self.console_handler(level, formatter)
+        file_handler = self.file_handler(f"logs/{file}.log", mode, level, formatter)
         logger.setLevel(level)
         logger.addHandler(console_handler)
         logger.addHandler(file_handler)
         logger.debug("logger configured")
         return logger
+
 
 if __name__ == "__main__":
     log = Logger("logger")
