@@ -4,22 +4,20 @@ Description : Defines class Webdriver, which uses selenium to connect to, naviga
 Author      : Bernardo Paulsen
 Version     : 1.0.0
 """
-from   logger                               import Logger
 import os
-from   selenium                             import webdriver
-from   selenium.webdriver.chrome.options    import Options
-#from   selenium.webdriver.firefox.options   import Options
-from   selenium.webdriver.common.by         import By
-from   selenium.webdriver.support.ui        import WebDriverWait
-from   selenium.webdriver.support           import expected_conditions as EC
-from   selenium.webdriver.common.keys       import Keys
-from   selenium.webdriver.remote.webelement import WebElement
 import time
 
-#import line_profiler
-#import atexit
-#profile = line_profiler.LineProfiler()
-#atexit.register(profile.print_stats)
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+# from   selenium.webdriver.firefox.options   import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.remote.webelement import WebElement
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
+from logger import Logger
+
 
 class Webdriver:
     """
@@ -28,10 +26,10 @@ class Webdriver:
     :param log_file: Log file name, defaults to "log.log"
     :type log_file: str, optional
     """
-    #path     = "./chromedriver"
-    path     = "/usr/lib/chromium-browser/chromedriver"
-    #path     = "/usr/bin/geckodriver"
-    options  = ["--headless"]#,
+    # path     = "./chromedriver"
+    path = "/usr/lib/chromium-browser/chromedriver"
+    # path     = "/usr/bin/geckodriver"
+    options = ["--headless"]  # ,
     #    "start-maximized",
     #    "disable-infobars",
     #    "--disable-extensions",
@@ -40,8 +38,9 @@ class Webdriver:
     #    "--disable-gpu",
     #    "--disable-dev-shm-usage"]
     log_name = "webdriver"
+
     def __init__(self,
-        log_file : str = "log"):
+                 log_file: str = "log"):
         """
         Contructor method.
         """
@@ -62,25 +61,25 @@ class Webdriver:
         """
         Configures Chrome webdriver.
         """
-        #driver_profile = webdriver.FirefoxProfile()
-        #driver_profile.set_preference("permissions.default.image", 2)
-        #driver_profile.set_preference("browser.cache.disk.enable", False)
-        #driver_profile.set_preference("browser.cache.memory.enable", False)
-        #driver_profile.set_preference("browser.cache.offline.enable", False)
-        #driver_profile.set_preference("network.http.use-cache", False) 
+        # driver_profile = webdriver.FirefoxProfile()
+        # driver_profile.set_preference("permissions.default.image", 2)
+        # driver_profile.set_preference("browser.cache.disk.enable", False)
+        # driver_profile.set_preference("browser.cache.memory.enable", False)
+        # driver_profile.set_preference("browser.cache.offline.enable", False)
+        # driver_profile.set_preference("network.http.use-cache", False)
         driver_options = Options()
         for option in self.options:
             driver_options.add_argument(option)
         self.logger.debug("opening connection...")
         driver = webdriver.Chrome(executable_path=self.path,
-            service_log_path=os.path.devnull,
-            options=driver_options)#,
+                                  service_log_path=os.path.devnull,
+                                  options=driver_options)  # ,
         #    firefox_profile=driver_profile)
         self.logger.debug("connection open")
         self.driver = driver
 
     def get(self,
-        url : str):
+            url: str):
         """
         Gets url.
 
@@ -90,9 +89,9 @@ class Webdriver:
         self.logger.debug(f"getting page {url}...")
         self.driver.get(url)
         self.logger.debug(f"page received")
-    
+
     def get_elements(self,
-        xpath : str) -> list:
+                     xpath: str) -> list:
         """
         Gets all elements given xpath expression.
 
@@ -107,9 +106,9 @@ class Webdriver:
         self.logger.debug(f"{len(elements)} elements found")
         return elements
 
-    def get_inner(self,
-        xpath   : str,
-        element : WebElement) -> WebElement:
+    @staticmethod
+    def get_inner(xpath: str,
+                  element: WebElement) -> WebElement:
         """
         Gets element which is inside given element.
 
@@ -125,21 +124,20 @@ class Webdriver:
         return inner
 
     def next_page(self,
-        xpath : str):
+                  xpath: str):
         """
         Clicks next page element.
 
         :param xpath: Xpath expression for next page element
         :type xpath: str
         """
-        wait  = WebDriverWait(self.driver, 10)
-        next  = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, xpath)))
+        wait = WebDriverWait(self.driver, 10)
+        next = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, xpath)))
         enter = "webdriver" + Keys.ENTER
         next.send_keys(enter)
-        #self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        # self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         self.logger.debug("next page clicked")
         time.sleep(.2)
-
 
 
 if __name__ == "__main__":
