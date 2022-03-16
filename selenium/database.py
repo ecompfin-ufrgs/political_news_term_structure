@@ -4,13 +4,10 @@ Description : Defines class Database, which uses SQLite3 to manage a database fi
 Author      : Bernardo Paulsen
 Version     : 1.0.0
 """
-from   logger import Logger
 import sqlite3
 
-#import line_profiler
-#import atexit
-#profile = line_profiler.LineProfiler()
-#atexit.register(profile.print_stats)
+from logger import Logger
+
 
 class Database:
     """
@@ -25,20 +22,19 @@ class Database:
     :param log_file: Log file name, defaults to "log.log"
     :type log_file: str, optional
     """
-    def __init__(
-        self,
-        name     : str = "test.db",
-        table    : str = "test",
-        log_name : str = "database",
-        log_file : str = "log"):
+    def __init__(self,
+                 name: str = "test.db",
+                 table: str = "test",
+                 log_name: str = "database",
+                 log_file: str = "log"):
         """
         Constructor method.
         """
-        self.logger        = Logger(log_name, log_file)
-        self.name          = name
-        self.table         = table
-        self.conn          = self.config()
-        self.insert_scrpit = f"INSERT INTO {self.table} (date, title) VALUES (?, ?);"
+        self.logger = Logger(log_name, log_file)
+        self.name = name
+        self.table = table
+        self.conn = self.config()
+        self.insert_script = f"INSERT INTO {self.table} (date, title) VALUES (?, ?);"
 
     def __del__(self):
         """
@@ -67,8 +63,8 @@ class Database:
         return conn
 
     def insert(self,
-        date  : str, 
-        title : str):
+               date: str,
+               title: str):
         """
         Inserts values into database.
 
@@ -78,7 +74,7 @@ class Database:
         :type title: str
         """
         values = (date, title)
-        self.conn.execute(self.insert_scrpit,values)
+        self.conn.execute(self.insert_script, values)
         self.logger.debug(f"({date}|{title[:50]})")
 
     def get_drop(self):
@@ -109,6 +105,7 @@ class Database:
         );
         """
         return script
+
 
 if __name__ == "__main__":
     db = Database()
