@@ -4,92 +4,103 @@ Description : Defines abstract class Scraper, which scrapes news websites.
 Author      : Bernardo Paulsen
 Version     : 1.0.0
 """
-from   abc                                  import ABC, abstractmethod
-from   bs4                                  import BeautifulSoup
-from   database                             import Database
-from   logger                               import Logger
-import lxml
 import os
-from   selenium.webdriver.remote.webelement import WebElement
 import time
-from   webdriver                            import Webdriver
+from abc import ABC, abstractmethod
 
-#import line_profiler
-#import atexit
-#profile = line_profiler.LineProfiler()
-#atexit.register(profile.print_stats)
+from bs4 import BeautifulSoup
+from selenium.webdriver.remote.webelement import WebElement
+
+from database import Database
+from logger import Logger
+from webdriver import Webdriver
+
 
 class Scraper(ABC):
     """
     Class for scraping news websites.
     """
     log_name = "scraper"
+
     @property
     @abstractmethod
     def start_url(self):
         pass
+
     @property
     @abstractmethod
     def next_xpath(self):
         pass
+
     @property
     @abstractmethod
     def row_type(self):
         pass
+
     @property
     @abstractmethod
     def row_class(self):
         pass
+
     @property
     @abstractmethod
     def title_xpath(self):
         pass
+
     @property
     @abstractmethod
     def date_xpath(self):
         pass
+
     @property
     @abstractmethod
     def n_last(self):
         pass
+
     @property
     @abstractmethod
     def n_next_max(self):
         pass
+
     @property
     @abstractmethod
     def n_load_max(self):
         pass
+
     @property
     @abstractmethod
     def n_error_max(self):
         pass
+
     @property
     @abstractmethod
     def log_file(self):
         pass
+
     @property
     @abstractmethod
     def db_name(self):
         pass
+
     @property
     @abstractmethod
     def db_table(self):
         pass
+
     def __init__(self):
         """
         Constructor method. Initiates Logger, Database and Webdriver.
         """
         os.system(f"rm logs/{self.log_file}.log")
-        self.logger      = Logger(self.log_name, self.log_file)
-        self.database    = Database(self.db_name, self.db_table, log_file = self.log_file)
-        self.webdriver   = Webdriver(log_file = self.log_file)
-        self.row_xpath   = self.get_row_xpath()
-        self.elements    = []
-        self.n_page      = 1
-        self.n_load      = 1
-        self.n_next      = 1
-        self.n_error     = 0
+        self.logger = Logger(self.log_name, self.log_file)
+        self.database = Database(self.db_name, self.db_table, log_file=self.log_file)
+        self.webdriver = Webdriver(log_file=self.log_file)
+        self.row_xpath = self.get_row_xpath()
+        self.elements = []
+        self.n_page = 1
+        self.n_load = 1
+        self.n_next = 1
+        self.n_error = 0
 
     def __del__(self):
         """
@@ -106,7 +117,8 @@ class Scraper(ABC):
         time.sleep(1)
         l = None
         while True:
-            self.logger.debug(f"page {self.n_page}, {self.n_next} try to click next, {self.n_load} try to load elements")
+            self.logger.debug(
+                f"page {self.n_page}, {self.n_next} try to click next, {self.n_load} try to load elements")
             new_elements = self.webdriver.get_elements(self.row_xpath)
             last_element_found = new_elements[-1]
             if last_element_found != l:
@@ -128,7 +140,7 @@ class Scraper(ABC):
                 self.logger.error("new elements not loading, finishing program...")
                 break
         del self
-    
+
     def next_page(self):
         finish = False
         try:
@@ -145,7 +157,7 @@ class Scraper(ABC):
         return finish
 
     def loop_elements(self,
-        new_elements : list):
+                      new_elements: list):
         """
         Loops through elements, finds new article elements, gets their information and inserts the information in the database.
         
@@ -161,7 +173,7 @@ class Scraper(ABC):
         self.database.commit()
 
     def get_info(self,
-        element : WebElement):
+                 element: WebElement):
         """
         Extacts information from elements and inserts it in the database.
 
@@ -176,7 +188,7 @@ class Scraper(ABC):
             self.database.insert(date, title)
         except:
             self.logger.warning("inner elements not found")
-            
+
     @abstractmethod
     def get_row_xpath(self):
         pass
@@ -184,7 +196,7 @@ class Scraper(ABC):
     @staticmethod
     @abstractmethod
     def get_date(
-        date : str):
+            date: str):
         """
         Abstract method. Gets date string and formats it to DATETIME data type (SQLite3).
 
