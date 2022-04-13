@@ -1,6 +1,7 @@
 import datetime as dt
 
 import pandas as pd
+from workalendar.america import Brazil
 
 
 def load_term_structure_data(dataframe_name: str) -> pd.DataFrame:
@@ -8,7 +9,7 @@ def load_term_structure_data(dataframe_name: str) -> pd.DataFrame:
     Loads term structure data from .xlsx file, setting the header row and selecting useful
     columns.
     """
-    return pd.read_excel(dataframe_name, header=3, index_col=0).iloc[:, :1]
+    return pd.read_excel(dataframe_name, header=3, index_col=0).iloc[:, 1:]
 
 
 def original_columns_to_datetime(dataframe_columns: list) -> pd.Series:
@@ -20,9 +21,8 @@ def original_columns_to_datetime(dataframe_columns: list) -> pd.Series:
     """
     asset_symbol_to_month = {'F': '01', 'G': '02', 'H': '03', 'J': '04', 'K': '05', 'M': '06',
                              'N': '07', 'Q': '08', 'U': '09', 'V': '10', 'X': '11', 'Z': '12'}
-    date_index = ['01/2000', '01/2000'] + [f'{asset_symbol_to_month[column[:1]]}/20{column[1:-3]}'
-                                           for column in dataframe_columns]
-    date_index = pd.to_datetime(date_index, format='%m/%Y')
+    date_index = [f'20{column[-2:]}-{asset_symbol_to_month[column[-3]]}' for column in dataframe_columns]
+    date_index = pd.to_datetime(date_index, format='%Y-%m')
     return date_index
 
 
