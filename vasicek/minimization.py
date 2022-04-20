@@ -18,9 +18,9 @@ def objective(x,
     return sum((term_rate-predicted_term_rate)**2)
 
 
-def estimate_parameters(term_rate: np.array,
-                        term_maturity: np.array
-                        ):
+def minimize_sse(term_rate: np.array,
+                 term_maturity: np.array
+                 ):
     x0 = [0.0, 0.0, 0.0, 0.0, 0.0]
     result = minimize(lambda x: objective(x, term_rate, term_maturity),
                       x0)
