@@ -1,32 +1,33 @@
 API
 ===
 
-Logger
-######
-.. automodule:: logger
-    :members:
+News Volume
+###########
+
+Utilities
+---------
 
 Database
-########
-.. automodule:: database
+""""""""
+.. automodule:: data_collection.news_volume.utilities.database
+    :members:
+
+Logger
+""""""
+.. automodule:: data_collection.news_volume.utilities.logger
     :members:
 
 Webdriver
-#########
-.. automodule:: webdriver
+"""""""""
+.. automodule:: data_collection.news_volume.utilities.webdriver
     :members:
 
-Scraper
-#######
-.. automodule:: scraper
+Term Structure
+##############
+.. automodule:: data_collection.term_structure.load_and_process
     :members:
 
-Minas
-#####
-.. automodule:: minas
-    :members:
 
-Correio
-#######
-.. automodule:: correio
-    :members:
+
+
+
