@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.optimize import minimize
 
-from term_structure import term_structure
+from .term_structure import term_structure
 
 
 def objective(x,

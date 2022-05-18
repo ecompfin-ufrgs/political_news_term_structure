@@ -1,4 +1,5 @@
 import datetime as dt
+from tqdm import tqdm
 
 import pandas as pd
 from workalendar.america import Brazil
@@ -32,7 +33,7 @@ def fix_day_in_columns_datetime(dataframe_columns) -> pd.Series:
 
     All column datetime are at day 1 of each month.
     """
-    work_calendar = Brazil
+    work_calendar = Brazil()
     dates = []
     for date in dataframe_columns:
         while not work_calendar.is_working_day(date):
@@ -57,18 +58,19 @@ def create_dataframe_with_columns_as_days_to_expiration(dataframe: pd.DataFrame)
     a contract's expiration.
     """
     df = pd.DataFrame()
-    for date_index in dataframe.index:
+    for date_index, _ in zip(dataframe.index, tqdm(range(len(dataframe.index)))):
         date_dictionary = {}
         for contract_expiration_date in dataframe.columns:
-            price_of_contract = data[contract_expiration_date][date_index]
+            price_of_contract = dataframe[contract_expiration_date][date_index]
             if type(price_of_contract) == float:
                 date_dictionary[contract_expiration_date - date_index] = price_of_contract
                 # TODO: it seems like the algorithm is calculating the date difference on calendar days instead of
                 #       working days
-        date_series = pd.Series(date_dictionary, name=index)
+        date_series = pd.Series(date_dictionary, name=date_index)
         df = df.append(date_series)
     df = df.reindex(sorted(df.columns), axis=1)
     return df
+
 
 def load_and_process_term_structure_data(dataframe_name: str) -> pd.DataFrame:
     """
