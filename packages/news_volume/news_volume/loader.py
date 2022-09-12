@@ -11,7 +11,8 @@ class NewsLoader:
         self.db_path = db_path
         self.table = table
 
-    def __call__(self):
+    def __call__(self
+                 ) -> pd.DataFrame:
 
         with sqlite3.connect(self.db_path) as con:
             daily_news_volume = pd.read_sql_query(f'SELECT * FROM {self.table}',
