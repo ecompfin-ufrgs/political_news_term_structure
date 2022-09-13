@@ -4,6 +4,7 @@ import datetime as dt
 import pandas as pd
 
 from .future_processor import FutureProcessor
+from .spot_rate import SpotRate
 
 
 @dataclass
@@ -13,16 +14,8 @@ class TermStructure:
     term_structure_path: str
 
     def __post_init__(self):
-        self.spot = self._init_spot()
+        self.spot = SpotRate(spot_rate_path=self.spot_rate_path)()
         self.future = self._init_future(spot_series=self.spot)
-
-    def _init_spot(self
-                   ) -> pd.Series:
-        spot_df = pd.read_csv(self.spot_rate_path, sep=';')[:-1]
-        spot_df.index = spot_df['Date'].apply(lambda x: dt.datetime.strptime(x, '%d/%m/%Y'))
-        spot_s = spot_df[spot_df.columns[-1]]
-        spot_s = spot_s.apply(lambda x: float(x))
-        return spot_s
 
     def _init_future(self,
                      spot_series: pd.Series
