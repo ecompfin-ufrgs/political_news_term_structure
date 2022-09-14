@@ -37,5 +37,4 @@ class VasicekManager:
             else:
                 row = pd.Series(term_structure_, index=self.MATURITY_ARRAY)
                 df[index] = row
-
         return df
