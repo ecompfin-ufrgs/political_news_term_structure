@@ -19,6 +19,6 @@ class TermStructureManager:
                  ) -> dict[str, tp.Union[pd.Series, pd.DataFrame]]:
         spot = SpotRate(spot_rate_path=self.spot_rate_path)()
         future = TermStructure(term_structure_path=self.term_structure_path,
-                               spot_rate_index=spot.index)
+                               spot_rate_index=spot.index)()
         return dict(spot=spot,
                     future=future)
