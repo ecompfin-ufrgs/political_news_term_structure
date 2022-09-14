@@ -29,7 +29,6 @@ class VasicekEstimator:
             'q': result.x[2],
             'alpha': result.x[3]
         }
-        print(res)
         return res
 
     @staticmethod
