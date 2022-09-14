@@ -12,6 +12,11 @@ def plot_news_volume(news_series_dict: dict[str, pd.Series]
     plt.savefig('daily_news_volume.png')
     plt.clf()
 
+    for news_portal_name, daily_volume_series in news_series_dict.items():
+        plt.plot(daily_volume_series)
+        plt.savefig(f'{news_portal_name}.png')
+        plt.clf()
+
 
 def main():
 
