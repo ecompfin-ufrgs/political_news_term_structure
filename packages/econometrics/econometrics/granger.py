@@ -16,5 +16,5 @@ class Granger:
         data = pd.DataFrame()
         data[0] = self.caused
         data[1] = self.causing
-        res = sm.tsa.stattools.grangercausalitytests(data, maxlag=40)
+        res = sm.tsa.stattools.grangercausalitytests(data, maxlag=40, verbose=False)
         return res
