@@ -1,4 +1,30 @@
 # Benvindo à documentação do projeto
 
-## Incluindo uma imagem
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+## Notícias políticas
+
+### Volume diário de notícias no portal G1
+![](../scripts/data_exploration/news_volume/g1.png)
+
+### Volume diário de notícias no portal Estado de Minas
+![](../scripts/data_exploration/news_volume/minas.png)
+
+## Taxas de juros
+
+### Taxa de juros imediata
+![](../scripts/data_exploration/term_structure/spot_rate.png)
+
+### Preços dos contratos futuros para cada dia da amostra
+![](../scripts/data_exploration/term_structure/future.png)
+
+## Estrutura a termo da taxa de juros
+
+### Estrutura a termo da taxa de juros estimada pelo modelo de Vasicek
+![](../scripts/term_structure_model/all_dates.png)
+
+### Volatilidade condicional de cada vencimento da estrutura a termo da taxa de juros
+![](../scripts/conditional_volatility/all_dates.png)
+
+## Causalidade das notícias políticas sobre a volatilidade condicional de cada vencimento da estrutura a termo da taxa de juros
+
+### P-valor do teste de Granger causalidade (até 40 lags) para cada vencimento da estrutura a termo
+![](../scripts/causality/causality_levels.png)
