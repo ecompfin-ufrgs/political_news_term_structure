@@ -12,25 +12,22 @@ from vasicek import VasicekManager
 
 
 def plot_causality_surface(causality_df: pd.DataFrame) -> None:
-
     fig = plt.figure(figsize=(10, 10))
     x = [[index for _ in causality_df.columns] for index in causality_df.index]
     y = [causality_df.columns for _ in causality_df.index]
     z = causality_df.to_numpy()
-    cs = plt.contourf(x, y, z, levels=20)
+    cs = plt.contourf(x, y, z, levels=[0.0, 0.01, 0.05, 0.1, 1])
     cbar = plt.colorbar(cs)
     plt.savefig('causality_surface.png')
     plt.clf()
 
 
-def plot_causality_binary_surface(causality_df: pd.DataFrame) -> None:
+def plot_multiple_term_structure(df: pd.DataFrame) -> None:
     fig = plt.figure(figsize=(10, 10))
-    x = [[index for _ in causality_df.columns] for index in causality_df.index]
-    y = [causality_df.columns for _ in causality_df.index]
-    z = causality_df.to_numpy()
-    cs = plt.contourf(x, y, z, levels=[0.0, 0.05, 1])
-    cbar = plt.colorbar(cs)
-    plt.savefig('causality_surface.png')
+    for index, row in df.loc[df.index[::int(len(df.index)/6)]].iterrows():
+        plt.plot(row.dropna().sort_index(), label=index)
+    plt.legend()
+    plt.savefig('6_dates_term.png')
     plt.clf()
 
 
@@ -75,7 +72,7 @@ def main():
     causality_df = causality_df.T
 
     plot_causality_surface(causality_df=causality_df)
-    plot_causality_binary_surface(causality_df=causality_df)
+    plot_multiple_term_structure(df=term_structure['future'].loc[all_df.index])
 
 
 if __name__ == '__main__':
