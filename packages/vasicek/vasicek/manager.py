@@ -8,7 +8,7 @@ from .model import VasicekModel
 
 class VasicekManager:
 
-    MATURITY_ARRAY = np.array(range(1, 2000)) / 252
+    MATURITY_ARRAY = np.array(range(1, 252*5)) / 252
 
     def __init__(self,
                  term_structure: dict
