@@ -23,7 +23,7 @@ class SpotRate:
     @staticmethod
     def _process_df(spot_df: pd.DataFrame
                     ) -> pd.Series:
-        spot_df.index = spot_df['Date'].apply(lambda x: dt.datetime.strptime(x, '%d/%m/%Y'))
+        spot_df.index = spot_df['Date'].apply(lambda x: dt.datetime.strptime(x, '%d/%m/%Y').date())
         spot_s = spot_df[spot_df.columns[-1]]
         spot_s = spot_s.apply(lambda x: float(x))
         return spot_s

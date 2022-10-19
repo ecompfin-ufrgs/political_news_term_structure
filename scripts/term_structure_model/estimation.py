@@ -1,3 +1,5 @@
+import datetime as dt
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -17,11 +19,11 @@ def plot_individual_dates(df: pd.DataFrame):
 
 def plot_all_dates(df: pd.DataFrame):
 
-    x = np.array([[column.timestamp() for _ in df.index] for column in df.columns])
-    y = np.array([df.index for _ in df.columns])
-    z = df.to_numpy().T
+    x = np.array([[index for _ in df.columns] for index in df.index.to_series().apply(lambda x: dt.datetime.combine(x, dt.time()).timestamp())])
+    y = np.array([df.columns for _ in df.index])
+    z = df.to_numpy()
 
-    fig = plt.figure(figsize=(10,10))
+    fig = plt.figure(figsize=(10, 8))
     ax = plt.axes(projection='3d')
     ax.plot_wireframe(x, y, z, color='black')
     plt.savefig('all_dates.png')
