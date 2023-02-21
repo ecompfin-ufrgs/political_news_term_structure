@@ -26,6 +26,18 @@ def plot_news_volume(news_series_dict: dict) -> None:
     plt.xlabel('Time')
     plt.savefig('total_news.png')
     plt.clf()
+    # Plot individual portals in same figure
+    fig, axs = plt.subplots(2)
+    axs[0].plot(news_series_dict['g1'])
+    axs[0].set_title('G1')
+    axs[1].plot(news_series_dict['minas'])
+    axs[1].set_title('Estado de Minas')
+    for ax in axs.flat:
+        ax.set(xlabel='Time', ylabel='Volume of News Articles')
+    for ax in axs.flat:
+        ax.label_outer()
+    plt.savefig('g1_minas.png')
+    plt.clf()
 
 
 def plot_spot_rate(spot_series: pd.Series) -> None:
@@ -104,6 +116,13 @@ def main():
 
     plot_news_volume(news_series_dict=news_series_dict)
 
+    # print('g1 descriptive statistics')
+    # print(news_series_dict['g1'].describe())
+    # print('minas descriptive statistics')
+    # print(news_series_dict['minas'].describe())
+    # print('total descriptive statistics')
+    # print((news_series_dict['g1']+news_series_dict['minas']).describe())
+
     term_structure = TermStructureManager(spot_rate_path='../../databases/di_anual.csv',
                                           term_structure_path='../../databases/economatica.xlsx',
                                           start_date=start_date,
@@ -137,6 +156,7 @@ def main():
 
     vol_df = vol_df.loc[all_df.index]
     news_df = news_df.loc[all_df.index]
+
 
     causality_df = pd.DataFrame()
     for column in tqdm.tqdm(vol_df.columns):
